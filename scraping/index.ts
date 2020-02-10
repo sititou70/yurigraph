@@ -15,15 +15,17 @@ const main = async () => {
   const file = fs.readFileSync('coupling.json');
   const json = JSON.parse(file.toString());
   for (const cup of json) {
-    let nums = [];
-    for (const tag of cup.tags) {
-      nums.push(getNumsFromTag(tag));
-      sleep(3000);
+    const cups = [];
+    for (let tag of cup.tags) {
+      cups.push({
+        num: await getNumsFromTag(tag),
+        tag,
+      });
+      await sleep(3000);
     }
+    const max_tag = cups.reduce((s, x) => (s.num > x.num ? s : x));
+    console.log(max_tag);
   }
-
-  const num = await getNumsFromTag('ゆきまこ');
-  console.log(num);
 };
 
 const sleep = async (milis: number): Promise<void> =>
