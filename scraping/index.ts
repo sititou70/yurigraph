@@ -21,7 +21,6 @@ const main = async () => {
         num: await getNumsFromTag(tag),
         tag,
       });
-      await sleep(3000);
     }
     const max_tag = cups.reduce((s, x) => (s.num > x.num ? s : x));
     console.log(max_tag);
@@ -38,18 +37,23 @@ const getNumsFromTag = async (tag: string): Promise<number> => {
     return parseInt(fs.readFileSync(cache_file_path).toString());
   } catch (e) {}
 
+  await sleep(3000);
+
   const url: string = `https://www.pixiv.net/tags/${encodeURIComponent(tag)}/`;
   const row = await fetch(url);
-  const text = await row.text();
-  const match = text.match(/(\d+)件のイラスト、(\d+)件の小説/);
-  if (match === null) return 0;
-  const illust_num = parseInt(match[1]);
-  const novel_num = parseInt(match[2]);
-  const num = illust_num + novel_num;
+  const html = await row.text();
+  const num = getNum(html, 'イラスト') + getNum(html, '小説');
 
   // caching num
   fs.writeFileSync(cache_file_path, num);
   return num;
+};
+
+const getNum = (html: string, type: string): number => {
+  const regex = new RegExp(`(\\d+)件の${type}`);
+  const match = html.match(regex);
+  if (match === null) return 0;
+  return parseInt(match[1]);
 };
 
 main();
