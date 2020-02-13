@@ -4,6 +4,15 @@ import fetch from 'node-fetch';
 
 // settings
 const CACHE_DIR = 'TEMP_CACHE';
+const INPUT_COUPLINGS_JSON = './couplings.json';
+const DEST_COUPLINGS_JSON = '../frontend/couplings.json';
+
+//type
+type Coupling = {
+  characters: string[];
+  tags: { name: string; num: number | null }[];
+};
+type Couplings = Coupling[];
 
 // main
 const main = async () => {
@@ -12,19 +21,27 @@ const main = async () => {
     fs.mkdirSync(CACHE_DIR);
   } catch (e) {}
 
-  const file = fs.readFileSync('coupling.json');
-  const json = JSON.parse(file.toString());
-  for (const cup of json) {
-    const cups = [];
-    for (let tag of cup.tags) {
-      cups.push({
-        num: await getNumsFromTag(tag),
-        tag,
-      });
+  const couplings: Couplings = JSON.parse(
+    fs.readFileSync(INPUT_COUPLINGS_JSON).toString()
+  );
+
+  let dest_couplings: Couplings = [];
+  for (const coupling of couplings) {
+    let tags: Coupling['tags'] = [];
+    for (let tag of coupling.tags) {
+      tags.push({ name: tag.name, num: await getNumsFromTag(tag.name) });
     }
-    const max_tag = cups.reduce((s, x) => (s.num > x.num ? s : x));
-    console.log(max_tag);
+
+    dest_couplings = [
+      ...dest_couplings,
+      {
+        ...coupling,
+        tags,
+      },
+    ];
   }
+
+  fs.writeFileSync(DEST_COUPLINGS_JSON, JSON.stringify(dest_couplings));
 };
 
 const sleep = async (milis: number): Promise<void> =>
