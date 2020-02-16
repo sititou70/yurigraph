@@ -19,7 +19,13 @@ export const getInitializedForce = (
 } => {
   const force_simulation = d3
     .forceSimulation(nodes as SimulationNodeDatum[])
-    .force('charge', d3.forceManyBody().strength(-10))
+    .force(
+      'charge',
+      d3
+        .forceManyBody()
+        .strength(-200)
+        .distanceMax(200)
+    )
     .force(
       'link',
       d3
@@ -28,6 +34,7 @@ export const getInitializedForce = (
           d =>
             options.link_distance.weight / d.num + options.link_distance.margin
         )
+        .strength(2)
     )
     .force(
       'center',
@@ -35,7 +42,8 @@ export const getInitializedForce = (
         .forceCenter()
         .x(options.window_size.width / 2)
         .y(options.window_size.height / 2)
-    );
+    )
+    .force('collide', d3.forceCollide(10));
 
   let graph: ElementSelection | null = null;
   const registerGraph = (svg: Element) => {

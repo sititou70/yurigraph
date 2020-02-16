@@ -6,15 +6,17 @@ import styled from '@emotion/styled';
 export const Node: FC<{
   data: NodeData;
   force_simulation: ForceSimulation;
-  onHoverInfo?: (info: Element) => void;
-}> = ({ data, force_simulation }) => {
+  active: boolean;
+  onClick?: (name: string) => void;
+  onFocusName?: (name: string | null) => void;
+}> = ({ data, force_simulation, active, onFocusName }) => {
   const root_element = useRef<SVGCircleElement | null>(null);
 
   //append d3 data
   useEffect(() => {
     if (root_element.current === null) return;
     d3.select(root_element.current).datum(data);
-  });
+  }, []);
 
   //drag event
   useEffect(() => {
@@ -39,15 +41,40 @@ export const Node: FC<{
   }, []);
 
   return (
-    <g className="node" ref={root_element}>
-      <StyledCircle r={15} />
-      <StyledText>{data.name}</StyledText>
-    </g>
+    <StyledRoot
+      className="node"
+      onMouseEnter={() => {
+        onFocusName && onFocusName(data.name);
+      }}
+      onMouseLeave={() => {
+        onFocusName && onFocusName(null);
+      }}
+      active={active}
+      ref={root_element}
+    >
+      <circle r={15} />
+      <text y={7}>{data.name}</text>
+    </StyledRoot>
   );
 };
-const StyledCircle = styled.circle`
-  fill: red;
+const StyledRoot = styled.g<{ active: boolean }>`
+  circle {
+    fill: #eee;
+  }
+
+  text {
+    font-size: 16px;
+    fill: #335;
+    font-family: sans;
+  }
+
+  &:hover {
+    circle {
+      fill: #ff80aa;
+    }
+  }
+
+  opacity: ${props => (props.active ? 1 : 0.1)};
 `;
-const StyledText = styled.text``;
 
 export default Node;

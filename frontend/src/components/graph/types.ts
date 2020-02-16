@@ -7,6 +7,8 @@ export type LinkData = {
   id: number;
   name: string;
   source: number;
+  source_name: string;
   target: number;
+  target_name: string;
   num: number;
 };

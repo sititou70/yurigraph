@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import { NodeData, LinkData } from './types';
 import couplings_json from '../../couplings.json';
 import { Couplings } from 'deregraph-scraping';
+import bg from '../../styles/bg.png';
 
 //utils
 const initGetNodesAndLinks = (): ((
@@ -11,30 +12,22 @@ const initGetNodesAndLinks = (): ((
 ) => { nodes: NodeData[]; links: LinkData[] }) => {
   const couplings: Couplings = couplings_json;
 
-  type LinkDataStringSourceTarget = Omit<LinkData, 'source' | 'target'> & {
-    source_str: string;
-    target_str: string;
-  };
-  const all_links: LinkDataStringSourceTarget[] = couplings
+  type LinkDataOmitSourceTarget = Omit<LinkData, 'source' | 'target'>;
+  const all_links: LinkDataOmitSourceTarget[] = couplings
     .map(x => ({ ...x, tag: x.tags.reduce((s, x) => (s.num > x.num ? s : x)) }))
     .map((x, i) => ({
       ...x.tag,
       id: i,
-      source_str: x.characters[0],
-      target_str: x.characters[1],
+      source_name: x.characters[0],
+      target_name: x.characters[1],
     }));
 
-  const characters: string[] = couplings
-    .map(x => x.characters)
-    .reduce((s, x) => [...s, ...x])
-    .filter((x, i, self) => self.indexOf(x) === i);
-
   return (num_filter: number) => {
-    const filterd_links: LinkDataStringSourceTarget[] = all_links.filter(
+    const filterd_links: LinkDataOmitSourceTarget[] = all_links.filter(
       x => x.num >= num_filter
     );
     const nodes: NodeData[] = filterd_links
-      .map(x => [x.source_str, x.target_str])
+      .map(x => [x.source_name, x.target_name])
       .reduce((s, x) => [...s, ...x])
       .filter((x, i, self) => self.indexOf(x) === i)
       .map((x, i) => ({ id: i, name: x }));
@@ -44,8 +37,8 @@ const initGetNodesAndLinks = (): ((
 
     const links: LinkData[] = filterd_links.map(x => ({
       ...x,
-      source: node_name2id[x.source_str],
-      target: node_name2id[x.target_str],
+      source: node_name2id[x.source_name],
+      target: node_name2id[x.target_name],
     }));
 
     return { links, nodes };
@@ -63,6 +56,8 @@ export const DeleGraph: FC<{}> = () => {
     </Root>
   );
 };
-const Root = styled.div``;
+const Root = styled.div`
+  background: url(${bg});
+`;
 
 export default DeleGraph;
