@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import { PixivDictLink, PixivTagLink } from './pixiv-utils';
 import coupling_json from '../couplings.json';
 import { Couplings, Coupling } from 'deregraph-scraping';
 
@@ -16,26 +17,6 @@ const friends = ((): { [name: string]: Coupling[] } => {
 })();
 
 // components
-const PixivDictLink: FC<{ name: string }> = ({ name }) => (
-  <a
-    href={`https://dic.pixiv.net/a/${name}`}
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    {name}
-  </a>
-);
-
-const PixivTagLink: FC<{ tag: string; title: string }> = ({ tag, title }) => (
-  <a
-    href={`https://www.pixiv.net/tags/${tag}`}
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    {title}
-  </a>
-);
-
 export const FriendsInfo: FC<{ name: string; className?: string }> = ({
   name,
   className,
@@ -60,10 +41,7 @@ export const FriendsInfo: FC<{ name: string; className?: string }> = ({
             <ul>
               {x.tags.map(x => (
                 <li key={x.name}>
-                  <PixivTagLink
-                    tag={x.name}
-                    title={`${x.name}(${x.num}作品)`}
-                  />
+                  <PixivTagLink name={x.name} />({x.num}作品)
                 </li>
               ))}
             </ul>

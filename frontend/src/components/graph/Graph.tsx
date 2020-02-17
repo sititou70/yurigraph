@@ -115,6 +115,7 @@ export const Graph: FC<{
   );
 };
 const GraphRoot = styled.svg`
+  display: block;
   width: 100%;
   height: 100vh;
   cursor: all-scroll;
