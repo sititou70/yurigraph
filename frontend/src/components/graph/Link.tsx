@@ -13,8 +13,12 @@ export const Link: FC<{
   const line = useRef(null);
   useEffect(() => {
     if (line.current === null) return;
-    d3.select(line.current).datum(data);
-  }, []);
+    const root = d3.select(line.current);
+    root.datum(data);
+    return () => {
+      root.datum();
+    };
+  });
 
   const line_id = `deregraph-line-${data.id}`;
 
@@ -40,10 +44,11 @@ export const Link: FC<{
 const StyledLine = styled.line<{ weight: number; active: boolean }>`
   stroke-width: ${props => props.weight * 3 + 2}px;
   stroke: ${props => mixColor('#eee', '#ff80aa', props.weight)};
-  opacity: ${props => (props.active ? 1 : 0.2)};
+  opacity: ${props => (props.active ? 1 : 0.3)};
 `;
 
 const StyledLabel = styled.text`
+  fill: #000;
   text-anchor: middle;
   font-size: 12px;
 `;

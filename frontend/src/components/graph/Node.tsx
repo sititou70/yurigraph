@@ -9,14 +9,19 @@ export const Node: FC<{
   active: boolean;
   onClick?: (name: string) => void;
   onFocusName?: (name: string | null) => void;
-}> = ({ data, force_simulation, active, onFocusName }) => {
+}> = ({ data, force_simulation, active, onFocusName, onClick }) => {
   const root_element = useRef<SVGCircleElement | null>(null);
 
   //append d3 data
   useEffect(() => {
     if (root_element.current === null) return;
-    d3.select(root_element.current).datum(data);
-  }, []);
+    const root = d3.select(root_element.current);
+    root.datum(data);
+
+    return () => {
+      root.datum();
+    };
+  });
 
   //drag event
   useEffect(() => {
@@ -38,18 +43,21 @@ export const Node: FC<{
           d.fy = null;
         })
     );
-  }, []);
+  });
 
   return (
     <StyledRoot
       className="node"
+      active={active}
       onMouseEnter={() => {
         onFocusName && onFocusName(data.name);
       }}
       onMouseLeave={() => {
         onFocusName && onFocusName(null);
       }}
-      active={active}
+      onClick={() => {
+        onClick && onClick(data.name);
+      }}
       ref={root_element}
     >
       <circle r={15} />
@@ -58,8 +66,12 @@ export const Node: FC<{
   );
 };
 const StyledRoot = styled.g<{ active: boolean }>`
+  cursor: pointer;
+  opacity: ${props => (props.active ? 1 : 0.3)};
+
   circle {
     fill: #eee;
+    opacity: ${props => (props.active ? 1 : 0)};
   }
 
   text {
@@ -73,8 +85,6 @@ const StyledRoot = styled.g<{ active: boolean }>`
       fill: #ff80aa;
     }
   }
-
-  opacity: ${props => (props.active ? 1 : 0.1)};
 `;
 
 export default Node;

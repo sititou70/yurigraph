@@ -35,6 +35,7 @@ export const getInitializedForce = (
             options.link_distance.weight / d.num + options.link_distance.margin
         )
         .strength(2)
+        .iterations(10)
     )
     .force(
       'center',
@@ -56,15 +57,16 @@ export const getInitializedForce = (
           .call(selection =>
             selection.attr(
               'transform',
-              (d: any) => 'translate(' + d.x + ',' + d.y + ')'
+              (d: any) =>
+                d !== undefined && 'translate(' + d.x + ',' + d.y + ')'
             )
           );
         selection.selectAll('.' + options.classname.link).call(selection =>
           selection
-            .attr('x1', (d: any) => d.source.x)
-            .attr('y1', (d: any) => d.source.y)
-            .attr('x2', (d: any) => d.target.x)
-            .attr('y2', (d: any) => d.target.y)
+            .attr('x1', (d: any) => (d !== undefined ? d.source.x : 0))
+            .attr('y1', (d: any) => (d !== undefined ? d.source.y : 0))
+            .attr('x2', (d: any) => (d !== undefined ? d.target.x : 0))
+            .attr('y2', (d: any) => (d !== undefined ? d.target.y : 0))
         );
       });
     });

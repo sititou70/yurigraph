@@ -1,10 +1,13 @@
 import React, { useState, FC } from 'react';
 import Graph from './Graph';
+import FilterNumSlider from './FilterNumSlider';
+import FriendsDialog from './FriendsDialog';
 import styled from '@emotion/styled';
 import { NodeData, LinkData } from './types';
 import couplings_json from '../../couplings.json';
 import { Couplings } from 'deregraph-scraping';
 import bg from '../../styles/bg.png';
+const deepCopy = require('deep-copy');
 
 //utils
 const initGetNodesAndLinks = (): ((
@@ -41,7 +44,7 @@ const initGetNodesAndLinks = (): ((
       target: node_name2id[x.target_name],
     }));
 
-    return { links, nodes };
+    return deepCopy({ links, nodes });
   };
 };
 const getNodesAndLinks = initGetNodesAndLinks();
@@ -50,9 +53,31 @@ const getNodesAndLinks = initGetNodesAndLinks();
 export const DeleGraph: FC<{}> = () => {
   const [node_and_links, setNodesAndLinks] = useState(getNodesAndLinks(100));
 
+  // dialog
+  const [dialog_name, setDialogName] = useState<string | null>(null);
+  const [dialog_open, setDialogOpen] = useState<boolean>(false);
+
   return (
     <Root>
-      <Graph {...node_and_links} />
+      <Graph
+        {...node_and_links}
+        onNodeClick={name => {
+          setDialogName(name);
+          setDialogOpen(true);
+        }}
+      />
+      <FilterNumSlider
+        default_value={100}
+        step={20}
+        min={20}
+        max={400}
+        onChange={num => setNodesAndLinks(getNodesAndLinks(num))}
+      />
+      <FriendsDialog
+        name={dialog_name ? dialog_name : ''}
+        open={dialog_open}
+        onClose={() => setDialogOpen(false)}
+      />
     </Root>
   );
 };

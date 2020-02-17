@@ -1,11 +1,4 @@
-import React, {
-  FC,
-  useEffect,
-  useRef,
-  useState,
-  useCallback,
-  useMemo,
-} from 'react';
+import React, { FC, useEffect, useRef, useState, useMemo } from 'react';
 import getInitializedForce from './forceSimulation';
 import Node from './Node';
 import Link from './Link';
@@ -14,13 +7,13 @@ import { useWindowSize } from '@react-hook/window-size';
 import styled from '@emotion/styled';
 import stats from 'stats-lite';
 import * as d3 from 'd3';
-import { Couplings } from 'deregraph-scraping';
 const makeSigmoid = require('awesome-sigmoid').default;
 
 export const Graph: FC<{
   nodes: NodeData[];
   links: LinkData[];
-}> = ({ nodes, links }) => {
+  onNodeClick?: (name: string) => void;
+}> = ({ nodes, links, onNodeClick }) => {
   //setup sigmoid
   const nums = links.map(x => x.num);
   const sigmoid = makeSigmoid({
@@ -38,13 +31,13 @@ export const Graph: FC<{
         window_size: { width, height },
         link_distance: { weight: 5000, margin: 100 },
       }),
-    []
+    [nodes, links, width, height]
   );
   const svg = useRef<SVGSVGElement | null>(null);
   useEffect(() => {
     if (svg.current === null) return;
     force.registerGraph(svg.current);
-  }, [svg]);
+  });
 
   //move and zoom handler
   const graph_position = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
@@ -92,7 +85,7 @@ export const Graph: FC<{
         weight={sigmoid(x.num)}
         active={focus_name === null || detail}
         detail={detail}
-        key={x.id}
+        key={x.name}
       />
     );
   });
@@ -107,7 +100,8 @@ export const Graph: FC<{
         friends[focus_name].indexOf(x.name) !== -1
       }
       onFocusName={setFocusName}
-      key={x.id}
+      onClick={onNodeClick}
+      key={x.name}
     />
   ));
 
@@ -123,6 +117,11 @@ export const Graph: FC<{
 const GraphRoot = styled.svg`
   width: 100%;
   height: 100vh;
+  cursor: all-scroll;
+
+  * {
+    transition: fill ease 0.5s, opacity ease 0.5s;
+  }
 `;
 
 export default Graph;
