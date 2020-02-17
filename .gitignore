@@ -111,4 +111,5 @@ dist
 
 TEMP_*
 frontend/src/couplings.json
+build/
 
