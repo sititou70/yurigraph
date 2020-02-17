@@ -72,7 +72,7 @@ const Root = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 30px;
+  padding: 30px 30px 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 
   h2 {
