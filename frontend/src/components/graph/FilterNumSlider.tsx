@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 import styled from '@emotion/styled';
 import Slider from '@material-ui/core/Slider';
+import Tooltip from '@material-ui/core/Tooltip';
 
 // components
 export const FilterNumSlider: FC<{
@@ -19,6 +20,17 @@ export const FilterNumSlider: FC<{
         step={step}
         min={min}
         max={max}
+        ValueLabelComponent={({ children, open, value }) => (
+          <Tooltip
+            open={open}
+            enterTouchDelay={0}
+            placement="top"
+            title={value}
+          >
+            {children}
+          </Tooltip>
+        )}
+        valueLabelFormat={x => `${x}作品以上`}
         onChangeCommitted={(_, v) => typeof v === 'number' && onChange(v)}
         marks
       />
