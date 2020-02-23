@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 export const Menu = () => (
   <Root>
     <Typography display="block" variant="h1">
-      DereGraph
+      {process.env.REACT_APP_NAME}
     </Typography>
     <a href="#カップリングランキング">カップリングランキング</a>
     <div>

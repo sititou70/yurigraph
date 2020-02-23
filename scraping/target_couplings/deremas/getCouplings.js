@@ -15,7 +15,7 @@ var getCouplingsMultiRow = table => {
 
   return tags.map((_, i) => ({
     characters: characters[i],
-    tags: tags[i].map(x => ({ name: x, num: null })),
+    tags: tags[i].map(x => ({ name: x })),
   }));
 };
 
@@ -26,7 +26,7 @@ var getCouplingsSingleRow = table =>
     .filter((x, i) => i % 2 === 0)
     .map(x => Array.from(x.querySelectorAll('th > a')).map(x => x.innerText))
     .map(x => ({
-      tags: x.slice(0, -2).map(x => ({ name: x, num: null })),
+      tags: x.slice(0, -2).map(x => ({ name: x })),
       characters: x.slice(-2),
     }));
 

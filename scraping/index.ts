@@ -4,13 +4,16 @@ import fetch from 'node-fetch';
 
 // settings
 const CACHE_DIR = 'TEMP_CACHE';
-const INPUT_COUPLINGS_JSON = './couplings.json';
+const INPUT_COUPLINGS_JSON = path.join(
+  '../',
+  process.env.TARGET_COUPLINGS_JSON as string
+);
 const DEST_COUPLINGS_JSON = '../frontend/src/couplings.json';
 
 //type
-export type InputCoupling = {
+export type TargetCouplings = {
   characters: string[];
-  tags: { name: string; num: null }[];
+  tags: { name: string }[];
 };
 export type Coupling = {
   characters: string[];
@@ -25,7 +28,7 @@ const main = async () => {
     fs.mkdirSync(CACHE_DIR);
   } catch (e) {}
 
-  const couplings: InputCoupling[] = JSON.parse(
+  const couplings: TargetCouplings[] = JSON.parse(
     fs.readFileSync(INPUT_COUPLINGS_JSON).toString()
   );
 

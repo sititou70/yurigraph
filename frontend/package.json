@@ -34,11 +34,11 @@
     "typography-theme-github": "^0.16.19"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "deploy": "npm run build && gh-pages -d build -r git@github.com:sititou70/deregraph.git -b gh-pages",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "_start": "react-scripts start",
+    "_build": "react-scripts build",
+    "_deploy": "npm run _build && gh-pages -d build -r $DEPLOY_REPOSITORY -b $DEPLOY_BRANCH",
+    "start:deremas": "./../env.sh deremas npm run _start",
+    "deploy:deremas": "./../env.sh deremas npm run _deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
