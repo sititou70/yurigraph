@@ -38,7 +38,9 @@
     "_build": "react-scripts build",
     "_deploy": "npm run _build && gh-pages -d build -r $DEPLOY_REPOSITORY -b $DEPLOY_BRANCH",
     "start:deremas": "./../env.sh deremas npm run _start",
-    "deploy:deremas": "./../env.sh deremas npm run _deploy"
+    "deploy:deremas": "./../env.sh deremas npm run _deploy",
+    "start:imas": "./../env.sh imas npm run _start",
+    "deploy:imas": "./../env.sh imas npm run _deploy"
   },
   "eslintConfig": {
     "extends": "react-app"

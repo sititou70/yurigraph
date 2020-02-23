@@ -7,9 +7,20 @@ import { NodeData, LinkData } from './types';
 import couplings_json from '../../couplings.json';
 import { Couplings } from 'deregraph-scraping';
 import bg from '../../styles/bg.png';
+import stats from 'stats-lite';
 const deepCopy = require('deep-copy');
 
 //utils
+const nums = couplings_json
+  .map(x => x.tags.map(x => x.num))
+  .reduce((s, x) => [...s, ...x]);
+const num_stats = {
+  max: nums.reduce((s, x) => (s > x ? s : x)),
+  min: nums.reduce((s, x) => (s < x ? s : x)),
+  average: stats.mean(nums),
+  stdev: stats.stdev(nums),
+};
+
 const initGetNodesAndLinks = (): ((
   num_filter: number
 ) => { nodes: NodeData[]; links: LinkData[] }) => {
@@ -50,8 +61,10 @@ const initGetNodesAndLinks = (): ((
 const getNodesAndLinks = initGetNodesAndLinks();
 
 // components
-export const DeleGraph: FC<{}> = () => {
-  const [node_and_links, setNodesAndLinks] = useState(getNodesAndLinks(100));
+export const GraphRoot: FC<{}> = () => {
+  const [node_and_links, setNodesAndLinks] = useState(
+    getNodesAndLinks(Math.floor(num_stats.average))
+  );
 
   // dialog
   const [dialog_name, setDialogName] = useState<string | null>(null);
@@ -67,10 +80,10 @@ export const DeleGraph: FC<{}> = () => {
         }}
       />
       <FilterNumSlider
-        default_value={100}
-        step={20}
-        min={20}
-        max={400}
+        default_value={Math.floor(num_stats.average)}
+        step={Math.floor(num_stats.stdev / 12)}
+        min={Math.floor(num_stats.average - num_stats.stdev / 4)}
+        max={Math.floor(num_stats.average + num_stats.stdev)}
         onChange={num => setNodesAndLinks(getNodesAndLinks(num))}
       />
       <FriendsDialog
@@ -85,4 +98,4 @@ const Root = styled.div`
   background: url(${bg});
 `;
 
-export default DeleGraph;
+export default GraphRoot;

@@ -29,7 +29,7 @@ export const Graph: FC<{
       getInitializedForce(nodes, links, {
         classname: { node: 'node', link: 'link' },
         window_size: { width, height },
-        link_distance: { weight: 5000, margin: 100 },
+        link_distance: 100,
       }),
     [nodes, links, width, height]
   );

@@ -1,6 +1,8 @@
 import * as d3 from 'd3';
 import { SimulationNodeDatum } from 'd3';
 import { NodeData, LinkData, ForceSimulation, ElementSelection } from './types';
+import stats from 'stats-lite';
+const makeSigmoid = require('awesome-sigmoid').default;
 
 export const getInitializedForce = (
   nodes: NodeData[],
@@ -8,15 +10,19 @@ export const getInitializedForce = (
   options: {
     classname: { node: string; link: string };
     window_size: { width: number; height: number };
-    link_distance: {
-      weight: number;
-      margin: number;
-    };
+    link_distance: number;
   }
 ): {
   force_simulation: ForceSimulation;
   registerGraph: (svg: Element) => void;
 } => {
+  const nums = links.map(x => x.num);
+  const sigmoid = makeSigmoid({
+    center: stats.mean(nums),
+    deviation: stats.stdev(nums),
+    deviation_output: 0.9,
+  });
+
   const force_simulation = d3
     .forceSimulation(nodes as SimulationNodeDatum[])
     .force(
@@ -30,11 +36,8 @@ export const getInitializedForce = (
       'link',
       d3
         .forceLink(links)
-        .distance(
-          d =>
-            options.link_distance.weight / d.num + options.link_distance.margin
-        )
-        .strength(2)
+        .distance(d => options.link_distance * (2 - sigmoid(d.num)))
+        .strength(nodes.length / links.length)
         .iterations(10)
     )
     .force(

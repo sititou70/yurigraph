@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import DereGraph from './graph/DereGraph';
+import GraphRoot from './graph';
 import { Global } from '@emotion/core';
 import { global_style } from '../styles/GlobalStyle';
 import Menu from './Menu';
@@ -16,7 +16,7 @@ export const App = () => {
   return (
     <div>
       <Global styles={global_style} />
-      <DereGraph />
+      <GraphRoot />
       <CouplingRanking />
       <Menu />
     </div>
