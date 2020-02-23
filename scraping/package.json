@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start:deremas": "./../env.sh deremas ts-node index.ts"
+    "start:deremas": "./../env.sh deremas ts-node index.ts",
+    "start:imas": "./../env.sh imas ts-node index.ts"
   },
   "keywords": [],
   "author": "",

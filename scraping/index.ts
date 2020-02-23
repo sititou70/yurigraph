@@ -11,7 +11,7 @@ const INPUT_COUPLINGS_JSON = path.join(
 const DEST_COUPLINGS_JSON = '../frontend/src/couplings.json';
 
 //type
-export type TargetCouplings = {
+export type TargetCoupling = {
   characters: string[];
   tags: { name: string }[];
 };
@@ -20,6 +20,23 @@ export type Coupling = {
   tags: { name: string; num: number }[];
 };
 export type Couplings = Coupling[];
+const compTargetCouplings = (x: TargetCoupling, y: TargetCoupling): boolean => {
+  if (x.characters.length !== 2) return false;
+  if (y.characters.length !== 2) return false;
+
+  if (
+    x.characters[0] === y.characters[0] &&
+    x.characters[1] === y.characters[1]
+  )
+    return true;
+  if (
+    x.characters[0] === y.characters[1] &&
+    x.characters[1] === y.characters[0]
+  )
+    return true;
+
+  return false;
+};
 
 // main
 const main = async () => {
@@ -28,14 +45,15 @@ const main = async () => {
     fs.mkdirSync(CACHE_DIR);
   } catch (e) {}
 
-  const couplings: TargetCouplings[] = JSON.parse(
-    fs.readFileSync(INPUT_COUPLINGS_JSON).toString()
+  const couplings: TargetCoupling[] = groupingTargetCouplings(
+    JSON.parse(fs.readFileSync(INPUT_COUPLINGS_JSON).toString())
   );
 
   let dest_couplings: Couplings = [];
   for (const coupling of couplings) {
     let tags: Coupling['tags'] = [];
     for (let tag of coupling.tags) {
+      console.log('processing tag:', tag.name);
       tags.push({ name: tag.name, num: await getNumsFromTag(tag.name) });
     }
 
@@ -49,6 +67,43 @@ const main = async () => {
   }
 
   fs.writeFileSync(DEST_COUPLINGS_JSON, JSON.stringify(dest_couplings));
+};
+
+const groupingTargetCouplings = (
+  couplings: TargetCoupling[]
+): TargetCoupling[] => {
+  let left_couplings = couplings;
+  let grouped_couplings: TargetCoupling[] = [];
+
+  do {
+    let group: TargetCoupling[] = [];
+    let pivot = left_couplings[0];
+
+    let prev_left_couplings = left_couplings;
+    left_couplings = [];
+    prev_left_couplings.forEach(x => {
+      if (compTargetCouplings(pivot, x)) {
+        group.push(x);
+      } else {
+        left_couplings.push(x);
+      }
+    });
+
+    let grouped_coupling = group.reduce((s, x) => ({
+      ...s,
+      tags: [...s.tags, ...x.tags],
+    }));
+    grouped_coupling = {
+      ...grouped_coupling,
+      tags: grouped_coupling.tags.filter(
+        (x, i, self) => self.findIndex(y => x.name === y.name) === i
+      ),
+    };
+
+    grouped_couplings.push(grouped_coupling);
+  } while (left_couplings.length !== 0);
+
+  return grouped_couplings;
 };
 
 const sleep = async (milis: number): Promise<void> =>
