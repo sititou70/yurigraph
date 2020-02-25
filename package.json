@@ -12,15 +12,17 @@
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
     "@types/d3": "^5.7.2",
+    "@types/node-fetch": "^2.5.5",
     "@types/stats-lite": "^2.2.0",
     "@types/throttle-debounce": "^2.1.0",
     "@types/typography": "^0.16.3",
     "awesome-sigmoid": "0.0.7",
     "d3": "^5.15.0",
     "deep-copy": "^1.4.2",
-    "deregraph-scraping": "file:../scraping",
+    "yurigraph-scraping": "file:scraping",
     "gh-pages": "^2.2.0",
     "mix-color": "^1.1.2",
+    "node-fetch": "^2.6.0",
     "node-sass": "^4.13.1",
     "normalize.css": "^8.0.1",
     "npm-run-all": "^4.1.5",
@@ -29,18 +31,19 @@
     "react-ga": "^2.7.0",
     "react-scripts": "3.3.1",
     "stats-lite": "^2.2.0",
+    "ts-node": "^8.6.2",
     "typescript": "^3.7.5",
     "typography": "^0.16.19",
     "typography-theme-github": "^0.16.19"
   },
   "scripts": {
+    "_scraping": "cd scraping && ts-node index.ts",
     "_start": "react-scripts start",
     "_build": "react-scripts build",
     "_deploy": "npm run _build && gh-pages -d build -r $DEPLOY_REPOSITORY -b $DEPLOY_BRANCH",
-    "start:deremas": "./../env.sh deremas npm run _start",
-    "deploy:deremas": "./../env.sh deremas npm run _deploy",
-    "start:imas": "./../env.sh imas npm run _start",
-    "deploy:imas": "./../env.sh imas npm run _deploy"
+    "scraping": "EXEC='npm run _scraping' ./env.sh",
+    "start": "EXEC='run-p {_start,_scraping}' ./env.sh",
+    "deploy": "EXEC='npm run _deploy' ./env.sh"
   },
   "eslintConfig": {
     "extends": "react-app"

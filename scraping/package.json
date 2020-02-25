@@ -1,20 +1,12 @@
 {
-  "name": "deregraph-scraping",
+  "name": "yurigraph-scraping",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
-    "start:deremas": "./../env.sh deremas ts-node index.ts",
-    "start:imas": "./../env.sh imas ts-node index.ts"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@types/jsdom": "^12.2.4",
-    "@types/node-fetch": "^2.5.4",
-    "node-fetch": "^2.6.0",
-    "ts-node": "^8.6.2",
-    "typescript": "^3.7.5"
-  }
+  "license": "ISC"
 }

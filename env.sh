@@ -3,7 +3,11 @@ set -eu
 
 # args
 usage_exit () {
-  echo usage: [TARGET_CONTENT] commands...
+  set +u
+  NPM_SCRIPT_NAME="[script name]"
+  [ "$npm_lifecycle_event" ] && NPM_SCRIPT_NAME=$npm_lifecycle_event
+  set -u
+  echo usage: npm run $NPM_SCRIPT_NAME [TARGET_CONTENT]
   exit 0
 }
 
@@ -35,4 +39,4 @@ case "$TARGET_CONTENT" in
   ;;
 esac
 
-${@:2}
+$EXEC

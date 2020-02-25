@@ -5,7 +5,7 @@ import FriendsDialog from './FriendsDialog';
 import styled from '@emotion/styled';
 import { NodeData, LinkData } from './types';
 import couplings_json from '../../couplings.json';
-import { Couplings } from 'deregraph-scraping';
+import { Couplings } from 'yurigraph-scraping';
 import bg from '../../styles/bg.png';
 import stats from 'stats-lite';
 const deepCopy = require('deep-copy');

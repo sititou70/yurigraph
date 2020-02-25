@@ -5,10 +5,10 @@ import fetch from 'node-fetch';
 // settings
 const CACHE_DIR = 'TEMP_CACHE';
 const INPUT_COUPLINGS_JSON = path.join(
-  '../',
+  '..',
   process.env.TARGET_COUPLINGS_JSON as string
 );
-const DEST_COUPLINGS_JSON = '../frontend/src/couplings.json';
+const DEST_COUPLINGS_JSON = '../src/couplings.json';
 
 //type
 export type TargetCoupling = {

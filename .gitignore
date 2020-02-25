@@ -110,6 +110,5 @@ dist
 .vscode-test
 
 TEMP_*
-frontend/src/couplings.json
+src/couplings.json
 build/
-

@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import Typography from '@material-ui/core/Typography';
 import { PixivDictLink, PixivTagLink } from './pixiv-utils';
 import coupling_json from '../couplings.json';
-import { Coupling } from 'deregraph-scraping';
+import { Coupling } from 'yurigraph-scraping';
 import styled from '@emotion/styled';
 
 type CouplingTag = {
