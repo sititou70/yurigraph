@@ -22,14 +22,16 @@ case "$TARGET_CONTENT" in
   "imas")
     export TARGET_COUPLINGS_JSON="scraping/target_couplings/imas/index.json"
     export REACT_APP_NAME="ImasGraph"
-    export REACT_APP_TITLE_TAG="$REACT_APP_NAME - アイドルマスターのカップリングを可視化"
+    export REACT_APP_DESCRIPTION="アイドルマスターのカップリングを可視化"
+    export REACT_APP_TITLE_TAG="$REACT_APP_NAME | $REACT_APP_DESCRIPTION"
     export DEPLOY_REPOSITORY="git@github.com:sititou70/imasgraph.git"
     export DEPLOY_BRANCH="gh-pages"
   ;;
   "deremas")
     export TARGET_COUPLINGS_JSON="scraping/target_couplings/deremas/index.json"
     export REACT_APP_NAME="DereGraph"
-    export REACT_APP_TITLE_TAG="$REACT_APP_NAME - アイドルマスターシンデレラガールズのカップリングを可視化"
+    export REACT_APP_DESCRIPTION="アイドルマスターシンデレラガールズのカップリングを可視化"
+    export REACT_APP_TITLE_TAG="$REACT_APP_NAME | $REACT_APP_DESCRIPTION"
     export DEPLOY_REPOSITORY="git@github.com:sititou70/deregraph.git"
     export DEPLOY_BRANCH="gh-pages"
   ;;
