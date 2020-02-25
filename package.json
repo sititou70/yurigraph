@@ -43,7 +43,8 @@
     "_deploy": "npm run _build && gh-pages -d build -r $DEPLOY_REPOSITORY -b $DEPLOY_BRANCH",
     "scraping": "EXEC='npm run _scraping' ./env.sh",
     "start": "EXEC='run-p {_start,_scraping}' ./env.sh",
-    "deploy": "EXEC='npm run _deploy' ./env.sh"
+    "deploy": "EXEC='npm run _deploy' ./env.sh",
+    "deployall": "npm run deploy imas && npm run deploy deremas"
   },
   "eslintConfig": {
     "extends": "react-app"
