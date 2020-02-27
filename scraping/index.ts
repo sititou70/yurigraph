@@ -53,7 +53,7 @@ const main = async () => {
   for (const coupling of couplings) {
     let tags: Coupling['tags'] = [];
     for (let tag of coupling.tags) {
-      console.log('processing tag:', tag.name);
+      console.log('scraping tag:', tag.name);
       tags.push({ name: tag.name, num: await getNumsFromTag(tag.name) });
     }
 

@@ -17,7 +17,7 @@ const nums = couplings_json
 const num_stats = {
   max: nums.reduce((s, x) => (s > x ? s : x)),
   min: nums.reduce((s, x) => (s < x ? s : x)),
-  average: stats.mean(nums),
+  center: parseInt(process.env.REACT_APP_DEFAULT_FILTER_VALUE as string),
   stdev: stats.stdev(nums),
 };
 
@@ -63,7 +63,7 @@ const getNodesAndLinks = initGetNodesAndLinks();
 // components
 export const GraphRoot: FC<{}> = () => {
   const [node_and_links, setNodesAndLinks] = useState(
-    getNodesAndLinks(Math.floor(num_stats.average))
+    getNodesAndLinks(Math.floor(num_stats.center))
   );
 
   // dialog
@@ -80,10 +80,10 @@ export const GraphRoot: FC<{}> = () => {
         }}
       />
       <FilterNumSlider
-        default_value={Math.floor(num_stats.average)}
+        default_value={Math.floor(num_stats.center)}
         step={Math.floor(num_stats.stdev / 12)}
-        min={Math.floor(num_stats.average - num_stats.stdev / 4)}
-        max={Math.floor(num_stats.average + num_stats.stdev)}
+        min={Math.max(Math.floor(num_stats.center - num_stats.stdev / 3), 0)}
+        max={Math.floor(num_stats.center + num_stats.stdev)}
         onChange={num => setNodesAndLinks(getNodesAndLinks(num))}
       />
       <FriendsDialog
