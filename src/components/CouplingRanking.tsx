@@ -61,7 +61,7 @@ export const CouplingRanking: FC<{}> = () => {
         </Typography>
         <ol>
           {coupling_tags.map((x, i) => (
-            <CouplingListItem coupling={x} rank={i + 1} key={x.tag.name} />
+            <CouplingListItem coupling={x} rank={i + 1} key={i} />
           ))}
         </ol>
       </span>
