@@ -1,21 +1,27 @@
 import React, { FC } from 'react';
 
-export const PixivDictLink: FC<{ name: string }> = ({ name }) => (
+export const PixivDictLink: FC<{ title: string; text?: string }> = ({
+  title,
+  text,
+}) => (
   <a
-    href={`https://dic.pixiv.net/a/${name}`}
+    href={`https://dic.pixiv.net/a/${title}`}
     target="_blank"
     rel="noopener noreferrer"
   >
-    {name}
+    {(text ? text : title).replace(/\(.*\)/, '')}
   </a>
 );
 
-export const PixivTagLink: FC<{ name: string }> = ({ name }) => (
+export const PixivTagLink: FC<{ title: string; text?: string }> = ({
+  title,
+  text,
+}) => (
   <a
-    href={`https://www.pixiv.net/tags/${name}`}
+    href={`https://www.pixiv.net/tags/${title}`}
     target="_blank"
     rel="noopener noreferrer"
   >
-    {name}
+    {(text ? text : title).replace(/\(.*\)/, '')}
   </a>
 );

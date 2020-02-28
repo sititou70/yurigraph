@@ -15,7 +15,7 @@ export const FriendsDialog: FC<{
     fullWidth={true}
   >
     <DialogTitle id="friends-dialog-title">
-      {name}のカップリング一覧
+      {name.replace(/\(.*\)/, '')}のカップリング一覧
     </DialogTitle>
     <StyledFriendsInfo name={name} />
   </Dialog>

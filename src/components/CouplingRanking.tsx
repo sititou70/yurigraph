@@ -15,10 +15,10 @@ const CouplingListItem: FC<{ coupling: CouplingTag; rank: number }> = ({
   rank,
 }) => (
   <StyledListItem rank={rank}>
-    <PixivTagLink name={coupling.tag.name} />
+    <PixivTagLink title={coupling.tag.name} />
     <span className="characters">
       {coupling.characters
-        .map(x => <PixivDictLink name={x} />)
+        .map(x => <PixivDictLink title={x} />)
         .reduce((s, x) => (
           <>
             {s} × {x}

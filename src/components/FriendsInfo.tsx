@@ -34,14 +34,14 @@ export const FriendsInfo: FC<{ name: string; className?: string }> = ({
           <li key={x.tags[0].name}>
             {
               <PixivDictLink
-                name={x.characters.find(x => x !== name) as string}
+                title={x.characters.find(x => x !== name) as string}
                 key={x.tags[0].name}
               />
             }
             <ul>
               {x.tags.map(x => (
                 <li key={x.name}>
-                  <PixivTagLink name={x.name} />({x.num}作品)
+                  <PixivTagLink title={x.name} />({x.num}作品)
                 </li>
               ))}
             </ul>
