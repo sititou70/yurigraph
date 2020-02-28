@@ -46,6 +46,15 @@ case "$TARGET_CONTENT" in
     export DEPLOY_REPOSITORY="git@github.com:sititou70/TouhouMap.git"
     export DEPLOY_BRANCH="gh-pages"
   ;;
+  "kancolle")
+    export TARGET_COUPLINGS_JSON="scraping/target_couplings/kancolle/index.json"
+    export REACT_APP_NAME="KancolleGraph"
+    export REACT_APP_DESCRIPTION="艦隊これくしょんのカップリングを可視化"
+    export REACT_APP_TITLE_TAG="$REACT_APP_NAME | $REACT_APP_DESCRIPTION"
+    export REACT_APP_DEFAULT_FILTER_VALUE=100
+    export DEPLOY_REPOSITORY="git@github.com:sititou70/kancollegraph.git"
+    export DEPLOY_BRANCH="gh-pages"
+  ;;
   *)
     echo unknown TARGET_CONTENT name: $TARGET_CONTENT
     usage_exit
