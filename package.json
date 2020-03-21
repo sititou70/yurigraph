@@ -44,7 +44,7 @@
     "scraping": "EXEC='npm run _scraping' ./env.sh",
     "start": "EXEC='run-p {_scraping,_start}' ./env.sh",
     "deploy": "EXEC='run-s {_scraping,_deploy}' ./env.sh",
-    "deployall": "npm run deploy imas && npm run deploy deremas && npm run deploy touhou && npm run deploy kancolle"
+    "deployall": "npm run deploy imas && npm run deploy deremas && npm run deploy touhou && npm run deploy kancolle && npm run deploy lovelive"
   },
   "eslintConfig": {
     "extends": "react-app"
