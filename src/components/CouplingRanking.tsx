@@ -18,7 +18,7 @@ const CouplingListItem: FC<{ coupling: CouplingTag; rank: number }> = ({
     <PixivTagLink title={coupling.tag.name} />
     <span className="characters">
       {coupling.characters
-        .map(x => <PixivDictLink title={x} />)
+        .map((x) => <PixivDictLink title={x} />)
         .reduce((s, x) => (
           <>
             {s} × {x}
@@ -29,7 +29,7 @@ const CouplingListItem: FC<{ coupling: CouplingTag; rank: number }> = ({
   </StyledListItem>
 );
 const StyledListItem = styled.li<{ rank: number }>`
-  font-size: ${props => Math.max(32 - props.rank / 2, 16)}px;
+  font-size: ${(props) => Math.max(32 - props.rank / 2, 16)}px;
 
   .characters {
     display: inline-block;
@@ -50,7 +50,7 @@ const StyledListItem = styled.li<{ rank: number }>`
 
 export const CouplingRanking: FC<{}> = () => {
   const coupling_tags: CouplingTag[] = coupling_json
-    .map(x => x.tags.map(y => ({ characters: x.characters, tag: y })))
+    .map((x) => x.tags.map((y) => ({ characters: x.characters, tag: y })))
     .reduce((s, x) => [...s, ...x])
     .sort((x, y) => y.tag.num - x.tag.num);
   return (

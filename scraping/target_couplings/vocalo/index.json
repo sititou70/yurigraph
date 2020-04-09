@@ -1,0 +1,239 @@
+[
+  {
+    "characters": ["MEIKO", "KAITO"],
+    "tags": [
+      { "name": "カイメイ" },
+      { "name": "メイカイ" },
+      { "name": "年長組" }
+    ]
+  },
+  {
+    "characters": ["MEIKO", "鏡音レン"],
+    "tags": [{ "name": "レンメイ" }, { "name": "メイレン" }]
+  },
+  { "characters": ["MEIKO", "神威がくぽ"], "tags": [{ "name": "がくメイ" }] },
+  { "characters": ["MEIKO", "氷山キヨテル"], "tags": [{ "name": "キヨメイ" }] },
+  {
+    "characters": ["初音ミク", "KAITO"],
+    "tags": [
+      { "name": "カイミク" },
+      { "name": "ミクカイ" },
+      { "name": "寒色兄妹" }
+    ]
+  },
+  {
+    "characters": ["初音ミク", "鏡音レン"],
+    "tags": [{ "name": "レンミク" }, { "name": "ミクレン" }]
+  },
+  {
+    "characters": ["初音ミク", "神威がくぽ"],
+    "tags": [{ "name": "がくミク" }, { "name": "みくぽ" }]
+  },
+  {
+    "characters": ["初音ミク", "氷山キヨテル"],
+    "tags": [{ "name": "キヨミク" }]
+  },
+  {
+    "characters": ["初音ミク", "歌手音ピコ"],
+    "tags": [{ "name": "ピコミク" }]
+  },
+  {
+    "characters": ["鏡音リン", "KAITO"],
+    "tags": [{ "name": "カイリン" }, { "name": "リンカイ" }]
+  },
+  {
+    "characters": ["鏡音リン", "鏡音レン"],
+    "tags": [{ "name": "レンリン" }, { "name": "リンレン" }]
+  },
+  {
+    "characters": ["鏡音リン", "神威がくぽ"],
+    "tags": [{ "name": "がくリン" }, { "name": "リンぽ" }]
+  },
+  {
+    "characters": ["巡音ルカ", "KAITO"],
+    "tags": [{ "name": "カイルカ" }, { "name": "ルカイト" }]
+  },
+  {
+    "characters": ["巡音ルカ", "鏡音レン"],
+    "tags": [{ "name": "レンルカ" }, { "name": "ルカレン" }]
+  },
+  {
+    "characters": ["巡音ルカ", "神威がくぽ"],
+    "tags": [{ "name": "がくルカ" }, { "name": "ぽルカ" }]
+  },
+  {
+    "characters": ["巡音ルカ", "氷山キヨテル"],
+    "tags": [{ "name": "テルカ" }]
+  },
+  { "characters": ["GUMI", "KAITO"], "tags": [{ "name": "カイグミ" }] },
+  {
+    "characters": ["GUMI", "鏡音レン"],
+    "tags": [{ "name": "レングミ" }, { "name": "グミレン" }]
+  },
+  {
+    "characters": ["GUMI", "神威がくぽ"],
+    "tags": [{ "name": "がくグミ" }, { "name": "ぽいど兄妹" }]
+  },
+  { "characters": ["GUMI", "リュウト"], "tags": [{ "name": "ガチャグミ" }] },
+  { "characters": ["miki", "KAITO"], "tags": [{ "name": "カイミキ" }] },
+  { "characters": ["miki", "鏡音レン"], "tags": [{ "name": "レンミキ" }] },
+  {
+    "characters": ["miki", "歌手音ピコ"],
+    "tags": [{ "name": "ピコミキ" }, { "name": "ミキピコ" }]
+  },
+  { "characters": ["猫村いろは", "KAITO"], "tags": [{ "name": "かいねこ" }] },
+  {
+    "characters": ["猫村いろは", "氷山キヨテル"],
+    "tags": [{ "name": "キヨいろ" }]
+  },
+  {
+    "characters": ["歌愛ユキ", "氷山キヨテル"],
+    "tags": [{ "name": "キヨユキ" }]
+  },
+  {
+    "characters": ["歌愛ユキ", "リュウト"],
+    "tags": [{ "name": "ガチャユキ" }]
+  },
+  { "characters": ["MEIKO", "MEIKO"], "tags": [{ "name": "メイメイ" }] },
+  { "characters": ["MEIKO", "初音ミク"], "tags": [{ "name": "メイミク" }] },
+  { "characters": ["MEIKO", "巡音ルカ"], "tags": [{ "name": "メイルカ" }] },
+  { "characters": ["MEIKO", "GUMI"], "tags": [{ "name": "メイグミ" }] },
+  { "characters": ["初音ミク", "MEIKO"], "tags": [{ "name": "ミクメイ" }] },
+  { "characters": ["初音ミク", "初音ミク"], "tags": [{ "name": "ミクミク" }] },
+  { "characters": ["初音ミク", "鏡音リン"], "tags": [{ "name": "ミクリン" }] },
+  {
+    "characters": ["初音ミク", "巡音ルカ"],
+    "tags": [{ "name": "ネギトロ" }, { "name": "ミクルカ" }]
+  },
+  { "characters": ["初音ミク", "GUMI"], "tags": [{ "name": "ミクグミ" }] },
+  { "characters": ["初音ミク", "IA"], "tags": [{ "name": "ミクイア" }] },
+  { "characters": ["鏡音リン", "MEIKO"], "tags": [{ "name": "リンメイ" }] },
+  { "characters": ["鏡音リン", "初音ミク"], "tags": [{ "name": "リンミク" }] },
+  {
+    "characters": ["鏡音リン", "巡音ルカ"],
+    "tags": [{ "name": "マグローラー" }, { "name": "リンルカ" }]
+  },
+  { "characters": ["鏡音リン", "GUMI"], "tags": [{ "name": "リングミ" }] },
+  { "characters": ["巡音ルカ", "MEIKO"], "tags": [{ "name": "ルカメイ" }] },
+  {
+    "characters": ["巡音ルカ", "初音ミク"],
+    "tags": [{ "name": "ネギトロ" }, { "name": "ルカミク" }]
+  },
+  {
+    "characters": ["巡音ルカ", "鏡音リン"],
+    "tags": [{ "name": "マグローラー" }, { "name": "ルカリン" }]
+  },
+  { "characters": ["巡音ルカ", "GUMI"], "tags": [{ "name": "ルカグミ" }] },
+  { "characters": ["GUMI", "MEIKO"], "tags": [{ "name": "グミメイ" }] },
+  { "characters": ["GUMI", "初音ミク"], "tags": [{ "name": "ぐみく" }] },
+  { "characters": ["GUMI", "鏡音リン"], "tags": [{ "name": "ぐみりん" }] },
+  { "characters": ["GUMI", "巡音ルカ"], "tags": [{ "name": "グミルカ" }] },
+  { "characters": ["GUMI", "IA"], "tags": [{ "name": "ぐみいあ" }] },
+  { "characters": ["Lily", "初音ミク"], "tags": [{ "name": "リリミク" }] },
+  { "characters": ["Lily", "鏡音リン"], "tags": [{ "name": "リリリン" }] },
+  { "characters": ["Lily", "巡音ルカ"], "tags": [{ "name": "リリルカ" }] },
+  { "characters": ["Lily", "GUMI"], "tags": [{ "name": "リリグミ" }] },
+  { "characters": ["Lily", "IA"], "tags": [{ "name": "リリイア" }] },
+  { "characters": ["KAITO", "KAITO"], "tags": [{ "name": "カイカイ" }] },
+  {
+    "characters": ["KAITO", "鏡音レン"],
+    "tags": [{ "name": "バナナアイス" }, { "name": "カイレン" }]
+  },
+  {
+    "characters": ["KAITO", "神威がくぽ"],
+    "tags": [{ "name": "ユニット「ナイス」" }, { "name": "カイがく" }]
+  },
+  { "characters": ["KAITO", "氷山キヨテル"], "tags": [{ "name": "カイキヨ" }] },
+  { "characters": ["KAITO", "VY2"], "tags": [{ "name": "勇カイ" }] },
+  {
+    "characters": ["鏡音レン", "KAITO"],
+    "tags": [{ "name": "バナナアイス" }, { "name": "レンカイ" }]
+  },
+  { "characters": ["鏡音レン", "鏡音レン"], "tags": [{ "name": "レンレン" }] },
+  {
+    "characters": ["鏡音レン", "神威がくぽ"],
+    "tags": [{ "name": "バナナス" }, { "name": "レンがく" }]
+  },
+  {
+    "characters": ["鏡音レン", "氷山キヨテル"],
+    "tags": [{ "name": "レンキヨ" }]
+  },
+  {
+    "characters": ["鏡音レン", "歌手音ピコ"],
+    "tags": [{ "name": "レンピコ" }]
+  },
+  {
+    "characters": ["神威がくぽ", "KAITO"],
+    "tags": [{ "name": "ユニット「ナイス」" }, { "name": "がくカイ" }]
+  },
+  {
+    "characters": ["神威がくぽ", "鏡音レン"],
+    "tags": [{ "name": "バナナス" }, { "name": "がくレン" }]
+  },
+  {
+    "characters": ["神威がくぽ", "氷山キヨテル"],
+    "tags": [{ "name": "ナスマウンテン" }]
+  },
+  {
+    "characters": ["神威がくぽ", "歌手音ピコ"],
+    "tags": [{ "name": "がくピコ" }]
+  },
+  { "characters": ["氷山キヨテル", "KAITO"], "tags": [{ "name": "キヨカイ" }] },
+  {
+    "characters": ["氷山キヨテル", "鏡音レン"],
+    "tags": [{ "name": "キヨレン" }]
+  },
+  {
+    "characters": ["氷山キヨテル", "神威がくぽ"],
+    "tags": [{ "name": "キヨがく" }]
+  },
+  {
+    "characters": ["歌手音ピコ", "鏡音レン"],
+    "tags": [{ "name": "ピコレン" }]
+  },
+  {
+    "characters": ["水奈瀬コウ", "京町セイカ"],
+    "tags": [{ "name": "コウセイ" }]
+  },
+  {
+    "characters": ["結月ゆかり", "弦巻マキ"],
+    "tags": [{ "name": "ゆかマキ" }]
+  },
+  { "characters": ["結月ゆかり", "琴葉茜"], "tags": [{ "name": "ゆかあか" }] },
+  {
+    "characters": ["結月ゆかり", "東北ずん子"],
+    "tags": [{ "name": "ゆかずん" }]
+  },
+  {
+    "characters": ["結月ゆかり", "東北きりたん"],
+    "tags": [{ "name": "ゆかきり" }]
+  },
+  {
+    "characters": ["結月ゆかり", "紲星あかり"],
+    "tags": [{ "name": "ゆづきず" }, { "name": "きずゆか" }]
+  },
+  { "characters": ["琴葉茜", "琴葉葵"], "tags": [{ "name": "琴葉姉妹" }] },
+  { "characters": ["琴葉葵", "弦巻マキ"], "tags": [{ "name": "あおマキ" }] },
+  {
+    "characters": ["琴葉葵", "東北きりたん"],
+    "tags": [{ "name": "あおきり" }]
+  },
+  {
+    "characters": ["東北ずん子", "東北きりたん"],
+    "tags": [{ "name": "ずんきり" }]
+  },
+  {
+    "characters": ["水奈瀬コウ", "すずきつづみ"],
+    "tags": [{ "name": "コウつづ" }]
+  },
+  { "characters": ["結月ゆかり", "IA"], "tags": [{ "name": "ゆかいあ" }] },
+  {
+    "characters": ["タカハシ(CeVIO)", "水奈瀬コウ"],
+    "tags": [{ "name": "タカコウ" }]
+  },
+  {
+    "characters": ["初音ミク", "結月ゆかり"],
+    "tags": [{ "name": "みくゆか" }]
+  },
+  { "characters": ["結月ゆかり", "CUL"], "tags": [{ "name": "ゆかる" }] }
+]

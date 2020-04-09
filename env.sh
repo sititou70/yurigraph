@@ -64,6 +64,15 @@ case "$TARGET_CONTENT" in
     export DEPLOY_REPOSITORY="git@github.com:sititou70/lovelivemap.git"
     export DEPLOY_BRANCH="gh-pages"
   ;;
+  "vocalo")
+    export TARGET_COUPLINGS_JSON="scraping/target_couplings/vocalo/index.json"
+    export REACT_APP_NAME="VocaloMap"
+    export REACT_APP_DESCRIPTION="VOCALOID・VOICEROIDのカップリングを可視化"
+    export REACT_APP_TITLE_TAG="$REACT_APP_NAME | $REACT_APP_DESCRIPTION"
+    export REACT_APP_DEFAULT_FILTER_VALUE=291
+    export DEPLOY_REPOSITORY="git@github.com:sititou70/vocalomap.git"
+    export DEPLOY_BRANCH="gh-pages"
+  ;;
   *)
     echo unknown TARGET_CONTENT name: $TARGET_CONTENT
     usage_exit

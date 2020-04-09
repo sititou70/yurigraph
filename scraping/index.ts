@@ -47,7 +47,7 @@ const main = async () => {
 
   const couplings: TargetCoupling[] = groupingTargetCouplings(
     JSON.parse(fs.readFileSync(INPUT_COUPLINGS_JSON).toString())
-  );
+  ).filter((x) => !isSelfCoupling(x));
 
   let dest_couplings: Couplings = [];
   for (const coupling of couplings) {
@@ -81,7 +81,7 @@ const groupingTargetCouplings = (
 
     let prev_left_couplings = left_couplings;
     left_couplings = [];
-    prev_left_couplings.forEach(x => {
+    prev_left_couplings.forEach((x) => {
       if (compTargetCouplings(pivot, x)) {
         group.push(x);
       } else {
@@ -96,7 +96,7 @@ const groupingTargetCouplings = (
     grouped_coupling = {
       ...grouped_coupling,
       tags: grouped_coupling.tags.filter(
-        (x, i, self) => self.findIndex(y => x.name === y.name) === i
+        (x, i, self) => self.findIndex((y) => x.name === y.name) === i
       ),
     };
 
@@ -106,8 +106,11 @@ const groupingTargetCouplings = (
   return grouped_couplings;
 };
 
-const sleep = async (milis: number): Promise<void> =>
-  new Promise(resolve => setTimeout(() => resolve(), milis));
+const isSelfCoupling = (coupling: TargetCoupling) =>
+  coupling.characters[0] === coupling.characters[1];
+
+const sleep = async (millis: number): Promise<void> =>
+  new Promise((resolve) => setTimeout(() => resolve(), millis));
 
 const getNumsFromTag = async (tag: string): Promise<number> => {
   const cache_file_path = path.join(CACHE_DIR, `/nums_${tag}`);
