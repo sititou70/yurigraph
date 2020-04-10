@@ -16,7 +16,7 @@ export const getInitializedForce = (
   force_simulation: ForceSimulation;
   registerGraph: (svg: Element) => void;
 } => {
-  const nums = links.map(x => x.num);
+  const nums = links.map((x) => x.num);
   const sigmoid = makeSigmoid({
     center: stats.mean(nums),
     deviation: stats.stdev(nums),
@@ -25,18 +25,12 @@ export const getInitializedForce = (
 
   const force_simulation = d3
     .forceSimulation(nodes as SimulationNodeDatum[])
-    .force(
-      'charge',
-      d3
-        .forceManyBody()
-        .strength(-200)
-        .distanceMax(200)
-    )
+    .force('charge', d3.forceManyBody().strength(-200).distanceMax(200))
     .force(
       'link',
       d3
         .forceLink(links)
-        .distance(d => options.link_distance * (2 - sigmoid(d.num)))
+        .distance((d) => options.link_distance * (2 - sigmoid(d.num)))
         .strength(nodes.length / links.length)
         .iterations(10)
     )
@@ -54,23 +48,25 @@ export const getInitializedForce = (
     graph = d3.select(svg);
     force_simulation.on('tick', () => {
       if (graph === null) return;
-      graph.call(selection => {
+      graph.call((selection) => {
         selection
           .selectAll('.' + options.classname.node)
-          .call(selection =>
+          .call((selection) =>
             selection.attr(
               'transform',
               (d: any) =>
                 d !== undefined && 'translate(' + d.x + ',' + d.y + ')'
             )
           );
-        selection.selectAll('.' + options.classname.link).call(selection =>
-          selection
-            .attr('x1', (d: any) => (d !== undefined ? d.source.x : 0))
-            .attr('y1', (d: any) => (d !== undefined ? d.source.y : 0))
-            .attr('x2', (d: any) => (d !== undefined ? d.target.x : 0))
-            .attr('y2', (d: any) => (d !== undefined ? d.target.y : 0))
-        );
+        selection
+          .selectAll('.' + options.classname.link)
+          .call((selection) =>
+            selection.attr('d', (d: any) =>
+              d !== undefined
+                ? `M ${d.source.x},${d.source.y} L ${d.target.x},${d.target.y}`
+                : ''
+            )
+          );
       });
     });
   };

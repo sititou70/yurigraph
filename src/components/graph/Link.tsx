@@ -20,20 +20,20 @@ export const Link: FC<{
     };
   });
 
-  const line_id = `deregraph-line-${data.id}`;
+  const id = `deregraph-link-${data.id}`;
 
   return (
     <>
-      <StyledLine
-        id={line_id}
+      <StyledPath
+        id={id}
         className="link"
         weight={weight}
         active={active}
         ref={line}
-      ></StyledLine>
+      ></StyledPath>
       {detail ? (
         <StyledLabel>
-          <textPath href={`#${line_id}`} startOffset="50%">
+          <textPath href={`#${id}`} startOffset="50%">
             {data.name}
           </textPath>
         </StyledLabel>
@@ -41,10 +41,10 @@ export const Link: FC<{
     </>
   );
 };
-const StyledLine = styled.line<{ weight: number; active: boolean }>`
-  stroke-width: ${props => props.weight * 3 + 2}px;
-  stroke: ${props => mixColor('#eee', '#ff80aa', props.weight)};
-  opacity: ${props => (props.active ? 1 : 0.3)};
+const StyledPath = styled.path<{ weight: number; active: boolean }>`
+  stroke: ${(props) => mixColor('#eee', '#ff80aa', props.weight)};
+  stroke-width: ${(props) => props.weight * 3 + 2}px;
+  opacity: ${(props) => (props.active ? 1 : 0.3)};
 `;
 
 const StyledLabel = styled.text`
