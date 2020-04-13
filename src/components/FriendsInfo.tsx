@@ -6,12 +6,12 @@ import { Couplings, Coupling } from 'yurigraph-scraping';
 const friends = ((): { [name: string]: Coupling[] } => {
   const couplings: Couplings = coupling_json;
   const characters: string[] = couplings
-    .map(x => x.characters)
+    .map((x) => x.characters)
     .reduce((s, x) => [...s, ...x])
     .filter((x, i, self) => self.indexOf(x) === i);
   return characters
-    .map(x => ({
-      [x]: couplings.filter(y => y.characters.indexOf(x) !== -1),
+    .map((x) => ({
+      [x]: couplings.filter((y) => y.characters.indexOf(x) !== -1),
     }))
     .reduce((s, x) => ({ ...s, ...x }));
 })();
@@ -25,25 +25,27 @@ export const FriendsInfo: FC<{ name: string; className?: string }> = ({
   return (
     <ol className={className}>
       {friends[name]
-        .map(x => ({
+        .map((x) => ({
           ...x,
-          num: x.tags.map(x => x.num).reduce((s, x) => (s > x ? s : x)),
+          num: x.tags.map((x) => x.num).reduce((s, x) => (s > x ? s : x)),
         }))
         .sort((x, y) => y.num - x.num)
-        .map(x => (
+        .map((x) => (
           <li key={x.tags[0].name}>
             {
               <PixivDictLink
-                title={x.characters.find(x => x !== name) as string}
+                title={x.characters.find((x) => x !== name) as string}
                 key={x.tags[0].name}
               />
             }
             <ul>
-              {x.tags.map(x => (
-                <li key={x.name}>
-                  <PixivTagLink title={x.name} />({x.num}作品)
-                </li>
-              ))}
+              {x.tags
+                .sort((x, y) => y.num - x.num)
+                .map((x) => (
+                  <li key={x.name}>
+                    <PixivTagLink title={x.name} />({x.num}作品)
+                  </li>
+                ))}
             </ul>
           </li>
         ))}
