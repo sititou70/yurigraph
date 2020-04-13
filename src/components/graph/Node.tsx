@@ -61,8 +61,8 @@ export const Node: FC<{
       }}
       ref={root_element}
     >
-      <circle r={15} />
-      <text y={7}>{data.name.replace(/\(.*\)/, '')}</text>
+      <circle r={14} />
+      <text y={6}>{data.name.replace(/\(.*\)/, '')}</text>
     </StyledRoot>
   );
 };
