@@ -4,6 +4,7 @@ import { PixivDictLink, PixivTagLink } from './pixiv-utils';
 import coupling_json from '../couplings.json';
 import { Coupling } from 'yurigraph-scraping';
 import styled from '@emotion/styled';
+import theme from '../styles/theme';
 
 type CouplingTag = {
   characters: string[];
@@ -72,11 +73,11 @@ const Root = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px 30px 0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  padding: ${theme.px.grid(2)} ${theme.px.grid()} 0;
+  box-shadow: 0 0 ${theme.px.grid()} #0002;
 
   h2 {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   ol {

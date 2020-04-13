@@ -2,6 +2,7 @@ import React, { FC, useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import { NodeData, ForceSimulation } from './types';
 import styled from '@emotion/styled';
+import theme from '../../styles/theme';
 
 export const Node: FC<{
   data: NodeData;
@@ -67,22 +68,24 @@ export const Node: FC<{
 };
 const StyledRoot = styled.g<{ active: boolean }>`
   cursor: pointer;
-  opacity: ${props => (props.active ? 1 : 0.3)};
+  opacity: ${(props) => (props.active ? 1 : 0.3)};
 
   circle {
-    fill: #eee;
-    opacity: ${props => (props.active ? 1 : 0)};
+    fill: #fff;
+    stroke: #0001;
+    stroke-width: 7px;
+    opacity: ${(props) => (props.active ? 1 : 0)};
   }
 
   text {
-    font-size: 16px;
-    fill: #335;
+    font-size: ${theme.px.font_size()};
+    fill: ${theme.colors.text};
     font-family: sans;
   }
 
   &:hover {
     circle {
-      fill: #ff80aa;
+      fill: ${theme.colors.accent};
     }
   }
 `;

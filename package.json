@@ -19,7 +19,6 @@
     "awesome-sigmoid": "0.0.7",
     "d3": "^5.15.0",
     "deep-copy": "^1.4.2",
-    "yurigraph-scraping": "file:scraping",
     "gh-pages": "^2.2.0",
     "mix-color": "^1.1.2",
     "node-fetch": "^2.6.0",
@@ -34,7 +33,8 @@
     "ts-node": "^8.6.2",
     "typescript": "^3.7.5",
     "typography": "^0.16.19",
-    "typography-theme-github": "^0.16.19"
+    "typography-theme-github": "^0.16.19",
+    "yurigraph-scraping": "file:scraping"
   },
   "scripts": {
     "_scraping": "cd scraping && ts-node index.ts",

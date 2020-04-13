@@ -3,6 +3,7 @@ import * as d3 from 'd3';
 import { LinkData } from './types';
 import styled from '@emotion/styled';
 import mixColor from 'mix-color';
+import theme from '../../styles/theme';
 
 export const Link: FC<{
   data: LinkData;
@@ -42,9 +43,10 @@ export const Link: FC<{
   );
 };
 const StyledPath = styled.path<{ weight: number; active: boolean }>`
-  stroke: ${(props) => mixColor('#eee', '#ff80aa', props.weight)};
-  stroke-width: ${(props) => props.weight * 3 + 2}px;
-  opacity: ${(props) => (props.active ? 1 : 0.3)};
+  stroke: ${({ weight }) =>
+    mixColor(theme.colors.main, theme.colors.accent, weight)};
+  stroke-width: ${({ weight }) => weight * 7 + 3}px;
+  opacity: ${({ active }) => (active ? 1 : 0.3)};
 `;
 
 const StyledLabel = styled.text`

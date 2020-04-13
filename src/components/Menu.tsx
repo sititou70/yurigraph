@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import Typography from '@material-ui/core/Typography';
+import theme from '../styles/theme';
 
 // components
 export const Menu = () => (
@@ -32,17 +33,17 @@ const Root = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  padding: 10px;
+  padding: ${theme.px.grid(0.5)};
   background: rgba(255, 255, 255, 0.7);
-  font-size: 12px;
+  font-size: 0.8rem;
 
   h1 {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   div {
     a {
-      margin-left: 10px;
+      margin-left: ${theme.px.grid(0.5)};
     }
   }
 `;

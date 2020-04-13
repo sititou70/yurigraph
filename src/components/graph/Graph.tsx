@@ -7,6 +7,8 @@ import { useWindowSize } from '@react-hook/window-size';
 import styled from '@emotion/styled';
 import stats from 'stats-lite';
 import * as d3 from 'd3';
+import theme from '../../styles/theme';
+import mixColor from 'mix-color';
 const makeSigmoid = require('awesome-sigmoid').default;
 
 export const Graph: FC<{
@@ -15,7 +17,7 @@ export const Graph: FC<{
   onNodeClick?: (name: string) => void;
 }> = ({ nodes, links, onNodeClick }) => {
   //setup sigmoid
-  const nums = links.map(x => x.num);
+  const nums = links.map((x) => x.num);
   const sigmoid = makeSigmoid({
     center: stats.mean(nums),
     deviation: stats.stdev(nums),
@@ -62,10 +64,10 @@ export const Graph: FC<{
   //focus node
   const [focus_name, setFocusName] = useState<string | null>(null);
   const friends: { [name: string]: string[] } = nodes
-    .map(x => x.name)
-    .map(x => ({
+    .map((x) => x.name)
+    .map((x) => ({
       [x]: links
-        .map(y =>
+        .map((y) =>
           y.source_name === x
             ? y.target_name
             : y.target_name === x
@@ -77,7 +79,7 @@ export const Graph: FC<{
     .reduce((s, x) => ({ ...s, ...x }));
 
   //components
-  const link_components = links.map(x => {
+  const link_components = links.map((x) => {
     const detail = x.source_name === focus_name || x.target_name === focus_name;
     return (
       <Link
@@ -90,7 +92,7 @@ export const Graph: FC<{
     );
   });
 
-  const node_components = nodes.map(x => (
+  const node_components = nodes.map((x) => (
     <Node
       data={x}
       force_simulation={force.force_simulation}
@@ -119,6 +121,11 @@ const GraphRoot = styled.svg`
   width: 100%;
   height: 100vh;
   cursor: all-scroll;
+  background: linear-gradient(
+    0.1turn,
+    ${mixColor('#fff', theme.colors.main, 0.1)} 30%,
+    ${mixColor('#fff', theme.colors.accent, 0.1)}
+  );
 
   * {
     transition: fill ease 0.5s, opacity ease 0.5s;

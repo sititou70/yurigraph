@@ -3,17 +3,15 @@ import Graph from './Graph';
 import FilterNumSlider from './FilterNumSlider';
 import MakeCouplingCheckbox from './MakeCouplingCheckbox';
 import FriendsDialog from './FriendsDialog';
-import styled from '@emotion/styled';
 import { NodeData, LinkData } from './types';
 import couplings_json from '../../couplings.json';
 import { Couplings } from 'yurigraph-scraping';
-import bg from '../../styles/bg.png';
 import stats from 'stats-lite';
 const deepCopy = require('deep-copy');
 
 //utils
 const nums = couplings_json
-  .map(x => x.tags.map(x => x.num))
+  .map((x) => x.tags.map((x) => x.num))
   .reduce((s, x) => [...s, ...x]);
 const num_stats = {
   max: nums.reduce((s, x) => (s > x ? s : x)),
@@ -28,15 +26,15 @@ const getNodesAndLinksFromLinks = (
   base_links: LinkDataOmitSourceTarget[]
 ): NodesAndLinks => {
   const nodes: NodeData[] = base_links
-    .map(x => [x.source_name, x.target_name])
+    .map((x) => [x.source_name, x.target_name])
     .reduce((s, x) => [...s, ...x])
     .filter((x, i, self) => self.indexOf(x) === i)
     .map((x, i) => ({ id: i, name: x }));
   const node_name2id: { [key: string]: number } = nodes
-    .map(x => ({ [x.name]: x.id }))
+    .map((x) => ({ [x.name]: x.id }))
     .reduce((s, x) => ({ ...s, ...x }));
 
-  const links: LinkData[] = base_links.map(x => ({
+  const links: LinkData[] = base_links.map((x) => ({
     ...x,
     source: node_name2id[x.source_name],
     target: node_name2id[x.target_name],
@@ -49,7 +47,10 @@ const initGetNodesAndLinks = (): ((num_filter: number) => NodesAndLinks) => {
   const couplings: Couplings = couplings_json;
 
   const all_links: LinkDataOmitSourceTarget[] = couplings
-    .map(x => ({ ...x, tag: x.tags.reduce((s, x) => (s.num > x.num ? s : x)) }))
+    .map((x) => ({
+      ...x,
+      tag: x.tags.reduce((s, x) => (s.num > x.num ? s : x)),
+    }))
     .map((x, i) => ({
       ...x.tag,
       id: i,
@@ -59,7 +60,7 @@ const initGetNodesAndLinks = (): ((num_filter: number) => NodesAndLinks) => {
 
   return (num_filter: number): { nodes: NodeData[]; links: LinkData[] } => {
     return getNodesAndLinksFromLinks(
-      all_links.filter(x => x.num >= num_filter)
+      all_links.filter((x) => x.num >= num_filter)
     );
   };
 };
@@ -67,14 +68,14 @@ const getNodesAndLinks = initGetNodesAndLinks();
 
 const makeCoupling = (nodes_and_links: NodesAndLinks): NodesAndLinks => {
   const charactors: Set<string> = new Set(
-    nodes_and_links.nodes.map(x => x.name)
+    nodes_and_links.nodes.map((x) => x.name)
   );
   let sorted_links: LinkData[] = nodes_and_links.links.sort(
     (x, y) => y.num - x.num
   );
   let resolved_links: LinkData[] = [];
 
-  sorted_links.forEach(x => {
+  sorted_links.forEach((x) => {
     if (charactors.has(x.source_name) && charactors.has(x.target_name)) {
       // resolve link
       resolved_links.push(x);
@@ -117,10 +118,10 @@ export const GraphRoot: FC<{}> = () => {
   const [dialog_open, setDialogOpen] = useState<boolean>(false);
 
   return (
-    <Root>
+    <div>
       <Graph
         {...node_and_links}
-        onNodeClick={name => {
+        onNodeClick={(name) => {
           setDialogName(name);
           setDialogOpen(true);
         }}
@@ -131,7 +132,7 @@ export const GraphRoot: FC<{}> = () => {
         min={Math.max(Math.floor(num_stats.center - num_stats.stdev / 3), 0)}
         max={Math.floor(num_stats.center + num_stats.stdev)}
         onChange={useCallback(
-          num => {
+          (num) => {
             setFilterNum(num);
             setNodesAndLinks(num, resolve_one_to_many);
           },
@@ -142,7 +143,7 @@ export const GraphRoot: FC<{}> = () => {
       <MakeCouplingCheckbox
         checked={resolve_one_to_many}
         onChange={useCallback(
-          v => {
+          (v) => {
             setResolveOneToMany(v);
             setNodesAndLinks(filter_num, v);
           },
@@ -155,11 +156,8 @@ export const GraphRoot: FC<{}> = () => {
         open={dialog_open}
         onClose={() => setDialogOpen(false)}
       />
-    </Root>
+    </div>
   );
 };
-const Root = styled.div`
-  background: url(${bg});
-`;
 
 export default GraphRoot;
