@@ -1,10 +1,14 @@
 export const makePxScaleUtil = (base: number) => (scale: number = 1): string =>
   `${base * scale}px`;
 
+const base_color = process.env.REACT_APP_BASE_COLOR;
+const main_color = process.env.REACT_APP_MAIN_COLOR;
+const accent_color = process.env.REACT_APP_ACCENT_COLOR;
+
 export const colors = {
-  base: '#f8f8f8',
-  main: '#00a8cc',
-  accent: '#fe346e',
+  base: base_color ? base_color : '#f8f8f8',
+  main: main_color ? main_color : '#00a8cc',
+  accent: accent_color ? accent_color : '#fe346e',
   border: '#ccc',
   text: '#123',
 };
