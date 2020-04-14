@@ -40,6 +40,7 @@ export const Node: FC<{
           d.fy = d3.event.y;
         })
         .on('end', (d: any) => {
+          force_simulation.alphaTarget(0).restart();
           d.fx = null;
           d.fy = null;
         })
