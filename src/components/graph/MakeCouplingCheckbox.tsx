@@ -19,7 +19,7 @@ export const MakeCouplingCheckbox: FC<{
             name="resolve_one_to_many"
           />
         }
-        label="1対多を解決"
+        label="1対1に解決"
       />
     </CheckboxRoot>
   );
