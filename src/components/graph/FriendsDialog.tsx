@@ -1,7 +1,6 @@
 import React, { FC } from 'react';
 import FriendsInfo from '../FriendsInfo';
-import { Dialog, DialogTitle, IconButton } from '@material-ui/core';
-import CloseIcon from '@material-ui/icons/Close';
+import { Dialog, DialogTitle } from '@material-ui/core';
 import styled from '@emotion/styled';
 import { PixivDictLink } from '../pixiv-utils';
 import theme from '../../styles/theme';
@@ -19,9 +18,6 @@ export const FriendsDialog: FC<{
   >
     <DialogTitle id="friends-dialog-title">
       <PixivDictLink title={name} /> のカップリング一覧
-      <IconButton className="close_button" onClick={onClose}>
-        <CloseIcon />
-      </IconButton>
     </DialogTitle>
     <StyledFriendsInfo name={name} />
   </DialogRoot>
