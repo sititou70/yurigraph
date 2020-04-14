@@ -33,7 +33,7 @@ export const Link: FC<{
         ref={line}
       ></StyledPath>
       {detail ? (
-        <StyledLabel>
+        <StyledLabel y="-3">
           <textPath href={`#${id}`} startOffset="50%">
             {data.name}
           </textPath>
