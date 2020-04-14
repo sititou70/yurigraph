@@ -16,7 +16,7 @@
     "@types/stats-lite": "^2.2.0",
     "@types/throttle-debounce": "^2.1.0",
     "@types/typography": "^0.16.3",
-    "awesome-sigmoid": "0.0.7",
+    "awesome-sigmoid": "^1.0.1",
     "d3": "^5.15.0",
     "deep-copy": "^1.4.2",
     "gh-pages": "^2.2.0",

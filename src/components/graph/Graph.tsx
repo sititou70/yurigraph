@@ -9,7 +9,7 @@ import stats from 'stats-lite';
 import * as d3 from 'd3';
 import theme from '../../styles/theme';
 import mixColor from 'mix-color';
-const makeSigmoid = require('awesome-sigmoid').default;
+import makeSigmoid from 'awesome-sigmoid';
 
 export const Graph: FC<{
   nodes: NodeData[];
