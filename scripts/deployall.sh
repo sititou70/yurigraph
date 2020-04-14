@@ -1,7 +1,6 @@
 #!/bin/bash
 set -eu
 
-cat ../env.sh \
-  | grep '\")' \
-  | sed -e 's/[ \")]//g' \
+find ../envs -type f \
+  | xargs -n 1 -Ixxx basename xxx .sh \
   | xargs -n 1 npm run deploy
