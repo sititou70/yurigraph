@@ -47,6 +47,7 @@ const StyledPath = styled.path<{ weight: number; active: boolean }>`
     mixColor(theme.colors.main, theme.colors.accent, weight)};
   stroke-width: ${({ weight }) => weight * 7 + 3}px;
   opacity: ${({ active }) => (active ? 1 : 0.3)};
+  stroke-linecap: round;
 `;
 
 const StyledLabel = styled.text`

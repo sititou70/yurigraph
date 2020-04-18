@@ -79,9 +79,13 @@ const StyledRoot = styled.g<{ active: boolean }>`
   }
 
   text {
+    fill: ${theme.colors.text}c;
+    stroke: #fff7;
+    stroke-width: 7px;
+    paint-order: stroke;
     font-size: ${theme.px.font_size()};
-    fill: ${theme.colors.text};
     font-family: sans;
+    stroke-linejoin: round;
   }
 
   &:hover {
