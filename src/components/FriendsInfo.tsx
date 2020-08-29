@@ -1,17 +1,19 @@
 import React, { FC } from 'react';
 import { PixivDictLink, PixivTagLink } from './pixiv-utils';
 import coupling_json from '../couplings.json';
-import { Couplings, Coupling } from 'yurigraph-scraping';
+import { Couplings, Coupling, Character } from 'yurigraph-scraping';
 
 const friends = ((): { [name: string]: Coupling[] } => {
   const couplings: Couplings = coupling_json;
-  const characters: string[] = couplings
-    .map((x) => x.characters)
+  const character_names: string[] = couplings
+    .map((x) => x.characters.map((x) => x.name))
     .reduce((s, x) => [...s, ...x])
     .filter((x, i, self) => self.indexOf(x) === i);
-  return characters
+  return character_names
     .map((x) => ({
-      [x]: couplings.filter((y) => y.characters.indexOf(x) !== -1),
+      [x]: couplings.filter(
+        (y) => y.characters.find((z) => z.name === x) !== undefined
+      ),
     }))
     .reduce((s, x) => ({ ...s, ...x }));
 })();
@@ -22,6 +24,7 @@ export const FriendsInfo: FC<{ name: string; className?: string }> = ({
   className,
 }) => {
   if (friends[name] === undefined) return null;
+
   return (
     <ol className={className}>
       {friends[name]
@@ -30,25 +33,29 @@ export const FriendsInfo: FC<{ name: string; className?: string }> = ({
           num: x.tags.map((x) => x.num).reduce((s, x) => (s > x ? s : x)),
         }))
         .sort((x, y) => y.num - x.num)
-        .map((x) => (
-          <li key={x.tags[0].name}>
-            {
-              <PixivDictLink
-                title={x.characters.find((x) => x !== name) as string}
-                key={x.tags[0].name}
-              />
-            }
-            <ul>
-              {x.tags
-                .sort((x, y) => y.num - x.num)
-                .map((x) => (
-                  <li key={x.name}>
-                    <PixivTagLink title={x.name} />({x.num}作品)
-                  </li>
-                ))}
-            </ul>
-          </li>
-        ))}
+        .map((x) => {
+          const friend = x.characters.find((x) => x.name !== name) as Character;
+
+          return (
+            <li key={x.tags[0].name}>
+              {
+                <PixivDictLink
+                  title={friend.dict_entry ? friend.dict_entry : friend.name}
+                  key={x.tags[0].name}
+                />
+              }
+              <ul>
+                {x.tags
+                  .sort((x, y) => y.num - x.num)
+                  .map((x) => (
+                    <li key={x.name}>
+                      <PixivTagLink title={x.name} />({x.num}作品)
+                    </li>
+                  ))}
+              </ul>
+            </li>
+          );
+        })}
     </ol>
   );
 };

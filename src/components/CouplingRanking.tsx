@@ -1,13 +1,14 @@
 import React, { FC } from 'react';
 import Typography from '@material-ui/core/Typography';
 import { PixivDictLink, PixivTagLink } from './pixiv-utils';
-import coupling_json from '../couplings.json';
-import { Coupling } from 'yurigraph-scraping';
+import { Coupling, Couplings } from 'yurigraph-scraping';
 import styled from '@emotion/styled';
 import theme from '../styles/theme';
+import coupling_json_import from '../couplings.json';
+const coupling_json: Couplings = coupling_json_import;
 
 type CouplingTag = {
-  characters: string[];
+  characters: Coupling['characters'];
   tag: Coupling['tags'][0];
 };
 
@@ -19,7 +20,9 @@ const CouplingListItem: FC<{ coupling: CouplingTag; rank: number }> = ({
     <PixivTagLink title={coupling.tag.name} />
     <span className="characters">
       {coupling.characters
-        .map((x) => <PixivDictLink title={x} />)
+        .map((x) => (
+          <PixivDictLink title={x.dict_entry ? x.dict_entry : x.name} />
+        ))
         .reduce((s, x) => (
           <>
             {s} × {x}

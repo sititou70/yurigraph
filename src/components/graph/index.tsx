@@ -4,10 +4,12 @@ import FilterNumSlider from './FilterNumSlider';
 import MakeCouplingCheckbox from './MakeCouplingCheckbox';
 import FriendsDialog from './FriendsDialog';
 import { NodeData, LinkData } from './types';
-import couplings_json from '../../couplings.json';
 import { Couplings } from 'yurigraph-scraping';
 import stats from 'stats-lite';
+import couplings_json_import from '../../couplings.json';
 const deepCopy = require('deep-copy');
+
+const couplings_json: Couplings = couplings_json_import;
 
 //utils
 const nums = couplings_json
@@ -44,7 +46,7 @@ const getNodesAndLinksFromLinks = (
 };
 
 const initGetNodesAndLinks = (): ((num_filter: number) => NodesAndLinks) => {
-  const couplings: Couplings = couplings_json;
+  const couplings = couplings_json;
 
   const all_links: LinkDataOmitSourceTarget[] = couplings
     .map((x) => ({
@@ -54,8 +56,8 @@ const initGetNodesAndLinks = (): ((num_filter: number) => NodesAndLinks) => {
     .map((x, i) => ({
       ...x.tag,
       id: i,
-      source_name: x.characters[0],
-      target_name: x.characters[1],
+      source_name: x.characters[0].name,
+      target_name: x.characters[1].name,
     }));
 
   return (num_filter: number): { nodes: NodeData[]; links: LinkData[] } => {
