@@ -5,10 +5,10 @@
 
 (() => {
   // utils
-  const getDictTitleFromURL = url =>
+  const getDictTitleFromURL = (url) =>
     decodeURI(url).replace(/https?:\/\/dic\.pixiv\.net\/a\//, '');
 
-  const getFullname = name =>
+  const getFullname = (name) =>
     ({
       穂乃果: '高坂穂乃果',
       絵里: '絢瀬絵里',
@@ -35,18 +35,18 @@
   // |穂乃果|   --   |ほのこと|...
   // |絵里  |えりほの|   --   |...
   // ...
-  const getTargetCouplings = table => {
+  const getTargetCouplings = (table) => {
     const header_characters = Array.from(
       table.querySelectorAll('tr:first-child > th')
     )
-      .map(x => getFullname(x.innerText))
-      .filter(x => x !== undefined);
+      .map((x) => getFullname(x.innerText))
+      .filter((x) => x !== undefined);
 
     const data_table_rows = Array.from(
       table.querySelectorAll('tr:not(first-child)')
     );
     return data_table_rows
-      .map(row => {
+      .map((row) => {
         const character = getFullname(row.querySelector('th').innerText);
         const coupling_cells = Array.from(
           row.querySelectorAll(':scope > *:not(:first-child)')
@@ -54,12 +54,12 @@
 
         return coupling_cells
           .map((x, i) => ({
-            characters: [character, header_characters[i]],
+            characters: [{ name: character }, { name: header_characters[i] }],
             tags: Array.from(x.querySelectorAll('a'))
-              .map(x => ({ name: getDictTitleFromURL(x.href) }))
-              .filter(x => x.name !== ''),
+              .map((x) => ({ name: getDictTitleFromURL(x.href) }))
+              .filter((x) => x.name !== ''),
           }))
-          .filter(x => x.tags.length !== 0);
+          .filter((x) => x.tags.length !== 0);
       })
       .reduce((s, x) => [...s, ...x]);
   };

@@ -1,1527 +1,1448 @@
 [
   {
-    "characters": ["東郷あい", "木場真奈美"],
+    "characters": [{ "name": "東郷あい" }, { "name": "龍崎薫" }],
+    "tags": [{ "name": "あいかおる" }, { "name": "ギャラント・ナイツ" }]
+  },
+  {
+    "characters": [{ "name": "東郷あい" }, { "name": "木場真奈美" }],
+    "tags": [{ "name": "あい真奈" }, { "name": "ハンサムレディース" }]
+  },
+  {
+    "characters": [{ "name": "高森藍子" }, { "name": "相葉夕美" }],
+    "tags": [{ "name": "あいゆみ" }, { "name": "Flowery" }]
+  },
+  {
+    "characters": [{ "name": "高森藍子" }, { "name": "道明寺歌鈴" }],
+    "tags": [{ "name": "藍鈴" }, { "name": "インディゴ・ベル" }]
+  },
+  {
+    "characters": [{ "name": "日野茜" }, { "name": "堀裕子" }],
+    "tags": [{ "name": "あかゆっこ" }, { "name": "サイキックヒーツ" }]
+  },
+  {
+    "characters": [{ "name": "二宮飛鳥" }, { "name": "相葉夕美" }],
+    "tags": [{ "name": "あすゆみ" }, { "name": "ミステリックガーデン" }]
+  },
+  {
+    "characters": [{ "name": "二宮飛鳥" }, { "name": "神崎蘭子" }],
+    "tags": [{ "name": "あすらん" }, { "name": "ダークイルミネイト" }]
+  },
+  {
+    "characters": [{ "name": "棟方愛海" }, { "name": "喜多日菜子" }],
+    "tags": [{ "name": "あつひな" }]
+  },
+  {
+    "characters": [{ "name": "高森藍子" }, { "name": "緒方智絵里" }],
+    "tags": [{ "name": "あーちえり" }, { "name": "ナチュラルハーモニー" }]
+  },
+  {
+    "characters": [{ "name": "アナスタシア" }, { "name": "前川みく" }],
+    "tags": [{ "name": "あーにゃんみくにゃん" }]
+  },
+  {
+    "characters": [{ "name": "アナスタシア" }, { "name": "神崎蘭子" }],
+    "tags": [{ "name": "あにゃらん" }]
+  },
+  {
+    "characters": [{ "name": "桐野アヤ" }, { "name": "遊佐こずえ" }],
+    "tags": [{ "name": "アヤこず" }, { "name": "ようせいさんとおねえさん" }]
+  },
+  {
+    "characters": [{ "name": "浜口あやめ" }, { "name": "脇山珠美" }],
+    "tags": [{ "name": "あやたま" }, { "name": "忍武☆繚乱" }]
+  },
+  {
+    "characters": [{ "name": "丹羽仁美" }, { "name": "浜口あやめ" }],
+    "tags": [{ "name": "あやひと" }, { "name": "センゴク☆ランブ" }]
+  },
+  {
+    "characters": [{ "name": "橘ありす" }, { "name": "鷺沢文香" }],
+    "tags": [{ "name": "ありふみ" }]
+  },
+  {
+    "characters": [{ "name": "双葉杏" }, { "name": "諸星きらり" }],
+    "tags": [{ "name": "あんきら" }, { "name": "HappyHappyTwin" }]
+  },
+  {
+    "characters": [{ "name": "櫻井桃華" }, { "name": "市原仁奈" }],
+    "tags": [{ "name": "イカバラプリンセス" }]
+  },
+  {
+    "characters": [{ "name": "島村卯月" }, { "name": "本田未央" }],
+    "tags": [{ "name": "うづみお" }, { "name": "ジェネレーションオブサマー" }]
+  },
+  {
+    "characters": [{ "name": "難波笑美" }, { "name": "上田鈴帆" }],
+    "tags": [{ "name": "えみすずほ" }]
+  },
+  {
+    "characters": [{ "name": "和久井留美" }, { "name": "東郷あい" }],
+    "tags": [{ "name": "エレガントインモラリスト" }]
+  },
+  {
+    "characters": [{ "name": "乙倉悠貴" }, { "name": "藤原肇" }],
+    "tags": [{ "name": "おとはじ" }, { "name": "岡山親善大使" }]
+  },
+  {
+    "characters": [{ "name": "高垣楓" }, { "name": "川島瑞樹" }],
+    "tags": [{ "name": "かえみず" }]
+  },
+  {
+    "characters": [{ "name": "白菊ほたる" }, { "name": "鷹富士茄子" }],
+    "tags": [{ "name": "かこほた" }, { "name": "ミス・フォーチュン" }]
+  },
+  {
+    "characters": [{ "name": "速水奏" }, { "name": "小松伊吹" }],
+    "tags": [{ "name": "かないぶ" }, { "name": "ルミナスボーダー" }]
+  },
+  {
+    "characters": [{ "name": "速水奏" }, { "name": "新田美波" }],
+    "tags": [{ "name": "奏美波" }, { "name": "デア・アウローラ" }]
+  },
+  {
+    "characters": [{ "name": "宮本フレデリカ" }, { "name": "速水奏" }],
+    "tags": [{ "name": "かなデリカ" }, { "name": "FrenchKisS" }]
+  },
+  {
+    "characters": [{ "name": "今井加奈" }, { "name": "矢口美羽" }],
+    "tags": [{ "name": "かなみう" }]
+  },
+  {
+    "characters": [{ "name": "大西由里子" }, { "name": "荒木比奈" }],
+    "tags": [{ "name": "壁サーの花" }]
+  },
+  {
+    "characters": [{ "name": "五十嵐響子" }, { "name": "吉岡沙紀" }],
+    "tags": [{ "name": "きょうさき" }, { "name": "ハートハーモナイズ" }]
+  },
+  {
+    "characters": [{ "name": "小関麗奈" }, { "name": "財前時子" }],
+    "tags": [{ "name": "クイーンズコンフリクト" }]
+  },
+  {
+    "characters": [{ "name": "古賀小春" }, { "name": "結城晴" }],
+    "tags": [{ "name": "こはるはる" }]
+  },
+  {
+    "characters": [{ "name": "古賀小春" }, { "name": "小関麗奈" }],
+    "tags": [{ "name": "こはれい" }]
+  },
+  {
+    "characters": [{ "name": "浜口あやめ" }, { "name": "堀裕子" }],
+    "tags": [{ "name": "サイキックエナジー" }]
+  },
+  {
+    "characters": [{ "name": "小早川紗枝" }, { "name": "塩見周子" }],
+    "tags": [{ "name": "さえしゅう" }, { "name": "羽衣小町" }]
+  },
+  {
+    "characters": [{ "name": "小早川紗枝" }, { "name": "小日向美穂" }],
+    "tags": [{ "name": "さえみほ" }, { "name": "春色姫君" }]
+  },
+  {
+    "characters": [{ "name": "吉岡沙紀" }, { "name": "小松伊吹" }],
+    "tags": [{ "name": "さきぶき" }]
+  },
+  {
+    "characters": [{ "name": "瀬名詩織" }, { "name": "鷺沢文香" }],
+    "tags": [{ "name": "しお文" }]
+  },
+  {
+    "characters": [{ "name": "一ノ瀬志希" }, { "name": "二宮飛鳥" }],
+    "tags": [{ "name": "しきあす" }, { "name": "Dimension-3" }]
+  },
+  {
+    "characters": [{ "name": "宮本フレデリカ" }, { "name": "一ノ瀬志希" }],
+    "tags": [{ "name": "しきフレ" }, { "name": "レイジー・レイジー" }]
+  },
+  {
+    "characters": [{ "name": "及川雫" }, { "name": "大沼くるみ" }],
+    "tags": [{ "name": "しずくるみ" }, { "name": "B.B" }]
+  },
+  {
+    "characters": [{ "name": "高橋礼子" }, { "name": "柊志乃" }],
+    "tags": [{ "name": "しのれいこ" }, { "name": "ベター・グロウ" }]
+  },
+  {
+    "characters": [{ "name": "塩見周子" }, { "name": "宮本フレデリカ" }],
+    "tags": [{ "name": "周フレ" }, { "name": "テンプテーション・アイズ" }]
+  },
+  {
+    "characters": [{ "name": "高峯のあ" }, { "name": "大沼くるみ" }],
+    "tags": [{ "name": "ジュール・ドゥ・ノア" }]
+  },
+  {
+    "characters": [{ "name": "佐藤心" }, { "name": "輿水幸子" }],
     "tags": [
-      { "name": "あい真奈", "num": null },
-      { "name": "ハンサムレディース", "num": null }
+      { "name": "しゅがさち" },
+      { "name": "カワスウィーティーなボクはぁと(仮)" }
     ]
   },
   {
-    "characters": ["高森藍子", "相葉夕美"],
+    "characters": [{ "name": "佐藤心" }, { "name": "沢田麻理菜" }],
+    "tags": [{ "name": "しゅがまり" }, { "name": "エターナルレディエイト" }]
+  },
+  {
+    "characters": [{ "name": "佐藤心" }, { "name": "安部菜々" }],
+    "tags": [{ "name": "シュガミン" }, { "name": "しゅがしゅが☆み〜ん" }]
+  },
+  {
+    "characters": [{ "name": "高垣楓" }, { "name": "鷹富士茄子" }],
+    "tags": [{ "name": "春舞佳人" }]
+  },
+  {
+    "characters": [{ "name": "城ヶ崎美嘉" }, { "name": "城ヶ崎莉嘉" }],
+    "tags": [{ "name": "城ヶ崎姉妹" }, { "name": "ファミリアツイン" }]
+  },
+  {
+    "characters": [{ "name": "星輝子" }, { "name": "白坂小梅" }],
+    "tags": [{ "name": "しょうこうめ" }]
+  },
+  {
+    "characters": [{ "name": "有浦柑奈" }, { "name": "梅木音葉" }],
+    "tags": [{ "name": "シンフォニック・ワールド" }]
+  },
+  {
+    "characters": [{ "name": "佐久間まゆ" }, { "name": "橘ありす" }],
+    "tags": [{ "name": "スウィート・ソアー" }]
+  },
+  {
+    "characters": [{ "name": "野々村そら" }, { "name": "有浦柑奈" }],
+    "tags": [{ "name": "すまいるはっぴーもんすたー" }]
+  },
+  {
+    "characters": [{ "name": "水木聖來" }, { "name": "松本沙理奈" }],
+    "tags": [{ "name": "セーラーマリナー" }]
+  },
+  {
+    "characters": [{ "name": "鷺沢文香" }, { "name": "鷹富士茄子" }],
+    "tags": [{ "name": "星纏天女" }]
+  },
+  {
+    "characters": [{ "name": "乙倉悠貴" }, { "name": "小日向美穂" }],
+    "tags": [{ "name": "ソラーナ・チーカ" }]
+  },
+  {
+    "characters": [{ "name": "向井拓海" }, { "name": "藤本里奈" }],
+    "tags": [{ "name": "たくりな" }, { "name": "ノーティギャルズ" }]
+  },
+  {
+    "characters": [{ "name": "多田李衣菜" }, { "name": "木村夏樹" }],
+    "tags": [{ "name": "だりなつ" }, { "name": "ロック・ザ・ビート" }]
+  },
+  {
+    "characters": [{ "name": "黒川千秋" }, { "name": "水野翠" }],
+    "tags": [{ "name": "ちあみど" }, { "name": "ブリヤントノワール" }]
+  },
+  {
+    "characters": [{ "name": "椎名法子" }, { "name": "大原みちる" }],
+    "tags": [{ "name": "チーム・フラワー" }]
+  },
+  {
+    "characters": [{ "name": "椎名法子" }, { "name": "緒方智絵里" }],
+    "tags": [{ "name": "ちぇりこっと♪" }]
+  },
+  {
+    "characters": [{ "name": "安斎都" }, { "name": "古澤頼子" }],
+    "tags": [{ "name": "ディテクティブヴァーサス" }]
+  },
+  {
+    "characters": [{ "name": "高垣楓" }, { "name": "並木芽衣子" }],
+    "tags": [{ "name": "デレマス和歌山組" }]
+  },
+  {
+    "characters": [{ "name": "ヘレン" }, { "name": "高峯のあ" }],
+    "tags": [{ "name": "デレマス24歳組" }]
+  },
+  {
+    "characters": [{ "name": "椎名法子" }, { "name": "財前時子" }],
+    "tags": [{ "name": "ときのりこ" }]
+  },
+  {
+    "characters": [{ "name": "十時愛梨" }, { "name": "三村かな子" }],
+    "tags": [{ "name": "ととかな" }, { "name": "スウィートラヴァーズ" }]
+  },
+  {
+    "characters": [{ "name": "十時愛梨" }, { "name": "及川雫" }],
+    "tags": [{ "name": "ととしず" }]
+  },
+  {
+    "characters": [{ "name": "喜多日菜子" }, { "name": "佐久間まゆ" }],
+    "tags": [{ "name": "ドリームアウェイ" }]
+  },
+  {
+    "characters": [{ "name": "伊集院惠" }, { "name": "ケイト" }],
+    "tags": [{ "name": "ナイトブルーレザー" }]
+  },
+  {
+    "characters": [{ "name": "ナターリア" }, { "name": "ライラ" }],
+    "tags": [{ "name": "ナタライラ" }, { "name": "ソル・カマル" }]
+  },
+  {
+    "characters": [{ "name": "ナターリア" }, { "name": "前川みく" }],
+    "tags": [{ "name": "ナタみく" }, { "name": "にゃんセスタ" }]
+  },
+  {
+    "characters": [{ "name": "浅利七海" }, { "name": "前川みく" }],
+    "tags": [{ "name": "ななみく" }]
+  },
+  {
+    "characters": [{ "name": "安部菜々" }, { "name": "三船美優" }],
+    "tags": [{ "name": "ななみゆ" }]
+  },
+  {
+    "characters": [{ "name": "森久保乃々" }, { "name": "星輝子" }],
+    "tags": [{ "name": "ののきのこ" }, { "name": "サイレントスクリーマー" }]
+  },
+  {
+    "characters": [{ "name": "藤原肇" }, { "name": "鷺沢文香" }],
+    "tags": [{ "name": "月下氷姫" }]
+  },
+  {
+    "characters": [{ "name": "藤原肇" }, { "name": "依田芳乃" }],
+    "tags": [{ "name": "山紫水明" }]
+  },
+  {
+    "characters": [{ "name": "日野茜" }, { "name": "大原みちる" }],
+    "tags": [{ "name": "春のご飯パン祭り" }]
+  },
+  {
+    "characters": [{ "name": "上条春菜" }, { "name": "荒木比奈" }],
+    "tags": [{ "name": "はるひな" }, { "name": "サイバーグラス" }]
+  },
+  {
+    "characters": [{ "name": "結城晴" }, { "name": "的場梨沙" }],
+    "tags": [{ "name": "はるりさ" }, { "name": "ビートシューター" }]
+  },
+  {
+    "characters": [{ "name": "浅野風香" }, { "name": "奥山沙織" }],
+    "tags": [{ "name": "ピュアリーツイン" }]
+  },
+  {
+    "characters": [{ "name": "南条光" }, { "name": "輿水幸子" }],
+    "tags": [{ "name": "ヒロイックエンジェル" }]
+  },
+  {
+    "characters": [{ "name": "相葉夕美" }, { "name": "西園寺琴歌" }],
+    "tags": [{ "name": "フィオレンティナ" }]
+  },
+  {
+    "characters": [{ "name": "小日向美穂" }, { "name": "藤原肇" }],
+    "tags": [{ "name": "フェアリーテイル＊マイテイル" }]
+  },
+  {
+    "characters": [{ "name": "川島瑞樹" }, { "name": "村上巴" }],
+    "tags": [{ "name": "フォーリンシーサイド" }]
+  },
+  {
+    "characters": [{ "name": "今井加奈" }, { "name": "三村かな子" }],
     "tags": [
-      { "name": "あいゆみ", "num": null },
-      { "name": "Flowery", "num": null }
+      { "name": "ふたりのかなユニット" },
+      { "name": "かな☆かな☆ふぁんしー" }
     ]
   },
   {
-    "characters": ["高森藍子", "道明寺歌鈴"],
+    "characters": [{ "name": "ケイト" }, { "name": "楊菲菲" }],
+    "tags": [{ "name": "ブリティッシュ・シノワズリ" }]
+  },
+  {
+    "characters": [{ "name": "瀬名詩織" }, { "name": "三船美優" }],
+    "tags": [{ "name": "ブレッザ・マリーナ" }]
+  },
+  {
+    "characters": [{ "name": "姫川友紀" }, { "name": "結城晴" }],
+    "tags": [{ "name": "ボール・フレンズ" }]
+  },
+  {
+    "characters": [{ "name": "辻野あかり" }, { "name": "前川みく" }],
+    "tags": [{ "name": "みくにゃんご" }]
+  },
+  {
+    "characters": [{ "name": "速水奏" }, { "name": "高垣楓" }],
+    "tags": [{ "name": "ミステリアスアイズ" }]
+  },
+  {
+    "characters": [{ "name": "堀裕子" }, { "name": "藤居朋" }],
+    "tags": [{ "name": "ミステリアスガールズ" }]
+  },
+  {
+    "characters": [{ "name": "赤城みりあ" }, { "name": "白坂小梅" }],
+    "tags": [{ "name": "みりうめ" }, { "name": "Jumpin'Joker" }]
+  },
+  {
+    "characters": [{ "name": "速水奏" }, { "name": "北条加蓮" }],
+    "tags": [{ "name": "モノクロームリリィ" }]
+  },
+  {
+    "characters": [{ "name": "櫻井桃華" }, { "name": "橘ありす" }],
+    "tags": [{ "name": "ももあり" }, { "name": "ももべりー" }]
+  },
+  {
+    "characters": [{ "name": "南条光" }, { "name": "横山千佳" }],
+    "tags": [{ "name": "リトルヒーロー" }]
+  },
+  {
+    "characters": [{ "name": "松永涼" }, { "name": "白坂小梅" }],
+    "tags": [{ "name": "りょううめ" }, { "name": "エルドリッチ・ロアテラー" }]
+  },
+  {
+    "characters": [{ "name": "大槻唯" }, { "name": "相川千夏" }],
+    "tags": [{ "name": "ゆいちな" }, { "name": "サクラブロッサム" }]
+  },
+  {
+    "characters": [{ "name": "大槻唯" }, { "name": "メアリー・コクラン" }],
+    "tags": [{ "name": "ゆいめあ" }, { "name": "トワイライトシャイン" }]
+  },
+  {
+    "characters": [{ "name": "中野有香" }, { "name": "水本ゆかり" }],
+    "tags": [{ "name": "ゆかゆかり" }, { "name": "ストレートフルート" }]
+  },
+  {
+    "characters": [{ "name": "小関麗奈" }, { "name": "南条光" }],
+    "tags": [{ "name": "レイナンジョウ" }, { "name": "ヒーローヴァーサス" }]
+  },
+  {
+    "characters": [{ "name": "橘ありす" }, { "name": "村上巴" }],
+    "tags": [{ "name": "レッドベリィズ" }]
+  },
+  {
+    "characters": [{ "name": "高橋礼子" }, { "name": "木場真奈美" }],
+    "tags": [{ "name": "レディビースト" }]
+  },
+  {
+    "characters": [{ "name": "池袋晶葉" }, { "name": "ライラ" }],
+    "tags": [{ "name": "ロボフレンズ" }]
+  },
+  {
+    "characters": [{ "name": "高森藍子" }, { "name": "十時愛梨" }],
+    "tags": [{ "name": "Ai's" }]
+  },
+  {
+    "characters": [{ "name": "赤西瑛梨華" }, { "name": "キャシー・グラハム" }],
+    "tags": [{ "name": "ERICATHY" }]
+  },
+  {
+    "characters": [{ "name": "クラリス" }, { "name": "白菊ほたる" }],
+    "tags": [{ "name": "littlebell" }]
+  },
+  {
+    "characters": [{ "name": "早坂美玲" }, { "name": "砂塚あきら" }],
+    "tags": [{ "name": "My-Style Revo" }]
+  },
+  {
+    "characters": [{ "name": "高峯のあ" }, { "name": "結城晴" }],
+    "tags": [{ "name": "NOA-HAL" }]
+  },
+  {
+    "characters": [{ "name": "財前時子" }, { "name": "桐生つかさ" }],
+    "tags": [{ "name": "Red-Solids" }]
+  },
+  {
+    "characters": [{ "name": "白坂小梅" }, { "name": "神崎蘭子" }],
+    "tags": [{ "name": "梅蘭" }, { "name": "Rosenburg Alptraum" }]
+  },
+  {
+    "characters": [{ "name": "新田美波" }, { "name": "アナスタシア" }],
+    "tags": [{ "name": "新田ーニャ" }, { "name": "ラブライカ" }]
+  },
+  {
+    "characters": [{ "name": "前川みく" }, { "name": "多田李衣菜" }],
+    "tags": [{ "name": "みくりーな" }, { "name": "*(Asterisk)" }]
+  },
+  {
+    "characters": [{ "name": "堀裕子" }, { "name": "安部菜々" }],
+    "tags": [{ "name": "P・U" }]
+  },
+  {
+    "characters": [{ "name": "喜多日菜子" }, { "name": "喜多見柚" }],
+    "tags": [{ "name": "キタキターズ" }]
+  },
+  {
+    "characters": [{ "name": "黒埼ちとせ" }, { "name": "白雪千夜" }],
+    "tags": [{ "name": "ちと千夜" }, { "name": "VelvetRose" }]
+  },
+  {
+    "characters": [{ "name": "久川凪" }, { "name": "久川颯" }],
     "tags": [
-      { "name": "藍鈴", "num": null },
-      { "name": "インディゴ・ベル", "num": null }
+      { "name": "久川姉妹" },
+      { "name": "はやなぎ" },
+      { "name": "miroir" }
     ]
   },
   {
-    "characters": ["日野茜", "堀裕子"],
-    "tags": [
-      { "name": "あかゆっこ", "num": null },
-      { "name": "サイキックヒーツ", "num": null }
-    ]
+    "tags": [{ "name": "アキレイナ" }],
+    "characters": [{ "name": "池袋晶葉" }, { "name": "小関麗奈" }]
   },
   {
-    "characters": ["二宮飛鳥", "相葉夕美"],
-    "tags": [
-      { "name": "あすゆみ", "num": null },
-      { "name": "ミステリックガーデン", "num": null }
-    ]
+    "tags": [{ "name": "あつきよ" }],
+    "characters": [{ "name": "棟方愛海" }, { "name": "柳清良" }]
   },
   {
-    "characters": ["二宮飛鳥", "神崎蘭子"],
-    "tags": [
-      { "name": "あすらん", "num": null },
-      { "name": "ダークイルミネイト", "num": null }
-    ]
+    "tags": [{ "name": "杏紗南" }],
+    "characters": [{ "name": "双葉杏" }, { "name": "三好紗南" }]
   },
   {
-    "characters": ["棟方愛海", "喜多日菜子"],
-    "tags": [{ "name": "あつひな", "num": null }]
+    "tags": [{ "name": "うづみほ" }],
+    "characters": [{ "name": "島村卯月" }, { "name": "小日向美穂" }]
   },
   {
-    "characters": ["高森藍子", "緒方智絵里"],
-    "tags": [
-      { "name": "あーちえり", "num": null },
-      { "name": "ナチュラルハーモニー", "num": null }
-    ]
+    "tags": [{ "name": "うづりん" }, { "name": "りんうづ" }],
+    "characters": [{ "name": "島村卯月" }, { "name": "渋谷凛" }]
   },
   {
-    "characters": ["アナスタシア", "前川みく"],
-    "tags": [{ "name": "あーにゃんみくにゃん", "num": null }]
+    "tags": [{ "name": "えびかな" }],
+    "characters": [{ "name": "海老原菜帆" }, { "name": "三村かな子" }]
   },
   {
-    "characters": ["アナスタシア", "神崎蘭子"],
-    "tags": [{ "name": "あにゃらん", "num": null }]
+    "tags": [{ "name": "おとより" }],
+    "characters": [{ "name": "乙倉悠貴" }, { "name": "依田芳乃" }]
   },
   {
-    "characters": ["桐野アヤ", "遊佐こずえ"],
-    "tags": [
-      { "name": "アヤこず", "num": null },
-      { "name": "ようせいさんとおねえさん", "num": null }
-    ]
+    "tags": [{ "name": "かえさち" }],
+    "characters": [{ "name": "高垣楓" }, { "name": "輿水幸子" }]
   },
   {
-    "characters": ["浜口あやめ", "脇山珠美"],
-    "tags": [
-      { "name": "あやたま", "num": null },
-      { "name": "忍武☆繚乱", "num": null }
-    ]
+    "tags": [{ "name": "かえらん" }],
+    "characters": [{ "name": "高垣楓" }, { "name": "神崎蘭子" }]
   },
   {
-    "characters": ["丹羽仁美", "浜口あやめ"],
-    "tags": [
-      { "name": "あやひと", "num": null },
-      { "name": "センゴク☆ランブ", "num": null }
-    ]
+    "tags": [{ "name": "かえりん" }],
+    "characters": [{ "name": "高垣楓" }, { "name": "渋谷凛" }]
   },
   {
-    "characters": ["橘ありす", "鷺沢文香"],
-    "tags": [{ "name": "ありふみ", "num": null }]
+    "tags": [{ "name": "かなみほ" }],
+    "characters": [{ "name": "三村かな子" }, { "name": "小日向美穂" }]
   },
   {
-    "characters": ["双葉杏", "諸星きらり"],
-    "tags": [
-      { "name": "あんきら", "num": null },
-      { "name": "HappyHappyTwin", "num": null }
-    ]
+    "tags": [{ "name": "黒雪姉妹" }],
+    "characters": [{ "name": "黒川千秋" }, { "name": "佐城雪美" }]
   },
   {
-    "characters": ["櫻井桃華", "市原仁奈"],
-    "tags": [{ "name": "イカバラプリンセス", "num": null }]
+    "tags": [{ "name": "こしみずき" }],
+    "characters": [{ "name": "輿水幸子" }, { "name": "川島瑞樹" }]
   },
   {
-    "characters": ["島村卯月", "本田未央"],
-    "tags": [
-      { "name": "うづみお", "num": null },
-      { "name": "ジェネレーションオブサマー", "num": null }
-    ]
+    "tags": [{ "name": "さえまゆ" }],
+    "characters": [{ "name": "小早川紗枝" }, { "name": "佐久間まゆ" }]
   },
   {
-    "characters": ["難波笑美", "上田鈴帆"],
-    "tags": [{ "name": "えみすずほ", "num": null }]
+    "tags": [{ "name": "さじょうめ" }],
+    "characters": [{ "name": "佐城雪美" }, { "name": "白坂小梅" }]
   },
   {
-    "characters": ["和久井留美", "東郷あい"],
-    "tags": [{ "name": "エレガントインモラリスト", "num": null }]
+    "tags": [{ "name": "さなみず" }],
+    "characters": [{ "name": "川島瑞樹" }, { "name": "片桐早苗" }]
   },
   {
-    "characters": ["乙倉悠貴", "藤原肇"],
-    "tags": [
-      { "name": "おとはじ", "num": null },
-      { "name": "岡山親善大使", "num": null }
-    ]
+    "tags": [{ "name": "しずとき" }],
+    "characters": [{ "name": "及川雫" }, { "name": "財前時子" }]
   },
   {
-    "characters": ["高垣楓", "川島瑞樹"],
-    "tags": [{ "name": "かえみず", "num": null }]
+    "tags": [{ "name": "しのほの" }],
+    "characters": [{ "name": "工藤忍" }, { "name": "綾瀬穂乃香" }]
   },
   {
-    "characters": ["白菊ほたる", "鷹富士茄子"],
-    "tags": [
-      { "name": "かこほた", "num": null },
-      { "name": "ミス・フォーチュン", "num": null }
-    ]
+    "tags": [{ "name": "たくとも" }],
+    "characters": [{ "name": "向井拓海" }, { "name": "村上巴" }]
   },
   {
-    "characters": ["速水奏", "小松伊吹"],
-    "tags": [
-      { "name": "かないぶ", "num": null },
-      { "name": "ルミナスボーダー", "num": null }
-    ]
+    "tags": [{ "name": "拓夏" }],
+    "characters": [{ "name": "向井拓海" }, { "name": "木村夏樹" }]
   },
   {
-    "characters": ["速水奏", "新田美波"],
-    "tags": [
-      { "name": "奏美波", "num": null },
-      { "name": "デア・アウローラ", "num": null }
-    ]
+    "tags": [{ "name": "たくのの" }],
+    "characters": [{ "name": "向井拓海" }, { "name": "森久保乃々" }]
   },
   {
-    "characters": ["宮本フレデリカ", "速水奏"],
-    "tags": [
-      { "name": "かなデリカ", "num": null },
-      { "name": "FrenchKisS", "num": null }
-    ]
+    "tags": [{ "name": "拓鈴" }],
+    "characters": [{ "name": "向井拓海" }, { "name": "道明寺歌鈴" }]
   },
   {
-    "characters": ["今井加奈", "矢口美羽"],
-    "tags": [{ "name": "かなみう", "num": null }]
+    "tags": [{ "name": "デレパ組" }],
+    "characters": [{ "name": "本田未央" }, { "name": "多田李衣菜" }]
   },
   {
-    "characters": ["大西由里子", "荒木比奈"],
-    "tags": [{ "name": "壁サーの花", "num": null }]
+    "tags": [{ "name": "ととらんこ" }],
+    "characters": [{ "name": "十時愛梨" }, { "name": "神崎蘭子" }]
   },
   {
-    "characters": ["五十嵐響子", "吉岡沙紀"],
-    "tags": [
-      { "name": "きょうさき", "num": null },
-      { "name": "ハートハーモナイズ", "num": null }
-    ]
+    "tags": [{ "name": "なおかれ" }],
+    "characters": [{ "name": "神谷奈緒" }, { "name": "北条加蓮" }]
   },
   {
-    "characters": ["小関麗奈", "財前時子"],
-    "tags": [{ "name": "クイーンズコンフリクト", "num": null }]
+    "tags": [{ "name": "ナナ&みく" }],
+    "characters": [{ "name": "安部菜々" }, { "name": "前川みく" }]
   },
   {
-    "characters": ["古賀小春", "結城晴"],
-    "tags": [{ "name": "こはるはる", "num": null }]
+    "tags": [{ "name": "まゆのの" }],
+    "characters": [{ "name": "佐久間まゆ" }, { "name": "森久保乃々" }]
   },
   {
-    "characters": ["古賀小春", "小関麗奈"],
-    "tags": [{ "name": "こはれい", "num": null }]
+    "tags": [{ "name": "みうフェイ" }],
+    "characters": [{ "name": "矢口美羽" }, { "name": "楊菲菲" }]
   },
   {
-    "characters": ["浜口あやめ", "堀裕子"],
-    "tags": [{ "name": "サイキックエナジー", "num": null }]
+    "tags": [{ "name": "みおあい" }],
+    "characters": [{ "name": "本田未央" }, { "name": "高森藍子" }]
   },
   {
-    "characters": ["小早川紗枝", "塩見周子"],
-    "tags": [
-      { "name": "さえしゅう", "num": null },
-      { "name": "羽衣小町", "num": null }
-    ]
+    "tags": [{ "name": "みおあか" }],
+    "characters": [{ "name": "本田未央" }, { "name": "日野茜" }]
   },
   {
-    "characters": ["小早川紗枝", "小日向美穂"],
-    "tags": [
-      { "name": "さえみほ", "num": null },
-      { "name": "春色姫君", "num": null }
-    ]
+    "tags": [{ "name": "みほあい" }],
+    "characters": [{ "name": "小日向美穂" }, { "name": "高森藍子" }]
   },
   {
-    "characters": ["吉岡沙紀", "小松伊吹"],
-    "tags": [{ "name": "さきぶき", "num": null }]
+    "tags": [{ "name": "みゆみず" }],
+    "characters": [{ "name": "三船美優" }, { "name": "川島瑞樹" }]
   },
   {
-    "characters": ["瀬名詩織", "鷺沢文香"],
-    "tags": [{ "name": "しお文", "num": null }]
+    "tags": [{ "name": "ゆいりな" }],
+    "characters": [{ "name": "大槻唯" }, { "name": "藤本里奈" }]
   },
   {
-    "characters": ["一ノ瀬志希", "二宮飛鳥"],
-    "tags": [
-      { "name": "しきあす", "num": null },
-      { "name": "Dimension-3", "num": null }
-    ]
+    "tags": [{ "name": "ゆずあず" }],
+    "characters": [{ "name": "喜多見柚" }, { "name": "桃井あずき" }]
   },
   {
-    "characters": ["宮本フレデリカ", "一ノ瀬志希"],
-    "tags": [
-      { "name": "しきフレ", "num": null },
-      { "name": "レイジー・レイジー", "num": null }
-    ]
+    "tags": [{ "name": "蘭ちえ" }],
+    "characters": [{ "name": "神崎蘭子" }, { "name": "緒方智絵里" }]
   },
   {
-    "characters": ["及川雫", "大沼くるみ"],
-    "tags": [
-      { "name": "しずくるみ", "num": null },
-      { "name": "B.B", "num": null }
-    ]
+    "tags": [{ "name": "りんなお" }],
+    "characters": [{ "name": "渋谷凛" }, { "name": "神谷奈緒" }]
   },
   {
-    "characters": ["高橋礼子", "柊志乃"],
-    "tags": [
-      { "name": "しのれいこ", "num": null },
-      { "name": "ベター・グロウ", "num": null }
-    ]
+    "tags": [{ "name": "るみみゆ" }],
+    "characters": [{ "name": "和久井留美" }, { "name": "三船美優" }]
   },
   {
-    "characters": ["塩見周子", "宮本フレデリカ"],
-    "tags": [
-      { "name": "周フレ", "num": null },
-      { "name": "テンプテーション・アイズ", "num": null }
-    ]
+    "tags": [{ "name": "あいうめ" }],
+    "characters": [{ "name": "東郷あい" }, { "name": "白坂小梅" }]
   },
   {
-    "characters": ["高峯のあ", "大沼くるみ"],
-    "tags": [{ "name": "ジュール・ドゥ・ノア", "num": null }]
+    "tags": [{ "name": "あいちな" }],
+    "characters": [{ "name": "東郷あい" }, { "name": "相川千夏" }]
   },
   {
-    "characters": ["佐藤心", "輿水幸子"],
-    "tags": [
-      { "name": "しゅがさち", "num": null },
-      { "name": "カワスウィーティーなボクはぁと(仮)", "num": null }
-    ]
-  },
-  {
-    "characters": ["佐藤心", "沢田麻理菜"],
-    "tags": [
-      { "name": "しゅがまり", "num": null },
-      { "name": "エターナルレディエイト", "num": null }
-    ]
-  },
-  {
-    "characters": ["佐藤心", "安部菜々"],
-    "tags": [
-      { "name": "シュガミン", "num": null },
-      { "name": "しゅがしゅが☆み〜ん", "num": null }
-    ]
-  },
-  {
-    "characters": ["高垣楓", "鷹富士茄子"],
-    "tags": [{ "name": "春舞佳人", "num": null }]
-  },
-  {
-    "characters": ["城ヶ崎美嘉", "城ヶ崎莉嘉"],
-    "tags": [
-      { "name": "城ヶ崎姉妹", "num": null },
-      { "name": "ファミリアツイン", "num": null }
-    ]
-  },
-  {
-    "characters": ["星輝子", "白坂小梅"],
-    "tags": [{ "name": "しょうこうめ", "num": null }]
-  },
-  {
-    "characters": ["有浦柑奈", "梅木音葉"],
-    "tags": [{ "name": "シンフォニック・ワールド", "num": null }]
-  },
-  {
-    "characters": ["佐久間まゆ", "橘ありす"],
-    "tags": [{ "name": "スウィート・ソアー", "num": null }]
-  },
-  {
-    "characters": ["水木聖來", "松本沙理奈"],
-    "tags": [{ "name": "セーラーマリナー", "num": null }]
-  },
-  {
-    "characters": ["鷺沢文香", "鷹富士茄子"],
-    "tags": [{ "name": "星纏天女", "num": null }]
-  },
-  {
-    "characters": ["乙倉悠貴", "小日向美穂"],
-    "tags": [{ "name": "ソラーナ・チーカ", "num": null }]
-  },
-  {
-    "characters": ["向井拓海", "藤本里奈"],
-    "tags": [
-      { "name": "たくりな", "num": null },
-      { "name": "ノーティギャルズ", "num": null }
-    ]
-  },
-  {
-    "characters": ["多田李衣菜", "木村夏樹"],
-    "tags": [
-      { "name": "だりなつ", "num": null },
-      { "name": "ロック・ザ・ビート", "num": null }
-    ]
-  },
-  {
-    "characters": ["黒川千秋", "水野翠"],
-    "tags": [
-      { "name": "ちあみど", "num": null },
-      { "name": "ブリヤントノワール", "num": null }
-    ]
-  },
-  {
-    "characters": ["椎名法子", "大原みちる"],
-    "tags": [{ "name": "チーム・フラワー", "num": null }]
-  },
-  {
-    "characters": ["椎名法子", "緒方智絵里"],
-    "tags": [{ "name": "ちぇりこっと♪", "num": null }]
-  },
-  {
-    "characters": ["安斎都", "古澤頼子"],
-    "tags": [{ "name": "ディテクティブヴァーサス", "num": null }]
-  },
-  {
-    "characters": ["高垣楓", "並木芽衣子"],
-    "tags": [{ "name": "デレマス和歌山組", "num": null }]
-  },
-  {
-    "characters": ["ヘレン", "高峯のあ"],
-    "tags": [{ "name": "デレマス24歳組", "num": null }]
-  },
-  {
-    "characters": ["椎名法子", "財前時子"],
-    "tags": [{ "name": "ときのりこ", "num": null }]
-  },
-  {
-    "characters": ["十時愛梨", "三村かな子"],
-    "tags": [
-      { "name": "ととかな", "num": null },
-      { "name": "スウィートラヴァーズ", "num": null }
-    ]
-  },
-  {
-    "characters": ["十時愛梨", "及川雫"],
-    "tags": [{ "name": "ととしず", "num": null }]
-  },
-  {
-    "characters": ["喜多日菜子", "佐久間まゆ"],
-    "tags": [{ "name": "ドリームアウェイ", "num": null }]
-  },
-  {
-    "characters": ["伊集院惠", "ケイト"],
-    "tags": [{ "name": "ナイトブルーレザー", "num": null }]
-  },
-  {
-    "characters": ["ナターリア", "ライラ"],
-    "tags": [
-      { "name": "ナタライラ", "num": null },
-      { "name": "ソル・カマル", "num": null }
-    ]
-  },
-  {
-    "characters": ["浅利七海", "前川みく"],
-    "tags": [{ "name": "ななみく", "num": null }]
-  },
-  {
-    "characters": ["安部菜々", "三船美優"],
-    "tags": [{ "name": "ななみゆ", "num": null }]
-  },
-  {
-    "characters": ["森久保乃々", "星輝子"],
-    "tags": [
-      { "name": "ののきのこ", "num": null },
-      { "name": "サイレントスクリーマー", "num": null }
-    ]
-  },
-  {
-    "characters": ["藤原肇", "鷺沢文香"],
-    "tags": [{ "name": "月下氷姫", "num": null }]
-  },
-  {
-    "characters": ["藤原肇", "依田芳乃"],
-    "tags": [{ "name": "山紫水明", "num": null }]
-  },
-  {
-    "characters": ["上条春菜", "荒木比奈"],
-    "tags": [
-      { "name": "はるひな", "num": null },
-      { "name": "サイバーグラス", "num": null }
-    ]
-  },
-  {
-    "characters": ["結城晴", "的場梨沙"],
-    "tags": [
-      { "name": "はるりさ", "num": null },
-      { "name": "ビートシューター", "num": null }
-    ]
-  },
-  {
-    "characters": ["浅野風香", "奥山沙織"],
-    "tags": [{ "name": "ピュアリーツイン", "num": null }]
-  },
-  {
-    "characters": ["南条光", "輿水幸子"],
-    "tags": [{ "name": "ヒロイックエンジェル", "num": null }]
-  },
-  {
-    "characters": ["相葉夕美", "西園寺琴歌"],
-    "tags": [{ "name": "フィオレンティナ", "num": null }]
-  },
-  {
-    "characters": ["小日向美穂", "藤原肇"],
-    "tags": [{ "name": "フェアリーテイル＊マイテイル", "num": null }]
-  },
-  {
-    "characters": ["川島瑞樹", "村上巴"],
-    "tags": [{ "name": "フォーリンシーサイド", "num": null }]
-  },
-  {
-    "characters": ["今井加奈", "三村かな子"],
-    "tags": [
-      { "name": "ふたりのかなユニット", "num": null },
-      { "name": "かな☆かな☆ふぁんしー", "num": null }
-    ]
-  },
-  {
-    "characters": ["ケイト", "楊菲菲"],
-    "tags": [{ "name": "ブリティッシュ・シノワズリ", "num": null }]
-  },
-  {
-    "characters": ["瀬名詩織", "三船美優"],
-    "tags": [{ "name": "ブレッザ・マリーナ", "num": null }]
-  },
-  {
-    "characters": ["姫川友紀", "結城晴"],
-    "tags": [{ "name": "ボール・フレンズ", "num": null }]
-  },
-  {
-    "characters": ["速水奏", "高垣楓"],
-    "tags": [{ "name": "ミステリアスアイズ", "num": null }]
-  },
-  {
-    "characters": ["堀裕子", "藤居朋"],
-    "tags": [{ "name": "ミステリアスガールズ", "num": null }]
-  },
-  {
-    "characters": ["赤城みりあ", "白坂小梅"],
-    "tags": [
-      { "name": "みりうめ", "num": null },
-      { "name": "Jumpin'Joker", "num": null }
-    ]
-  },
-  {
-    "characters": ["速水奏", "北条加蓮"],
-    "tags": [{ "name": "モノクロームリリィ", "num": null }]
-  },
-  {
-    "characters": ["櫻井桃華", "橘ありす"],
-    "tags": [
-      { "name": "ももあり", "num": null },
-      { "name": "ももべりー", "num": null }
-    ]
-  },
-  {
-    "characters": ["南条光", "横山千佳"],
-    "tags": [{ "name": "リトルヒーロー", "num": null }]
-  },
-  {
-    "characters": ["松永涼", "白坂小梅"],
-    "tags": [
-      { "name": "りょううめ", "num": null },
-      { "name": "エルドリッチ・ロアテラー", "num": null }
-    ]
-  },
-  {
-    "characters": ["大槻唯", "相川千夏"],
-    "tags": [
-      { "name": "ゆいちな", "num": null },
-      { "name": "サクラブロッサム", "num": null }
-    ]
-  },
-  {
-    "characters": ["大槻唯", "メアリー・コクラン"],
-    "tags": [
-      { "name": "ゆいめあ", "num": null },
-      { "name": "トワイライトシャイン", "num": null }
-    ]
-  },
-  {
-    "characters": ["中野有香", "水本ゆかり"],
-    "tags": [
-      { "name": "ゆかゆかり", "num": null },
-      { "name": "ストレートフルート", "num": null }
-    ]
-  },
-  {
-    "characters": ["小関麗奈", "南条光"],
-    "tags": [
-      { "name": "レイナンジョウ", "num": null },
-      { "name": "ヒーローヴァーサス", "num": null }
-    ]
-  },
-  {
-    "characters": ["橘ありす", "村上巴"],
-    "tags": [{ "name": "レッドベリィズ", "num": null }]
-  },
-  {
-    "characters": ["高橋礼子", "木場真奈美"],
-    "tags": [{ "name": "レディビースト", "num": null }]
-  },
-  {
-    "characters": ["池袋晶葉", "ライラ"],
-    "tags": [{ "name": "ロボフレンズ", "num": null }]
-  },
-  {
-    "characters": ["高森藍子", "十時愛梨"],
-    "tags": [{ "name": "Ai's", "num": null }]
-  },
-  {
-    "characters": ["赤西瑛梨華", "キャシー・グラハム"],
-    "tags": [{ "name": "ERICATHY", "num": null }]
-  },
-  {
-    "characters": ["クラリス", "白菊ほたる"],
-    "tags": [{ "name": "littlebell", "num": null }]
-  },
-  {
-    "characters": ["高峯のあ", "結城晴"],
-    "tags": [{ "name": "NOA-HAL", "num": null }]
-  },
-  {
-    "characters": ["財前時子", "桐生つかさ"],
-    "tags": [{ "name": "Red-Solids", "num": null }]
-  },
-  {
-    "characters": ["白坂小梅", "神崎蘭子"],
-    "tags": [
-      { "name": "梅蘭", "num": null },
-      { "name": "Rosenburg Alptraum", "num": null }
-    ]
-  },
-  {
-    "characters": ["新田美波", "アナスタシア"],
-    "tags": [
-      { "name": "新田ーニャ", "num": null },
-      { "name": "ラブライカ", "num": null }
-    ]
-  },
-  {
-    "characters": ["前川みく", "多田李衣菜"],
-    "tags": [
-      { "name": "みくりーな", "num": null },
-      { "name": "*(Asterisk)", "num": null }
-    ]
-  },
-  {
-    "characters": ["堀裕子", "安部菜々"],
-    "tags": [{ "name": "P・U", "num": null }]
-  },
-  {
-    "characters": ["喜多日菜子", "喜多見柚"],
-    "tags": [{ "name": "キタキターズ", "num": null }]
-  },
-  {
-    "characters": ["黒埼ちとせ", "白雪千夜"],
-    "tags": [
-      { "name": "ちと千夜", "num": null },
-      { "name": "VelvetRose", "num": null }
-    ]
-  },
-  {
-    "characters": ["久川凪", "久川颯"],
-    "tags": [
-      { "name": "久川姉妹", "num": null },
-      { "name": "はやなぎ", "num": null },
-      { "name": "miroir", "num": null }
-    ]
-  },
-  {
-    "tags": [{ "name": "アキレイナ", "num": null }],
-    "characters": ["池袋晶葉", "小関麗奈"]
-  },
-  {
-    "tags": [{ "name": "あつきよ", "num": null }],
-    "characters": ["棟方愛海", "柳清良"]
-  },
-  {
-    "tags": [{ "name": "杏紗南", "num": null }],
-    "characters": ["双葉杏", "三好紗南"]
-  },
-  {
-    "tags": [{ "name": "うづみほ", "num": null }],
-    "characters": ["島村卯月", "小日向美穂"]
+    "tags": [{ "name": "蒼い魂の色" }],
+    "characters": [{ "name": "渋谷凛" }, { "name": "神崎蘭子" }]
   },
   {
     "tags": [
-      { "name": "うづりん", "num": null },
-      { "name": "りんうづ", "num": null }
+      { "name": "茜藍子" },
+      { "name": "ひのあい" },
+      { "name": "あいあか" }
     ],
-    "characters": ["島村卯月", "渋谷凛"]
+    "characters": [{ "name": "日野茜" }, { "name": "高森藍子" }]
   },
   {
-    "tags": [{ "name": "えびかな", "num": null }],
-    "characters": ["海老原菜帆", "三村かな子"]
+    "tags": [{ "name": "あかみほ" }],
+    "characters": [{ "name": "日野茜" }, { "name": "小日向美穂" }]
   },
   {
-    "tags": [{ "name": "おとより", "num": null }],
-    "characters": ["乙倉悠貴", "依田芳乃"]
+    "tags": [{ "name": "あかりあむ" }],
+    "characters": [{ "name": "辻野あかり" }, { "name": "夢見りあむ" }]
   },
   {
-    "tags": [{ "name": "かえさち", "num": null }],
-    "characters": ["高垣楓", "輿水幸子"]
+    "tags": [{ "name": "アキナンジョウ" }],
+    "characters": [{ "name": "池袋晶葉" }, { "name": "南条光" }]
   },
   {
-    "tags": [{ "name": "かえらん", "num": null }],
-    "characters": ["高垣楓", "神崎蘭子"]
+    "tags": [{ "name": "あきより" }],
+    "characters": [{ "name": "池袋晶葉" }, { "name": "古澤頼子" }]
   },
   {
-    "tags": [{ "name": "かえりん", "num": null }],
-    "characters": ["高垣楓", "渋谷凛"]
+    "tags": [{ "name": "あきりあ" }],
+    "characters": [{ "name": "砂塚あきら" }, { "name": "夢見りあむ" }]
   },
   {
-    "tags": [{ "name": "かなみほ", "num": null }],
-    "characters": ["三村かな子", "小日向美穂"]
+    "tags": [{ "name": "あすかなで" }],
+    "characters": [{ "name": "二宮飛鳥" }, { "name": "速水奏" }]
   },
   {
-    "tags": [{ "name": "黒雪姉妹", "num": null }],
-    "characters": ["黒川千秋", "佐城雪美"]
+    "tags": [{ "name": "アスカンナ" }],
+    "characters": [{ "name": "二宮飛鳥" }, { "name": "有浦柑奈" }]
   },
   {
-    "tags": [{ "name": "こしみずき", "num": null }],
-    "characters": ["輿水幸子", "川島瑞樹"]
+    "tags": [{ "name": "あつくるみ" }],
+    "characters": [{ "name": "棟方愛海" }, { "name": "大沼くるみ" }]
   },
   {
-    "tags": [{ "name": "さえまゆ", "num": null }],
-    "characters": ["小早川紗枝", "佐久間まゆ"]
+    "tags": [{ "name": "あつしず" }],
+    "characters": [{ "name": "棟方愛海" }, { "name": "及川雫" }]
   },
   {
-    "tags": [{ "name": "さなみず", "num": null }],
-    "characters": ["川島瑞樹", "片桐早苗"]
+    "tags": [{ "name": "あつななみ" }],
+    "characters": [{ "name": "棟方愛海" }, { "name": "浅利七海" }]
   },
   {
-    "tags": [{ "name": "しずとき", "num": null }],
-    "characters": ["及川雫", "財前時子"]
+    "tags": [{ "name": "あなすたしおみ" }],
+    "characters": [{ "name": "アナスタシア" }, { "name": "塩見周子" }]
   },
   {
-    "tags": [{ "name": "しのほの", "num": null }],
-    "characters": ["工藤忍", "綾瀬穂乃香"]
+    "tags": [{ "name": "アニャ千夜" }],
+    "characters": [{ "name": "アナスタシア" }, { "name": "白雪千夜" }]
   },
   {
-    "tags": [{ "name": "たくとも", "num": null }],
-    "characters": ["向井拓海", "村上巴"]
+    "tags": [{ "name": "ありあす" }],
+    "characters": [{ "name": "橘ありす" }, { "name": "二宮飛鳥" }]
   },
   {
-    "tags": [{ "name": "拓夏", "num": null }],
-    "characters": ["向井拓海", "木村夏樹"]
+    "tags": [{ "name": "ありーニャ" }],
+    "characters": [{ "name": "橘ありす" }, { "name": "アナスタシア" }]
   },
   {
-    "tags": [{ "name": "たくのの", "num": null }],
-    "characters": ["向井拓海", "森久保乃々"]
+    "tags": [{ "name": "杏梅" }],
+    "characters": [{ "name": "双葉杏" }, { "name": "白坂小梅" }]
   },
   {
-    "tags": [{ "name": "拓鈴", "num": null }],
-    "characters": ["向井拓海", "道明寺歌鈴"]
+    "tags": [{ "name": "杏かな" }],
+    "characters": [{ "name": "双葉杏" }, { "name": "三村かな子" }]
   },
   {
-    "tags": [{ "name": "デレパ組", "num": null }],
-    "characters": ["本田未央", "多田李衣菜"]
+    "tags": [{ "name": "あんこず" }],
+    "characters": [{ "name": "双葉杏" }, { "name": "遊佐こずえ" }]
   },
   {
-    "tags": [{ "name": "ととらんこ", "num": null }],
-    "characters": ["十時愛梨", "神崎蘭子"]
+    "tags": [{ "name": "あんしょこ" }, { "name": "スリーピングキノコ" }],
+    "characters": [{ "name": "双葉杏" }, { "name": "星輝子" }]
   },
   {
-    "tags": [{ "name": "なおかれ", "num": null }],
-    "characters": ["神谷奈緒", "北条加蓮"]
+    "tags": [{ "name": "あんにな" }],
+    "characters": [{ "name": "双葉杏" }, { "name": "市原仁奈" }]
   },
   {
-    "tags": [{ "name": "ナナ&みく", "num": null }],
-    "characters": ["安部菜々", "前川みく"]
+    "tags": [{ "name": "イヴりん" }],
+    "characters": [{ "name": "イヴ・サンタクロース" }, { "name": "渋谷凛" }]
   },
   {
-    "tags": [{ "name": "まゆのの", "num": null }],
-    "characters": ["佐久間まゆ", "森久保乃々"]
+    "tags": [{ "name": "うづあん" }],
+    "characters": [{ "name": "島村卯月" }, { "name": "双葉杏" }]
   },
   {
-    "tags": [{ "name": "みうフェイ", "num": null }],
-    "characters": ["矢口美羽", "楊菲菲"]
+    "tags": [{ "name": "うづかな" }],
+    "characters": [{ "name": "島村卯月" }, { "name": "三村かな子" }]
   },
   {
-    "tags": [{ "name": "みおあい", "num": null }],
-    "characters": ["本田未央", "高森藍子"]
+    "tags": [{ "name": "うづなお" }],
+    "characters": [{ "name": "島村卯月" }, { "name": "神谷奈緒" }]
   },
   {
-    "tags": [{ "name": "みおあか", "num": null }],
-    "characters": ["本田未央", "日野茜"]
+    "tags": [{ "name": "うづみく" }],
+    "characters": [{ "name": "島村卯月" }, { "name": "前川みく" }]
   },
   {
-    "tags": [{ "name": "みほあい", "num": null }],
-    "characters": ["小日向美穂", "高森藍子"]
+    "tags": [{ "name": "うめみれ" }, { "name": "みれうめ" }],
+    "characters": [{ "name": "早坂美玲" }, { "name": "白坂小梅" }]
   },
   {
-    "tags": [{ "name": "みゆみず", "num": null }],
-    "characters": ["三船美優", "川島瑞樹"]
+    "tags": [{ "name": "えりそら" }],
+    "characters": [{ "name": "赤西瑛梨華" }, { "name": "野々村そら" }]
   },
   {
-    "tags": [{ "name": "ゆいりな", "num": null }],
-    "characters": ["大槻唯", "藤本里奈"]
+    "tags": [{ "name": "おいかな" }],
+    "characters": [{ "name": "及川雫" }, { "name": "三村かな子" }]
   },
   {
-    "tags": [{ "name": "ゆずあず", "num": null }],
-    "characters": ["喜多見柚", "桃井あずき"]
+    "tags": [{ "name": "おおらい" }],
+    "characters": [{ "name": "大原みちる" }, { "name": "ライラ" }]
   },
   {
-    "tags": [{ "name": "蘭ちえ", "num": null }],
-    "characters": ["神崎蘭子", "緒方智絵里"]
+    "tags": [{ "name": "かえちえ" }, { "name": "キルシュ" }],
+    "characters": [{ "name": "高垣楓" }, { "name": "緒方智絵里" }]
   },
   {
-    "tags": [{ "name": "りんなお", "num": null }],
-    "characters": ["渋谷凛", "神谷奈緒"]
+    "tags": [{ "name": "かえまゆ" }],
+    "characters": [{ "name": "高垣楓" }, { "name": "佐久間まゆ" }]
   },
   {
-    "tags": [{ "name": "あいうめ", "num": null }],
-    "characters": ["東郷あい", "白坂小梅"]
+    "tags": [{ "name": "かえみな" }],
+    "characters": [{ "name": "高垣楓" }, { "name": "新田美波" }]
   },
   {
-    "tags": [{ "name": "あいかおる", "num": null }],
-    "characters": ["東郷あい", "龍崎薫"]
+    "tags": [{ "name": "かえみゆ" }, { "name": "美優楓" }],
+    "characters": [{ "name": "高垣楓" }, { "name": "三船美優" }]
   },
   {
-    "tags": [{ "name": "あいちな", "num": null }],
-    "characters": ["東郷あい", "相川千夏"]
+    "tags": [{ "name": "かえみん" }],
+    "characters": [{ "name": "高垣楓" }, { "name": "安部菜々" }]
   },
   {
-    "tags": [{ "name": "蒼い魂の色", "num": null }],
-    "characters": ["渋谷凛", "神崎蘭子"]
+    "tags": [{ "name": "かなあり" }],
+    "characters": [{ "name": "速水奏" }, { "name": "橘ありす" }]
   },
   {
-    "tags": [
-      { "name": "茜藍子", "num": null },
-      { "name": "ひのあい", "num": null },
-      { "name": "あいあか", "num": null }
-    ],
-    "characters": ["日野茜", "高森藍子"]
+    "tags": [{ "name": "かなちえ" }],
+    "characters": [{ "name": "三村かな子" }, { "name": "緒方智絵里" }]
   },
   {
-    "tags": [{ "name": "あかみほ", "num": null }],
-    "characters": ["日野茜", "小日向美穂"]
+    "tags": [{ "name": "奏周子" }],
+    "characters": [{ "name": "速水奏" }, { "name": "塩見周子" }]
   },
   {
-    "tags": [{ "name": "あかりあむ", "num": null }],
-    "characters": ["辻野あかり", "夢見りあむ"]
+    "tags": [{ "name": "奏美嘉" }],
+    "characters": [{ "name": "速水奏" }, { "name": "城ヶ崎美嘉" }]
   },
   {
-    "tags": [{ "name": "アキナンジョウ", "num": null }],
-    "characters": ["池袋晶葉", "南条光"]
+    "tags": [{ "name": "奏李衣菜" }],
+    "characters": [{ "name": "多田李衣菜" }, { "name": "速水奏" }]
   },
   {
-    "tags": [{ "name": "あきより", "num": null }],
-    "characters": ["池袋晶葉", "古澤頼子"]
+    "tags": [{ "name": "かなふみ" }],
+    "characters": [{ "name": "速水奏" }, { "name": "鷺沢文香" }]
   },
   {
-    "tags": [{ "name": "あきりあ", "num": null }],
-    "characters": ["砂塚あきら", "夢見りあむ"]
+    "tags": [{ "name": "かぶとむしずし" }],
+    "characters": [{ "name": "ナターリア" }, { "name": "城ヶ崎莉嘉" }]
   },
   {
-    "tags": [{ "name": "あすかなで", "num": null }],
-    "characters": ["二宮飛鳥", "速水奏"]
+    "tags": [{ "name": "かれりーな" }],
+    "characters": [{ "name": "北条加蓮" }, { "name": "多田李衣菜" }]
   },
   {
-    "tags": [{ "name": "アスカンナ", "num": null }],
-    "characters": ["二宮飛鳥", "有浦柑奈"]
+    "tags": [{ "name": "きょうくみ" }],
+    "characters": [{ "name": "五十嵐響子" }, { "name": "松山久美子" }]
   },
   {
-    "tags": [{ "name": "あつくるみ", "num": null }],
-    "characters": ["棟方愛海", "大沼くるみ"]
+    "tags": [{ "name": "響ナタ" }],
+    "characters": [{ "name": "五十嵐響子" }, { "name": "ナターリア" }]
   },
   {
-    "tags": [{ "name": "あつしず", "num": null }],
-    "characters": ["棟方愛海", "及川雫"]
+    "tags": [{ "name": "きょうみほ" }],
+    "characters": [{ "name": "五十嵐響子" }, { "name": "小日向美穂" }]
   },
   {
-    "tags": [{ "name": "あつななみ", "num": null }],
-    "characters": ["棟方愛海", "浅利七海"]
+    "tags": [{ "name": "きりくろ" }],
+    "characters": [{ "name": "桐野アヤ" }, { "name": "黒川千秋" }]
   },
   {
-    "tags": [{ "name": "あなすたしおみ", "num": null }],
-    "characters": ["アナスタシア", "塩見周子"]
+    "tags": [{ "name": "くろうめ" }],
+    "characters": [{ "name": "黒川千秋" }, { "name": "梅木音葉" }]
   },
   {
-    "tags": [{ "name": "ありあす", "num": null }],
-    "characters": ["橘ありす", "二宮飛鳥"]
+    "tags": [{ "name": "心に李衣菜" }],
+    "characters": [{ "name": "渋谷凛" }, { "name": "多田李衣菜" }]
   },
   {
-    "tags": [{ "name": "ありーニャ", "num": null }],
-    "characters": ["橘ありす", "アナスタシア"]
+    "tags": [{ "name": "輿杏" }],
+    "characters": [{ "name": "輿水幸子" }, { "name": "双葉杏" }]
   },
   {
-    "tags": [{ "name": "杏梅", "num": null }],
-    "characters": ["双葉杏", "白坂小梅"]
+    "tags": [{ "name": "ことかおる" }],
+    "characters": [{ "name": "西園寺琴歌" }, { "name": "龍崎薫" }]
   },
   {
-    "tags": [{ "name": "杏かな", "num": null }],
-    "characters": ["双葉杏", "三村かな子"]
+    "tags": [{ "name": "こはもも" }],
+    "characters": [{ "name": "古賀小春" }, { "name": "櫻井桃華" }]
   },
   {
-    "tags": [{ "name": "あんこず", "num": null }],
-    "characters": ["双葉杏", "遊佐こずえ"]
+    "tags": [{ "name": "さえさち" }],
+    "characters": [{ "name": "小早川紗枝" }, { "name": "輿水幸子" }]
   },
   {
-    "tags": [
-      { "name": "あんしょこ", "num": null },
-      { "name": "スリーピングキノコ", "num": null }
-    ],
-    "characters": ["双葉杏", "星輝子"]
+    "tags": [{ "name": "さちえり" }],
+    "characters": [{ "name": "輿水幸子" }, { "name": "緒方智絵里" }]
   },
   {
-    "tags": [{ "name": "あんにな", "num": null }],
-    "characters": ["双葉杏", "市原仁奈"]
+    "tags": [{ "name": "さちくぼ" }],
+    "characters": [{ "name": "輿水幸子" }, { "name": "森久保乃々" }]
   },
   {
-    "tags": [{ "name": "イヴりん", "num": null }],
-    "characters": ["イヴ・サンタクロース", "渋谷凛"]
+    "tags": [{ "name": "さちこうめ" }],
+    "characters": [{ "name": "輿水幸子" }, { "name": "白坂小梅" }]
   },
   {
-    "tags": [{ "name": "うづあん", "num": null }],
-    "characters": ["島村卯月", "双葉杏"]
+    "tags": [{ "name": "さちまゆ" }],
+    "characters": [{ "name": "輿水幸子" }, { "name": "佐久間まゆ" }]
   },
   {
-    "tags": [{ "name": "うづかな", "num": null }],
-    "characters": ["島村卯月", "三村かな子"]
+    "tags": [{ "name": "さなあい" }],
+    "characters": [{ "name": "片桐早苗" }, { "name": "東郷あい" }]
   },
   {
-    "tags": [{ "name": "うづなお", "num": null }],
-    "characters": ["島村卯月", "神谷奈緒"]
+    "tags": [{ "name": "サナアキハ" }],
+    "characters": [{ "name": "池袋晶葉" }, { "name": "三好紗南" }]
   },
   {
-    "tags": [{ "name": "うづみく", "num": null }],
-    "characters": ["島村卯月", "前川みく"]
+    "tags": [{ "name": "サナアキラ" }],
+    "characters": [{ "name": "三好紗南" }, { "name": "砂塚あきら" }]
   },
   {
-    "tags": [
-      { "name": "うめみれ", "num": null },
-      { "name": "みれうめ", "num": null }
-    ],
-    "characters": ["早坂美玲", "白坂小梅"]
+    "tags": [{ "name": "さななな" }],
+    "characters": [{ "name": "片桐早苗" }, { "name": "安部菜々" }]
   },
   {
-    "tags": [{ "name": "えりそら", "num": null }],
-    "characters": ["赤西瑛梨華", "野々村そら"]
+    "tags": [{ "name": "さなたく" }],
+    "characters": [{ "name": "片桐早苗" }, { "name": "向井拓海" }]
   },
   {
-    "tags": [{ "name": "おいかな", "num": null }],
-    "characters": ["及川雫", "三村かな子"]
+    "tags": [{ "name": "さなみれ" }],
+    "characters": [{ "name": "三好紗南" }, { "name": "早坂美玲" }]
   },
   {
-    "tags": [{ "name": "おおらい", "num": null }],
-    "characters": ["大原みちる", "ライラ"]
+    "tags": [{ "name": "サナレイナ" }],
+    "characters": [{ "name": "三好紗南" }, { "name": "小関麗奈" }]
   },
   {
-    "tags": [
-      { "name": "かえちえ", "num": null },
-      { "name": "キルシュ", "num": null }
-    ],
-    "characters": ["高垣楓", "緒方智絵里"]
+    "tags": [{ "name": "紗南条" }],
+    "characters": [{ "name": "三好紗南" }, { "name": "南条光" }]
   },
   {
-    "tags": [{ "name": "かえまゆ", "num": null }],
-    "characters": ["高垣楓", "佐久間まゆ"]
+    "tags": [{ "name": "しおゆみ" }],
+    "characters": [{ "name": "塩見周子" }, { "name": "相葉夕美" }]
   },
   {
-    "tags": [{ "name": "かえみな", "num": null }],
-    "characters": ["高垣楓", "新田美波"]
+    "tags": [{ "name": "しきはる" }],
+    "characters": [{ "name": "一ノ瀬志希" }, { "name": "結城晴" }]
   },
   {
-    "tags": [
-      { "name": "かえみゆ", "num": null },
-      { "name": "美優楓", "num": null }
-    ],
-    "characters": ["高垣楓", "三船美優"]
+    "tags": [{ "name": "しきふみ" }],
+    "characters": [{ "name": "一ノ瀬志希" }, { "name": "鷺沢文香" }]
   },
   {
-    "tags": [{ "name": "かえみん", "num": null }],
-    "characters": ["高垣楓", "安部菜々"]
+    "tags": [{ "name": "しきみか" }],
+    "characters": [{ "name": "一ノ瀬志希" }, { "name": "城ヶ崎美嘉" }]
   },
   {
-    "tags": [{ "name": "かなあり", "num": null }],
-    "characters": ["速水奏", "橘ありす"]
+    "tags": [{ "name": "しきみく" }],
+    "characters": [{ "name": "一ノ瀬志希" }, { "name": "前川みく" }]
   },
   {
-    "tags": [{ "name": "かなちえ", "num": null }],
-    "characters": ["三村かな子", "緒方智絵里"]
+    "tags": [{ "name": "しきみなみ" }, { "name": "志希みな" }],
+    "characters": [{ "name": "一ノ瀬志希" }, { "name": "新田美波" }]
   },
   {
-    "tags": [{ "name": "奏周子", "num": null }],
-    "characters": ["速水奏", "塩見周子"]
+    "tags": [{ "name": "志乃楓" }],
+    "characters": [{ "name": "柊志乃" }, { "name": "高垣楓" }]
   },
   {
-    "tags": [{ "name": "奏美嘉", "num": null }],
-    "characters": ["速水奏", "城ヶ崎美嘉"]
+    "tags": [{ "name": "しぶあん" }],
+    "characters": [{ "name": "渋谷凛" }, { "name": "双葉杏" }]
   },
   {
-    "tags": [{ "name": "奏李衣菜", "num": null }],
-    "characters": ["多田李衣菜", "速水奏"]
+    "tags": [{ "name": "しゅがみゆ" }],
+    "characters": [{ "name": "佐藤心" }, { "name": "三船美優" }]
   },
   {
-    "tags": [{ "name": "かなふみ", "num": null }],
-    "characters": ["速水奏", "鷺沢文香"]
+    "tags": [{ "name": "しょうさち" }],
+    "characters": [{ "name": "星輝子" }, { "name": "輿水幸子" }]
   },
   {
-    "tags": [{ "name": "かれりーな", "num": null }],
-    "characters": ["北条加蓮", "多田李衣菜"]
+    "tags": [{ "name": "スナレイナ" }],
+    "characters": [{ "name": "砂塚あきら" }, { "name": "小関麗奈" }]
   },
   {
-    "tags": [{ "name": "きょうくみ", "num": null }],
-    "characters": ["五十嵐響子", "松山久美子"]
+    "tags": [{ "name": "たくみお" }],
+    "characters": [{ "name": "向井拓海" }, { "name": "本田未央" }]
   },
   {
-    "tags": [{ "name": "きょうみほ", "num": null }],
-    "characters": ["五十嵐響子", "小日向美穂"]
+    "tags": [{ "name": "たくみよ" }],
+    "characters": [{ "name": "向井拓海" }, { "name": "原田美世" }]
   },
   {
-    "tags": [{ "name": "きりくろ", "num": null }],
-    "characters": ["桐野アヤ", "黒川千秋"]
+    "tags": [{ "name": "たくゆき" }],
+    "characters": [{ "name": "向井拓海" }, { "name": "姫川友紀" }]
   },
   {
-    "tags": [{ "name": "くろうめ", "num": null }],
-    "characters": ["黒川千秋", "梅木音葉"]
+    "tags": [{ "name": "たまゆい" }],
+    "characters": [{ "name": "大槻唯" }, { "name": "脇山珠美" }]
   },
   {
-    "tags": [{ "name": "心に李衣菜", "num": null }],
-    "characters": ["渋谷凛", "多田李衣菜"]
+    "tags": [{ "name": "ちえかお" }],
+    "characters": [{ "name": "佐々木千枝" }, { "name": "龍崎薫" }]
   },
   {
-    "tags": [{ "name": "輿杏", "num": null }],
-    "characters": ["輿水幸子", "双葉杏"]
+    "tags": [{ "name": "ちえなな" }],
+    "characters": [{ "name": "緒方智絵里" }, { "name": "安部菜々" }]
   },
   {
-    "tags": [{ "name": "こはもも", "num": null }],
-    "characters": ["古賀小春", "櫻井桃華"]
+    "tags": [{ "name": "ちえまい" }],
+    "characters": [{ "name": "佐々木千枝" }, { "name": "福山舞" }]
   },
   {
-    "tags": [{ "name": "さえさち", "num": null }],
-    "characters": ["小早川紗枝", "輿水幸子"]
+    "tags": [{ "name": "ちえみほ" }],
+    "characters": [{ "name": "緒方智絵里" }, { "name": "小日向美穂" }]
   },
   {
-    "tags": [{ "name": "さちえり", "num": null }],
-    "characters": ["輿水幸子", "緒方智絵里"]
+    "tags": [{ "name": "ちえみり" }],
+    "characters": [{ "name": "佐々木千枝" }, { "name": "赤城みりあ" }]
   },
   {
-    "tags": [{ "name": "さちくぼ", "num": null }],
-    "characters": ["輿水幸子", "森久保乃々"]
+    "tags": [{ "name": "ちえもも" }],
+    "characters": [{ "name": "佐々木千枝" }, { "name": "櫻井桃華" }]
   },
   {
-    "tags": [{ "name": "さちこうめ", "num": null }],
-    "characters": ["輿水幸子", "白坂小梅"]
+    "tags": [{ "name": "ちえりーな" }],
+    "characters": [{ "name": "緒方智絵里" }, { "name": "多田李衣菜" }]
   },
   {
-    "tags": [{ "name": "さちまゆ", "num": null }],
-    "characters": ["輿水幸子", "佐久間まゆ"]
+    "tags": [{ "name": "ちかこは" }],
+    "characters": [{ "name": "横山千佳" }, { "name": "古賀小春" }]
   },
   {
-    "tags": [{ "name": "さなあい", "num": null }],
-    "characters": ["片桐早苗", "東郷あい"]
+    "tags": [{ "name": "ちかひな" }],
+    "characters": [{ "name": "横山千佳" }, { "name": "喜多日菜子" }]
   },
   {
-    "tags": [{ "name": "サナアキハ", "num": null }],
-    "characters": ["池袋晶葉", "三好紗南"]
+    "tags": [{ "name": "ちかまい" }],
+    "characters": [{ "name": "横山千佳" }, { "name": "福山舞" }]
   },
   {
-    "tags": [{ "name": "サナアキラ", "num": null }],
-    "characters": ["三好紗南", "砂塚あきら"]
+    "tags": [{ "name": "ちづしん" }],
+    "characters": [{ "name": "松尾千鶴" }, { "name": "佐藤心" }]
   },
   {
-    "tags": [{ "name": "さななな", "num": null }],
-    "characters": ["片桐早苗", "安部菜々"]
+    "tags": [{ "name": "ちづやす" }],
+    "characters": [{ "name": "松尾千鶴" }, { "name": "岡崎泰葉" }]
   },
   {
-    "tags": [{ "name": "サナレイナ", "num": null }],
-    "characters": ["三好紗南", "小関麗奈"]
+    "tags": [{ "name": "ちとクラ" }],
+    "characters": [{ "name": "黒埼ちとせ" }, { "name": "クラリス" }]
   },
   {
-    "tags": [{ "name": "紗南条", "num": null }],
-    "characters": ["三好紗南", "南条光"]
+    "tags": [{ "name": "ちとりさ" }],
+    "characters": [{ "name": "黒埼ちとせ" }, { "name": "的場梨沙" }]
   },
   {
-    "tags": [{ "name": "しおゆみ", "num": null }],
-    "characters": ["塩見周子", "相葉夕美"]
+    "tags": [{ "name": "つかネネ" }],
+    "characters": [{ "name": "桐生つかさ" }, { "name": "栗原ネネ" }]
   },
   {
-    "tags": [{ "name": "しきはる", "num": null }],
-    "characters": ["一ノ瀬志希", "結城晴"]
+    "tags": [{ "name": "辻砂" }, { "name": "あきあか" }],
+    "characters": [{ "name": "砂塚あきら" }, { "name": "辻野あかり" }]
   },
   {
-    "tags": [{ "name": "しきふみ", "num": null }],
-    "characters": ["一ノ瀬志希", "鷺沢文香"]
+    "tags": [{ "name": "とときのこ" }],
+    "characters": [{ "name": "十時愛梨" }, { "name": "星輝子" }]
   },
   {
-    "tags": [{ "name": "しきみか", "num": null }],
-    "characters": ["一ノ瀬志希", "城ヶ崎美嘉"]
+    "tags": [{ "name": "ととさと" }],
+    "characters": [{ "name": "十時愛梨" }, { "name": "榊原里美" }]
   },
   {
-    "tags": [{ "name": "しきみく", "num": null }],
-    "characters": ["一ノ瀬志希", "前川みく"]
+    "tags": [{ "name": "ととみな" }],
+    "characters": [{ "name": "十時愛梨" }, { "name": "新田美波" }]
   },
   {
-    "tags": [
-      { "name": "しきみなみ", "num": null },
-      { "name": "志希みな", "num": null }
-    ],
-    "characters": ["一ノ瀬志希", "新田美波"]
+    "tags": [{ "name": "なつなな" }],
+    "characters": [{ "name": "木村夏樹" }, { "name": "安部菜々" }]
   },
   {
-    "tags": [{ "name": "志乃楓", "num": null }],
-    "characters": ["柊志乃", "高垣楓"]
+    "tags": [{ "name": "なななお" }],
+    "characters": [{ "name": "安部菜々" }, { "name": "神谷奈緒" }]
   },
   {
-    "tags": [{ "name": "しぶあん", "num": null }],
-    "characters": ["渋谷凛", "双葉杏"]
+    "tags": [{ "name": "ななみほ" }],
+    "characters": [{ "name": "安部菜々" }, { "name": "小日向美穂" }]
   },
   {
-    "tags": [{ "name": "しゅがみゆ", "num": null }],
-    "characters": ["佐藤心", "三船美優"]
+    "tags": [{ "name": "になきら" }],
+    "characters": [{ "name": "市原仁奈" }, { "name": "諸星きらり" }]
   },
   {
-    "tags": [{ "name": "しょうさち", "num": null }],
-    "characters": ["星輝子", "輿水幸子"]
+    "tags": [{ "name": "になたーりあ" }],
+    "characters": [{ "name": "市原仁奈" }, { "name": "ナターリア" }]
   },
   {
-    "tags": [{ "name": "スナレイナ", "num": null }],
-    "characters": ["砂塚あきら", "小関麗奈"]
+    "tags": [{ "name": "のあーにゃ" }],
+    "characters": [{ "name": "高峯のあ" }, { "name": "アナスタシア" }]
   },
   {
-    "tags": [{ "name": "たくみお", "num": null }],
-    "characters": ["向井拓海", "本田未央"]
+    "tags": [{ "name": "のあみく" }],
+    "characters": [{ "name": "高峯のあ" }, { "name": "前川みく" }]
   },
   {
-    "tags": [{ "name": "たくみよ", "num": null }],
-    "characters": ["向井拓海", "原田美世"]
+    "tags": [{ "name": "のりかな" }],
+    "characters": [{ "name": "椎名法子" }, { "name": "三村かな子" }]
   },
   {
-    "tags": [{ "name": "たまゆい", "num": null }],
-    "characters": ["大槻唯", "脇山珠美"]
+    "tags": [{ "name": "はるあり" }],
+    "characters": [{ "name": "結城晴" }, { "name": "橘ありす" }]
   },
   {
-    "tags": [{ "name": "ちえかお", "num": null }],
-    "characters": ["佐々木千枝", "龍崎薫"]
+    "tags": [{ "name": "はるとも" }],
+    "characters": [{ "name": "結城晴" }, { "name": "村上巴" }]
   },
   {
-    "tags": [{ "name": "ちえなな", "num": null }],
-    "characters": ["緒方智絵里", "安部菜々"]
+    "tags": [{ "name": "ハルナンジョウ" }],
+    "characters": [{ "name": "結城晴" }, { "name": "南条光" }]
   },
   {
-    "tags": [{ "name": "ちえまい", "num": null }],
-    "characters": ["佐々木千枝", "福山舞"]
+    "tags": [{ "name": "はるほた" }],
+    "characters": [{ "name": "結城晴" }, { "name": "白菊ほたる" }]
   },
   {
-    "tags": [{ "name": "ちえみほ", "num": null }],
-    "characters": ["緒方智絵里", "小日向美穂"]
+    "tags": [{ "name": "はるみく" }],
+    "characters": [{ "name": "上条春菜" }, { "name": "前川みく" }]
   },
   {
-    "tags": [{ "name": "ちえみり", "num": null }],
-    "characters": ["佐々木千枝", "赤城みりあ"]
+    "tags": [{ "name": "はるもも" }],
+    "characters": [{ "name": "上条春菜" }, { "name": "櫻井桃華" }]
   },
   {
-    "tags": [{ "name": "ちえもも", "num": null }],
-    "characters": ["佐々木千枝", "櫻井桃華"]
+    "tags": [{ "name": "はるるみ" }],
+    "characters": [{ "name": "上条春菜" }, { "name": "和久井留美" }]
   },
   {
-    "tags": [{ "name": "ちえりーな", "num": null }],
-    "characters": ["緒方智絵里", "多田李衣菜"]
+    "tags": [{ "name": "ひじゆめ" }],
+    "characters": [{ "name": "望月聖" }, { "name": "成宮由愛" }]
   },
   {
-    "tags": [{ "name": "ちかこは", "num": null }],
-    "characters": ["横山千佳", "古賀小春"]
+    "tags": [{ "name": "ひななお" }],
+    "characters": [{ "name": "荒木比奈" }, { "name": "神谷奈緒" }]
   },
   {
-    "tags": [{ "name": "ちかひな", "num": null }],
-    "characters": ["横山千佳", "喜多日菜子"]
+    "tags": [{ "name": "ふみあか" }],
+    "characters": [{ "name": "鷺沢文香" }, { "name": "日野茜" }]
   },
   {
-    "tags": [{ "name": "ちかまい", "num": null }],
-    "characters": ["横山千佳", "福山舞"]
+    "tags": [{ "name": "ふみなみ" }],
+    "characters": [{ "name": "鷺沢文香" }, { "name": "新田美波" }]
   },
   {
-    "tags": [{ "name": "ちづしん", "num": null }],
-    "characters": ["松尾千鶴", "佐藤心"]
+    "tags": [{ "name": "ふみらん" }],
+    "characters": [{ "name": "鷺沢文香" }, { "name": "神崎蘭子" }]
   },
   {
-    "tags": [{ "name": "ちづやす", "num": null }],
-    "characters": ["松尾千鶴", "岡崎泰葉"]
+    "tags": [{ "name": "フレあり" }],
+    "characters": [{ "name": "宮本フレデリカ" }, { "name": "橘ありす" }]
   },
   {
-    "tags": [{ "name": "つかネネ", "num": null }],
-    "characters": ["桐生つかさ", "栗原ネネ"]
+    "tags": [{ "name": "フレちと" }],
+    "characters": [{ "name": "黒埼ちとせ" }, { "name": "宮本フレデリカ" }]
   },
   {
-    "tags": [{ "name": "辻砂", "num": null }],
-    "characters": ["砂塚あきら", "辻野あかり"]
+    "tags": [{ "name": "まいかおる" }],
+    "characters": [{ "name": "福山舞" }, { "name": "龍崎薫" }]
   },
   {
-    "tags": [{ "name": "とときのこ", "num": null }],
-    "characters": ["十時愛梨", "星輝子"]
+    "tags": [{ "name": "マキあり" }],
+    "characters": [{ "name": "八神マキノ" }, { "name": "橘ありす" }]
   },
   {
-    "tags": [{ "name": "ととさと", "num": null }],
-    "characters": ["十時愛梨", "榊原里美"]
+    "tags": [{ "name": "マキいず" }],
+    "characters": [{ "name": "八神マキノ" }, { "name": "大石泉" }]
   },
   {
-    "tags": [{ "name": "ととみな", "num": null }],
-    "characters": ["十時愛梨", "新田美波"]
+    "tags": [{ "name": "まゆかれ" }],
+    "characters": [{ "name": "佐久間まゆ" }, { "name": "北条加蓮" }]
   },
   {
-    "tags": [{ "name": "なつなな", "num": null }],
-    "characters": ["木村夏樹", "安部菜々"]
+    "tags": [{ "name": "まゆちえ" }],
+    "characters": [{ "name": "佐久間まゆ" }, { "name": "緒方智絵里" }]
   },
   {
-    "tags": [{ "name": "なななお", "num": null }],
-    "characters": ["安部菜々", "神谷奈緒"]
+    "tags": [{ "name": "まゆ文" }],
+    "characters": [{ "name": "佐久間まゆ" }, { "name": "鷺沢文香" }]
   },
   {
-    "tags": [{ "name": "ななみほ", "num": null }],
-    "characters": ["安部菜々", "小日向美穂"]
+    "tags": [{ "name": "まゆりーな" }],
+    "characters": [{ "name": "佐久間まゆ" }, { "name": "多田李衣菜" }]
   },
   {
-    "tags": [{ "name": "になきら", "num": null }],
-    "characters": ["市原仁奈", "諸星きらり"]
+    "tags": [{ "name": "みおなお" }],
+    "characters": [{ "name": "本田未央" }, { "name": "神谷奈緒" }]
   },
   {
-    "tags": [{ "name": "になたーりあ", "num": null }],
-    "characters": ["市原仁奈", "ナターリア"]
+    "tags": [{ "name": "みおみう" }],
+    "characters": [{ "name": "本田未央" }, { "name": "矢口美羽" }]
   },
   {
-    "tags": [{ "name": "のあーにゃ", "num": null }],
-    "characters": ["高峯のあ", "アナスタシア"]
+    "tags": [{ "name": "みおみく" }],
+    "characters": [{ "name": "本田未央" }, { "name": "前川みく" }]
   },
   {
-    "tags": [{ "name": "のあみく", "num": null }],
-    "characters": ["高峯のあ", "前川みく"]
+    "tags": [{ "name": "みおみゆ" }],
+    "characters": [{ "name": "本田未央" }, { "name": "三船美優" }]
   },
   {
-    "tags": [{ "name": "のりかな", "num": null }],
-    "characters": ["椎名法子", "三村かな子"]
+    "tags": [{ "name": "みかえで" }],
+    "characters": [{ "name": "城ヶ崎美嘉" }, { "name": "高垣楓" }]
   },
   {
-    "tags": [{ "name": "はるあり", "num": null }],
-    "characters": ["結城晴", "橘ありす"]
+    "tags": [{ "name": "みかみお" }],
+    "characters": [{ "name": "城ヶ崎美嘉" }, { "name": "本田未央" }]
   },
   {
-    "tags": [{ "name": "はるとも", "num": null }],
-    "characters": ["結城晴", "村上巴"]
+    "tags": [{ "name": "みかみほ" }],
+    "characters": [{ "name": "城ヶ崎美嘉" }, { "name": "小日向美穂" }]
   },
   {
-    "tags": [{ "name": "ハルナンジョウ", "num": null }],
-    "characters": ["結城晴", "南条光"]
+    "tags": [{ "name": "みかみりあ" }],
+    "characters": [{ "name": "城ヶ崎美嘉" }, { "name": "赤城みりあ" }]
   },
   {
-    "tags": [{ "name": "はるほた", "num": null }],
-    "characters": ["結城晴", "白菊ほたる"]
+    "tags": [{ "name": "みかれん" }],
+    "characters": [{ "name": "城ヶ崎美嘉" }, { "name": "北条加蓮" }]
   },
   {
-    "tags": [{ "name": "はるみく", "num": null }],
-    "characters": ["上条春菜", "前川みく"]
+    "tags": [{ "name": "みくあん" }],
+    "characters": [{ "name": "双葉杏" }, { "name": "前川みく" }]
   },
   {
-    "tags": [{ "name": "はるもも", "num": null }],
-    "characters": ["上条春菜", "櫻井桃華"]
+    "tags": [{ "name": "みくかな" }],
+    "characters": [{ "name": "前川みく" }, { "name": "三村かな子" }]
   },
   {
-    "tags": [{ "name": "はるるみ", "num": null }],
-    "characters": ["上条春菜", "和久井留美"]
+    "tags": [{ "name": "みく凛" }],
+    "characters": [{ "name": "前川みく" }, { "name": "渋谷凛" }]
   },
   {
-    "tags": [{ "name": "ひじゆめ", "num": null }],
-    "characters": ["望月聖", "成宮由愛"]
+    "tags": [{ "name": "みさくろ" }],
+    "characters": [{ "name": "間中美里" }, { "name": "黒川千秋" }]
   },
   {
-    "tags": [{ "name": "ひななお", "num": null }],
-    "characters": ["荒木比奈", "神谷奈緒"]
+    "tags": [{ "name": "みなさち" }],
+    "characters": [{ "name": "新田美波" }, { "name": "輿水幸子" }]
   },
   {
-    "tags": [{ "name": "ふみあか", "num": null }],
-    "characters": ["鷺沢文香", "日野茜"]
+    "tags": [{ "name": "みほさち" }],
+    "characters": [{ "name": "小日向美穂" }, { "name": "輿水幸子" }]
   },
   {
-    "tags": [{ "name": "ふみなみ", "num": null }],
-    "characters": ["鷺沢文香", "新田美波"]
+    "tags": [{ "name": "みゆにな" }],
+    "characters": [{ "name": "三船美優" }, { "name": "市原仁奈" }]
   },
   {
-    "tags": [{ "name": "ふみらん", "num": null }],
-    "characters": ["鷺沢文香", "神崎蘭子"]
+    "tags": [{ "name": "みゆみな" }],
+    "characters": [{ "name": "三船美優" }, { "name": "新田美波" }]
   },
   {
-    "tags": [{ "name": "フレあり", "num": null }],
-    "characters": ["宮本フレデリカ", "橘ありす"]
+    "tags": [{ "name": "みりかお" }],
+    "characters": [{ "name": "赤城みりあ" }, { "name": "龍崎薫" }]
   },
   {
-    "tags": [{ "name": "フレちと", "num": null }],
-    "characters": ["黒埼ちとせ", "宮本フレデリカ"]
+    "tags": [{ "name": "みれあす" }],
+    "characters": [{ "name": "早坂美玲" }, { "name": "二宮飛鳥" }]
   },
   {
-    "tags": [{ "name": "まいかおる", "num": null }],
-    "characters": ["福山舞", "龍崎薫"]
+    "tags": [{ "name": "みれにな" }],
+    "characters": [{ "name": "早坂美玲" }, { "name": "市原仁奈" }]
   },
   {
-    "tags": [{ "name": "マキあり", "num": null }],
-    "characters": ["八神マキノ", "橘ありす"]
+    "tags": [{ "name": "むつみやこ" }],
+    "characters": [{ "name": "氏家むつみ" }, { "name": "安斎都" }]
   },
   {
-    "tags": [{ "name": "マキいず", "num": null }],
-    "characters": ["八神マキノ", "大石泉"]
+    "tags": [{ "name": "ももゆきみ" }],
+    "characters": [{ "name": "櫻井桃華" }, { "name": "佐城雪美" }]
   },
   {
-    "tags": [{ "name": "まゆかれ", "num": null }],
-    "characters": ["佐久間まゆ", "北条加蓮"]
+    "tags": [{ "name": "ゆいのの" }],
+    "characters": [{ "name": "大槻唯" }, { "name": "森久保乃々" }]
   },
   {
-    "tags": [{ "name": "まゆちえ", "num": null }],
-    "characters": ["佐久間まゆ", "緒方智絵里"]
+    "tags": [{ "name": "ゆいみか" }],
+    "characters": [{ "name": "大槻唯" }, { "name": "城ヶ崎美嘉" }]
   },
   {
-    "tags": [{ "name": "まゆ文", "num": null }],
-    "characters": ["佐久間まゆ", "鷺沢文香"]
+    "tags": [{ "name": "ゆいゆっき" }],
+    "characters": [{ "name": "大槻唯" }, { "name": "姫川友紀" }]
   },
   {
-    "tags": [{ "name": "まゆりーな", "num": null }],
-    "characters": ["佐久間まゆ", "多田李衣菜"]
+    "tags": [{ "name": "結城悠貴" }],
+    "characters": [{ "name": "結城晴" }, { "name": "乙倉悠貴" }]
   },
   {
-    "tags": [{ "name": "みおなお", "num": null }],
-    "characters": ["本田未央", "神谷奈緒"]
+    "tags": [{ "name": "ゆうきらり" }],
+    "characters": [{ "name": "乙倉悠貴" }, { "name": "諸星きらり" }]
   },
   {
-    "tags": [{ "name": "みおみう", "num": null }],
-    "characters": ["本田未央", "矢口美羽"]
+    "tags": [{ "name": "ゆかさえ" }],
+    "characters": [{ "name": "水本ゆかり" }, { "name": "小早川紗枝" }]
   },
   {
-    "tags": [{ "name": "みおみく", "num": null }],
-    "characters": ["本田未央", "前川みく"]
+    "tags": [{ "name": "ゆかのり" }],
+    "characters": [{ "name": "中野有香" }, { "name": "椎名法子" }]
   },
   {
-    "tags": [{ "name": "みおみゆ", "num": null }],
-    "characters": ["本田未央", "三船美優"]
+    "tags": [{ "name": "ゆきこず" }],
+    "characters": [{ "name": "佐城雪美" }, { "name": "遊佐こずえ" }]
   },
   {
-    "tags": [{ "name": "みかえで", "num": null }],
-    "characters": ["城ヶ崎美嘉", "高垣楓"]
+    "tags": [{ "name": "ゆきさえ" }],
+    "characters": [{ "name": "姫川友紀" }, { "name": "小早川紗枝" }]
   },
   {
-    "tags": [{ "name": "みかみお", "num": null }],
-    "characters": ["城ヶ崎美嘉", "本田未央"]
+    "tags": [{ "name": "ゆきとも" }],
+    "characters": [{ "name": "姫川友紀" }, { "name": "村上巴" }]
   },
   {
-    "tags": [{ "name": "みかみほ", "num": null }],
-    "characters": ["城ヶ崎美嘉", "小日向美穂"]
+    "tags": [{ "name": "ゆっこあいこ" }],
+    "characters": [{ "name": "堀裕子" }, { "name": "高森藍子" }]
   },
   {
-    "tags": [{ "name": "みかみりあ", "num": null }],
-    "characters": ["城ヶ崎美嘉", "赤城みりあ"]
+    "tags": [{ "name": "柚ナタ" }],
+    "characters": [{ "name": "喜多見柚" }, { "name": "ナターリア" }]
   },
   {
-    "tags": [{ "name": "みかれん", "num": null }],
-    "characters": ["城ヶ崎美嘉", "北条加蓮"]
+    "tags": [{ "name": "ようなべ" }],
+    "characters": [{ "name": "斉藤洋子" }, { "name": "真鍋いつき" }]
   },
   {
-    "tags": [{ "name": "みくあん", "num": null }],
-    "characters": ["双葉杏", "前川みく"]
+    "tags": [{ "name": "よりふみ" }],
+    "characters": [{ "name": "古澤頼子" }, { "name": "鷺沢文香" }]
   },
   {
-    "tags": [{ "name": "みくかな", "num": null }],
-    "characters": ["前川みく", "三村かな子"]
+    "tags": [{ "name": "らんこし" }],
+    "characters": [{ "name": "神崎蘭子" }, { "name": "輿水幸子" }]
   },
   {
-    "tags": [{ "name": "みく凛", "num": null }],
-    "characters": ["前川みく", "渋谷凛"]
+    "tags": [{ "name": "らんこひなた" }],
+    "characters": [{ "name": "神崎蘭子" }, { "name": "小日向美穂" }]
   },
   {
-    "tags": [{ "name": "みさくろ", "num": null }],
-    "characters": ["間中美里", "黒川千秋"]
+    "tags": [{ "name": "らんもも" }],
+    "characters": [{ "name": "神崎蘭子" }, { "name": "櫻井桃華" }]
   },
   {
-    "tags": [{ "name": "みなさち", "num": null }],
-    "characters": ["新田美波", "輿水幸子"]
+    "tags": [{ "name": "りかあり" }],
+    "characters": [{ "name": "城ヶ崎莉嘉" }, { "name": "橘ありす" }]
   },
   {
-    "tags": [{ "name": "みほさち", "num": null }],
-    "characters": ["小日向美穂", "輿水幸子"]
+    "tags": [{ "name": "りかみりあ" }],
+    "characters": [{ "name": "城ヶ崎莉嘉" }, { "name": "赤城みりあ" }]
   },
   {
-    "tags": [{ "name": "みゆにな", "num": null }],
-    "characters": ["三船美優", "市原仁奈"]
+    "tags": [{ "name": "りょうなつ" }],
+    "characters": [{ "name": "松永涼" }, { "name": "木村夏樹" }]
   },
   {
-    "tags": [{ "name": "みゆみな", "num": null }],
-    "characters": ["三船美優", "新田美波"]
+    "tags": [{ "name": "凛あり" }],
+    "characters": [{ "name": "渋谷凛" }, { "name": "橘ありす" }]
   },
   {
-    "tags": [{ "name": "みりかお", "num": null }],
-    "characters": ["赤城みりあ", "龍崎薫"]
+    "tags": [{ "name": "凛かな" }],
+    "characters": [{ "name": "渋谷凛" }, { "name": "三村かな子" }]
   },
   {
-    "tags": [{ "name": "みれあす", "num": null }],
-    "characters": ["早坂美玲", "二宮飛鳥"]
+    "tags": [{ "name": "凛かれ" }],
+    "characters": [{ "name": "渋谷凛" }, { "name": "北条加蓮" }]
   },
   {
-    "tags": [{ "name": "みれにな", "num": null }],
-    "characters": ["早坂美玲", "市原仁奈"]
+    "tags": [{ "name": "凛響子" }],
+    "characters": [{ "name": "渋谷凛" }, { "name": "五十嵐響子" }]
   },
   {
-    "tags": [{ "name": "むつみやこ", "num": null }],
-    "characters": ["氏家むつみ", "安斎都"]
+    "tags": [{ "name": "りんのの" }],
+    "characters": [{ "name": "森久保乃々" }, { "name": "渋谷凛" }]
   },
   {
-    "tags": [{ "name": "ももゆきみ", "num": null }],
-    "characters": ["櫻井桃華", "佐城雪美"]
+    "tags": [{ "name": "凛まゆ" }],
+    "characters": [{ "name": "渋谷凛" }, { "name": "佐久間まゆ" }]
   },
   {
-    "tags": [{ "name": "ゆいのの", "num": null }],
-    "characters": ["大槻唯", "森久保乃々"]
+    "tags": [{ "name": "りんみお" }],
+    "characters": [{ "name": "渋谷凛" }, { "name": "本田未央" }]
   },
   {
-    "tags": [{ "name": "ゆいみか", "num": null }],
-    "characters": ["大槻唯", "城ヶ崎美嘉"]
+    "tags": [{ "name": "りんみか" }],
+    "characters": [{ "name": "渋谷凛" }, { "name": "城ヶ崎美嘉" }]
   },
   {
-    "tags": [{ "name": "ゆいゆっき", "num": null }],
-    "characters": ["大槻唯", "姫川友紀"]
+    "tags": [{ "name": "りんみな" }],
+    "characters": [{ "name": "渋谷凛" }, { "name": "新田美波" }]
   },
   {
-    "tags": [{ "name": "結城悠貴", "num": null }],
-    "characters": ["結城晴", "乙倉悠貴"]
+    "tags": [{ "name": "りんゆみ" }],
+    "characters": [{ "name": "渋谷凛" }, { "name": "相葉夕美" }]
   },
   {
-    "tags": [{ "name": "ゆうきらり", "num": null }],
-    "characters": ["乙倉悠貴", "諸星きらり"]
+    "tags": [{ "name": "いずまゆ" }],
+    "characters": [{ "name": "大石泉" }, { "name": "佐久間まゆ" }]
   },
   {
-    "tags": [{ "name": "ゆかさえ", "num": null }],
-    "characters": ["水本ゆかり", "小早川紗枝"]
+    "tags": [{ "name": "サイキックこんちきちん" }],
+    "characters": [{ "name": "堀裕子" }, { "name": "小早川紗枝" }]
   },
   {
-    "tags": [{ "name": "ゆかのり", "num": null }],
-    "characters": ["中野有香", "椎名法子"]
+    "tags": [{ "name": "さちりあ" }],
+    "characters": [{ "name": "輿水幸子" }, { "name": "夢見りあむ" }]
   },
   {
-    "tags": [{ "name": "ゆきこず", "num": null }],
-    "characters": ["佐城雪美", "遊佐こずえ"]
+    "tags": [{ "name": "シキアキハ" }],
+    "characters": [{ "name": "一ノ瀬志希" }, { "name": "池袋晶葉" }]
   },
   {
-    "tags": [{ "name": "ゆきさえ", "num": null }],
-    "characters": ["姫川友紀", "小早川紗枝"]
+    "tags": [{ "name": "しきりん" }],
+    "characters": [{ "name": "一ノ瀬志希" }, { "name": "渋谷凛" }]
   },
   {
-    "tags": [{ "name": "ゆきとも", "num": null }],
-    "characters": ["姫川友紀", "村上巴"]
+    "tags": [{ "name": "しのあか" }],
+    "characters": [{ "name": "工藤忍" }, { "name": "辻野あかり" }]
   },
   {
-    "tags": [{ "name": "ゆっこあいこ", "num": null }],
-    "characters": ["堀裕子", "高森藍子"]
+    "tags": [{ "name": "しぶひか" }],
+    "characters": [{ "name": "渋谷凛" }, { "name": "南条光" }]
   },
   {
-    "tags": [{ "name": "ようなべ", "num": null }],
-    "characters": ["斉藤洋子", "真鍋いつき"]
+    "tags": [{ "name": "しゅがちか" }],
+    "characters": [{ "name": "佐藤心" }, { "name": "横山千佳" }]
   },
   {
-    "tags": [{ "name": "よりふみ", "num": null }],
-    "characters": ["古澤頼子", "鷺沢文香"]
+    "tags": [{ "name": "新説りょうあい" }],
+    "characters": [{ "name": "松永涼" }, { "name": "東郷あい" }]
   },
   {
-    "tags": [{ "name": "らんこし", "num": null }],
-    "characters": ["神崎蘭子", "輿水幸子"]
+    "tags": [{ "name": "すななみ" }],
+    "characters": [{ "name": "砂塚あきら" }, { "name": "浅利七海" }]
   },
   {
-    "tags": [{ "name": "らんこひなた", "num": null }],
-    "characters": ["神崎蘭子", "小日向美穂"]
+    "tags": [{ "name": "せきかい" }],
+    "characters": [{ "name": "関裕美" }, { "name": "西島櫂" }]
   },
   {
-    "tags": [{ "name": "らんもも", "num": null }],
-    "characters": ["神崎蘭子", "櫻井桃華"]
+    "tags": [{ "name": "せきめーこ" }],
+    "characters": [{ "name": "関裕美" }, { "name": "並木芽衣子" }]
   },
   {
-    "tags": [{ "name": "りかあり", "num": null }],
-    "characters": ["城ヶ崎莉嘉", "橘ありす"]
+    "tags": [{ "name": "ちえちえコンビ" }],
+    "characters": [{ "name": "佐々木千枝" }, { "name": "緒方智絵里" }]
   },
   {
-    "tags": [{ "name": "りかみりあ", "num": null }],
-    "characters": ["城ヶ崎莉嘉", "赤城みりあ"]
+    "tags": [{ "name": "ちとイヴ" }],
+    "characters": [{ "name": "イヴ・サンタクロース" }, { "name": "黒埼ちとせ" }]
   },
   {
-    "tags": [{ "name": "りょうなつ", "num": null }],
-    "characters": ["松永涼", "木村夏樹"]
+    "tags": [{ "name": "つかさち" }],
+    "characters": [{ "name": "桐生つかさ" }, { "name": "輿水幸子" }]
   },
   {
-    "tags": [{ "name": "凛かな", "num": null }],
-    "characters": ["渋谷凛", "三村かな子"]
+    "tags": [{ "name": "ドナ森" }],
+    "characters": [{ "name": "椎名法子" }, { "name": "高森藍子" }]
   },
   {
-    "tags": [{ "name": "凛かれ", "num": null }],
-    "characters": ["渋谷凛", "北条加蓮"]
+    "tags": [{ "name": "新田肇" }],
+    "characters": [{ "name": "新田美波" }, { "name": "藤原肇" }]
   },
   {
-    "tags": [{ "name": "凛響子", "num": null }],
-    "characters": ["渋谷凛", "五十嵐響子"]
+    "tags": [{ "name": "みりあむ" }],
+    "characters": [{ "name": "赤城みりあ" }, { "name": "夢見りあむ" }]
   },
   {
-    "tags": [{ "name": "りんのの", "num": null }],
-    "characters": ["森久保乃々", "渋谷凛"]
+    "tags": [{ "name": "ゆずにな" }],
+    "characters": [{ "name": "喜多見柚" }, { "name": "市原仁奈" }]
   },
   {
-    "tags": [{ "name": "凛まゆ", "num": null }],
-    "characters": ["渋谷凛", "佐久間まゆ"]
+    "tags": [{ "name": "らんのの" }],
+    "characters": [{ "name": "神崎蘭子" }, { "name": "森久保乃々" }]
   },
   {
-    "tags": [{ "name": "りんみお", "num": null }],
-    "characters": ["渋谷凛", "本田未央"]
+    "tags": [{ "name": "りあのの" }],
+    "characters": [{ "name": "夢見りあむ" }, { "name": "森久保乃々" }]
   },
   {
-    "tags": [{ "name": "りんみか", "num": null }],
-    "characters": ["渋谷凛", "城ヶ崎美嘉"]
+    "tags": [{ "name": "りあみん" }],
+    "characters": [{ "name": "夢見りあむ" }, { "name": "安部菜々" }]
   },
   {
-    "tags": [{ "name": "りんみな", "num": null }],
-    "characters": ["渋谷凛", "新田美波"]
+    "tags": [{ "name": "2mコンビ" }],
+    "characters": [{ "name": "及川雫" }, { "name": "向井拓海" }]
   },
   {
-    "tags": [{ "name": "りんゆみ", "num": null }],
-    "characters": ["渋谷凛", "相葉夕美"]
-  },
-  {
-    "tags": [{ "name": "るみみゆ", "num": null }],
-    "characters": ["和久井留美", "三船美優"]
-  },
-  {
-    "tags": [{ "name": "いずまゆ", "num": null }],
-    "characters": ["大石泉", "佐久間まゆ"]
-  },
-  {
-    "tags": [{ "name": "サイキックこんちきちん", "num": null }],
-    "characters": ["堀裕子", "小早川紗枝"]
-  },
-  {
-    "tags": [{ "name": "さじょうめ", "num": null }],
-    "characters": ["佐城雪美", "白坂小梅"]
-  },
-  {
-    "tags": [{ "name": "さちりあ", "num": null }],
-    "characters": ["輿水幸子", "夢見りあむ"]
-  },
-  {
-    "tags": [{ "name": "シキアキハ", "num": null }],
-    "characters": ["一ノ瀬志希", "池袋晶葉"]
-  },
-  {
-    "tags": [{ "name": "しきりん", "num": null }],
-    "characters": ["一ノ瀬志希", "渋谷凛"]
-  },
-  {
-    "tags": [{ "name": "しのあか", "num": null }],
-    "characters": ["工藤忍", "辻野あかり"]
-  },
-  {
-    "tags": [{ "name": "しぶひか", "num": null }],
-    "characters": ["渋谷凛", "南条光"]
-  },
-  {
-    "tags": [{ "name": "しゅがちか", "num": null }],
-    "characters": ["佐藤心", "横山千佳"]
-  },
-  {
-    "tags": [{ "name": "新説りょうあい", "num": null }],
-    "characters": ["松永涼", "東郷あい"]
-  },
-  {
-    "tags": [{ "name": "ちえちえコンビ", "num": null }],
-    "characters": ["佐々木千枝", "緒方智絵里"]
-  },
-  {
-    "tags": [{ "name": "つかさち", "num": null }],
-    "characters": ["桐生つかさ", "輿水幸子"]
-  },
-  {
-    "tags": [{ "name": "ドナ森", "num": null }],
-    "characters": ["椎名法子", "高森藍子"]
-  },
-  {
-    "tags": [{ "name": "新田肇", "num": null }],
-    "characters": ["新田美波", "藤原肇"]
-  },
-  {
-    "tags": [{ "name": "みりあむ", "num": null }],
-    "characters": ["赤城みりあ", "夢見りあむ"]
-  },
-  {
-    "tags": [{ "name": "ゆずにな", "num": null }],
-    "characters": ["喜多見柚", "市原仁奈"]
-  },
-  {
-    "tags": [{ "name": "らんのの", "num": null }],
-    "characters": ["神崎蘭子", "森久保乃々"]
-  },
-  {
-    "tags": [{ "name": "りあのの", "num": null }],
-    "characters": ["夢見りあむ", "森久保乃々"]
-  },
-  {
-    "tags": [{ "name": "りあみん", "num": null }],
-    "characters": ["夢見りあむ", "安部菜々"]
-  },
-  {
-    "tags": [{ "name": "2mコンビ", "num": null }],
-    "characters": ["及川雫", "向井拓海"]
-  },
-  {
-    "tags": [{ "name": "しゅがちひ", "num": null }],
-    "characters": ["佐藤心", "千川ちひろ"]
+    "tags": [{ "name": "しゅがちひ" }],
+    "characters": [{ "name": "佐藤心" }, { "name": "千川ちひろ" }]
   }
 ]

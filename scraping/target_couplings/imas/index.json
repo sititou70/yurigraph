@@ -1,292 +1,574 @@
 [
-  { "characters": ["天海春香", "如月千早"], "tags": [{ "name": "はるちは" }] },
-  { "characters": ["天海春香", "萩原雪歩"], "tags": [{ "name": "はるゆき" }] },
   {
-    "characters": ["天海春香", "高槻やよい"],
+    "characters": [{ "name": "天海春香" }, { "name": "如月千早" }],
+    "tags": [{ "name": "はるちは" }]
+  },
+  {
+    "characters": [{ "name": "天海春香" }, { "name": "萩原雪歩" }],
+    "tags": [{ "name": "はるゆき" }]
+  },
+  {
+    "characters": [{ "name": "天海春香" }, { "name": "高槻やよい" }],
     "tags": [{ "name": "はるやよ" }]
   },
-  { "characters": ["天海春香", "水瀬伊織"], "tags": [{ "name": "はるいお" }] },
-  { "characters": ["天海春香", "菊地真"], "tags": [{ "name": "はるまこ" }] },
-  { "characters": ["天海春香", "双海亜美"], "tags": [{ "name": "はるあみ" }] },
-  { "characters": ["天海春香", "星井美希"], "tags": [{ "name": "はるみき" }] },
-  { "characters": ["天海春香", "我那覇響"], "tags": [{ "name": "がなはる" }] },
-  { "characters": ["天海春香", "四条貴音"], "tags": [{ "name": "たかはる" }] },
-  { "characters": ["天海春香", "日高愛"], "tags": [{ "name": "あいはる" }] },
   {
-    "characters": ["天海春香", "天ヶ瀬冬馬"],
+    "characters": [{ "name": "天海春香" }, { "name": "水瀬伊織" }],
+    "tags": [{ "name": "はるいお" }]
+  },
+  {
+    "characters": [{ "name": "天海春香" }, { "name": "菊地真" }],
+    "tags": [{ "name": "はるまこ" }]
+  },
+  {
+    "characters": [{ "name": "天海春香" }, { "name": "双海亜美" }],
+    "tags": [{ "name": "はるあみ" }]
+  },
+  {
+    "characters": [{ "name": "天海春香" }, { "name": "星井美希" }],
+    "tags": [{ "name": "はるみき" }]
+  },
+  {
+    "characters": [{ "name": "天海春香" }, { "name": "我那覇響" }],
+    "tags": [{ "name": "がなはる" }]
+  },
+  {
+    "characters": [{ "name": "天海春香" }, { "name": "四条貴音" }],
+    "tags": [{ "name": "たかはる" }]
+  },
+  {
+    "characters": [{ "name": "天海春香" }, { "name": "日高愛" }],
+    "tags": [{ "name": "あいはる" }]
+  },
+  {
+    "characters": [{ "name": "天海春香" }, { "name": "天ヶ瀬冬馬" }],
     "tags": [{ "name": "あまあまコンビ" }]
   },
-  { "characters": ["如月千早", "天海春香"], "tags": [{ "name": "はるちは" }] },
-  { "characters": ["如月千早", "萩原雪歩"], "tags": [{ "name": "ちはゆき" }] },
   {
-    "characters": ["如月千早", "高槻やよい"],
+    "characters": [{ "name": "如月千早" }, { "name": "天海春香" }],
+    "tags": [{ "name": "はるちは" }]
+  },
+  {
+    "characters": [{ "name": "如月千早" }, { "name": "萩原雪歩" }],
+    "tags": [{ "name": "ちはゆき" }]
+  },
+  {
+    "characters": [{ "name": "如月千早" }, { "name": "高槻やよい" }],
     "tags": [{ "name": "ちはやよい" }]
   },
   {
-    "characters": ["如月千早", "三浦あずさ"],
+    "characters": [{ "name": "如月千早" }, { "name": "三浦あずさ" }],
     "tags": [{ "name": "あずちは" }]
   },
-  { "characters": ["如月千早", "菊地真"], "tags": [{ "name": "ちはまこ" }] },
-  { "characters": ["如月千早", "双海真美"], "tags": [{ "name": "まみちは" }] },
-  { "characters": ["如月千早", "星井美希"], "tags": [{ "name": "ちはみき" }] },
-  { "characters": ["如月千早", "我那覇響"], "tags": [{ "name": "ちはひび" }] },
-  { "characters": ["如月千早", "四条貴音"], "tags": [{ "name": "たかちは" }] },
-  { "characters": ["如月千早", "秋月涼"], "tags": [{ "name": "ちはりょう" }] },
   {
-    "characters": ["如月千早", "伊集院北斗"],
+    "characters": [{ "name": "如月千早" }, { "name": "菊地真" }],
+    "tags": [{ "name": "ちはまこ" }]
+  },
+  {
+    "characters": [{ "name": "如月千早" }, { "name": "双海真美" }],
+    "tags": [{ "name": "まみちは" }]
+  },
+  {
+    "characters": [{ "name": "如月千早" }, { "name": "星井美希" }],
+    "tags": [{ "name": "ちはみき" }]
+  },
+  {
+    "characters": [{ "name": "如月千早" }, { "name": "我那覇響" }],
+    "tags": [{ "name": "ちはひび" }]
+  },
+  {
+    "characters": [{ "name": "如月千早" }, { "name": "四条貴音" }],
+    "tags": [{ "name": "たかちは" }]
+  },
+  {
+    "characters": [{ "name": "如月千早" }, { "name": "秋月涼" }],
+    "tags": [{ "name": "ちはりょう" }]
+  },
+  {
+    "characters": [{ "name": "如月千早" }, { "name": "伊集院北斗" }],
     "tags": [{ "name": "ほくちは" }]
   },
-  { "characters": ["萩原雪歩", "天海春香"], "tags": [{ "name": "はるゆき" }] },
-  { "characters": ["萩原雪歩", "如月千早"], "tags": [{ "name": "ちはゆき" }] },
   {
-    "characters": ["萩原雪歩", "高槻やよい"],
+    "characters": [{ "name": "萩原雪歩" }, { "name": "天海春香" }],
+    "tags": [{ "name": "はるゆき" }]
+  },
+  {
+    "characters": [{ "name": "萩原雪歩" }, { "name": "如月千早" }],
+    "tags": [{ "name": "ちはゆき" }]
+  },
+  {
+    "characters": [{ "name": "萩原雪歩" }, { "name": "高槻やよい" }],
     "tags": [{ "name": "やよゆき" }]
   },
-  { "characters": ["萩原雪歩", "秋月律子"], "tags": [{ "name": "ゆきりつ" }] },
   {
-    "characters": ["萩原雪歩", "三浦あずさ"],
+    "characters": [{ "name": "萩原雪歩" }, { "name": "秋月律子" }],
+    "tags": [{ "name": "ゆきりつ" }]
+  },
+  {
+    "characters": [{ "name": "萩原雪歩" }, { "name": "三浦あずさ" }],
     "tags": [{ "name": "あずゆき" }]
   },
-  { "characters": ["萩原雪歩", "水瀬伊織"], "tags": [{ "name": "いおゆき" }] },
-  { "characters": ["萩原雪歩", "菊地真"], "tags": [{ "name": "ゆきまこ" }] },
   {
-    "characters": ["萩原雪歩", "双海亜美"],
+    "characters": [{ "name": "萩原雪歩" }, { "name": "水瀬伊織" }],
+    "tags": [{ "name": "いおゆき" }]
+  },
+  {
+    "characters": [{ "name": "萩原雪歩" }, { "name": "菊地真" }],
+    "tags": [{ "name": "ゆきまこ" }]
+  },
+  {
+    "characters": [{ "name": "萩原雪歩" }, { "name": "双海亜美" }],
     "tags": [{ "name": "ゆきとかち" }]
   },
   {
-    "characters": ["萩原雪歩", "双海真美"],
+    "characters": [{ "name": "萩原雪歩" }, { "name": "双海真美" }],
     "tags": [{ "name": "ゆきまみ" }, { "name": "ゆきとかち" }]
   },
-  { "characters": ["萩原雪歩", "星井美希"], "tags": [{ "name": "ゆきみき" }] },
-  { "characters": ["萩原雪歩", "我那覇響"], "tags": [{ "name": "ひびゆき" }] },
-  { "characters": ["萩原雪歩", "四条貴音"], "tags": [{ "name": "たかゆき" }] },
-  { "characters": ["萩原雪歩", "日高愛"], "tags": [{ "name": "あいゆき" }] },
-  { "characters": ["萩原雪歩", "水谷絵理"], "tags": [{ "name": "ゆきえり" }] },
-  { "characters": ["萩原雪歩", "秋月涼"], "tags": [{ "name": "りょうゆき" }] },
   {
-    "characters": ["萩原雪歩", "天ヶ瀬冬馬"],
+    "characters": [{ "name": "萩原雪歩" }, { "name": "星井美希" }],
+    "tags": [{ "name": "ゆきみき" }]
+  },
+  {
+    "characters": [{ "name": "萩原雪歩" }, { "name": "我那覇響" }],
+    "tags": [{ "name": "ひびゆき" }]
+  },
+  {
+    "characters": [{ "name": "萩原雪歩" }, { "name": "四条貴音" }],
+    "tags": [{ "name": "たかゆき" }]
+  },
+  {
+    "characters": [{ "name": "萩原雪歩" }, { "name": "日高愛" }],
+    "tags": [{ "name": "あいゆき" }]
+  },
+  {
+    "characters": [{ "name": "萩原雪歩" }, { "name": "水谷絵理" }],
+    "tags": [{ "name": "ゆきえり" }]
+  },
+  {
+    "characters": [{ "name": "萩原雪歩" }, { "name": "秋月涼" }],
+    "tags": [{ "name": "りょうゆき" }]
+  },
+  {
+    "characters": [{ "name": "萩原雪歩" }, { "name": "天ヶ瀬冬馬" }],
     "tags": [{ "name": "とうゆき" }]
   },
   {
-    "characters": ["高槻やよい", "天海春香"],
+    "characters": [{ "name": "高槻やよい" }, { "name": "天海春香" }],
     "tags": [{ "name": "はるやよ" }]
   },
   {
-    "characters": ["高槻やよい", "如月千早"],
+    "characters": [{ "name": "高槻やよい" }, { "name": "如月千早" }],
     "tags": [{ "name": "ちはやよい" }]
   },
   {
-    "characters": ["高槻やよい", "萩原雪歩"],
+    "characters": [{ "name": "高槻やよい" }, { "name": "萩原雪歩" }],
     "tags": [{ "name": "やよゆき" }]
   },
   {
-    "characters": ["高槻やよい", "水瀬伊織"],
+    "characters": [{ "name": "高槻やよい" }, { "name": "水瀬伊織" }],
     "tags": [{ "name": "やよいおり" }]
   },
-  { "characters": ["高槻やよい", "菊地真"], "tags": [{ "name": "やよまこ" }] },
   {
-    "characters": ["高槻やよい", "双海亜美"],
+    "characters": [{ "name": "高槻やよい" }, { "name": "菊地真" }],
+    "tags": [{ "name": "やよまこ" }]
+  },
+  {
+    "characters": [{ "name": "高槻やよい" }, { "name": "双海亜美" }],
     "tags": [{ "name": "ロリチーム(im%40s)" }]
   },
   {
-    "characters": ["高槻やよい", "双海真美"],
+    "characters": [{ "name": "高槻やよい" }, { "name": "双海真美" }],
     "tags": [{ "name": "ロリチーム(im%40s)" }]
   },
   {
-    "characters": ["高槻やよい", "星井美希"],
+    "characters": [{ "name": "高槻やよい" }, { "name": "星井美希" }],
     "tags": [{ "name": "やよみき" }]
   },
   {
-    "characters": ["高槻やよい", "我那覇響"],
+    "characters": [{ "name": "高槻やよい" }, { "name": "我那覇響" }],
     "tags": [{ "name": "ひびやよ" }]
   },
   {
-    "characters": ["高槻やよい", "御手洗翔太"],
+    "characters": [{ "name": "高槻やよい" }, { "name": "御手洗翔太" }],
     "tags": [{ "name": "やよしょう" }]
   },
-  { "characters": ["秋月律子", "萩原雪歩"], "tags": [{ "name": "ゆきりつ" }] },
   {
-    "characters": ["秋月律子", "三浦あずさ"],
+    "characters": [{ "name": "秋月律子" }, { "name": "萩原雪歩" }],
+    "tags": [{ "name": "ゆきりつ" }]
+  },
+  {
+    "characters": [{ "name": "秋月律子" }, { "name": "三浦あずさ" }],
     "tags": [{ "name": "あずりつ" }]
   },
   {
-    "characters": ["秋月律子", "菊地真"],
+    "characters": [{ "name": "秋月律子" }, { "name": "菊地真" }],
     "tags": [{ "name": "まこりつ(アイマス)" }]
   },
-  { "characters": ["秋月律子", "星井美希"], "tags": [{ "name": "みきりつ" }] },
-  { "characters": ["秋月律子", "秋月涼"], "tags": [{ "name": "りょうりつ" }] },
   {
-    "characters": ["秋月律子", "音無小鳥"],
+    "characters": [{ "name": "秋月律子" }, { "name": "星井美希" }],
+    "tags": [{ "name": "みきりつ" }]
+  },
+  {
+    "characters": [{ "name": "秋月律子" }, { "name": "秋月涼" }],
+    "tags": [{ "name": "りょうりつ" }]
+  },
+  {
+    "characters": [{ "name": "秋月律子" }, { "name": "音無小鳥" }],
     "tags": [{ "name": "ことりつこ" }]
   },
   {
-    "characters": ["三浦あずさ", "如月千早"],
+    "characters": [{ "name": "三浦あずさ" }, { "name": "如月千早" }],
     "tags": [{ "name": "あずちは" }]
   },
   {
-    "characters": ["三浦あずさ", "萩原雪歩"],
+    "characters": [{ "name": "三浦あずさ" }, { "name": "萩原雪歩" }],
     "tags": [{ "name": "あずゆき" }]
   },
   {
-    "characters": ["三浦あずさ", "秋月律子"],
+    "characters": [{ "name": "三浦あずさ" }, { "name": "秋月律子" }],
     "tags": [{ "name": "あずりつ" }]
   },
   {
-    "characters": ["三浦あずさ", "水瀬伊織"],
+    "characters": [{ "name": "三浦あずさ" }, { "name": "水瀬伊織" }],
     "tags": [{ "name": "あずいお" }]
   },
-  { "characters": ["三浦あずさ", "菊地真"], "tags": [{ "name": "あずまこ" }] },
   {
-    "characters": ["三浦あずさ", "四条貴音"],
+    "characters": [{ "name": "三浦あずさ" }, { "name": "菊地真" }],
+    "tags": [{ "name": "あずまこ" }]
+  },
+  {
+    "characters": [{ "name": "三浦あずさ" }, { "name": "四条貴音" }],
     "tags": [{ "name": "あずたか" }]
   },
-  { "characters": ["水瀬伊織", "天海春香"], "tags": [{ "name": "はるいお" }] },
-  { "characters": ["水瀬伊織", "萩原雪歩"], "tags": [{ "name": "いおゆき" }] },
   {
-    "characters": ["水瀬伊織", "高槻やよい"],
+    "characters": [{ "name": "水瀬伊織" }, { "name": "天海春香" }],
+    "tags": [{ "name": "はるいお" }]
+  },
+  {
+    "characters": [{ "name": "水瀬伊織" }, { "name": "萩原雪歩" }],
+    "tags": [{ "name": "いおゆき" }]
+  },
+  {
+    "characters": [{ "name": "水瀬伊織" }, { "name": "高槻やよい" }],
     "tags": [{ "name": "やよいおり" }]
   },
   {
-    "characters": ["水瀬伊織", "三浦あずさ"],
+    "characters": [{ "name": "水瀬伊織" }, { "name": "三浦あずさ" }],
     "tags": [{ "name": "あずいお" }]
   },
-  { "characters": ["水瀬伊織", "菊地真"], "tags": [{ "name": "いおまこ" }] },
-  { "characters": ["水瀬伊織", "星井美希"], "tags": [{ "name": "みきいお" }] },
-  { "characters": ["水瀬伊織", "四条貴音"], "tags": [{ "name": "たかいお" }] },
-  { "characters": ["菊地真", "天海春香"], "tags": [{ "name": "はるまこ" }] },
-  { "characters": ["菊地真", "如月千早"], "tags": [{ "name": "ちはまこ" }] },
-  { "characters": ["菊地真", "萩原雪歩"], "tags": [{ "name": "ゆきまこ" }] },
-  { "characters": ["菊地真", "高槻やよい"], "tags": [{ "name": "やよまこ" }] },
-  { "characters": ["菊地真", "秋月律子"], "tags": [{ "name": "りつまこ" }] },
-  { "characters": ["菊地真", "三浦あずさ"], "tags": [{ "name": "あずまこ" }] },
-  { "characters": ["菊地真", "水瀬伊織"], "tags": [{ "name": "いおまこ" }] },
-  { "characters": ["菊地真", "星井美希"], "tags": [{ "name": "みきまこ" }] },
-  { "characters": ["菊地真", "我那覇響"], "tags": [{ "name": "ひびまこ" }] },
-  { "characters": ["菊地真", "四条貴音"], "tags": [{ "name": "たかまこ" }] },
-  { "characters": ["菊地真", "日高愛"], "tags": [{ "name": "あいまこ" }] },
-  { "characters": ["菊地真", "秋月涼"], "tags": [{ "name": "りょうまこ" }] },
-  { "characters": ["菊地真", "伊集院北斗"], "tags": [{ "name": "ほくまこ" }] },
   {
-    "characters": ["菊地真", "音無小鳥"],
+    "characters": [{ "name": "水瀬伊織" }, { "name": "菊地真" }],
+    "tags": [{ "name": "いおまこ" }]
+  },
+  {
+    "characters": [{ "name": "水瀬伊織" }, { "name": "星井美希" }],
+    "tags": [{ "name": "みきいお" }]
+  },
+  {
+    "characters": [{ "name": "水瀬伊織" }, { "name": "四条貴音" }],
+    "tags": [{ "name": "たかいお" }]
+  },
+  {
+    "characters": [{ "name": "菊地真" }, { "name": "天海春香" }],
+    "tags": [{ "name": "はるまこ" }]
+  },
+  {
+    "characters": [{ "name": "菊地真" }, { "name": "如月千早" }],
+    "tags": [{ "name": "ちはまこ" }]
+  },
+  {
+    "characters": [{ "name": "菊地真" }, { "name": "萩原雪歩" }],
+    "tags": [{ "name": "ゆきまこ" }]
+  },
+  {
+    "characters": [{ "name": "菊地真" }, { "name": "高槻やよい" }],
+    "tags": [{ "name": "やよまこ" }]
+  },
+  {
+    "characters": [{ "name": "菊地真" }, { "name": "秋月律子" }],
+    "tags": [{ "name": "りつまこ" }]
+  },
+  {
+    "characters": [{ "name": "菊地真" }, { "name": "三浦あずさ" }],
+    "tags": [{ "name": "あずまこ" }]
+  },
+  {
+    "characters": [{ "name": "菊地真" }, { "name": "水瀬伊織" }],
+    "tags": [{ "name": "いおまこ" }]
+  },
+  {
+    "characters": [{ "name": "菊地真" }, { "name": "星井美希" }],
+    "tags": [{ "name": "みきまこ" }]
+  },
+  {
+    "characters": [{ "name": "菊地真" }, { "name": "我那覇響" }],
+    "tags": [{ "name": "ひびまこ" }]
+  },
+  {
+    "characters": [{ "name": "菊地真" }, { "name": "四条貴音" }],
+    "tags": [{ "name": "たかまこ" }]
+  },
+  {
+    "characters": [{ "name": "菊地真" }, { "name": "日高愛" }],
+    "tags": [{ "name": "あいまこ" }]
+  },
+  {
+    "characters": [{ "name": "菊地真" }, { "name": "秋月涼" }],
+    "tags": [{ "name": "りょうまこ" }]
+  },
+  {
+    "characters": [{ "name": "菊地真" }, { "name": "伊集院北斗" }],
+    "tags": [{ "name": "ほくまこ" }]
+  },
+  {
+    "characters": [{ "name": "菊地真" }, { "name": "音無小鳥" }],
     "tags": [{ "name": "まことり" }, { "name": "ぴよまこ" }]
   },
-  { "characters": ["双海亜美", "天海春香"], "tags": [{ "name": "はるあみ" }] },
   {
-    "characters": ["双海亜美", "高槻やよい"],
+    "characters": [{ "name": "双海亜美" }, { "name": "天海春香" }],
+    "tags": [{ "name": "はるあみ" }]
+  },
+  {
+    "characters": [{ "name": "双海亜美" }, { "name": "高槻やよい" }],
     "tags": [{ "name": "ロリチーム(im%40s)" }]
   },
   {
-    "characters": ["双海亜美", "双海真美"],
+    "characters": [{ "name": "双海亜美" }, { "name": "双海真美" }],
     "tags": [{ "name": "亜美真美" }, { "name": "あみまみ" }]
   },
-  { "characters": ["双海真美", "如月千早"], "tags": [{ "name": "まみちは" }] },
   {
-    "characters": ["双海真美", "萩原雪歩"],
+    "characters": [{ "name": "双海真美" }, { "name": "如月千早" }],
+    "tags": [{ "name": "まみちは" }]
+  },
+  {
+    "characters": [{ "name": "双海真美" }, { "name": "萩原雪歩" }],
     "tags": [{ "name": "まみゆき" }, { "name": "ゆきまみ" }]
   },
   {
-    "characters": ["双海真美", "高槻やよい"],
+    "characters": [{ "name": "双海真美" }, { "name": "高槻やよい" }],
     "tags": [{ "name": "ロリチーム(im%40s)" }]
   },
   {
-    "characters": ["双海真美", "双海亜美"],
+    "characters": [{ "name": "双海真美" }, { "name": "双海亜美" }],
     "tags": [{ "name": "亜美真美" }, { "name": "あみまみ" }]
   },
-  { "characters": ["星井美希", "天海春香"], "tags": [{ "name": "はるみき" }] },
-  { "characters": ["星井美希", "如月千早"], "tags": [{ "name": "ちはみき" }] },
-  { "characters": ["星井美希", "萩原雪歩"], "tags": [{ "name": "みきゆき" }] },
   {
-    "characters": ["星井美希", "高槻やよい"],
+    "characters": [{ "name": "星井美希" }, { "name": "天海春香" }],
+    "tags": [{ "name": "はるみき" }]
+  },
+  {
+    "characters": [{ "name": "星井美希" }, { "name": "如月千早" }],
+    "tags": [{ "name": "ちはみき" }]
+  },
+  {
+    "characters": [{ "name": "星井美希" }, { "name": "萩原雪歩" }],
+    "tags": [{ "name": "みきゆき" }]
+  },
+  {
+    "characters": [{ "name": "星井美希" }, { "name": "高槻やよい" }],
     "tags": [{ "name": "やよみき" }]
   },
-  { "characters": ["星井美希", "秋月律子"], "tags": [{ "name": "みきりつ" }] },
-  { "characters": ["星井美希", "水瀬伊織"], "tags": [{ "name": "みきいお" }] },
-  { "characters": ["星井美希", "菊地真"], "tags": [{ "name": "みきまこ" }] },
-  { "characters": ["星井美希", "我那覇響"], "tags": [{ "name": "ひびみき" }] },
-  { "characters": ["星井美希", "天ヶ瀬冬馬"], "tags": [{ "name": "Wアホ毛" }] },
-  { "characters": ["我那覇響", "天海春香"], "tags": [{ "name": "がなはる" }] },
-  { "characters": ["我那覇響", "如月千早"], "tags": [{ "name": "ちはひび" }] },
-  { "characters": ["我那覇響", "萩原雪歩"], "tags": [{ "name": "ひびゆき" }] },
   {
-    "characters": ["我那覇響", "高槻やよい"],
+    "characters": [{ "name": "星井美希" }, { "name": "秋月律子" }],
+    "tags": [{ "name": "みきりつ" }]
+  },
+  {
+    "characters": [{ "name": "星井美希" }, { "name": "水瀬伊織" }],
+    "tags": [{ "name": "みきいお" }]
+  },
+  {
+    "characters": [{ "name": "星井美希" }, { "name": "菊地真" }],
+    "tags": [{ "name": "みきまこ" }]
+  },
+  {
+    "characters": [{ "name": "星井美希" }, { "name": "我那覇響" }],
+    "tags": [{ "name": "ひびみき" }]
+  },
+  {
+    "characters": [{ "name": "星井美希" }, { "name": "天ヶ瀬冬馬" }],
+    "tags": [{ "name": "Wアホ毛" }]
+  },
+  {
+    "characters": [{ "name": "我那覇響" }, { "name": "天海春香" }],
+    "tags": [{ "name": "がなはる" }]
+  },
+  {
+    "characters": [{ "name": "我那覇響" }, { "name": "如月千早" }],
+    "tags": [{ "name": "ちはひび" }]
+  },
+  {
+    "characters": [{ "name": "我那覇響" }, { "name": "萩原雪歩" }],
+    "tags": [{ "name": "ひびゆき" }]
+  },
+  {
+    "characters": [{ "name": "我那覇響" }, { "name": "高槻やよい" }],
     "tags": [{ "name": "ひびやよ" }]
   },
-  { "characters": ["我那覇響", "菊地真"], "tags": [{ "name": "ひびまこ" }] },
-  { "characters": ["我那覇響", "星井美希"], "tags": [{ "name": "ひびみき" }] },
-  { "characters": ["我那覇響", "四条貴音"], "tags": [{ "name": "ひびたか" }] },
   {
-    "characters": ["我那覇響", "天ヶ瀬冬馬"],
+    "characters": [{ "name": "我那覇響" }, { "name": "菊地真" }],
+    "tags": [{ "name": "ひびまこ" }]
+  },
+  {
+    "characters": [{ "name": "我那覇響" }, { "name": "星井美希" }],
+    "tags": [{ "name": "ひびみき" }]
+  },
+  {
+    "characters": [{ "name": "我那覇響" }, { "name": "四条貴音" }],
+    "tags": [{ "name": "ひびたか" }]
+  },
+  {
+    "characters": [{ "name": "我那覇響" }, { "name": "天ヶ瀬冬馬" }],
     "tags": [{ "name": "とうひび" }]
   },
-  { "characters": ["四条貴音", "天海春香"], "tags": [{ "name": "たかはる" }] },
-  { "characters": ["四条貴音", "如月千早"], "tags": [{ "name": "たかちは" }] },
-  { "characters": ["四条貴音", "萩原雪歩"], "tags": [{ "name": "たかゆき" }] },
   {
-    "characters": ["四条貴音", "三浦あずさ"],
+    "characters": [{ "name": "四条貴音" }, { "name": "天海春香" }],
+    "tags": [{ "name": "たかはる" }]
+  },
+  {
+    "characters": [{ "name": "四条貴音" }, { "name": "如月千早" }],
+    "tags": [{ "name": "たかちは" }]
+  },
+  {
+    "characters": [{ "name": "四条貴音" }, { "name": "萩原雪歩" }],
+    "tags": [{ "name": "たかゆき" }]
+  },
+  {
+    "characters": [{ "name": "四条貴音" }, { "name": "三浦あずさ" }],
     "tags": [{ "name": "あずたか" }]
   },
-  { "characters": ["四条貴音", "水瀬伊織"], "tags": [{ "name": "たかいお" }] },
-  { "characters": ["四条貴音", "菊地真"], "tags": [{ "name": "たかまこ" }] },
-  { "characters": ["四条貴音", "我那覇響"], "tags": [{ "name": "ひびたか" }] },
-  { "characters": ["日高愛", "天海春香"], "tags": [{ "name": "あいはる" }] },
-  { "characters": ["日高愛", "萩原雪歩"], "tags": [{ "name": "あいゆき" }] },
-  { "characters": ["日高愛", "菊地真"], "tags": [{ "name": "あいまこ" }] },
-  { "characters": ["日高愛", "水谷絵理"], "tags": [{ "name": "あいえり" }] },
-  { "characters": ["日高愛", "秋月涼"], "tags": [{ "name": "りょうあい" }] },
-  { "characters": ["日高愛", "天ヶ瀬冬馬"], "tags": [{ "name": "あいとう" }] },
-  { "characters": ["水谷絵理", "萩原雪歩"], "tags": [{ "name": "ゆきえり" }] },
-  { "characters": ["水谷絵理", "日高愛"], "tags": [{ "name": "あいえり" }] },
-  { "characters": ["水谷絵理", "秋月涼"], "tags": [{ "name": "りょうえり" }] },
-  { "characters": ["秋月涼", "如月千早"], "tags": [{ "name": "ちはりょう" }] },
-  { "characters": ["秋月涼", "萩原雪歩"], "tags": [{ "name": "りょうゆき" }] },
-  { "characters": ["秋月涼", "秋月律子"], "tags": [{ "name": "りょうりつ" }] },
-  { "characters": ["秋月涼", "菊地真"], "tags": [{ "name": "りょうまこ" }] },
-  { "characters": ["秋月涼", "日高愛"], "tags": [{ "name": "りょうあい" }] },
-  { "characters": ["秋月涼", "水谷絵理"], "tags": [{ "name": "りょうえり" }] },
   {
-    "characters": ["秋月涼", "天ヶ瀬冬馬"],
+    "characters": [{ "name": "四条貴音" }, { "name": "水瀬伊織" }],
+    "tags": [{ "name": "たかいお" }]
+  },
+  {
+    "characters": [{ "name": "四条貴音" }, { "name": "菊地真" }],
+    "tags": [{ "name": "たかまこ" }]
+  },
+  {
+    "characters": [{ "name": "四条貴音" }, { "name": "我那覇響" }],
+    "tags": [{ "name": "ひびたか" }]
+  },
+  {
+    "characters": [{ "name": "日高愛" }, { "name": "天海春香" }],
+    "tags": [{ "name": "あいはる" }]
+  },
+  {
+    "characters": [{ "name": "日高愛" }, { "name": "萩原雪歩" }],
+    "tags": [{ "name": "あいゆき" }]
+  },
+  {
+    "characters": [{ "name": "日高愛" }, { "name": "菊地真" }],
+    "tags": [{ "name": "あいまこ" }]
+  },
+  {
+    "characters": [{ "name": "日高愛" }, { "name": "水谷絵理" }],
+    "tags": [{ "name": "あいえり" }]
+  },
+  {
+    "characters": [{ "name": "日高愛" }, { "name": "秋月涼" }],
+    "tags": [{ "name": "りょうあい" }]
+  },
+  {
+    "characters": [{ "name": "日高愛" }, { "name": "天ヶ瀬冬馬" }],
+    "tags": [{ "name": "あいとう" }]
+  },
+  {
+    "characters": [{ "name": "水谷絵理" }, { "name": "萩原雪歩" }],
+    "tags": [{ "name": "ゆきえり" }]
+  },
+  {
+    "characters": [{ "name": "水谷絵理" }, { "name": "日高愛" }],
+    "tags": [{ "name": "あいえり" }]
+  },
+  {
+    "characters": [{ "name": "水谷絵理" }, { "name": "秋月涼" }],
+    "tags": [{ "name": "りょうえり" }]
+  },
+  {
+    "characters": [{ "name": "秋月涼" }, { "name": "如月千早" }],
+    "tags": [{ "name": "ちはりょう" }]
+  },
+  {
+    "characters": [{ "name": "秋月涼" }, { "name": "萩原雪歩" }],
+    "tags": [{ "name": "りょうゆき" }]
+  },
+  {
+    "characters": [{ "name": "秋月涼" }, { "name": "秋月律子" }],
+    "tags": [{ "name": "りょうりつ" }]
+  },
+  {
+    "characters": [{ "name": "秋月涼" }, { "name": "菊地真" }],
+    "tags": [{ "name": "りょうまこ" }]
+  },
+  {
+    "characters": [{ "name": "秋月涼" }, { "name": "日高愛" }],
+    "tags": [{ "name": "りょうあい" }]
+  },
+  {
+    "characters": [{ "name": "秋月涼" }, { "name": "水谷絵理" }],
+    "tags": [{ "name": "りょうえり" }]
+  },
+  {
+    "characters": [{ "name": "秋月涼" }, { "name": "天ヶ瀬冬馬" }],
     "tags": [{ "name": "りょうとう" }]
   },
-  { "characters": ["秋月涼", "音無小鳥"], "tags": [{ "name": "りょうぴよ" }] },
   {
-    "characters": ["天ヶ瀬冬馬", "天海春香"],
+    "characters": [{ "name": "秋月涼" }, { "name": "音無小鳥" }],
+    "tags": [{ "name": "りょうぴよ" }]
+  },
+  {
+    "characters": [{ "name": "天ヶ瀬冬馬" }, { "name": "天海春香" }],
     "tags": [{ "name": "あまあまコンビ" }]
   },
   {
-    "characters": ["天ヶ瀬冬馬", "萩原雪歩"],
+    "characters": [{ "name": "天ヶ瀬冬馬" }, { "name": "萩原雪歩" }],
     "tags": [{ "name": "とうゆき" }]
   },
-  { "characters": ["天ヶ瀬冬馬", "菊地真"], "tags": [{ "name": "とうまこ" }] },
-  { "characters": ["天ヶ瀬冬馬", "星井美希"], "tags": [{ "name": "Wアホ毛" }] },
   {
-    "characters": ["天ヶ瀬冬馬", "我那覇響"],
+    "characters": [{ "name": "天ヶ瀬冬馬" }, { "name": "菊地真" }],
+    "tags": [{ "name": "とうまこ" }]
+  },
+  {
+    "characters": [{ "name": "天ヶ瀬冬馬" }, { "name": "星井美希" }],
+    "tags": [{ "name": "Wアホ毛" }]
+  },
+  {
+    "characters": [{ "name": "天ヶ瀬冬馬" }, { "name": "我那覇響" }],
     "tags": [{ "name": "とうひび" }]
   },
-  { "characters": ["天ヶ瀬冬馬", "日高愛"], "tags": [{ "name": "あいとう" }] },
   {
-    "characters": ["天ヶ瀬冬馬", "秋月涼"],
+    "characters": [{ "name": "天ヶ瀬冬馬" }, { "name": "日高愛" }],
+    "tags": [{ "name": "あいとう" }]
+  },
+  {
+    "characters": [{ "name": "天ヶ瀬冬馬" }, { "name": "秋月涼" }],
     "tags": [{ "name": "りょうとう" }]
   },
   {
-    "characters": ["御手洗翔太", "高槻やよい"],
+    "characters": [{ "name": "御手洗翔太" }, { "name": "高槻やよい" }],
     "tags": [{ "name": "やよしょう" }]
   },
   {
-    "characters": ["御手洗翔太", "菊地真"],
+    "characters": [{ "name": "御手洗翔太" }, { "name": "菊地真" }],
     "tags": [{ "name": "しょうまこ" }]
   },
   {
-    "characters": ["伊集院北斗", "如月千早"],
+    "characters": [{ "name": "伊集院北斗" }, { "name": "如月千早" }],
     "tags": [{ "name": "ほくちは" }]
   },
-  { "characters": ["伊集院北斗", "菊地真"], "tags": [{ "name": "ほくまこ" }] },
   {
-    "characters": ["音無小鳥", "秋月律子"],
+    "characters": [{ "name": "伊集院北斗" }, { "name": "菊地真" }],
+    "tags": [{ "name": "ほくまこ" }]
+  },
+  {
+    "characters": [{ "name": "音無小鳥" }, { "name": "秋月律子" }],
     "tags": [{ "name": "ことりつこ" }]
   },
   {
-    "characters": ["音無小鳥", "菊地真"],
+    "characters": [{ "name": "音無小鳥" }, { "name": "菊地真" }],
     "tags": [{ "name": "ぴよまこ" }, { "name": "まことり" }]
   },
-  { "characters": ["音無小鳥", "秋月涼"], "tags": [{ "name": "りょうぴよ" }] }
+  {
+    "characters": [{ "name": "音無小鳥" }, { "name": "秋月涼" }],
+    "tags": [{ "name": "りょうぴよ" }]
+  }
 ]

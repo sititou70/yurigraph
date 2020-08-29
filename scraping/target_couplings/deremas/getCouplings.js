@@ -4,30 +4,38 @@
 // get coupling from like following table format
 // 「あい真奈」【ハンサムレディース】
 // 東郷あい × 木場真奈美
-var getCouplingsMultiRow = table => {
+var getCouplingsMultiRow = (table) => {
   const tags = Array.from(table.querySelectorAll('tbody > tr'))
     .filter((x, i) => i % 3 === 0)
-    .map(x => Array.from(x.querySelectorAll('th > a')).map(x => x.innerText));
+    .map((x) =>
+      Array.from(x.querySelectorAll('th > a')).map((x) => x.innerText)
+    );
 
   const characters = Array.from(table.querySelectorAll('tbody > tr'))
-    .filter((x, i) => i % 3 === 1)
-    .map(x => Array.from(x.querySelectorAll('a')).map(x => x.innerText));
+    .filter((_, i) => i % 3 === 1)
+    .map((x) =>
+      Array.from(x.querySelectorAll('a')).map((x) => ({
+        name: x.innerText,
+      }))
+    );
 
   return tags.map((_, i) => ({
     characters: characters[i],
-    tags: tags[i].map(x => ({ name: x })),
+    tags: tags[i].map((x) => ({ name: x })),
   }));
 };
 
 // get coupling from like following table format
 // アキレイナ　／　池袋晶葉 × 小関麗奈
-var getCouplingsSingleRow = table =>
+var getCouplingsSingleRow = (table) =>
   Array.from(table.querySelectorAll('tbody > tr'))
-    .filter((x, i) => i % 2 === 0)
-    .map(x => Array.from(x.querySelectorAll('th > a')).map(x => x.innerText))
-    .map(x => ({
-      tags: x.slice(0, -2).map(x => ({ name: x })),
-      characters: x.slice(-2),
+    .filter((_, i) => i % 2 === 0)
+    .map((x) =>
+      Array.from(x.querySelectorAll('th > a')).map((x) => x.innerText)
+    )
+    .map((x) => ({
+      tags: x.slice(0, -2).map((x) => ({ name: x })),
+      characters: x.slice(-2).map((x) => ({ name: x })),
     }));
 
 var couplings = [

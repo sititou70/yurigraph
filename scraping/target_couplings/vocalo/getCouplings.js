@@ -137,7 +137,7 @@
 
         return coupling_cells
           .map((x, i) => ({
-            characters: [character, header_characters[i]],
+            characters: [{ name: character }, { name: header_characters[i] }],
             tags: Array.from(x.querySelectorAll('a'))
               .map((x) => ({ name: getDictTitleFromURL(x.href) }))
               .filter((x) => x.name !== ''),
@@ -156,7 +156,7 @@
       .map((x) => x.textContent.match(/(.+)\((.+)\)/))
       .filter((x) => x !== null)
       .map((x) => ({
-        characters: x[2].split('×').map((x) => getFullname(x)),
+        characters: x[2].split('×').map((x) => ({ name: getFullname(x) })),
         tags: x[1].split(list_tag_splitter).map((x) => ({ name: x })),
       }))
       .filter((x) => x.characters.length === 2);

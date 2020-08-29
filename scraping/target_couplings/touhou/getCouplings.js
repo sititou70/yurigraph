@@ -3,17 +3,17 @@
 
 (() => {
   // utils
-  const getDictTitleFromURL = url =>
+  const getDictTitleFromURL = (url) =>
     decodeURI(url).replace(/https?:\/\/dic\.pixiv\.net\/a\//, '');
 
   // usage: target_couplings.map(addcharactor("username"))
-  const addcharactor = charactor => x => ({
+  const addcharactor = (charactor) => (x) => ({
     ...x,
-    characters: [...x.characters, charactor],
+    characters: [...x.characters, { name: charactor }],
   });
 
   // usage: target_couplings.filter(excludeSameCharactorsCoupling)
-  const excludeSameCharactorsCoupling = x =>
+  const excludeSameCharactorsCoupling = (x) =>
     x.characters.length === 2 && x.characters[0] !== x.characters[1];
 
   // add coupling synonym to target coupling from synonym table, table format like below example
@@ -23,29 +23,29 @@
   //</tr>
   //...
   //usage: target_coupling.map(addSynonymCouplingTag(synonym_table))
-  const addSynonymCouplingTag = synonym_table => {
+  const addSynonymCouplingTag = (synonym_table) => {
     const synonyms = Array.from(synonym_table.querySelectorAll('tr'))
-      .map(x => ({
+      .map((x) => ({
         tag: x.querySelector('th'),
         synonym: x.querySelector('td'),
       }))
-      .filter(x => x.tag !== null && x.synonym !== null)
-      .map(x => ({
-        tags: Array.from(x.tag.querySelectorAll('a')).map(x =>
+      .filter((x) => x.tag !== null && x.synonym !== null)
+      .map((x) => ({
+        tags: Array.from(x.tag.querySelectorAll('a')).map((x) =>
           getDictTitleFromURL(x.href)
         ),
-        synonyms: Array.from(x.synonym.querySelectorAll('a')).map(x =>
+        synonyms: Array.from(x.synonym.querySelectorAll('a')).map((x) =>
           getDictTitleFromURL(x.href)
         ),
       }));
 
-    return x => {
+    return (x) => {
       const current_synonyms = x.tags
-        .map(x => synonyms.find(y => y.tags.indexOf(x.name) !== -1))
-        .filter(x => x !== undefined)
+        .map((x) => synonyms.find((y) => y.tags.indexOf(x.name) !== -1))
+        .filter((x) => x !== undefined)
         .reduce((s, x) => [...s, ...x.synonyms], [])
         .filter((x, i, self) => self.indexOf(x) === i)
-        .map(x => ({ name: x }));
+        .map((x) => ({ name: x }));
 
       return { ...x, tags: [...x.tags, ...current_synonyms] };
     };
@@ -57,18 +57,18 @@
   //  <td><a>るーだい</a></td>
   //</tr>
   //...
-  const getCouplingFromTable = table =>
+  const getCouplingFromTable = (table) =>
     Array.from(table.querySelectorAll('tr'))
-      .map(x => ({
+      .map((x) => ({
         header: x.querySelector('th'),
         data: x.querySelector('td'),
       }))
-      .filter(x => x.header !== null && x.data !== null)
-      .map(x => ({
-        characters: Array.from(x.header.querySelectorAll('a')).map(x =>
-          getDictTitleFromURL(x.href)
-        ),
-        tags: Array.from(x.data.querySelectorAll('a')).map(x => ({
+      .filter((x) => x.header !== null && x.data !== null)
+      .map((x) => ({
+        characters: Array.from(x.header.querySelectorAll('a')).map((x) => ({
+          name: getDictTitleFromURL(x.href),
+        })),
+        tags: Array.from(x.data.querySelectorAll('a')).map((x) => ({
           name: getDictTitleFromURL(x.href),
         })),
       }));
@@ -81,12 +81,12 @@
   );
   const target_tables = Array.from(
     document.querySelectorAll(`${from_element_selector}~table`)
-  ).filter(x => excluded_tables.find(y => y.isEqualNode(x)) === undefined);
+  ).filter((x) => excluded_tables.find((y) => y.isEqualNode(x)) === undefined);
 
   const target_couplings = [
     //作品別
     ...target_tables
-      .map(x => getCouplingFromTable(x))
+      .map((x) => getCouplingFromTable(x))
       .reduce((s, x) => [...s, ...x]),
     //キャラ別
     ////博麗霊夢関連

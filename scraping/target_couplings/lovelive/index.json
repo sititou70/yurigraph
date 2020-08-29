@@ -1,341 +1,585 @@
 [
   {
-    "characters": ["高坂穂乃果", "絢瀬絵里"],
+    "characters": [{ "name": "高坂穂乃果" }, { "name": "絢瀬絵里" }],
     "tags": [{ "name": "ほのえり" }]
   },
   {
-    "characters": ["高坂穂乃果", "南ことり"],
+    "characters": [{ "name": "高坂穂乃果" }, { "name": "南ことり" }],
     "tags": [{ "name": "ほのこと" }]
   },
-  { "characters": ["高坂穂乃果", "園田海"], "tags": [{ "name": "ほのうみ" }] },
-  { "characters": ["高坂穂乃果", "星空凛"], "tags": [{ "name": "ほのりん" }] },
   {
-    "characters": ["高坂穂乃果", "西木野真姫"],
+    "characters": [{ "name": "高坂穂乃果" }, { "name": "園田海" }],
+    "tags": [{ "name": "ほのうみ" }]
+  },
+  {
+    "characters": [{ "name": "高坂穂乃果" }, { "name": "星空凛" }],
+    "tags": [{ "name": "ほのりん" }]
+  },
+  {
+    "characters": [{ "name": "高坂穂乃果" }, { "name": "西木野真姫" }],
     "tags": [{ "name": "ほのまき" }]
   },
-  { "characters": ["高坂穂乃果", "東條希"], "tags": [{ "name": "ほののぞ" }] },
   {
-    "characters": ["高坂穂乃果", "小泉花陽"],
+    "characters": [{ "name": "高坂穂乃果" }, { "name": "東條希" }],
+    "tags": [{ "name": "ほののぞ" }]
+  },
+  {
+    "characters": [{ "name": "高坂穂乃果" }, { "name": "小泉花陽" }],
     "tags": [{ "name": "ほのぱな" }]
   },
   {
-    "characters": ["高坂穂乃果", "矢澤にこ"],
+    "characters": [{ "name": "高坂穂乃果" }, { "name": "矢澤にこ" }],
     "tags": [{ "name": "ほのにこ" }]
   },
-  { "characters": ["絢瀬絵里", "園田海"], "tags": [{ "name": "えりうみ" }] },
   {
-    "characters": ["絢瀬絵里", "星空凛"],
+    "characters": [{ "name": "絢瀬絵里" }, { "name": "園田海" }],
+    "tags": [{ "name": "えりうみ" }]
+  },
+  {
+    "characters": [{ "name": "絢瀬絵里" }, { "name": "星空凛" }],
     "tags": [{ "name": "えりりん(ラブライブ!)" }]
   },
   {
-    "characters": ["絢瀬絵里", "西木野真姫"],
+    "characters": [{ "name": "絢瀬絵里" }, { "name": "西木野真姫" }],
     "tags": [{ "name": "えりまき" }]
   },
-  { "characters": ["絢瀬絵里", "東條希"], "tags": [{ "name": "えりのぞ" }] },
-  { "characters": ["絢瀬絵里", "小泉花陽"], "tags": [{ "name": "えりぱな" }] },
   {
-    "characters": ["南ことり", "高坂穂乃果"],
+    "characters": [{ "name": "絢瀬絵里" }, { "name": "東條希" }],
+    "tags": [{ "name": "えりのぞ" }]
+  },
+  {
+    "characters": [{ "name": "絢瀬絵里" }, { "name": "小泉花陽" }],
+    "tags": [{ "name": "えりぱな" }]
+  },
+  {
+    "characters": [{ "name": "南ことり" }, { "name": "高坂穂乃果" }],
     "tags": [{ "name": "ことほの" }]
   },
   {
-    "characters": ["南ことり", "絢瀬絵里"],
+    "characters": [{ "name": "南ことり" }, { "name": "絢瀬絵里" }],
     "tags": [{ "name": "ことえり(ラブライブ!)" }]
   },
-  { "characters": ["南ことり", "園田海"], "tags": [{ "name": "ことうみ" }] },
-  { "characters": ["南ことり", "星空凛"], "tags": [{ "name": "ことりん" }] },
   {
-    "characters": ["南ことり", "西木野真姫"],
+    "characters": [{ "name": "南ことり" }, { "name": "園田海" }],
+    "tags": [{ "name": "ことうみ" }]
+  },
+  {
+    "characters": [{ "name": "南ことり" }, { "name": "星空凛" }],
+    "tags": [{ "name": "ことりん" }]
+  },
+  {
+    "characters": [{ "name": "南ことり" }, { "name": "西木野真姫" }],
     "tags": [{ "name": "ことまき" }]
   },
-  { "characters": ["南ことり", "東條希"], "tags": [{ "name": "ことのぞ" }] },
-  { "characters": ["南ことり", "小泉花陽"], "tags": [{ "name": "ことぱな" }] },
-  { "characters": ["南ことり", "矢澤にこ"], "tags": [{ "name": "ことにこ" }] },
-  { "characters": ["園田海", "絢瀬絵里"], "tags": [{ "name": "うみえり" }] },
-  { "characters": ["園田海", "南ことり"], "tags": [{ "name": "うみこと" }] },
-  { "characters": ["園田海", "星空凛"], "tags": [{ "name": "うみりん" }] },
-  { "characters": ["園田海", "西木野真姫"], "tags": [{ "name": "うみまき" }] },
-  { "characters": ["園田海", "小泉花陽"], "tags": [{ "name": "うみぱな" }] },
-  { "characters": ["園田海", "矢澤にこ"], "tags": [{ "name": "うみにこ" }] },
-  { "characters": ["星空凛", "西木野真姫"], "tags": [{ "name": "りんまき" }] },
-  { "characters": ["星空凛", "小泉花陽"], "tags": [{ "name": "りんぱな" }] },
-  { "characters": ["西木野真姫", "園田海"], "tags": [{ "name": "まきうみ" }] },
-  { "characters": ["西木野真姫", "星空凛"], "tags": [{ "name": "まきりん" }] },
   {
-    "characters": ["西木野真姫", "小泉花陽"],
+    "characters": [{ "name": "南ことり" }, { "name": "東條希" }],
+    "tags": [{ "name": "ことのぞ" }]
+  },
+  {
+    "characters": [{ "name": "南ことり" }, { "name": "小泉花陽" }],
+    "tags": [{ "name": "ことぱな" }]
+  },
+  {
+    "characters": [{ "name": "南ことり" }, { "name": "矢澤にこ" }],
+    "tags": [{ "name": "ことにこ" }]
+  },
+  {
+    "characters": [{ "name": "園田海" }, { "name": "絢瀬絵里" }],
+    "tags": [{ "name": "うみえり" }]
+  },
+  {
+    "characters": [{ "name": "園田海" }, { "name": "南ことり" }],
+    "tags": [{ "name": "うみこと" }]
+  },
+  {
+    "characters": [{ "name": "園田海" }, { "name": "星空凛" }],
+    "tags": [{ "name": "うみりん" }]
+  },
+  {
+    "characters": [{ "name": "園田海" }, { "name": "西木野真姫" }],
+    "tags": [{ "name": "うみまき" }]
+  },
+  {
+    "characters": [{ "name": "園田海" }, { "name": "小泉花陽" }],
+    "tags": [{ "name": "うみぱな" }]
+  },
+  {
+    "characters": [{ "name": "園田海" }, { "name": "矢澤にこ" }],
+    "tags": [{ "name": "うみにこ" }]
+  },
+  {
+    "characters": [{ "name": "星空凛" }, { "name": "西木野真姫" }],
+    "tags": [{ "name": "りんまき" }]
+  },
+  {
+    "characters": [{ "name": "星空凛" }, { "name": "小泉花陽" }],
+    "tags": [{ "name": "りんぱな" }]
+  },
+  {
+    "characters": [{ "name": "西木野真姫" }, { "name": "園田海" }],
+    "tags": [{ "name": "まきうみ" }]
+  },
+  {
+    "characters": [{ "name": "西木野真姫" }, { "name": "星空凛" }],
+    "tags": [{ "name": "まきりん" }]
+  },
+  {
+    "characters": [{ "name": "西木野真姫" }, { "name": "小泉花陽" }],
     "tags": [{ "name": "まきぱな" }]
   },
   {
-    "characters": ["西木野真姫", "矢澤にこ"],
+    "characters": [{ "name": "西木野真姫" }, { "name": "矢澤にこ" }],
     "tags": [{ "name": "まきにこ" }]
   },
-  { "characters": ["東條希", "絢瀬絵里"], "tags": [{ "name": "のぞえり" }] },
-  { "characters": ["東條希", "園田海"], "tags": [{ "name": "のぞうみ" }] },
-  { "characters": ["東條希", "西木野真姫"], "tags": [{ "name": "のぞまき" }] },
-  { "characters": ["東條希", "小泉花陽"], "tags": [{ "name": "のぞぱな" }] },
-  { "characters": ["東條希", "矢澤にこ"], "tags": [{ "name": "のぞにこ" }] },
-  { "characters": ["矢澤にこ", "絢瀬絵里"], "tags": [{ "name": "にこえり" }] },
-  { "characters": ["矢澤にこ", "南ことり"], "tags": [{ "name": "にことり" }] },
-  { "characters": ["矢澤にこ", "星空凛"], "tags": [{ "name": "にこりん" }] },
   {
-    "characters": ["矢澤にこ", "西木野真姫"],
+    "characters": [{ "name": "東條希" }, { "name": "絢瀬絵里" }],
+    "tags": [{ "name": "のぞえり" }]
+  },
+  {
+    "characters": [{ "name": "東條希" }, { "name": "園田海" }],
+    "tags": [{ "name": "のぞうみ" }]
+  },
+  {
+    "characters": [{ "name": "東條希" }, { "name": "西木野真姫" }],
+    "tags": [{ "name": "のぞまき" }]
+  },
+  {
+    "characters": [{ "name": "東條希" }, { "name": "小泉花陽" }],
+    "tags": [{ "name": "のぞぱな" }]
+  },
+  {
+    "characters": [{ "name": "東條希" }, { "name": "矢澤にこ" }],
+    "tags": [{ "name": "のぞにこ" }]
+  },
+  {
+    "characters": [{ "name": "矢澤にこ" }, { "name": "絢瀬絵里" }],
+    "tags": [{ "name": "にこえり" }]
+  },
+  {
+    "characters": [{ "name": "矢澤にこ" }, { "name": "南ことり" }],
+    "tags": [{ "name": "にことり" }]
+  },
+  {
+    "characters": [{ "name": "矢澤にこ" }, { "name": "星空凛" }],
+    "tags": [{ "name": "にこりん" }]
+  },
+  {
+    "characters": [{ "name": "矢澤にこ" }, { "name": "西木野真姫" }],
     "tags": [{ "name": "にこまき" }]
   },
-  { "characters": ["矢澤にこ", "東條希"], "tags": [{ "name": "にこのぞ" }] },
-  { "characters": ["矢澤にこ", "小泉花陽"], "tags": [{ "name": "にこぱな" }] },
-  { "characters": ["高海千歌", "桜内梨子"], "tags": [{ "name": "ちかりこ" }] },
-  { "characters": ["高海千歌", "松浦果南"], "tags": [{ "name": "ちかなん" }] },
   {
-    "characters": ["高海千歌", "黒澤ダイヤ"],
+    "characters": [{ "name": "矢澤にこ" }, { "name": "東條希" }],
+    "tags": [{ "name": "にこのぞ" }]
+  },
+  {
+    "characters": [{ "name": "矢澤にこ" }, { "name": "小泉花陽" }],
+    "tags": [{ "name": "にこぱな" }]
+  },
+  {
+    "characters": [{ "name": "高海千歌" }, { "name": "桜内梨子" }],
+    "tags": [{ "name": "ちかりこ" }]
+  },
+  {
+    "characters": [{ "name": "高海千歌" }, { "name": "松浦果南" }],
+    "tags": [{ "name": "ちかなん" }]
+  },
+  {
+    "characters": [{ "name": "高海千歌" }, { "name": "黒澤ダイヤ" }],
     "tags": [{ "name": "ちかダイ" }]
   },
-  { "characters": ["高海千歌", "津島善子"], "tags": [{ "name": "ちかよし" }] },
   {
-    "characters": ["高海千歌", "国木田花丸"],
+    "characters": [{ "name": "高海千歌" }, { "name": "津島善子" }],
+    "tags": [{ "name": "ちかよし" }]
+  },
+  {
+    "characters": [{ "name": "高海千歌" }, { "name": "国木田花丸" }],
     "tags": [{ "name": "ちかまる" }]
   },
-  { "characters": ["高海千歌", "小原鞠莉"], "tags": [{ "name": "ちかまり" }] },
   {
-    "characters": ["高海千歌", "黒澤ルビィ"],
+    "characters": [{ "name": "高海千歌" }, { "name": "小原鞠莉" }],
+    "tags": [{ "name": "ちかまり" }]
+  },
+  {
+    "characters": [{ "name": "高海千歌" }, { "name": "黒澤ルビィ" }],
     "tags": [{ "name": "ちかるび" }]
   },
-  { "characters": ["桜内梨子", "津島善子"], "tags": [{ "name": "りこよし" }] },
   {
-    "characters": ["桜内梨子", "国木田花丸"],
+    "characters": [{ "name": "桜内梨子" }, { "name": "津島善子" }],
+    "tags": [{ "name": "りこよし" }]
+  },
+  {
+    "characters": [{ "name": "桜内梨子" }, { "name": "国木田花丸" }],
     "tags": [{ "name": "りこまる" }]
   },
   {
-    "characters": ["桜内梨子", "黒澤ルビィ"],
+    "characters": [{ "name": "桜内梨子" }, { "name": "黒澤ルビィ" }],
     "tags": [{ "name": "りこるび" }]
   },
-  { "characters": ["松浦果南", "桜内梨子"], "tags": [{ "name": "かなりこ" }] },
   {
-    "characters": ["松浦果南", "黒澤ダイヤ"],
+    "characters": [{ "name": "松浦果南" }, { "name": "桜内梨子" }],
+    "tags": [{ "name": "かなりこ" }]
+  },
+  {
+    "characters": [{ "name": "松浦果南" }, { "name": "黒澤ダイヤ" }],
     "tags": [{ "name": "かなダイ" }]
   },
-  { "characters": ["松浦果南", "津島善子"], "tags": [{ "name": "かなよし" }] },
   {
-    "characters": ["松浦果南", "国木田花丸"],
+    "characters": [{ "name": "松浦果南" }, { "name": "津島善子" }],
+    "tags": [{ "name": "かなよし" }]
+  },
+  {
+    "characters": [{ "name": "松浦果南" }, { "name": "国木田花丸" }],
     "tags": [{ "name": "かなまる" }, { "name": "なんまる" }]
   },
-  { "characters": ["松浦果南", "小原鞠莉"], "tags": [{ "name": "かなまり" }] },
   {
-    "characters": ["松浦果南", "黒澤ルビィ"],
+    "characters": [{ "name": "松浦果南" }, { "name": "小原鞠莉" }],
+    "tags": [{ "name": "かなまり" }]
+  },
+  {
+    "characters": [{ "name": "松浦果南" }, { "name": "黒澤ルビィ" }],
     "tags": [{ "name": "かなルビ" }]
   },
   {
-    "characters": ["黒澤ダイヤ", "高海千歌"],
+    "characters": [{ "name": "黒澤ダイヤ" }, { "name": "高海千歌" }],
     "tags": [{ "name": "だいちか" }]
   },
   {
-    "characters": ["黒澤ダイヤ", "桜内梨子"],
+    "characters": [{ "name": "黒澤ダイヤ" }, { "name": "桜内梨子" }],
     "tags": [{ "name": "だいりこ" }]
   },
   {
-    "characters": ["黒澤ダイヤ", "松浦果南"],
+    "characters": [{ "name": "黒澤ダイヤ" }, { "name": "松浦果南" }],
     "tags": [{ "name": "だいなん" }]
   },
-  { "characters": ["黒澤ダイヤ", "渡辺曜"], "tags": [{ "name": "ダイよう" }] },
   {
-    "characters": ["黒澤ダイヤ", "津島善子"],
+    "characters": [{ "name": "黒澤ダイヤ" }, { "name": "渡辺曜" }],
+    "tags": [{ "name": "ダイよう" }]
+  },
+  {
+    "characters": [{ "name": "黒澤ダイヤ" }, { "name": "津島善子" }],
     "tags": [{ "name": "だいよし" }]
   },
   {
-    "characters": ["黒澤ダイヤ", "国木田花丸"],
+    "characters": [{ "name": "黒澤ダイヤ" }, { "name": "国木田花丸" }],
     "tags": [{ "name": "ダイまる" }]
   },
   {
-    "characters": ["黒澤ダイヤ", "小原鞠莉"],
+    "characters": [{ "name": "黒澤ダイヤ" }, { "name": "小原鞠莉" }],
     "tags": [{ "name": "ダイマリ" }, { "name": "だいまり" }]
   },
   {
-    "characters": ["黒澤ダイヤ", "黒澤ルビィ"],
+    "characters": [{ "name": "黒澤ダイヤ" }, { "name": "黒澤ルビィ" }],
     "tags": [
       { "name": "ダイルビ(ラブライブ!サンシャイン!!)" },
       { "name": "黒澤姉妹" }
     ]
   },
-  { "characters": ["渡辺曜", "高海千歌"], "tags": [{ "name": "ようちか" }] },
-  { "characters": ["渡辺曜", "桜内梨子"], "tags": [{ "name": "ようりこ" }] },
-  { "characters": ["渡辺曜", "松浦果南"], "tags": [{ "name": "ようかな" }] },
-  { "characters": ["渡辺曜", "津島善子"], "tags": [{ "name": "ようよし" }] },
-  { "characters": ["渡辺曜", "国木田花丸"], "tags": [{ "name": "ようまる" }] },
-  { "characters": ["渡辺曜", "小原鞠莉"], "tags": [{ "name": "ようまり" }] },
-  { "characters": ["渡辺曜", "黒澤ルビィ"], "tags": [{ "name": "ようルビ" }] },
-  { "characters": ["津島善子", "桜内梨子"], "tags": [{ "name": "よしりこ" }] },
   {
-    "characters": ["津島善子", "国木田花丸"],
+    "characters": [{ "name": "渡辺曜" }, { "name": "高海千歌" }],
+    "tags": [{ "name": "ようちか" }]
+  },
+  {
+    "characters": [{ "name": "渡辺曜" }, { "name": "桜内梨子" }],
+    "tags": [{ "name": "ようりこ" }]
+  },
+  {
+    "characters": [{ "name": "渡辺曜" }, { "name": "松浦果南" }],
+    "tags": [{ "name": "ようかな" }]
+  },
+  {
+    "characters": [{ "name": "渡辺曜" }, { "name": "津島善子" }],
+    "tags": [{ "name": "ようよし" }]
+  },
+  {
+    "characters": [{ "name": "渡辺曜" }, { "name": "国木田花丸" }],
+    "tags": [{ "name": "ようまる" }]
+  },
+  {
+    "characters": [{ "name": "渡辺曜" }, { "name": "小原鞠莉" }],
+    "tags": [{ "name": "ようまり" }]
+  },
+  {
+    "characters": [{ "name": "渡辺曜" }, { "name": "黒澤ルビィ" }],
+    "tags": [{ "name": "ようルビ" }]
+  },
+  {
+    "characters": [{ "name": "津島善子" }, { "name": "桜内梨子" }],
+    "tags": [{ "name": "よしりこ" }]
+  },
+  {
+    "characters": [{ "name": "津島善子" }, { "name": "国木田花丸" }],
     "tags": [{ "name": "よしまる" }]
   },
-  { "characters": ["津島善子", "小原鞠莉"], "tags": [{ "name": "よしまり" }] },
   {
-    "characters": ["津島善子", "黒澤ルビィ"],
+    "characters": [{ "name": "津島善子" }, { "name": "小原鞠莉" }],
+    "tags": [{ "name": "よしまり" }]
+  },
+  {
+    "characters": [{ "name": "津島善子" }, { "name": "黒澤ルビィ" }],
     "tags": [{ "name": "よしるび" }, { "name": "よしルビ" }]
   },
   {
-    "characters": ["国木田花丸", "黒澤ダイヤ"],
+    "characters": [{ "name": "国木田花丸" }, { "name": "黒澤ダイヤ" }],
     "tags": [{ "name": "まるだい" }]
   },
   {
-    "characters": ["国木田花丸", "黒澤ルビィ"],
+    "characters": [{ "name": "国木田花丸" }, { "name": "黒澤ルビィ" }],
     "tags": [{ "name": "はなまるびぃ" }, { "name": "ルビまる" }]
   },
   {
-    "characters": ["小原鞠莉", "桜内梨子"],
+    "characters": [{ "name": "小原鞠莉" }, { "name": "桜内梨子" }],
     "tags": [{ "name": "まりこ(ラブライブ!サンシャイン!!)" }]
   },
   {
-    "characters": ["小原鞠莉", "黒澤ダイヤ"],
+    "characters": [{ "name": "小原鞠莉" }, { "name": "黒澤ダイヤ" }],
     "tags": [{ "name": "まりだい" }]
   },
   {
-    "characters": ["小原鞠莉", "国木田花丸"],
+    "characters": [{ "name": "小原鞠莉" }, { "name": "国木田花丸" }],
     "tags": [{ "name": "まりまる" }]
   },
   {
-    "characters": ["黒澤ルビィ", "桜内梨子"],
+    "characters": [{ "name": "黒澤ルビィ" }, { "name": "桜内梨子" }],
     "tags": [{ "name": "るびりこ" }]
   },
   {
-    "characters": ["黒澤ルビィ", "国木田花丸"],
+    "characters": [{ "name": "黒澤ルビィ" }, { "name": "国木田花丸" }],
     "tags": [{ "name": "ルビまる" }, { "name": "はなまるびぃ" }]
   },
   {
-    "characters": ["黒澤ルビィ", "小原鞠莉"],
+    "characters": [{ "name": "黒澤ルビィ" }, { "name": "小原鞠莉" }],
     "tags": [{ "name": "ルビまり" }]
   },
   {
-    "characters": ["高海千歌", "高坂穂乃果"],
+    "characters": [{ "name": "高海千歌" }, { "name": "高坂穂乃果" }],
     "tags": [{ "name": "ほのちか" }]
   },
-  { "characters": ["高海千歌", "小泉花陽"], "tags": [{ "name": "ちかぱな" }] },
   {
-    "characters": ["桜内梨子", "高坂穂乃果"],
+    "characters": [{ "name": "高海千歌" }, { "name": "星空凛" }],
+    "tags": [{ "name": "りんちか" }]
+  },
+  {
+    "characters": [{ "name": "高海千歌" }, { "name": "小泉花陽" }],
+    "tags": [{ "name": "ちかぱな" }]
+  },
+  {
+    "characters": [{ "name": "高海千歌" }, { "name": "矢澤にこ" }],
+    "tags": [{ "name": "にこちか" }]
+  },
+  {
+    "characters": [{ "name": "桜内梨子" }, { "name": "高坂穂乃果" }],
     "tags": [{ "name": "ほのりこ" }]
   },
-  { "characters": ["桜内梨子", "南ことり"], "tags": [{ "name": "ことりこ" }] },
   {
-    "characters": ["桜内梨子", "園田海"],
+    "characters": [{ "name": "桜内梨子" }, { "name": "絢瀬絵里" }],
+    "tags": [{ "name": "えりりこ" }]
+  },
+  {
+    "characters": [{ "name": "桜内梨子" }, { "name": "南ことり" }],
+    "tags": [{ "name": "ことりこ" }]
+  },
+  {
+    "characters": [{ "name": "桜内梨子" }, { "name": "園田海" }],
     "tags": [{ "name": "うみりこ" }, { "name": "りこうみ" }]
   },
   {
-    "characters": ["桜内梨子", "西木野真姫"],
+    "characters": [{ "name": "桜内梨子" }, { "name": "西木野真姫" }],
     "tags": [{ "name": "りこまき" }, { "name": "まきりこ" }]
   },
-  { "characters": ["桜内梨子", "小泉花陽"], "tags": [{ "name": "ぱなりこ" }] },
   {
-    "characters": ["松浦果南", "高坂穂乃果"],
+    "characters": [{ "name": "桜内梨子" }, { "name": "小泉花陽" }],
+    "tags": [{ "name": "ぱなりこ" }]
+  },
+  {
+    "characters": [{ "name": "桜内梨子" }, { "name": "矢澤にこ" }],
+    "tags": [{ "name": "にこりこ" }]
+  },
+  {
+    "characters": [{ "name": "松浦果南" }, { "name": "高坂穂乃果" }],
     "tags": [{ "name": "ほのなん" }]
   },
-  { "characters": ["松浦果南", "絢瀬絵里"], "tags": [{ "name": "えりなん" }] },
-  { "characters": ["松浦果南", "南ことり"], "tags": [{ "name": "ことなん" }] },
   {
-    "characters": ["松浦果南", "園田海"],
+    "characters": [{ "name": "松浦果南" }, { "name": "絢瀬絵里" }],
+    "tags": [{ "name": "えりなん" }]
+  },
+  {
+    "characters": [{ "name": "松浦果南" }, { "name": "南ことり" }],
+    "tags": [{ "name": "ことなん" }]
+  },
+  {
+    "characters": [{ "name": "松浦果南" }, { "name": "園田海" }],
     "tags": [{ "name": "うみなん" }, { "name": "かなうみ" }]
   },
-  { "characters": ["松浦果南", "星空凛"], "tags": [{ "name": "りんかな" }] },
   {
-    "characters": ["松浦果南", "西木野真姫"],
+    "characters": [{ "name": "松浦果南" }, { "name": "星空凛" }],
+    "tags": [{ "name": "りんかな" }]
+  },
+  {
+    "characters": [{ "name": "松浦果南" }, { "name": "西木野真姫" }],
     "tags": [{ "name": "かなまき" }]
   },
-  { "characters": ["松浦果南", "東條希"], "tags": [{ "name": "のぞなん" }] },
-  { "characters": ["松浦果南", "小泉花陽"], "tags": [{ "name": "はななん" }] },
   {
-    "characters": ["黒澤ダイヤ", "絢瀬絵里"],
+    "characters": [{ "name": "松浦果南" }, { "name": "東條希" }],
+    "tags": [{ "name": "のぞなん" }]
+  },
+  {
+    "characters": [{ "name": "松浦果南" }, { "name": "小泉花陽" }],
+    "tags": [{ "name": "はななん" }]
+  },
+  {
+    "characters": [{ "name": "黒澤ダイヤ" }, { "name": "絢瀬絵里" }],
     "tags": [{ "name": "えりだい" }, { "name": "だいえり" }]
   },
-  { "characters": ["黒澤ダイヤ", "園田海"], "tags": [{ "name": "うみだい" }] },
   {
-    "characters": ["黒澤ダイヤ", "西木野真姫"],
+    "characters": [{ "name": "黒澤ダイヤ" }, { "name": "園田海" }],
+    "tags": [{ "name": "うみだい" }]
+  },
+  {
+    "characters": [{ "name": "黒澤ダイヤ" }, { "name": "西木野真姫" }],
     "tags": [{ "name": "まきだい" }]
   },
   {
-    "characters": ["黒澤ダイヤ", "小泉花陽"],
+    "characters": [{ "name": "黒澤ダイヤ" }, { "name": "小泉花陽" }],
     "tags": [{ "name": "ぱなだい" }]
   },
   {
-    "characters": ["黒澤ダイヤ", "矢澤にこ"],
+    "characters": [{ "name": "黒澤ダイヤ" }, { "name": "矢澤にこ" }],
     "tags": [{ "name": "にこだい" }]
   },
-  { "characters": ["渡辺曜", "高坂穂乃果"], "tags": [{ "name": "ほのよう" }] },
   {
-    "characters": ["渡辺曜", "南ことり"],
+    "characters": [{ "name": "渡辺曜" }, { "name": "高坂穂乃果" }],
+    "tags": [{ "name": "ほのよう" }]
+  },
+  {
+    "characters": [{ "name": "渡辺曜" }, { "name": "南ことり" }],
     "tags": [{ "name": "ようこと" }, { "name": "ことよう" }]
   },
-  { "characters": ["渡辺曜", "園田海"], "tags": [{ "name": "うみよう" }] },
-  { "characters": ["渡辺曜", "星空凛"], "tags": [{ "name": "りんよう" }] },
-  { "characters": ["渡辺曜", "西木野真姫"], "tags": [{ "name": "ようまき" }] },
-  { "characters": ["渡辺曜", "小泉花陽"], "tags": [{ "name": "はなよう" }] },
   {
-    "characters": ["津島善子", "高坂穂乃果"],
+    "characters": [{ "name": "渡辺曜" }, { "name": "園田海" }],
+    "tags": [{ "name": "うみよう" }]
+  },
+  {
+    "characters": [{ "name": "渡辺曜" }, { "name": "星空凛" }],
+    "tags": [{ "name": "りんよう" }]
+  },
+  {
+    "characters": [{ "name": "渡辺曜" }, { "name": "西木野真姫" }],
+    "tags": [{ "name": "ようまき" }]
+  },
+  {
+    "characters": [{ "name": "渡辺曜" }, { "name": "小泉花陽" }],
+    "tags": [{ "name": "はなよう" }]
+  },
+  {
+    "characters": [{ "name": "津島善子" }, { "name": "高坂穂乃果" }],
     "tags": [{ "name": "ほのよし" }]
   },
-  { "characters": ["津島善子", "絢瀬絵里"], "tags": [{ "name": "えりよし" }] },
-  { "characters": ["津島善子", "南ことり"], "tags": [{ "name": "ことよし" }] },
-  { "characters": ["津島善子", "園田海"], "tags": [{ "name": "うみよし" }] },
-  { "characters": ["津島善子", "星空凛"], "tags": [{ "name": "りんよし" }] },
   {
-    "characters": ["津島善子", "西木野真姫"],
+    "characters": [{ "name": "津島善子" }, { "name": "絢瀬絵里" }],
+    "tags": [{ "name": "えりよし" }]
+  },
+  {
+    "characters": [{ "name": "津島善子" }, { "name": "南ことり" }],
+    "tags": [{ "name": "ことよし" }]
+  },
+  {
+    "characters": [{ "name": "津島善子" }, { "name": "園田海" }],
+    "tags": [{ "name": "うみよし" }]
+  },
+  {
+    "characters": [{ "name": "津島善子" }, { "name": "星空凛" }],
+    "tags": [{ "name": "りんよし" }]
+  },
+  {
+    "characters": [{ "name": "津島善子" }, { "name": "西木野真姫" }],
     "tags": [{ "name": "よしまき" }, { "name": "まきよし" }]
   },
-  { "characters": ["津島善子", "東條希"], "tags": [{ "name": "のぞよし" }] },
   {
-    "characters": ["津島善子", "矢澤にこ"],
+    "characters": [{ "name": "津島善子" }, { "name": "東條希" }],
+    "tags": [{ "name": "のぞよし" }]
+  },
+  {
+    "characters": [{ "name": "津島善子" }, { "name": "矢澤にこ" }],
     "tags": [{ "name": "にこよし" }, { "name": "よしにこ" }]
   },
   {
-    "characters": ["国木田花丸", "高坂穂乃果"],
+    "characters": [{ "name": "国木田花丸" }, { "name": "高坂穂乃果" }],
     "tags": [{ "name": "ほのまる" }]
   },
   {
-    "characters": ["国木田花丸", "絢瀬絵里"],
+    "characters": [{ "name": "国木田花丸" }, { "name": "絢瀬絵里" }],
     "tags": [{ "name": "えりまる" }]
   },
   {
-    "characters": ["国木田花丸", "南ことり"],
+    "characters": [{ "name": "国木田花丸" }, { "name": "南ことり" }],
     "tags": [{ "name": "ことまる" }]
   },
-  { "characters": ["国木田花丸", "園田海"], "tags": [{ "name": "うみまる" }] },
-  { "characters": ["国木田花丸", "星空凛"], "tags": [{ "name": "りんまる" }] },
-  { "characters": ["国木田花丸", "東條希"], "tags": [{ "name": "のぞまる" }] },
   {
-    "characters": ["国木田花丸", "小泉花陽"],
+    "characters": [{ "name": "国木田花丸" }, { "name": "園田海" }],
+    "tags": [{ "name": "うみまる" }]
+  },
+  {
+    "characters": [{ "name": "国木田花丸" }, { "name": "星空凛" }],
+    "tags": [{ "name": "りんまる" }]
+  },
+  {
+    "characters": [{ "name": "国木田花丸" }, { "name": "東條希" }],
+    "tags": [{ "name": "のぞまる" }]
+  },
+  {
+    "characters": [{ "name": "国木田花丸" }, { "name": "小泉花陽" }],
     "tags": [{ "name": "ぱなまる" }, { "name": "まるぱな" }]
   },
   {
-    "characters": ["国木田花丸", "矢澤にこ"],
+    "characters": [{ "name": "国木田花丸" }, { "name": "矢澤にこ" }],
     "tags": [{ "name": "にこまる" }]
   },
   {
-    "characters": ["小原鞠莉", "高坂穂乃果"],
+    "characters": [{ "name": "小原鞠莉" }, { "name": "高坂穂乃果" }],
     "tags": [{ "name": "ほのまり" }]
   },
   {
-    "characters": ["小原鞠莉", "絢瀬絵里"],
+    "characters": [{ "name": "小原鞠莉" }, { "name": "絢瀬絵里" }],
     "tags": [{ "name": "えりまり" }, { "name": "まりえり" }]
   },
-  { "characters": ["小原鞠莉", "南ことり"], "tags": [{ "name": "ことまり" }] },
-  { "characters": ["小原鞠莉", "星空凛"], "tags": [{ "name": "りんまり" }] },
   {
-    "characters": ["小原鞠莉", "西木野真姫"],
+    "characters": [{ "name": "小原鞠莉" }, { "name": "南ことり" }],
+    "tags": [{ "name": "ことまり" }]
+  },
+  {
+    "characters": [{ "name": "小原鞠莉" }, { "name": "星空凛" }],
+    "tags": [{ "name": "りんまり" }]
+  },
+  {
+    "characters": [{ "name": "小原鞠莉" }, { "name": "西木野真姫" }],
     "tags": [{ "name": "まきまり" }]
   },
-  { "characters": ["小原鞠莉", "東條希"], "tags": [{ "name": "のぞまり" }] },
-  { "characters": ["小原鞠莉", "矢澤にこ"], "tags": [{ "name": "にこまり" }] },
   {
-    "characters": ["黒澤ルビィ", "高坂穂乃果"],
+    "characters": [{ "name": "小原鞠莉" }, { "name": "東條希" }],
+    "tags": [{ "name": "のぞまり" }]
+  },
+  {
+    "characters": [{ "name": "小原鞠莉" }, { "name": "矢澤にこ" }],
+    "tags": [{ "name": "にこまり" }]
+  },
+  {
+    "characters": [{ "name": "黒澤ルビィ" }, { "name": "高坂穂乃果" }],
     "tags": [{ "name": "ほのルビ" }]
   },
   {
-    "characters": ["黒澤ルビィ", "南ことり"],
+    "characters": [{ "name": "黒澤ルビィ" }, { "name": "南ことり" }],
     "tags": [{ "name": "ことルビ" }]
   },
   {
-    "characters": ["黒澤ルビィ", "西木野真姫"],
+    "characters": [{ "name": "黒澤ルビィ" }, { "name": "西木野真姫" }],
     "tags": [{ "name": "ルビまき" }]
   },
   {
-    "characters": ["黒澤ルビィ", "小泉花陽"],
+    "characters": [{ "name": "黒澤ルビィ" }, { "name": "小泉花陽" }],
     "tags": [{ "name": "るびぱな" }, { "name": "ルビぱな" }]
   },
-  { "characters": ["黒澤ルビィ", "矢澤にこ"], "tags": [{ "name": "にこルビ" }] }
+  {
+    "characters": [{ "name": "黒澤ルビィ" }, { "name": "矢澤にこ" }],
+    "tags": [{ "name": "にこルビ" }]
+  }
 ]
