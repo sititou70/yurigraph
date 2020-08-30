@@ -10,6 +10,7 @@
 - [KancolleGraph | 艦隊これくしょんのカップリングを可視化](https://sititou70.github.io/kancollegraph/)
 - [LoveliveMap | ラブライブ！シリーズのカップリングを可視化](https://sititou70.github.io/lovelivemap/)
 - [VocaloMap | VOCALOID・VOICEROID のカップリングを可視化](https://sititou70.github.io/vocalomap/)
+- [HetaGraph | Axis Powers ヘタリアのカップリングを可視化](https://sititou70.github.io/hetagraph/)
 
 ## 情報元
 
