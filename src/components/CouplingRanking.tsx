@@ -21,7 +21,10 @@ const CouplingListItem: FC<{ coupling: CouplingTag; rank: number }> = ({
     <span className="characters">
       {coupling.characters
         .map((x) => (
-          <PixivDictLink title={x.dict_entry ? x.dict_entry : x.name} />
+          <PixivDictLink
+            title={x.dict_entry ? x.dict_entry : x.name}
+            text={x.name}
+          />
         ))
         .reduce((s, x) => (
           <>

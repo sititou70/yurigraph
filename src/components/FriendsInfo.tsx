@@ -41,6 +41,7 @@ export const FriendsInfo: FC<{ name: string; className?: string }> = ({
               {
                 <PixivDictLink
                   title={friend.dict_entry ? friend.dict_entry : friend.name}
+                  text={friend.name}
                   key={x.tags[0].name}
                 />
               }

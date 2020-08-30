@@ -31,7 +31,8 @@ export const FriendsDialog: FC<{
       <DialogTitle id="friends-dialog-title">
         <PixivDictLink
           title={character.dict_entry ? character.dict_entry : character.name}
-        />{' '}
+          text={character.name}
+        />
         のカップリング一覧
       </DialogTitle>
       <StyledFriendsInfo name={name} />
