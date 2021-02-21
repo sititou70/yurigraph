@@ -52,6 +52,15 @@ pixiv からタグ情報を取得する際には，リクエストごとに 3000
 
 本アプリに問題がある場合は，本リポジトリの[issue](https://github.com/sititou70/yurigraph/issues)へご一報ください．
 
+## Contributors ✨
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/i544c"><img src="https://avatars.githubusercontent.com/u/15726229?v=3?s=100" width="100px;" alt=""/><br /><sub><b>i544c</b></sub>
+    <td align="center"><a href="https://github.com/KobayashiTakaki"><img src="https://avatars.githubusercontent.com/u/18331592?v=3?s=100" width="100px;" alt=""/><br /><sub><b>KobayashiTakaki</b></sub>
+  </tr>
+</table>
+
 ## License
 
 MIT
