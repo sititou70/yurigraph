@@ -11,20 +11,13 @@ export const Menu = () => (
     </Typography>
     <a href="#カップリングランキング">カップリングランキング</a>
     <div>
-      authers
+      author
       <a
         href="https://twitter.com/sititou70"
         target="_blank"
         rel="noopener noreferrer"
       >
         @sititou70
-      </a>
-      <a
-        href="https://twitter.com/_leo_isaac"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        @_leo_isaac
       </a>
     </div>
   </Root>
