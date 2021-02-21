@@ -1,5 +1,5 @@
 import 'normalize.css';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import Typography from 'typography';
 import theme from './theme';
 const typographyTheme = require('typography-theme-github');

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import GraphRoot from './graph';
-import { Global } from '@emotion/core';
+import { Global } from '@emotion/react';
 import { global_style } from '../styles/GlobalStyle';
 import Menu from './Menu';
 import CouplingRanking from './CouplingRanking';

@@ -53,10 +53,10 @@ export const Graph: FC<{
           if (root_group.current === null) return;
           return { x: graph_position.current.x, y: graph_position.current.y };
         })
-        .on('drag', (d: any) => {
+        .on('drag', (event: any) => {
           if (root_group.current === null) return;
-          root_group.current.style.transform = `translate(${d3.event.x}px, ${d3.event.y}px)`;
-          graph_position.current = { x: d3.event.x, y: d3.event.y };
+          root_group.current.style.transform = `translate(${event.x}px, ${event.y}px)`;
+          graph_position.current = { x: event.x, y: event.y };
         })
     );
   }, []);
