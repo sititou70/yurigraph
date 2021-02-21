@@ -11,6 +11,7 @@
 - [LoveliveMap | ラブライブ！シリーズのカップリングを可視化](https://sititou70.github.io/lovelivemap/)
 - [VocaloMap | VOCALOID・VOICEROID のカップリングを可視化](https://sititou70.github.io/vocalomap/)
 - [HetaGraph | Axis Powers ヘタリアのカップリングを可視化](https://sititou70.github.io/hetagraph/)
+- [BangDreamGraph | BanG Dream!のカップリングを可視化](https://sititou70.github.io/bangdreamgraph/)
 
 ## 開発
 
