@@ -18,7 +18,9 @@
     'h3#h3_6',
     'h3#h3_7',
   ].forEach((selector) => {
-    Array.from(document.querySelectorAll(`${selector}~table`)[0].querySelectorAll('tr'))
+    Array.from(
+      document.querySelectorAll(`${selector}~table`)[0].querySelectorAll('tr')
+    )
       .map((tr) => Array.from(tr.querySelectorAll('td')))
       .filter((tds) => tds.length !== 0)
       .forEach((tds) => {
@@ -37,5 +39,6 @@
         });
       });
   });
+
   console.log(JSON.stringify(result));
 })();
