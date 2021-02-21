@@ -30,7 +30,7 @@ export const Node: FC<{
     d3.select(root_element.current as Element).call(
       d3
         .drag()
-        .on('start', (d: any) => {
+        .on('start', (_, d: any) => {
           force_simulation.alphaTarget(0.1).restart();
           d.fx = d.x;
           d.fy = d.y;
@@ -39,7 +39,7 @@ export const Node: FC<{
           d.fx = event.x;
           d.fy = event.y;
         })
-        .on('end', (d: any) => {
+        .on('end', (_, d: any) => {
           force_simulation.alphaTarget(0).restart();
           d.fx = null;
           d.fy = null;
