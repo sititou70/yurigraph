@@ -11,7 +11,7 @@ export const Menu = () => (
     </Typography>
     <a href="#カップリングランキング">カップリングランキング</a>
     <div>
-      author
+      author:
       <a
         href="https://twitter.com/sititou70"
         target="_blank"
@@ -20,6 +20,7 @@ export const Menu = () => (
         @sititou70
       </a>
     </div>
+    <a href="https://github.com/sititou70/yurigraph">リポジトリ</a>
   </Root>
 );
 const Root = styled.div`
