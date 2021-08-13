@@ -2,15 +2,17 @@
 // usage: paste this script to javascript console
 
 (() => {
-  const getDictTitleFromURL = url =>
-      decodeURI(url).replace(/https?:\/\/dic\.pixiv\.net\/a\//, '');
+  const getDictTitleFromURL = (url) =>
+    decodeURI(url).replace(/https?:\/\/dic\.pixiv\.net\/a\//, '');
 
   const getNextMatchElement = (start_element, selector_string) => {
     let current_element = start_element;
     do {
       current_element = current_element.nextSibling;
-    } while (current_element !== null &&
-             !current_element.matches(selector_string));
+    } while (
+      current_element !== null &&
+      !current_element.matches(selector_string)
+    );
 
     return current_element;
   };
@@ -44,36 +46,36 @@
   //      </td>
   //    </tr>
   //    ...
-  const getCouplingFromCharactorsTable = title_tag => {
-    const current_charactor =
-        getDictTitleFromURL(title_tag.querySelector('a').href);
+  const getCouplingFromCharactorsTable = (title_tag) => {
+    const current_charactor = getDictTitleFromURL(
+      title_tag.querySelector('a').href
+    );
 
     const target_table = getNextMatchElement(title_tag, 'table');
-    const couplings =
-        Array.from(target_table.querySelectorAll('tr'))
-            .map(x => Array.from(x.querySelectorAll('th,td')))
-            .map(x => [x.slice(0, 2), x.slice(2, 4)])
-            .reduce((s, x) => [...s, ...x])
-            .filter(x => x.length === 2)
-            .map(x => ({
-                   friend_link: x[0].querySelector('a'),
-                   tags_link: Array.from(x[1].querySelectorAll('a')),
-                 }))
-            .filter(x => x.friend_link !== null && x.tags_link.length !== 0)
-            .map(x => ({
-                   characters: [
-                     {name: current_charactor},
-                     {name: getDictTitleFromURL(x.friend_link.href)},
-                   ],
-                   tags: x.tags_link.map(x => ({name: getDictTitleFromURL(x)})),
-                 }));
+    const couplings = Array.from(target_table.querySelectorAll('tr'))
+      .map((x) => Array.from(x.querySelectorAll('th,td')))
+      .map((x) => [x.slice(0, 2), x.slice(2, 4)])
+      .reduce((s, x) => [...s, ...x])
+      .filter((x) => x.length === 2)
+      .map((x) => ({
+        friend_link: x[0].querySelector('a'),
+        tags_link: Array.from(x[1].querySelectorAll('a')),
+      }))
+      .filter((x) => x.friend_link !== null && x.tags_link.length !== 0)
+      .map((x) => ({
+        characters: [
+          { name: current_charactor },
+          { name: getDictTitleFromURL(x.friend_link.href) },
+        ],
+        tags: x.tags_link.map((x) => ({ name: getDictTitleFromURL(x) })),
+      }));
 
     return couplings;
   };
 
   const target_couplings = Array.from(document.querySelectorAll('h4'))
-                               .map(x => getCouplingFromCharactorsTable(x))
-                               .reduce((s, x) => [...s, ...x]);
+    .map((x) => getCouplingFromCharactorsTable(x))
+    .reduce((s, x) => [...s, ...x]);
 
   console.log(JSON.stringify(target_couplings));
 })();

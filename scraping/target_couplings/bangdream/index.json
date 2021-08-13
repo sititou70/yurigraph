@@ -352,7 +352,15 @@
     "tags": [{ "name": "みささよ" }]
   },
   {
+    "characters": [{ "name": "朝日六花" }, { "name": "倉田ましろ" }],
+    "tags": [{ "name": "六まし" }, { "name": "ましロック" }]
+  },
+  {
     "characters": [{ "name": "朝日六花" }, { "name": "戸山明日香" }],
     "tags": [{ "name": "六明日" }, { "name": "あすろっか" }]
+  },
+  {
+    "characters": [{ "name": "牛込ゆり" }, { "name": "牛込りみ" }],
+    "tags": [{ "name": "牛込姉妹" }]
   }
 ]

@@ -248,10 +248,6 @@
     "tags": [{ "name": "カイキヨ" }]
   },
   {
-    "characters": [{ "name": "KAITO" }, { "name": "VY2" }],
-    "tags": [{ "name": "勇カイ" }]
-  },
-  {
     "characters": [{ "name": "鏡音レン" }, { "name": "KAITO" }],
     "tags": [{ "name": "バナナアイス" }, { "name": "レンカイ" }]
   },
@@ -304,6 +300,22 @@
     "tags": [{ "name": "ピコレン" }]
   },
   {
+    "characters": [{ "name": "リュウト" }, { "name": "神威がくぽ" }],
+    "tags": [{ "name": "ぽいど兄弟" }]
+  },
+  {
+    "characters": [{ "name": "VY2" }, { "name": "KAITO" }],
+    "tags": [{ "name": "勇カイ" }]
+  },
+  {
+    "characters": [{ "name": "琴葉茜" }, { "name": "伊織弓鶴" }],
+    "tags": [{ "name": "あかいお" }]
+  },
+  {
+    "characters": [{ "name": "琴葉葵" }, { "name": "伊織弓鶴" }],
+    "tags": [{ "name": "あおいお" }]
+  },
+  {
     "characters": [{ "name": "水奈瀬コウ" }, { "name": "京町セイカ" }],
     "tags": [{ "name": "コウセイ" }]
   },
@@ -332,6 +344,10 @@
     "tags": [{ "name": "琴葉姉妹" }]
   },
   {
+    "characters": [{ "name": "琴葉茜" }, { "name": "紲星あかり" }],
+    "tags": [{ "name": "あかきず" }]
+  },
+  {
     "characters": [{ "name": "琴葉葵" }, { "name": "弦巻マキ" }],
     "tags": [{ "name": "あおマキ" }]
   },
@@ -342,6 +358,14 @@
   {
     "characters": [{ "name": "東北ずん子" }, { "name": "東北きりたん" }],
     "tags": [{ "name": "ずんきり" }]
+  },
+  {
+    "characters": [{ "name": "東北きりたん" }, { "name": "琴葉茜" }],
+    "tags": [{ "name": "きりあか" }]
+  },
+  {
+    "characters": [{ "name": "音街ウナ" }, { "name": "東北きりたん" }],
+    "tags": [{ "name": "ウナきり" }]
   },
   {
     "characters": [{ "name": "水奈瀬コウ" }, { "name": "すずきつづみ" }],
@@ -358,6 +382,10 @@
   {
     "characters": [{ "name": "初音ミク" }, { "name": "結月ゆかり" }],
     "tags": [{ "name": "みくゆか" }]
+  },
+  {
+    "characters": [{ "name": "猫村いろは" }, { "name": "結月ゆかり" }],
+    "tags": [{ "name": "ねこうさ" }]
   },
   {
     "characters": [{ "name": "結月ゆかり" }, { "name": "CUL" }],

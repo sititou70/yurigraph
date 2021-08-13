@@ -23,10 +23,9 @@
       .map((x) => Array.from(x.querySelectorAll('td')))
       .filter((x) => x.length !== 0)
       .map((x) => ({
-        characters: [
-          x[1].querySelector('a'),
-          x[2].querySelector('a'),
-        ].map((x) => ({ name: getDictTitleFromURL(x.href) })),
+        characters: [x[1].querySelector('a'), x[2].querySelector('a')].map(
+          (x) => ({ name: getDictTitleFromURL(x.href) })
+        ),
         tags: Array.from(x[0].querySelectorAll('a'))
           .map((x) => getDictTitleFromURL(x.href))
           .map((x) => ({ name: x })),
@@ -34,7 +33,7 @@
 
   const target_couplings = [
     //カップリング一覧
-    ...querySelectorAllInRange('table', '#h2_1', '#h3_4')
+    ...querySelectorAllInRange('table', '#h2_1', '#h3_5')
       .map((x) => getTargetCouplings(x))
       .reduce((s, x) => [...s, ...x]),
     //コンビ一覧

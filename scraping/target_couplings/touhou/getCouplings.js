@@ -107,7 +107,7 @@
     .map(
       //派生タグ
       addSynonymCouplingTag(
-        document.querySelector('#article-body > table:nth-child(96)')
+        document.querySelector('#article-body > table:nth-child(108)')
       )
     );
 

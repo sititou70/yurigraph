@@ -140,6 +140,10 @@
     "tags": [{ "name": "のぞうみ" }]
   },
   {
+    "characters": [{ "name": "東條希" }, { "name": "星空凛" }],
+    "tags": [{ "name": "のぞりん(ラブライブ)" }]
+  },
+  {
     "characters": [{ "name": "東條希" }, { "name": "西木野真姫" }],
     "tags": [{ "name": "のぞまき" }]
   },
@@ -188,6 +192,10 @@
     "tags": [{ "name": "ちかダイ" }]
   },
   {
+    "characters": [{ "name": "高海千歌" }, { "name": "渡辺曜" }],
+    "tags": [{ "name": "ちかよう" }]
+  },
+  {
     "characters": [{ "name": "高海千歌" }, { "name": "津島善子" }],
     "tags": [{ "name": "ちかよし" }]
   },
@@ -202,6 +210,10 @@
   {
     "characters": [{ "name": "高海千歌" }, { "name": "黒澤ルビィ" }],
     "tags": [{ "name": "ちかるび" }]
+  },
+  {
+    "characters": [{ "name": "桜内梨子" }, { "name": "渡辺曜" }],
+    "tags": [{ "name": "りこよう" }]
   },
   {
     "characters": [{ "name": "桜内梨子" }, { "name": "津島善子" }],
@@ -222,6 +234,10 @@
   {
     "characters": [{ "name": "松浦果南" }, { "name": "黒澤ダイヤ" }],
     "tags": [{ "name": "かなダイ" }]
+  },
+  {
+    "characters": [{ "name": "松浦果南" }, { "name": "渡辺曜" }],
+    "tags": [{ "name": "かなよう" }]
   },
   {
     "characters": [{ "name": "松浦果南" }, { "name": "津島善子" }],
@@ -307,6 +323,10 @@
     "tags": [{ "name": "よしりこ" }]
   },
   {
+    "characters": [{ "name": "津島善子" }, { "name": "渡辺曜" }],
+    "tags": [{ "name": "よしよう" }]
+  },
+  {
     "characters": [{ "name": "津島善子" }, { "name": "国木田花丸" }],
     "tags": [{ "name": "よしまる" }]
   },
@@ -323,6 +343,10 @@
     "tags": [{ "name": "まるだい" }]
   },
   {
+    "characters": [{ "name": "国木田花丸" }, { "name": "渡辺曜" }],
+    "tags": [{ "name": "まるよう" }]
+  },
+  {
     "characters": [{ "name": "国木田花丸" }, { "name": "黒澤ルビィ" }],
     "tags": [{ "name": "はなまるびぃ" }, { "name": "ルビまる" }]
   },
@@ -335,12 +359,20 @@
     "tags": [{ "name": "まりだい" }]
   },
   {
+    "characters": [{ "name": "小原鞠莉" }, { "name": "渡辺曜" }],
+    "tags": [{ "name": "まりよう" }]
+  },
+  {
     "characters": [{ "name": "小原鞠莉" }, { "name": "国木田花丸" }],
     "tags": [{ "name": "まりまる" }]
   },
   {
     "characters": [{ "name": "黒澤ルビィ" }, { "name": "桜内梨子" }],
     "tags": [{ "name": "るびりこ" }]
+  },
+  {
+    "characters": [{ "name": "黒澤ルビィ" }, { "name": "渡辺曜" }],
+    "tags": [{ "name": "るびよう" }, { "name": "ルビよう" }]
   },
   {
     "characters": [{ "name": "黒澤ルビィ" }, { "name": "国木田花丸" }],
@@ -355,16 +387,20 @@
     "tags": [{ "name": "ほのちか" }]
   },
   {
+    "characters": [{ "name": "高海千歌" }, { "name": "絢瀬絵里" }],
+    "tags": [{ "name": "えりちか" }]
+  },
+  {
+    "characters": [{ "name": "高海千歌" }, { "name": "園田海" }],
+    "tags": [{ "name": "ちかうみ" }]
+  },
+  {
     "characters": [{ "name": "高海千歌" }, { "name": "星空凛" }],
     "tags": [{ "name": "りんちか" }]
   },
   {
     "characters": [{ "name": "高海千歌" }, { "name": "小泉花陽" }],
     "tags": [{ "name": "ちかぱな" }]
-  },
-  {
-    "characters": [{ "name": "高海千歌" }, { "name": "矢澤にこ" }],
-    "tags": [{ "name": "にこちか" }]
   },
   {
     "characters": [{ "name": "桜内梨子" }, { "name": "高坂穂乃果" }],
@@ -440,7 +476,7 @@
   },
   {
     "characters": [{ "name": "黒澤ダイヤ" }, { "name": "小泉花陽" }],
-    "tags": [{ "name": "ぱなだい" }]
+    "tags": [{ "name": "ぱなだい" }, { "name": "かよだい" }]
   },
   {
     "characters": [{ "name": "黒澤ダイヤ" }, { "name": "矢澤にこ" }],
@@ -449,6 +485,10 @@
   {
     "characters": [{ "name": "渡辺曜" }, { "name": "高坂穂乃果" }],
     "tags": [{ "name": "ほのよう" }]
+  },
+  {
+    "characters": [{ "name": "渡辺曜" }, { "name": "絢瀬絵里" }],
+    "tags": [{ "name": "えりよう" }]
   },
   {
     "characters": [{ "name": "渡辺曜" }, { "name": "南ことり" }],
@@ -467,8 +507,16 @@
     "tags": [{ "name": "ようまき" }]
   },
   {
+    "characters": [{ "name": "渡辺曜" }, { "name": "東條希" }],
+    "tags": [{ "name": "のぞよう" }]
+  },
+  {
     "characters": [{ "name": "渡辺曜" }, { "name": "小泉花陽" }],
     "tags": [{ "name": "はなよう" }]
+  },
+  {
+    "characters": [{ "name": "渡辺曜" }, { "name": "矢澤にこ" }],
+    "tags": [{ "name": "にこよう" }, { "name": "ようにこ" }]
   },
   {
     "characters": [{ "name": "津島善子" }, { "name": "高坂穂乃果" }],
@@ -497,6 +545,10 @@
   {
     "characters": [{ "name": "津島善子" }, { "name": "東條希" }],
     "tags": [{ "name": "のぞよし" }]
+  },
+  {
+    "characters": [{ "name": "津島善子" }, { "name": "小泉花陽" }],
+    "tags": [{ "name": "よしぱな" }]
   },
   {
     "characters": [{ "name": "津島善子" }, { "name": "矢澤にこ" }],
@@ -547,6 +599,10 @@
     "tags": [{ "name": "ことまり" }]
   },
   {
+    "characters": [{ "name": "小原鞠莉" }, { "name": "園田海" }],
+    "tags": [{ "name": "うみまり" }]
+  },
+  {
     "characters": [{ "name": "小原鞠莉" }, { "name": "星空凛" }],
     "tags": [{ "name": "りんまり" }]
   },
@@ -557,6 +613,10 @@
   {
     "characters": [{ "name": "小原鞠莉" }, { "name": "東條希" }],
     "tags": [{ "name": "のぞまり" }]
+  },
+  {
+    "characters": [{ "name": "小原鞠莉" }, { "name": "小泉花陽" }],
+    "tags": [{ "name": "まりぱな" }]
   },
   {
     "characters": [{ "name": "小原鞠莉" }, { "name": "矢澤にこ" }],
@@ -571,8 +631,20 @@
     "tags": [{ "name": "ことルビ" }]
   },
   {
+    "characters": [{ "name": "黒澤ルビィ" }, { "name": "園田海" }],
+    "tags": [{ "name": "うみるび" }]
+  },
+  {
+    "characters": [{ "name": "黒澤ルビィ" }, { "name": "星空凛" }],
+    "tags": [{ "name": "りんルビ" }]
+  },
+  {
     "characters": [{ "name": "黒澤ルビィ" }, { "name": "西木野真姫" }],
     "tags": [{ "name": "ルビまき" }]
+  },
+  {
+    "characters": [{ "name": "黒澤ルビィ" }, { "name": "東條希" }],
+    "tags": [{ "name": "のぞるび" }]
   },
   {
     "characters": [{ "name": "黒澤ルビィ" }, { "name": "小泉花陽" }],

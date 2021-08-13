@@ -168,9 +168,9 @@
     'https://dic.pixiv.net/a/VOCALOID%E3%82%B3%E3%83%B3%E3%83%93%E3%83%BB%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%82%BF%E3%82%B0%E4%B8%80%E8%A6%A7'
   ) {
     const target_table_selectors = [
-      '#article-body > table:nth-child(6)',
-      '#article-body > table:nth-child(15)',
-      '#article-body > table:nth-child(22)',
+      '#article-body > table:nth-child(7)',
+      '#article-body > table:nth-child(16)',
+      '#article-body > table:nth-child(23)',
     ];
     target_couplings = target_table_selectors
       .map((x) => getTableCouplings(document.querySelector(x)))
@@ -183,11 +183,10 @@
     const target_list_selectors = [
       '#article-body > ul:nth-child(9)',
       '#article-body > ul:nth-child(11)',
-      '#article-body > ul:nth-child(13)',
+      '#article-body > ul:nth-child(16)',
+      '#article-body > ul:nth-child(18)',
       '#article-body > ul:nth-child(20)',
-      '#article-body > ul:nth-child(22)',
-      '#article-body > ul:nth-child(24)',
-      '#article-body > ul:nth-child(27)',
+      '#article-body > ul:nth-child(23)',
     ];
     target_couplings = target_list_selectors
       .map((x) => getListCouplings(document.querySelector(x)))

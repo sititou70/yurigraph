@@ -1458,6 +1458,10 @@
     "tags": [{ "name": "にとわか" }]
   },
   {
+    "characters": [{ "name": "河城にとり" }, { "name": "山城たかね" }],
+    "tags": [{ "name": "にとたか" }]
+  },
+  {
     "characters": [
       { "name": "犬走椛" },
       { "name": "フランドール・スカーレット" }
@@ -1644,6 +1648,10 @@
   {
     "characters": [{ "name": "比那名居天子" }, { "name": "霊烏路空" }],
     "tags": [{ "name": "てんくう" }]
+  },
+  {
+    "characters": [{ "name": "比那名居天子" }, { "name": "古明地こいし" }],
+    "tags": [{ "name": "てんこい" }]
   },
   {
     "characters": [{ "name": "比那名居天子" }, { "name": "多々良小傘" }],
@@ -2578,6 +2586,10 @@
     "tags": [{ "name": "やちけーき" }]
   },
   {
+    "characters": [{ "name": "吉弔八千慧" }, { "name": "駒草山如" }],
+    "tags": [{ "name": "やちさんに" }]
+  },
+  {
     "characters": [{ "name": "杖刀偶磨弓" }, { "name": "埴安神袿姫" }],
     "tags": [{ "name": "まゆけーき" }]
   },
@@ -2588,6 +2600,22 @@
   {
     "characters": [{ "name": "驪駒早鬼" }, { "name": "庭渡久侘歌" }],
     "tags": [{ "name": "さきくた" }]
+  },
+  {
+    "characters": [{ "name": "駒草山如" }, { "name": "玉造魅須丸" }],
+    "tags": [{ "name": "さんみす" }]
+  },
+  {
+    "characters": [{ "name": "飯綱丸龍" }, { "name": "菅牧典" }],
+    "tags": [{ "name": "めぐつか" }]
+  },
+  {
+    "characters": [{ "name": "姫虫百々世" }, { "name": "菅牧典" }],
+    "tags": [{ "name": "ももつか" }]
+  },
+  {
+    "characters": [{ "name": "姫虫百々世" }, { "name": "飯綱丸龍" }],
+    "tags": [{ "name": "ももめぐ" }]
   },
   {
     "characters": [{ "name": "稗田阿求" }, { "name": "藤原妹紅" }],
@@ -2765,8 +2793,23 @@
     "tags": [{ "name": "めいりか" }]
   },
   {
+    "characters": [{ "name": "エレン" }, { "name": "チルノ" }],
+    "tags": [{ "name": "エレチル" }]
+  },
+  {
     "characters": [{ "name": "カナ・アナベラル" }, { "name": "エレン" }],
     "tags": [{ "name": "カナエレン" }]
+  },
+  {
+    "characters": [{ "name": "カナ・アナベラル" }, { "name": "チルノ" }],
+    "tags": [{ "name": "かなちる" }]
+  },
+  {
+    "characters": [
+      { "name": "カナ・アナベラル" },
+      { "name": "ルナサ・プリズムリバー" }
+    ],
+    "tags": [{ "name": "カナルナサ" }]
   },
   {
     "characters": [{ "name": "小兎姫" }, { "name": "朝倉理香子" }],
@@ -2785,8 +2828,35 @@
     "tags": [{ "name": "ゆめりか" }]
   },
   {
+    "characters": [{ "name": "オレンジ" }, { "name": "チルノ" }],
+    "tags": [{ "name": "オレチル" }]
+  },
+  {
     "characters": [{ "name": "くるみ" }, { "name": "エリー" }],
     "tags": [{ "name": "くるエリー" }]
+  },
+  {
+    "characters": [{ "name": "くるみ" }, { "name": "夢月" }],
+    "tags": [{ "name": "むげくるみ" }]
+  },
+  {
+    "characters": [{ "name": "くるみ" }, { "name": "ルーミア" }],
+    "tags": [{ "name": "くるーみあ" }]
+  },
+  {
+    "characters": [{ "name": "くるみ" }, { "name": "レミリア・スカーレット" }],
+    "tags": [{ "name": "レミくる" }]
+  },
+  {
+    "characters": [
+      { "name": "くるみ" },
+      { "name": "フランドール・スカーレット" }
+    ],
+    "tags": [{ "name": "フラくる" }]
+  },
+  {
+    "characters": [{ "name": "くるみ" }, { "name": "橙" }],
+    "tags": [{ "name": "くるちぇん" }]
   },
   {
     "characters": [{ "name": "夢月" }, { "name": "エリー" }],
@@ -2816,12 +2886,20 @@
     "tags": [{ "name": "レミ幻" }]
   },
   {
+    "characters": [{ "name": "怪綺談1面中ボス" }, { "name": "サラ" }],
+    "tags": [{ "name": "輪妖精×サラ" }]
+  },
+  {
     "characters": [{ "name": "ルイズ" }, { "name": "サラ" }],
     "tags": [{ "name": "ルイサラ" }]
   },
   {
     "characters": [{ "name": "ルイズ" }, { "name": "ユキ" }],
     "tags": [{ "name": "ルイユキ" }]
+  },
+  {
+    "characters": [{ "name": "ルイズ" }, { "name": "夢子" }],
+    "tags": [{ "name": "ルイ夢" }]
   },
   {
     "characters": [{ "name": "ロリス" }, { "name": "アリス・マーガトロイド" }],
@@ -3093,6 +3171,10 @@
   {
     "characters": [{ "name": "高麗野あうん" }, { "name": "博麗霊夢" }],
     "tags": [{ "name": "あう霊" }]
+  },
+  {
+    "characters": [{ "name": "玉造魅須丸" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "みすれいむ" }]
   },
   {
     "characters": [{ "name": "綿月依姫" }, { "name": "博麗霊夢" }],
@@ -3582,5 +3664,12 @@
       { "name": "アリス・マーガトロイド" }
     ],
     "tags": [{ "name": "上アリ" }]
+  },
+  {
+    "characters": [
+      { "name": "ナズーリン" },
+      { "name": "アリス・マーガトロイド" }
+    ],
+    "tags": [{ "name": "ナズアリ" }]
   }
 ]
