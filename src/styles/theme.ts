@@ -1,5 +1,7 @@
-export const makePxScaleUtil = (base: number) => (scale: number = 1): string =>
-  `${base * scale}px`;
+export const makePxScaleUtil =
+  (base: number) =>
+  (scale: number = 1): string =>
+    `${base * scale}px`;
 
 const base_color = process.env.REACT_APP_BASE_COLOR;
 const main_color = process.env.REACT_APP_MAIN_COLOR;
@@ -18,4 +20,5 @@ export const px = {
   max_width: makePxScaleUtil(900),
 };
 
-export default { colors, px };
+export const export_obj = { colors, px };
+export default export_obj;
