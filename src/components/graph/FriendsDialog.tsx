@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import FriendsInfo from '../FriendsInfo';
-import { Dialog, DialogTitle } from '@material-ui/core';
+import { Dialog, DialogTitle, IconButton } from '@material-ui/core';
 import styled from '@emotion/styled';
 import { PixivDictLink } from '../pixiv-utils';
 import theme from '../../styles/theme';
@@ -29,11 +29,16 @@ export const FriendsDialog: FC<{
       fullWidth={true}
     >
       <DialogTitle id="friends-dialog-title">
-        <PixivDictLink
-          title={character.dict_entry ? character.dict_entry : character.name}
-          text={character.name}
-        />
-        のカップリング一覧
+        <span>
+          <PixivDictLink
+            title={character.dict_entry ? character.dict_entry : character.name}
+            text={character.name}
+          />
+          のカップリング一覧
+        </span>
+        <IconButton aria-label="close" onClick={onClose}>
+          ×
+        </IconButton>
       </DialogTitle>
       <StyledFriendsInfo name={name} />
     </DialogRoot>
@@ -44,9 +49,10 @@ const StyledFriendsInfo = styled(FriendsInfo)`
 `;
 
 const DialogRoot = styled(Dialog)`
-  .close_button {
-    position: absolute;
-    right: 0;
+  #friends-dialog-title > .MuiTypography-root {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 `;
 
