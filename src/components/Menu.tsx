@@ -6,9 +6,18 @@ import theme from '../styles/theme';
 // components
 export const Menu = () => (
   <Root>
-    <Typography display="block" variant="h1">
-      {process.env.REACT_APP_NAME}
-    </Typography>
+    <div>
+      <Typography display="inline" variant="h1">
+        {process.env.REACT_APP_NAME}{' '}
+      </Typography>
+      <a
+        href="https://github.com/sititou70/yurigraph"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        リポジトリ
+      </a>
+    </div>
     <a href="#カップリングランキング">カップリングランキング</a>
     <div>
       author:
@@ -20,7 +29,7 @@ export const Menu = () => (
         @sititou70
       </a>
     </div>
-    <a href="https://github.com/sititou70/yurigraph">リポジトリ</a>
+    update: {new Date().toISOString()}
   </Root>
 );
 const Root = styled.div`
