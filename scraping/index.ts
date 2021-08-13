@@ -123,7 +123,7 @@ const getNumsFromTag = async (tag: string): Promise<number> => {
     return parseInt(fs.readFileSync(cache_file_path).toString());
   } catch (e) {}
 
-  await sleep(3000);
+  await sleep(7000);
 
   const url: string = `https://www.pixiv.net/tags/${encodeURIComponent(tag)}/`;
   const row = await fetch(url);
