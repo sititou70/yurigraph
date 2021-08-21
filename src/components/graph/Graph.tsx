@@ -120,14 +120,19 @@ const GraphRoot = styled.svg`
   display: block;
   width: 100%;
   height: 100vh;
-  cursor: all-scroll;
   background: linear-gradient(
     0.1turn,
     ${mixColor('#fff', theme.colors.main, 0.1)} 30%,
     ${mixColor('#fff', theme.colors.accent, 0.1)}
   );
+  cursor: grab;
+  &:active {
+    cursor: grabbing;
+  }
 
-  * {
+  .link,
+  .node,
+  .node > * {
     transition: fill ease 0.5s, opacity ease 0.5s;
   }
 `;

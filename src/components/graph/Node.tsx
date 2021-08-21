@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useRef } from 'react';
+import { FC, useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import { NodeData, ForceSimulation } from './types';
 import styled from '@emotion/styled';
@@ -70,6 +70,9 @@ export const Node: FC<{
 const StyledRoot = styled.g<{ active: boolean }>`
   cursor: pointer;
   opacity: ${(props) => (props.active ? 1 : 0.3)};
+  &:active {
+    cursor: grabbing;
+  }
 
   circle {
     fill: #fff;
