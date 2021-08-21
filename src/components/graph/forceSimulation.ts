@@ -25,7 +25,7 @@ export const getInitializedForce = (
 
   const force_simulation = d3
     .forceSimulation(nodes as SimulationNodeDatum[])
-    .force('charge', d3.forceManyBody().strength(-200).distanceMax(200))
+    .force('charge', d3.forceManyBody().strength(-300).distanceMax(300))
     .force(
       'link',
       d3
