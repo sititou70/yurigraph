@@ -29,7 +29,7 @@ export const Menu = () => (
         @sititou70
       </a>
     </div>
-    update: {new Date().toISOString()}
+    update: {process.env['REACT_APP_BUILD_DATE']}
   </Root>
 );
 const Root = styled.div`

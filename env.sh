@@ -31,6 +31,7 @@ if [ ! -e $ENV_FILE ]; then
   usage_exit
 fi
 
+export REACT_APP_BUILD_DATE=$(date -I)
 . $ENV_FILE
 
 $EXEC
