@@ -1,0 +1,234 @@
+[
+  {
+    "characters": [{ "name": "佐野万次郎" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "マイ武" }, { "name": "タケマイ" }]
+  },
+  {
+    "characters": [{ "name": "松野千冬" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "ふゆタケ" }, { "name": "タケふゆ" }]
+  },
+  {
+    "characters": [{ "name": "花垣武道" }, { "name": "龍宮寺堅" }],
+    "tags": [{ "name": "ドラ武" }, { "name": "武ドラ" }]
+  },
+  {
+    "characters": [{ "name": "三ツ谷隆" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "みつ武" }]
+  },
+  {
+    "characters": [{ "name": "九井一" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "ココ武" }]
+  },
+  {
+    "characters": [{ "name": "乾青宗" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "イヌ武" }]
+  },
+  {
+    "characters": [{ "name": "場地圭介" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "バジ武" }]
+  },
+  {
+    "characters": [{ "name": "花垣武道" }, { "name": "黒川イザナ" }],
+    "tags": [{ "name": "イザ武" }]
+  },
+  {
+    "characters": [{ "name": "佐野真一郎" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "真武" }]
+  },
+  {
+    "characters": [{ "name": "半間修二" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "半武" }]
+  },
+  {
+    "characters": [{ "name": "羽宮一虎" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "とら武" }]
+  },
+  {
+    "characters": [{ "name": "花垣武道" }, { "name": "鶴蝶" }],
+    "tags": [{ "name": "カク武" }]
+  },
+  {
+    "characters": [{ "name": "稀咲鉄太" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "キサタケ" }, { "name": "タケキサ" }]
+  },
+  {
+    "characters": [{ "name": "灰谷竜胆" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "竜武" }]
+  },
+  {
+    "characters": [{ "name": "灰谷蘭" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "蘭武" }]
+  },
+  {
+    "characters": [{ "name": "橘直人" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "ナオ武" }, { "name": "タケナオ" }]
+  },
+  {
+    "characters": [{ "name": "柴八戒" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "はち武" }]
+  },
+  {
+    "characters": [{ "name": "今牛若狭" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "ワカ武" }]
+  },
+  {
+    "characters": [{ "name": "明司武臣" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "臣武" }]
+  },
+  {
+    "characters": [{ "name": "佐野万次郎" }, { "name": "龍宮寺堅" }],
+    "tags": [{ "name": "ドラマイ" }, { "name": "マイドラ" }]
+  },
+  {
+    "characters": [{ "name": "三途春千夜" }, { "name": "佐野万次郎" }],
+    "tags": [{ "name": "春マイ" }, { "name": "マイ春" }]
+  },
+  {
+    "characters": [{ "name": "佐野万次郎" }, { "name": "黒川イザナ" }],
+    "tags": [{ "name": "イザマイ" }, { "name": "マイイザ" }]
+  },
+  {
+    "characters": [{ "name": "佐野万次郎" }, { "name": "場地圭介" }],
+    "tags": [{ "name": "バジマイ" }, { "name": "マイバジ" }]
+  },
+  {
+    "characters": [{ "name": "佐野万次郎" }, { "name": "佐野真一郎" }],
+    "tags": [{ "name": "真マイ" }]
+  },
+  {
+    "characters": [{ "name": "三ツ谷隆" }, { "name": "龍宮寺堅" }],
+    "tags": [{ "name": "みつドラ" }, { "name": "ドラみつ" }]
+  },
+  {
+    "characters": [{ "name": "乾青宗" }, { "name": "龍宮寺堅" }],
+    "tags": [{ "name": "イヌドラ" }, { "name": "ドライヌ" }]
+  },
+  {
+    "characters": [{ "name": "場地圭介" }, { "name": "松野千冬" }],
+    "tags": [{ "name": "ふゆばじ" }, { "name": "ばじふゆ" }]
+  },
+  {
+    "characters": [{ "name": "場地圭介" }, { "name": "羽宮一虎" }],
+    "tags": [{ "name": "とらばじ" }, { "name": "ばじとら" }]
+  },
+  {
+    "characters": [{ "name": "松野千冬" }, { "name": "羽宮一虎" }],
+    "tags": [{ "name": "とらふゆ" }, { "name": "ふゆとら" }]
+  },
+  {
+    "characters": [{ "name": "三ツ谷隆" }, { "name": "松野千冬" }],
+    "tags": [{ "name": "みつふゆ" }]
+  },
+  {
+    "characters": [{ "name": "佐野万次郎" }, { "name": "松野千冬" }],
+    "tags": [{ "name": "マイふゆ" }]
+  },
+  {
+    "characters": [{ "name": "松野千冬" }, { "name": "龍宮寺堅" }],
+    "tags": [{ "name": "ドラふゆ" }]
+  },
+  {
+    "characters": [{ "name": "三ツ谷隆" }, { "name": "柴大寿" }],
+    "tags": [{ "name": "たいみつ" }, { "name": "みつたい" }]
+  },
+  {
+    "characters": [{ "name": "三ツ谷隆" }, { "name": "灰谷蘭" }],
+    "tags": [{ "name": "蘭みつ" }]
+  },
+  {
+    "characters": [{ "name": "三ツ谷隆" }, { "name": "佐野万次郎" }],
+    "tags": [{ "name": "マイみつ" }]
+  },
+  {
+    "characters": [{ "name": "三ツ谷隆" }, { "name": "柴八戒" }],
+    "tags": [{ "name": "はちみつ" }, { "name": "みつはち" }]
+  },
+  {
+    "characters": [{ "name": "三ツ谷隆" }, { "name": "場地圭介" }],
+    "tags": [{ "name": "ばじみつ" }]
+  },
+  {
+    "characters": [{ "name": "林田春樹" }, { "name": "林良平" }],
+    "tags": [{ "name": "ペーパー" }, { "name": "パーペー" }]
+  },
+  {
+    "characters": [{ "name": "武藤泰宏" }, { "name": "河田ナホヤ" }],
+    "tags": [{ "name": "ムーナホ" }]
+  },
+  {
+    "characters": [{ "name": "河田ソウヤ" }, { "name": "河田ナホヤ" }],
+    "tags": [{ "name": "ソヤナホ" }, { "name": "ナホソヤ" }]
+  },
+  {
+    "characters": [{ "name": "河田ソウヤ" }, { "name": "灰谷竜胆" }],
+    "tags": [{ "name": "竜ソヤ" }]
+  },
+  {
+    "characters": [{ "name": "三途春千夜" }, { "name": "武藤泰宏" }],
+    "tags": [{ "name": "三ム" }, { "name": "ム三" }]
+  },
+  {
+    "characters": [{ "name": "三途春千夜" }, { "name": "灰谷竜胆" }],
+    "tags": [{ "name": "竜春" }, { "name": "春竜" }]
+  },
+  {
+    "characters": [{ "name": "三途春千夜" }, { "name": "灰谷蘭" }],
+    "tags": [{ "name": "蘭はる" }]
+  },
+  {
+    "characters": [{ "name": "半間修二" }, { "name": "稀咲鉄太" }],
+    "tags": [{ "name": "半稀" }, { "name": "稀半" }]
+  },
+  {
+    "characters": [{ "name": "半間修二" }, { "name": "龍宮寺堅" }],
+    "tags": [{ "name": "ドラ半" }]
+  },
+  {
+    "characters": [{ "name": "佐野万次郎" }, { "name": "羽宮一虎" }],
+    "tags": [{ "name": "マイとら" }]
+  },
+  {
+    "characters": [{ "name": "九井一" }, { "name": "乾青宗" }],
+    "tags": [{ "name": "イヌココ" }, { "name": "ココイヌ" }]
+  },
+  {
+    "characters": [{ "name": "三途春千夜" }, { "name": "九井一" }],
+    "tags": [{ "name": "春ココ" }]
+  },
+  {
+    "characters": [{ "name": "九井一" }, { "name": "灰谷蘭" }],
+    "tags": [{ "name": "蘭ココ" }]
+  },
+  {
+    "characters": [{ "name": "九井一" }, { "name": "灰谷竜胆" }],
+    "tags": [{ "name": "竜ココ" }, { "name": "ココ竜" }]
+  },
+  {
+    "characters": [{ "name": "鶴蝶" }, { "name": "黒川イザナ" }],
+    "tags": [{ "name": "カクイザ" }, { "name": "イザカク" }]
+  },
+  {
+    "characters": [{ "name": "佐野真一郎" }, { "name": "黒川イザナ" }],
+    "tags": [{ "name": "真イザ" }, { "name": "イザ真" }]
+  },
+  {
+    "characters": [{ "name": "灰谷竜胆" }, { "name": "灰谷蘭" }],
+    "tags": [{ "name": "竜蘭" }, { "name": "蘭竜" }]
+  },
+  {
+    "characters": [{ "name": "半間修二" }, { "name": "灰谷蘭" }],
+    "tags": [{ "name": "半蘭" }]
+  },
+  {
+    "characters": [{ "name": "佐野真一郎" }, { "name": "明司武臣" }],
+    "tags": [{ "name": "真臣" }]
+  },
+  {
+    "characters": [{ "name": "今牛若狭" }, { "name": "佐野真一郎" }],
+    "tags": [{ "name": "真ワカ" }, { "name": "ワカ真" }]
+  },
+  {
+    "characters": [{ "name": "千堂敦" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "武あつ" }]
+  }
+]
