@@ -12,6 +12,7 @@
 - [VocaloMap | VOCALOID・VOICEROID のカップリングを可視化](https://sititou70.github.io/vocalomap/)
 - [HetaGraph | Axis Powers ヘタリアのカップリングを可視化](https://sititou70.github.io/hetagraph/)
 - [BangDreamGraph | BanG Dream!のカップリングを可視化](https://sititou70.github.io/bangdreamgraph/)
+- [RevengersGraph | 東京卍リベンジャーズのカップリングを可視化](https://sititou70.github.io/revengersmgraph/)
 
 ## 開発
 
@@ -31,7 +32,7 @@ npm i
 
 ```javascript
 cd yurigraph
-npm start [bangdream | deremas | hetaria | imas | vocalo | touhou | kancolle | lovelive]
+npm start [revengers | touhou | bangdream | lovelive | vocalo | kancolle | deremas | imas | hetaria]
 ```
 
 ### 対応作品を追加する
@@ -57,7 +58,7 @@ pixiv からタグ情報を取得する際には，リクエストごとに 7000
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/i544c"><img src="https://avatars.githubusercontent.com/u/15726229?v=3?s=100" width="100px;" alt=""/><br /><sub><b>i544c</b></sub>
+    <td align="center"><a href="https://github.com/defaultcf"><img src="https://avatars.githubusercontent.com/u/15726229?v=3?s=100" width="100px;" alt=""/><br /><sub><b>defaultcf</b></sub>
     <td align="center"><a href="https://github.com/KobayashiTakaki"><img src="https://avatars.githubusercontent.com/u/18331592?v=3?s=100" width="100px;" alt=""/><br /><sub><b>KobayashiTakaki</b></sub>
   </tr>
 </table>
