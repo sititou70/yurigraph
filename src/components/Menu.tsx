@@ -39,6 +39,7 @@ const Root = styled.div`
   padding: ${theme.px.grid(0.5)};
   background: rgba(255, 255, 255, 0.7);
   font-size: 0.8rem;
+  box-shadow: 0 0 ${theme.px.grid()} #0002;
 
   h1 {
     font-size: 1rem;

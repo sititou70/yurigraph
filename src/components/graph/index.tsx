@@ -224,6 +224,7 @@ export const GraphRoot: FC<{}> = () => {
 const Root = styled.div`
   .drawer .MuiPaper-root {
     padding: ${theme.px.grid()};
+    box-shadow: 0 0 ${theme.px.grid()} #0002;
 
     .drawer-header {
       display: flex;

@@ -1,10 +1,11 @@
 import { FC, useMemo, useState } from 'react';
 import styled from '@emotion/styled';
-import { LinkData, LinkDataOmitSourceTarget } from './types';
-import { Checkbox, FormControlLabel } from '@material-ui/core';
+import { LinkDataOmitSourceTarget } from './types';
+import { Checkbox, FormControlLabel, Tooltip } from '@material-ui/core';
 import { IconButton } from '@mui/material';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import theme from '../../styles/theme';
+import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 
 // components
 export const CouplingSelector: FC<{
@@ -32,10 +33,38 @@ export const CouplingSelector: FC<{
     [all_links]
   );
 
-  const [coupling_mode, setCouplingMode] = useState(false);
+  const [coupling_mode, setCouplingMode] = useState(true);
 
   return (
     <Root>
+      <p>優先したいカップリングを選択してください</p>
+      <details>
+        <summary>凡例</summary>
+        <ul className="legends">
+          <li>
+            <Checkbox className="legend" checked={false} />
+            ：選択できます
+          </li>
+          <li>
+            <Checkbox className="legend" checked={true} />
+            ：選択されています
+          </li>
+          <li>
+            <Checkbox
+              className="legend"
+              checked={false}
+              indeterminate={true}
+              disabled={true}
+            />
+            ：「1対1に解決」によって自動的に選択されています
+          </li>
+          <li>
+            <Checkbox className="legend" checked={false} disabled={true} />
+            ：「1対1にこだわる」によって選択できません．同じキャラクターを含む他のカップリングが選択済みです．
+          </li>
+        </ul>
+      </details>
+
       <FormControlLabel
         control={
           <Checkbox
@@ -44,9 +73,18 @@ export const CouplingSelector: FC<{
             name="force_coupling"
           />
         }
-        label="1対1にこだわる"
+        label={
+          <span>
+            1対1にこだわる
+            <Tooltip
+              title="同じキャラクターを含むカップリングを1つしか選択できなくします"
+              className="tip"
+            >
+              <HelpOutlineIcon />
+            </Tooltip>
+          </span>
+        }
       />
-
       <FormControlLabel
         control={
           <IconButton
@@ -60,7 +98,6 @@ export const CouplingSelector: FC<{
         }
         label={'設定をリセット'}
       />
-
       <ol>
         {sorted_all_links.map((x) => (
           <li key={x.name}>
@@ -95,7 +132,17 @@ export const CouplingSelector: FC<{
                   }}
                 />
               }
-              label={x.name}
+              label={
+                <span>
+                  {x.name}
+                  <Tooltip
+                    title={`${x.source_name} × ${x.target_name} (${x.num}作品)`}
+                    className="tip"
+                  >
+                    <HelpOutlineIcon />
+                  </Tooltip>
+                </span>
+              }
             />
           </li>
         ))}
@@ -104,7 +151,32 @@ export const CouplingSelector: FC<{
   );
 };
 const Root = styled.div`
+  display: flex;
+  flex-direction: column;
   min-width: 200px;
+  max-width: 30vw;
+
+  p {
+    margin: 0;
+  }
+
+  details {
+    margin-bottom: ${theme.px.grid()};
+  }
+
+  .legends {
+    li {
+      margin: 0;
+    }
+    .legend {
+      transform: scale(0.75);
+      padding: 0;
+    }
+  }
+
+  .tip {
+    font-size: 1rem;
+  }
 
   ol {
     margin-top: ${theme.px.grid()};

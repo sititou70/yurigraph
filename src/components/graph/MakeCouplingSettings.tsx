@@ -39,6 +39,7 @@ const Root = styled.div`
   right: 0;
   bottom: ${theme.px.grid(2)};
   background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 ${theme.px.grid()} #0002;
 
   label {
     margin: 0;
