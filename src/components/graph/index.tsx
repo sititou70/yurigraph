@@ -12,6 +12,7 @@ import styled from '@emotion/styled';
 import theme from '../../styles/theme';
 import { IconButton } from '@mui/material';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import CouplingSelector from './CouplingSelector';
 const deepCopy = require('deep-copy');
 
 const couplings_json: Couplings = couplings_json_import;
@@ -125,9 +126,15 @@ export const GraphRoot: FC<{}> = () => {
   );
   const [resolve_one_to_many, setResolveOneToMany] = useState(false);
   const setNodesAndLinks = useCallback(
-    (filter_num: number, resolve_one_to_many: boolean) =>
+    (
+      filter_num: number,
+      resolve_one_to_many: boolean,
+      reserved_links: LinkDataOmitSourceTarget[]
+    ) =>
       resolve_one_to_many
-        ? _setNodesAndLinks(makeCoupling(getNodesAndLinks(filter_num), []))
+        ? _setNodesAndLinks(
+            makeCoupling(getNodesAndLinks(filter_num), reserved_links)
+          )
         : _setNodesAndLinks(getNodesAndLinks(filter_num)),
     []
   );
@@ -138,6 +145,9 @@ export const GraphRoot: FC<{}> = () => {
 
   // drawer
   const [drawer_open, setDrawerOpen] = useState(false);
+  const [reserved_links, setReservedLinks] = useState<
+    LinkDataOmitSourceTarget[]
+  >([]);
 
   return (
     <Root>
@@ -156,10 +166,10 @@ export const GraphRoot: FC<{}> = () => {
         onChange={useCallback(
           (num) => {
             setFilterNum(num);
-            setNodesAndLinks(num, resolve_one_to_many);
+            setNodesAndLinks(num, resolve_one_to_many, reserved_links);
           },
           // eslint-disable-next-line react-hooks/exhaustive-deps
-          [resolve_one_to_many]
+          [resolve_one_to_many, reserved_links]
         )}
       />
       <MakeCouplingSettings
@@ -167,10 +177,10 @@ export const GraphRoot: FC<{}> = () => {
         onChange={useCallback(
           (v) => {
             setResolveOneToMany(v);
-            setNodesAndLinks(filter_num, v);
+            setNodesAndLinks(filter_num, v, reserved_links);
           },
           // eslint-disable-next-line react-hooks/exhaustive-deps
-          [filter_num]
+          [filter_num, reserved_links]
         )}
         onClickSettingButton={useCallback(() => {
           setDrawerOpen(true);
@@ -181,23 +191,32 @@ export const GraphRoot: FC<{}> = () => {
         open={dialog_open}
         onClose={() => setDialogOpen(false)}
       />
-      <Drawer
-        className="drawer"
-        variant="persistent"
-        anchor="right"
-        open={drawer_open}
-      >
-        <div className="drawer-header">
-          <IconButton
-            onClick={useCallback(() => {
-              setDrawerOpen(false);
-            }, [])}
-          >
-            <ChevronRightIcon />
-          </IconButton>
-        </div>
-        testtesttesttes testtesttesttes testtesttesttes
-      </Drawer>
+      {resolve_one_to_many && (
+        <Drawer
+          className="drawer"
+          variant="persistent"
+          anchor="right"
+          open={drawer_open}
+        >
+          <div className="drawer-header">
+            <IconButton
+              onClick={() => {
+                setDrawerOpen(false);
+              }}
+            >
+              <ChevronRightIcon />
+            </IconButton>
+          </div>
+          <CouplingSelector
+            all_links={getNodesAndLinks(filter_num).links}
+            auto_selected_links={node_and_links.links}
+            onChanged={(selected_links) => {
+              setReservedLinks(selected_links);
+              setNodesAndLinks(filter_num, resolve_one_to_many, selected_links);
+            }}
+          />
+        </Drawer>
+      )}
     </Root>
   );
 };

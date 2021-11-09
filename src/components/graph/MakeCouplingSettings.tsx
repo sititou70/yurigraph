@@ -24,7 +24,11 @@ export const MakeCouplingSettings: FC<{
         }
         label="1対1に解決"
       />
-      <IconButton aria-label="close" onClick={onClickSettingButton}>
+      <IconButton
+        disabled={!checked}
+        aria-label="close"
+        onClick={onClickSettingButton}
+      >
         <SettingsIcon />
       </IconButton>
     </Root>
