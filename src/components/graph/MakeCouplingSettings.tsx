@@ -3,14 +3,17 @@ import styled from '@emotion/styled';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import theme from '../../styles/theme';
+import { IconButton } from '@mui/material';
+import SettingsIcon from '@mui/icons-material/Settings';
 
 // components
-export const MakeCouplingCheckbox: FC<{
+export const MakeCouplingSettings: FC<{
   checked: boolean;
   onChange: (val: boolean) => void;
-}> = ({ checked, onChange }) => {
+  onClickSettingButton: () => void;
+}> = ({ checked, onChange, onClickSettingButton }) => {
   return (
-    <CheckboxRoot>
+    <Root>
       <FormControlLabel
         control={
           <Checkbox
@@ -21,10 +24,13 @@ export const MakeCouplingCheckbox: FC<{
         }
         label="1対1に解決"
       />
-    </CheckboxRoot>
+      <IconButton aria-label="close" onClick={onClickSettingButton}>
+        <SettingsIcon />
+      </IconButton>
+    </Root>
   );
 };
-const CheckboxRoot = styled.div`
+const Root = styled.div`
   position: absolute;
   right: 0;
   bottom: ${theme.px.grid(2)};
@@ -36,4 +42,4 @@ const CheckboxRoot = styled.div`
   }
 `;
 
-export default MakeCouplingCheckbox;
+export default MakeCouplingSettings;

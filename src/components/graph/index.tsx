@@ -1,12 +1,17 @@
-import React, { useState, FC, useCallback } from 'react';
+import { useState, FC, useCallback } from 'react';
 import Graph from './Graph';
 import FilterNumSlider from './FilterNumSlider';
-import MakeCouplingCheckbox from './MakeCouplingCheckbox';
+import MakeCouplingSettings from './MakeCouplingSettings';
 import FriendsDialog from './FriendsDialog';
 import { NodeData, LinkData } from './types';
 import { Couplings } from 'yurigraph-scraping';
 import stats from 'stats-lite';
 import couplings_json_import from '../../couplings.json';
+import { Drawer } from '@material-ui/core';
+import styled from '@emotion/styled';
+import theme from '../../styles/theme';
+import { IconButton } from '@mui/material';
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 const deepCopy = require('deep-copy');
 
 const couplings_json: Couplings = couplings_json_import;
@@ -60,7 +65,7 @@ const initGetNodesAndLinks = (): ((num_filter: number) => NodesAndLinks) => {
       target_name: x.characters[1].name,
     }));
 
-  return (num_filter: number): { nodes: NodeData[]; links: LinkData[] } => {
+  return (num_filter: number): NodesAndLinks => {
     return getNodesAndLinksFromLinks(
       all_links.filter((x) => x.num >= num_filter)
     );
@@ -119,8 +124,11 @@ export const GraphRoot: FC<{}> = () => {
   const [dialog_name, setDialogName] = useState<string | null>(null);
   const [dialog_open, setDialogOpen] = useState<boolean>(false);
 
+  // drawer
+  const [drawer_open, setDrawerOpen] = useState(false);
+
   return (
-    <div>
+    <Root>
       <Graph
         {...node_and_links}
         onNodeClick={(name) => {
@@ -142,7 +150,7 @@ export const GraphRoot: FC<{}> = () => {
           [resolve_one_to_many]
         )}
       />
-      <MakeCouplingCheckbox
+      <MakeCouplingSettings
         checked={resolve_one_to_many}
         onChange={useCallback(
           (v) => {
@@ -152,14 +160,47 @@ export const GraphRoot: FC<{}> = () => {
           // eslint-disable-next-line react-hooks/exhaustive-deps
           [filter_num]
         )}
+        onClickSettingButton={useCallback(() => {
+          setDrawerOpen(true);
+        }, [])}
       />
       <FriendsDialog
         name={dialog_name ? dialog_name : ''}
         open={dialog_open}
         onClose={() => setDialogOpen(false)}
       />
-    </div>
+      <Drawer
+        className="drawer"
+        variant="persistent"
+        anchor="right"
+        open={drawer_open}
+      >
+        <div className="drawer-header">
+          <IconButton
+            onClick={useCallback(() => {
+              setDrawerOpen(false);
+            }, [])}
+          >
+            <ChevronRightIcon />
+          </IconButton>
+        </div>
+        testtesttesttes testtesttesttes testtesttesttes
+      </Drawer>
+    </Root>
   );
 };
+
+const Root = styled.div`
+  .drawer .MuiPaper-root {
+    padding: ${theme.px.grid()};
+
+    .drawer-header {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-bottom: ${theme.px.grid()};
+    }
+  }
+`;
 
 export default GraphRoot;
