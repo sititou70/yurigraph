@@ -12,3 +12,5 @@ export type LinkData = {
   target_name: string;
   num: number;
 };
+
+export type LinkDataOmitSourceTarget = Omit<LinkData, 'source' | 'target'>;

@@ -3,7 +3,7 @@ import Graph from './Graph';
 import FilterNumSlider from './FilterNumSlider';
 import MakeCouplingSettings from './MakeCouplingSettings';
 import FriendsDialog from './FriendsDialog';
-import { NodeData, LinkData } from './types';
+import { NodeData, LinkData, LinkDataOmitSourceTarget } from './types';
 import { Couplings } from 'yurigraph-scraping';
 import stats from 'stats-lite';
 import couplings_json_import from '../../couplings.json';
@@ -28,7 +28,6 @@ const num_stats = {
 };
 
 type NodesAndLinks = { nodes: NodeData[]; links: LinkData[] };
-type LinkDataOmitSourceTarget = Omit<LinkData, 'source' | 'target'>;
 const getNodesAndLinksFromLinks = (
   base_links: LinkDataOmitSourceTarget[]
 ): NodesAndLinks => {
@@ -73,14 +72,27 @@ const initGetNodesAndLinks = (): ((num_filter: number) => NodesAndLinks) => {
 };
 const getNodesAndLinks = initGetNodesAndLinks();
 
-const makeCoupling = (nodes_and_links: NodesAndLinks): NodesAndLinks => {
+const makeCoupling = (
+  nodes_and_links: NodesAndLinks,
+  reserved_links: LinkDataOmitSourceTarget[]
+): NodesAndLinks => {
+  const reserved_charactors: Set<string> = new Set(
+    reserved_links
+      .map((x) => [x.source_name, x.target_name])
+      .reduce((s, x) => [...s, ...x], [])
+  );
   const charactors: Set<string> = new Set(
-    nodes_and_links.nodes.map((x) => x.name)
+    nodes_and_links.nodes
+      .map((x) => x.name)
+      .filter((x) => !reserved_charactors.has(x))
   );
-  let sorted_links: LinkData[] = nodes_and_links.links.sort(
-    (x, y) => y.num - x.num
+  const reserved_link_names: Set<string> = new Set(
+    reserved_links.map((x) => x.name)
   );
-  let resolved_links: LinkData[] = [];
+  let sorted_links: LinkData[] = nodes_and_links.links
+    .filter((x) => !reserved_link_names.has(x.name))
+    .sort((x, y) => y.num - x.num);
+  let resolved_links: LinkDataOmitSourceTarget[] = reserved_links;
 
   sorted_links.forEach((x) => {
     if (charactors.has(x.source_name) && charactors.has(x.target_name)) {
@@ -115,7 +127,7 @@ export const GraphRoot: FC<{}> = () => {
   const setNodesAndLinks = useCallback(
     (filter_num: number, resolve_one_to_many: boolean) =>
       resolve_one_to_many
-        ? _setNodesAndLinks(makeCoupling(getNodesAndLinks(filter_num)))
+        ? _setNodesAndLinks(makeCoupling(getNodesAndLinks(filter_num), []))
         : _setNodesAndLinks(getNodesAndLinks(filter_num)),
     []
   );
