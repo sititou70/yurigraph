@@ -32,7 +32,7 @@ export const getInitializedForce = (
       d3
         .forceLink(links)
         .distance((d) => options.link_distance * (2 - sigmoid(d.num)))
-        .strength(nodes.length / links.length)
+        .strength(1)
         .iterations(10)
     )
     .force(
