@@ -1,16 +1,19 @@
-import React, { FC } from 'react';
 import styled from '@emotion/styled';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import SettingsIcon from '@mui/icons-material/Settings';
+import { IconButton } from '@mui/material';
+import { FC } from 'react';
 import theme from '../../styles/theme';
 
 // components
-export const MakeCouplingCheckbox: FC<{
+export const MakeCouplingSettings: FC<{
   checked: boolean;
   onChange: (val: boolean) => void;
-}> = ({ checked, onChange }) => {
+  onClickSettingButton: () => void;
+}> = ({ checked, onChange, onClickSettingButton }) => {
   return (
-    <CheckboxRoot>
+    <Root>
       <FormControlLabel
         control={
           <Checkbox
@@ -21,14 +24,22 @@ export const MakeCouplingCheckbox: FC<{
         }
         label="1対1に解決"
       />
-    </CheckboxRoot>
+      <IconButton
+        disabled={!checked}
+        aria-label="close"
+        onClick={onClickSettingButton}
+      >
+        <SettingsIcon />
+      </IconButton>
+    </Root>
   );
 };
-const CheckboxRoot = styled.div`
+const Root = styled.div`
   position: absolute;
   right: 0;
   bottom: ${theme.px.grid(2)};
   background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 ${theme.px.grid()} #0002;
 
   label {
     margin: 0;
@@ -36,4 +47,4 @@ const CheckboxRoot = styled.div`
   }
 `;
 
-export default MakeCouplingCheckbox;
+export default MakeCouplingSettings;

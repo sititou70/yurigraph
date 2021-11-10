@@ -1,8 +1,8 @@
-import { FC, useEffect, useRef } from 'react';
-import * as d3 from 'd3';
-import { NodeData, ForceSimulation } from './types';
 import styled from '@emotion/styled';
+import * as d3 from 'd3';
+import { FC, useEffect, useRef } from 'react';
 import theme from '../../styles/theme';
+import { ForceSimulation, NodeData } from './types';
 
 export const Node: FC<{
   data: NodeData;

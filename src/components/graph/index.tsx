@@ -1,12 +1,19 @@
-import React, { useState, FC, useCallback } from 'react';
-import Graph from './Graph';
-import FilterNumSlider from './FilterNumSlider';
-import MakeCouplingCheckbox from './MakeCouplingCheckbox';
-import FriendsDialog from './FriendsDialog';
-import { NodeData, LinkData } from './types';
-import { Couplings } from 'yurigraph-scraping';
+import styled from '@emotion/styled';
+import { Drawer } from '@material-ui/core';
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import { IconButton } from '@mui/material';
+import { FC, useCallback, useState } from 'react';
 import stats from 'stats-lite';
+import { Couplings } from 'yurigraph-scraping';
 import couplings_json_import from '../../couplings.json';
+import theme from '../../styles/theme';
+import CouplingSelector from './CouplingSelector';
+import FilterNumSlider from './FilterNumSlider';
+import FriendsDialog from './FriendsDialog';
+import Graph from './Graph';
+import MakeCouplingSettings from './MakeCouplingSettings';
+import { LinkData, LinkDataOmitSourceTarget, NodeData } from './types';
+
 const deepCopy = require('deep-copy');
 
 const couplings_json: Couplings = couplings_json_import;
@@ -23,7 +30,6 @@ const num_stats = {
 };
 
 type NodesAndLinks = { nodes: NodeData[]; links: LinkData[] };
-type LinkDataOmitSourceTarget = Omit<LinkData, 'source' | 'target'>;
 const getNodesAndLinksFromLinks = (
   base_links: LinkDataOmitSourceTarget[]
 ): NodesAndLinks => {
@@ -60,7 +66,7 @@ const initGetNodesAndLinks = (): ((num_filter: number) => NodesAndLinks) => {
       target_name: x.characters[1].name,
     }));
 
-  return (num_filter: number): { nodes: NodeData[]; links: LinkData[] } => {
+  return (num_filter: number): NodesAndLinks => {
     return getNodesAndLinksFromLinks(
       all_links.filter((x) => x.num >= num_filter)
     );
@@ -68,14 +74,27 @@ const initGetNodesAndLinks = (): ((num_filter: number) => NodesAndLinks) => {
 };
 const getNodesAndLinks = initGetNodesAndLinks();
 
-const makeCoupling = (nodes_and_links: NodesAndLinks): NodesAndLinks => {
+const makeCoupling = (
+  nodes_and_links: NodesAndLinks,
+  reserved_links: LinkDataOmitSourceTarget[]
+): NodesAndLinks => {
+  const reserved_charactors: Set<string> = new Set(
+    reserved_links
+      .map((x) => [x.source_name, x.target_name])
+      .reduce((s, x) => [...s, ...x], [])
+  );
   const charactors: Set<string> = new Set(
-    nodes_and_links.nodes.map((x) => x.name)
+    nodes_and_links.nodes
+      .map((x) => x.name)
+      .filter((x) => !reserved_charactors.has(x))
   );
-  let sorted_links: LinkData[] = nodes_and_links.links.sort(
-    (x, y) => y.num - x.num
+  const reserved_link_names: Set<string> = new Set(
+    reserved_links.map((x) => x.name)
   );
-  let resolved_links: LinkData[] = [];
+  let sorted_links: LinkData[] = nodes_and_links.links
+    .filter((x) => !reserved_link_names.has(x.name))
+    .sort((x, y) => y.num - x.num);
+  let resolved_links: LinkDataOmitSourceTarget[] = reserved_links;
 
   sorted_links.forEach((x) => {
     if (charactors.has(x.source_name) && charactors.has(x.target_name)) {
@@ -108,9 +127,15 @@ export const GraphRoot: FC<{}> = () => {
   );
   const [resolve_one_to_many, setResolveOneToMany] = useState(false);
   const setNodesAndLinks = useCallback(
-    (filter_num: number, resolve_one_to_many: boolean) =>
+    (
+      filter_num: number,
+      resolve_one_to_many: boolean,
+      reserved_links: LinkDataOmitSourceTarget[]
+    ) =>
       resolve_one_to_many
-        ? _setNodesAndLinks(makeCoupling(getNodesAndLinks(filter_num)))
+        ? _setNodesAndLinks(
+            makeCoupling(getNodesAndLinks(filter_num), reserved_links)
+          )
         : _setNodesAndLinks(getNodesAndLinks(filter_num)),
     []
   );
@@ -119,8 +144,14 @@ export const GraphRoot: FC<{}> = () => {
   const [dialog_name, setDialogName] = useState<string | null>(null);
   const [dialog_open, setDialogOpen] = useState<boolean>(false);
 
+  // drawer
+  const [drawer_open, setDrawerOpen] = useState(false);
+  const [reserved_links, setReservedLinks] = useState<
+    LinkDataOmitSourceTarget[]
+  >([]);
+
   return (
-    <div>
+    <Root>
       <Graph
         {...node_and_links}
         onNodeClick={(name) => {
@@ -136,30 +167,71 @@ export const GraphRoot: FC<{}> = () => {
         onChange={useCallback(
           (num) => {
             setFilterNum(num);
-            setNodesAndLinks(num, resolve_one_to_many);
+            setNodesAndLinks(num, resolve_one_to_many, reserved_links);
           },
           // eslint-disable-next-line react-hooks/exhaustive-deps
-          [resolve_one_to_many]
+          [resolve_one_to_many, reserved_links]
         )}
       />
-      <MakeCouplingCheckbox
+      <MakeCouplingSettings
         checked={resolve_one_to_many}
         onChange={useCallback(
           (v) => {
             setResolveOneToMany(v);
-            setNodesAndLinks(filter_num, v);
+            setNodesAndLinks(filter_num, v, reserved_links);
           },
           // eslint-disable-next-line react-hooks/exhaustive-deps
-          [filter_num]
+          [filter_num, reserved_links]
         )}
+        onClickSettingButton={useCallback(() => {
+          setDrawerOpen(true);
+        }, [])}
       />
       <FriendsDialog
         name={dialog_name ? dialog_name : ''}
         open={dialog_open}
         onClose={() => setDialogOpen(false)}
       />
-    </div>
+      {resolve_one_to_many && (
+        <Drawer
+          className="drawer"
+          variant="persistent"
+          anchor="right"
+          open={drawer_open}
+        >
+          <div className="drawer-header">
+            <IconButton
+              onClick={() => {
+                setDrawerOpen(false);
+              }}
+            >
+              <ChevronRightIcon />
+            </IconButton>
+          </div>
+          <CouplingSelector
+            all_links={getNodesAndLinks(filter_num).links}
+            auto_selected_links={node_and_links.links}
+            onChanged={(selected_links) => {
+              setReservedLinks(selected_links);
+              setNodesAndLinks(filter_num, resolve_one_to_many, selected_links);
+            }}
+          />
+        </Drawer>
+      )}
+    </Root>
   );
 };
+
+const Root = styled.div`
+  .drawer .MuiPaper-root {
+    padding: ${theme.px.grid()};
+    box-shadow: 0 0 ${theme.px.grid()} #0002;
+
+    .drawer-header {
+      display: block;
+      padding-bottom: ${theme.px.grid()};
+    }
+  }
+`;
 
 export default GraphRoot;

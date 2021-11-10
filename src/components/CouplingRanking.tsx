@@ -1,10 +1,10 @@
-import React, { FC } from 'react';
-import Typography from '@material-ui/core/Typography';
-import { PixivDictLink, PixivTagLink } from './pixiv-utils';
-import { Coupling, Couplings } from 'yurigraph-scraping';
 import styled from '@emotion/styled';
-import theme from '../styles/theme';
+import Typography from '@material-ui/core/Typography';
+import { FC } from 'react';
+import { Coupling, Couplings } from 'yurigraph-scraping';
 import coupling_json_import from '../couplings.json';
+import theme from '../styles/theme';
+import { PixivDictLink, PixivTagLink } from './pixiv-utils';
 const coupling_json: Couplings = coupling_json_import;
 
 type CouplingTag = {

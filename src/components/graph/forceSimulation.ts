@@ -1,7 +1,8 @@
 import * as d3 from 'd3';
 import { SimulationNodeDatum } from 'd3';
-import { NodeData, LinkData, ForceSimulation, ElementSelection } from './types';
 import stats from 'stats-lite';
+import { ElementSelection, ForceSimulation, LinkData, NodeData } from './types';
+
 const makeSigmoid = require('awesome-sigmoid').default;
 
 export const getInitializedForce = (

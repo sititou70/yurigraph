@@ -1,9 +1,9 @@
-import React, { FC, useEffect, useRef } from 'react';
-import * as d3 from 'd3';
-import { LinkData } from './types';
 import styled from '@emotion/styled';
+import * as d3 from 'd3';
 import mixColor from 'mix-color';
+import { FC, useEffect, useRef } from 'react';
 import theme from '../../styles/theme';
+import { LinkData } from './types';
 
 export const Link: FC<{
   data: LinkData;

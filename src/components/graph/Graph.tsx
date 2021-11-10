@@ -1,15 +1,15 @@
-import React, { FC, useEffect, useRef, useState, useMemo } from 'react';
-import getInitializedForce from './forceSimulation';
-import Node from './Node';
-import Link from './Link';
-import { NodeData, LinkData } from './types';
-import { useWindowSize } from '@react-hook/window-size';
 import styled from '@emotion/styled';
-import stats from 'stats-lite';
-import * as d3 from 'd3';
-import theme from '../../styles/theme';
-import mixColor from 'mix-color';
+import { useWindowSize } from '@react-hook/window-size';
 import makeSigmoid from 'awesome-sigmoid';
+import * as d3 from 'd3';
+import mixColor from 'mix-color';
+import { FC, useEffect, useMemo, useRef, useState } from 'react';
+import stats from 'stats-lite';
+import theme from '../../styles/theme';
+import getInitializedForce from './forceSimulation';
+import Link from './Link';
+import Node from './Node';
+import { LinkData, NodeData } from './types';
 
 export const Graph: FC<{
   nodes: NodeData[];
