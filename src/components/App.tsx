@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
-import GraphRoot from './graph';
 import { Global } from '@emotion/react';
-import { global_style } from '../styles/GlobalStyle';
-import Menu from './Menu';
-import CouplingRanking from './CouplingRanking';
+import { useEffect } from 'react';
 import ReactGA from 'react-ga';
+import { global_style } from '../styles/GlobalStyle';
+import CouplingRanking from './CouplingRanking';
+import GraphRoot from './graph';
+import Menu from './Menu';
 
 // components
 export const App = () => {

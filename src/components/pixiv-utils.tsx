@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 
 export const PixivDictLink: FC<{ title: string; text?: string }> = ({
   title,

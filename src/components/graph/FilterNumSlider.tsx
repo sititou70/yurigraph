@@ -1,7 +1,7 @@
-import React, { FC } from 'react';
 import styled from '@emotion/styled';
 import Slider from '@material-ui/core/Slider';
 import Tooltip from '@material-ui/core/Tooltip';
+import { FC } from 'react';
 import theme from '../../styles/theme';
 
 // components

@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from '@emotion/styled';
 import Typography from '@material-ui/core/Typography';
 import theme from '../styles/theme';

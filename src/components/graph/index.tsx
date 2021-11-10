@@ -1,18 +1,19 @@
-import { useState, FC, useCallback } from 'react';
-import Graph from './Graph';
-import FilterNumSlider from './FilterNumSlider';
-import MakeCouplingSettings from './MakeCouplingSettings';
-import FriendsDialog from './FriendsDialog';
-import { NodeData, LinkData, LinkDataOmitSourceTarget } from './types';
-import { Couplings } from 'yurigraph-scraping';
-import stats from 'stats-lite';
-import couplings_json_import from '../../couplings.json';
-import { Drawer } from '@material-ui/core';
 import styled from '@emotion/styled';
-import theme from '../../styles/theme';
-import { IconButton } from '@mui/material';
+import { Drawer } from '@material-ui/core';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import { IconButton } from '@mui/material';
+import { FC, useCallback, useState } from 'react';
+import stats from 'stats-lite';
+import { Couplings } from 'yurigraph-scraping';
+import couplings_json_import from '../../couplings.json';
+import theme from '../../styles/theme';
 import CouplingSelector from './CouplingSelector';
+import FilterNumSlider from './FilterNumSlider';
+import FriendsDialog from './FriendsDialog';
+import Graph from './Graph';
+import MakeCouplingSettings from './MakeCouplingSettings';
+import { LinkData, LinkDataOmitSourceTarget, NodeData } from './types';
+
 const deepCopy = require('deep-copy');
 
 const couplings_json: Couplings = couplings_json_import;

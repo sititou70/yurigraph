@@ -1,12 +1,12 @@
-import React, { FC } from 'react';
-import FriendsInfo from '../FriendsInfo';
-import { Dialog, DialogTitle, IconButton } from '@material-ui/core';
 import styled from '@emotion/styled';
-import { PixivDictLink } from '../pixiv-utils';
-import theme from '../../styles/theme';
-import couplings_json_import from '../../couplings.json';
-import { Character, Couplings } from 'yurigraph-scraping';
+import { Dialog, DialogTitle, IconButton } from '@material-ui/core';
 import CloseIcon from '@mui/icons-material/Close';
+import { FC } from 'react';
+import { Character, Couplings } from 'yurigraph-scraping';
+import couplings_json_import from '../../couplings.json';
+import theme from '../../styles/theme';
+import FriendsInfo from '../FriendsInfo';
+import { PixivDictLink } from '../pixiv-utils';
 
 const couplings_json: Couplings = couplings_json_import;
 const name2character: Map<string, Character> = new Map();

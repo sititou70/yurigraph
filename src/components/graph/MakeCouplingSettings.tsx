@@ -1,10 +1,10 @@
-import React, { FC } from 'react';
 import styled from '@emotion/styled';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
-import theme from '../../styles/theme';
-import { IconButton } from '@mui/material';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
 import SettingsIcon from '@mui/icons-material/Settings';
+import { IconButton } from '@mui/material';
+import { FC } from 'react';
+import theme from '../../styles/theme';
 
 // components
 export const MakeCouplingSettings: FC<{

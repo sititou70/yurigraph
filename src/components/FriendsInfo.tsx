@@ -1,7 +1,7 @@
-import React, { FC } from 'react';
-import { PixivDictLink, PixivTagLink } from './pixiv-utils';
+import { FC } from 'react';
+import { Character, Coupling, Couplings } from 'yurigraph-scraping';
 import coupling_json from '../couplings.json';
-import { Couplings, Coupling, Character } from 'yurigraph-scraping';
+import { PixivDictLink, PixivTagLink } from './pixiv-utils';
 
 const friends = ((): { [name: string]: Coupling[] } => {
   const couplings: Couplings = coupling_json;

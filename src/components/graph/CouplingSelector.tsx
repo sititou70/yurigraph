@@ -1,11 +1,11 @@
-import { FC, useMemo, useState } from 'react';
 import styled from '@emotion/styled';
-import { LinkDataOmitSourceTarget } from './types';
 import { Checkbox, FormControlLabel, Tooltip } from '@material-ui/core';
-import { IconButton } from '@mui/material';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
-import theme from '../../styles/theme';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
+import { IconButton } from '@mui/material';
+import { FC, useMemo, useState } from 'react';
+import theme from '../../styles/theme';
+import { LinkDataOmitSourceTarget } from './types';
 
 // components
 export const CouplingSelector: FC<{
