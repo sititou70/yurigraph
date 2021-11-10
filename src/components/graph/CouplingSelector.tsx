@@ -151,8 +151,6 @@ export const CouplingSelector: FC<{
   );
 };
 const Root = styled.div`
-  display: flex;
-  flex-direction: column;
   min-width: 200px;
   max-width: 30vw;
 
@@ -179,7 +177,7 @@ const Root = styled.div`
   }
 
   ol {
-    margin-top: ${theme.px.grid()};
+    margin: ${theme.px.grid()} 0 0 0;
     list-style: none;
   }
 `;

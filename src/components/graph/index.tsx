@@ -228,9 +228,7 @@ const Root = styled.div`
     box-shadow: 0 0 ${theme.px.grid()} #0002;
 
     .drawer-header {
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
+      display: block;
       padding-bottom: ${theme.px.grid()};
     }
   }
