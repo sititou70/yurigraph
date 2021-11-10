@@ -39,15 +39,15 @@ export const CouplingSelector: FC<{
     <Root>
       <p>優先したいカップリングを選択してください</p>
       <details>
-        <summary>凡例</summary>
+        <summary>使い方</summary>
         <ul className="legends">
           <li>
             <Checkbox className="legend" checked={false} />
-            ：選択できます
+            ：選択できます．「1対1に解決」で採用されなかったカップリングです．
           </li>
           <li>
             <Checkbox className="legend" checked={true} />
-            ：選択されています
+            ：選択しています
           </li>
           <li>
             <Checkbox
@@ -56,7 +56,7 @@ export const CouplingSelector: FC<{
               indeterminate={true}
               disabled={true}
             />
-            ：「1対1に解決」によって自動的に選択されています
+            ：「1対1に解決」によって自動的に成立しているカップリングです
           </li>
           <li>
             <Checkbox className="legend" checked={false} disabled={true} />
