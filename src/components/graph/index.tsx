@@ -94,7 +94,7 @@ const makeCoupling = (
   let sorted_links: LinkData[] = nodes_and_links.links
     .filter((x) => !reserved_link_names.has(x.name))
     .sort((x, y) => y.num - x.num);
-  let resolved_links: LinkDataOmitSourceTarget[] = reserved_links;
+  let resolved_links: LinkDataOmitSourceTarget[] = reserved_links.concat();
 
   sorted_links.forEach((x) => {
     if (charactors.has(x.source_name) && charactors.has(x.target_name)) {
@@ -192,32 +192,33 @@ export const GraphRoot: FC<{}> = () => {
         open={dialog_open}
         onClose={() => setDialogOpen(false)}
       />
-      {resolve_one_to_many && (
-        <Drawer
-          className="drawer"
-          variant="persistent"
-          anchor="right"
-          open={drawer_open}
-        >
-          <div className="drawer-header">
-            <IconButton
-              onClick={() => {
-                setDrawerOpen(false);
-              }}
-            >
-              <ChevronRightIcon />
-            </IconButton>
-          </div>
-          <CouplingSelector
-            all_links={getNodesAndLinks(filter_num).links}
-            auto_selected_links={node_and_links.links}
-            onChanged={(selected_links) => {
+      <Drawer
+        className="drawer"
+        variant="persistent"
+        anchor="right"
+        open={drawer_open}
+      >
+        <div className="drawer-header">
+          <IconButton
+            onClick={useCallback(() => {
+              setDrawerOpen(false);
+            }, [])}
+          >
+            <ChevronRightIcon />
+          </IconButton>
+        </div>
+        <CouplingSelector
+          all_links={getNodesAndLinks(filter_num).links}
+          auto_selected_links={node_and_links.links}
+          onChanged={useCallback(
+            (selected_links) => {
               setReservedLinks(selected_links);
               setNodesAndLinks(filter_num, resolve_one_to_many, selected_links);
-            }}
-          />
-        </Drawer>
-      )}
+            },
+            [filter_num, resolve_one_to_many, setNodesAndLinks]
+          )}
+        />
+      </Drawer>
     </Root>
   );
 };
