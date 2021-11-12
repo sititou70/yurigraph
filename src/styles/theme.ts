@@ -1,3 +1,14 @@
+import { createTheme } from '@mui/material';
+import { pink } from '@mui/material/colors';
+
+export const muiTheme = createTheme({
+  palette: {
+    primary: {
+      main: pink[600],
+    },
+  },
+});
+
 export const makePxScaleUtil =
   (base: number) =>
   (scale: number = 1): string =>
@@ -18,7 +29,9 @@ export const px = {
   grid: makePxScaleUtil(20),
   font_size: makePxScaleUtil(16),
   max_width: makePxScaleUtil(900),
+  border_radius: makePxScaleUtil(3),
 };
 
-export const export_obj = { colors, px };
-export default export_obj;
+export const theme = { colors, px };
+
+export default theme;

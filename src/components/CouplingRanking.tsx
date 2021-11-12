@@ -79,7 +79,7 @@ const Root = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: ${theme.px.grid(2)} ${theme.px.grid()} 0;
+  padding: ${theme.px.grid(2)} ${theme.px.grid()} 0 ${theme.px.grid(2)};
   box-shadow: 0 0 ${theme.px.grid()} #0002;
 
   h2 {

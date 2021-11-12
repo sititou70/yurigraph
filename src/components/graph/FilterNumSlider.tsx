@@ -30,10 +30,11 @@ export const FilterNumSlider: FC<{
 };
 const SliderRoot = styled.div`
   position: absolute;
-  right: ${theme.px.grid()};
-  bottom: 0;
-  width: calc(100vw - ${theme.px.grid(1.5)} * 2);
+  right: ${theme.px.grid(1.5)};
+  bottom: ${theme.px.grid(0.5)};
+  width: calc(100vw - ${theme.px.grid(2)} * 2);
   max-width: ${theme.px.grid(20)};
+  z-index: 2;
 `;
 
 export default FilterNumSlider;

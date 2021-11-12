@@ -18,8 +18,8 @@
 
 ### 依存
 
-- Node.js v15.x.x
-- npm v7.x.x
+- Node.js v16.13.0
+- npm v8.1.0
 
 ### セットアップ
 

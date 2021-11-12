@@ -15,12 +15,12 @@ export const App = () => {
   }, []);
 
   return (
-    <div>
+    <ThemeProvider theme={muiTheme}>
       <Global styles={global_style} />
       <GraphRoot />
       <CouplingRanking />
       <Menu />
-    </div>
+    </ThemeProvider>
   );
 };
 
