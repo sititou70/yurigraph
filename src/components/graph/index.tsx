@@ -1,7 +1,6 @@
 import styled from '@emotion/styled';
-import { Drawer } from '@material-ui/core';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
-import { IconButton } from '@mui/material';
+import { Drawer, IconButton } from '@mui/material';
 import { FC, useCallback, useState } from 'react';
 import stats from 'stats-lite';
 import { Couplings } from 'yurigraph-scraping';

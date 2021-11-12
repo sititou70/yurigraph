@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
-import { Dialog, DialogTitle, IconButton } from '@material-ui/core';
 import CloseIcon from '@mui/icons-material/Close';
+import { Dialog, DialogTitle, IconButton } from '@mui/material';
 import { FC } from 'react';
 import { Character, Couplings } from 'yurigraph-scraping';
 import couplings_json_import from '../../couplings.json';

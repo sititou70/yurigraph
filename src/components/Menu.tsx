@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import Typography from '@material-ui/core/Typography';
+import { Typography } from '@mui/material';
 import theme from '../styles/theme';
 
 // components

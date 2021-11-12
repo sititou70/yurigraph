@@ -1,8 +1,7 @@
 import styled from '@emotion/styled';
-import { Checkbox, FormControlLabel, Tooltip } from '@material-ui/core';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
-import { IconButton } from '@mui/material';
+import { Checkbox, FormControlLabel, IconButton, Tooltip } from '@mui/material';
 import { FC, useMemo, useState } from 'react';
 import theme from '../../styles/theme';
 import { LinkDataOmitSourceTarget } from './types';

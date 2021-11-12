@@ -1,7 +1,8 @@
-import { Global } from '@emotion/react';
+import { Global, ThemeProvider } from '@emotion/react';
 import { useEffect } from 'react';
 import ReactGA from 'react-ga';
 import { global_style } from '../styles/GlobalStyle';
+import { muiTheme } from '../styles/theme';
 import CouplingRanking from './CouplingRanking';
 import GraphRoot from './graph';
 import Menu from './Menu';

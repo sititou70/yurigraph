@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import Typography from '@material-ui/core/Typography';
+import { Typography } from '@mui/material';
 import { FC } from 'react';
 import { Coupling, Couplings } from 'yurigraph-scraping';
 import coupling_json_import from '../couplings.json';

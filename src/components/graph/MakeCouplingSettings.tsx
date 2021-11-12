@@ -1,8 +1,6 @@
 import styled from '@emotion/styled';
-import Checkbox from '@material-ui/core/Checkbox';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
 import SettingsIcon from '@mui/icons-material/Settings';
-import { IconButton } from '@mui/material';
+import { Checkbox, FormControlLabel, IconButton } from '@mui/material';
 import { FC } from 'react';
 import theme from '../../styles/theme';
 

@@ -1,7 +1,6 @@
 import styled from '@emotion/styled';
-import Slider from '@material-ui/core/Slider';
-import Tooltip from '@material-ui/core/Tooltip';
-import { FC } from 'react';
+import { Slider } from '@mui/material';
+import { FC, useCallback } from 'react';
 import theme from '../../styles/theme';
 
 // components
@@ -12,26 +11,17 @@ export const FilterNumSlider: FC<{
   max: number;
   onChange: (num: number) => void;
 }> = ({ default_value, step, min, max, onChange }) => {
+  const getLabelText = useCallback((x) => `${x}作品以上`, []);
   return (
     <SliderRoot>
       <Slider
         defaultValue={default_value}
-        aria-labelledby="filter-num-slider"
-        valueLabelDisplay="auto"
         step={step}
         min={min}
         max={max}
-        ValueLabelComponent={({ children, open, value }) => (
-          <Tooltip
-            open={open}
-            enterTouchDelay={0}
-            placement="top"
-            title={value}
-          >
-            {children}
-          </Tooltip>
-        )}
-        valueLabelFormat={(x) => `${x}作品以上`}
+        valueLabelDisplay="auto"
+        getAriaValueText={getLabelText}
+        valueLabelFormat={getLabelText}
         onChangeCommitted={(_, v) => typeof v === 'number' && onChange(v)}
         marks
       />
