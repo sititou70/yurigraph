@@ -124,12 +124,12 @@
     "tags": [{ "name": "リサゆき" }, { "name": "ゆきリサ" }]
   },
   {
-    "characters": [{ "name": "湊友希那" }, { "name": "氷川紗夜" }],
-    "tags": [{ "name": "ゆきさよ" }, { "name": "さよゆき" }]
-  },
-  {
     "characters": [{ "name": "氷川紗夜" }, { "name": "今井リサ" }],
     "tags": [{ "name": "リサさよ" }, { "name": "さよリサ" }]
+  },
+  {
+    "characters": [{ "name": "湊友希那" }, { "name": "氷川紗夜" }],
+    "tags": [{ "name": "ゆきさよ" }, { "name": "さよゆき" }]
   },
   {
     "characters": [{ "name": "氷川紗夜" }, { "name": "白金燐子" }],
@@ -228,6 +228,10 @@
     "tags": [{ "name": "るいまし" }]
   },
   {
+    "characters": [{ "name": "桐ヶ谷透子" }, { "name": "八潮瑠唯" }],
+    "tags": [{ "name": "とうるい" }]
+  },
+  {
     "characters": [{ "name": "氷川日菜" }, { "name": "氷川紗夜" }],
     "tags": [{ "name": "さよひな" }, { "name": "氷川姉妹" }]
   },
@@ -322,6 +326,10 @@
   {
     "characters": [{ "name": "宇田川巴" }, { "name": "宇田川あこ" }],
     "tags": [{ "name": "宇田川姉妹" }]
+  },
+  {
+    "characters": [{ "name": "宇田川巴" }, { "name": "瀬田薫" }],
+    "tags": [{ "name": "かおとも" }]
   },
   {
     "characters": [{ "name": "丸山彩" }, { "name": "氷川紗夜" }],

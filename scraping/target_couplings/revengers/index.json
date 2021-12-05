@@ -16,6 +16,38 @@
     "tags": [{ "name": "みつ武" }]
   },
   {
+    "characters": [{ "name": "場地圭介" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "バジ武" }]
+  },
+  {
+    "characters": [{ "name": "稀咲鉄太" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "キサタケ" }, { "name": "タケキサ" }]
+  },
+  {
+    "characters": [{ "name": "柴八戒" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "はち武" }]
+  },
+  {
+    "characters": [{ "name": "林良平" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "ペー武" }]
+  },
+  {
+    "characters": [{ "name": "武藤泰宏" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "ムー武" }]
+  },
+  {
+    "characters": [{ "name": "林田春樹" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "パー武" }]
+  },
+  {
+    "characters": [{ "name": "羽宮一虎" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "とら武" }]
+  },
+  {
+    "characters": [{ "name": "半間修二" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "半武" }]
+  },
+  {
     "characters": [{ "name": "九井一" }, { "name": "花垣武道" }],
     "tags": [{ "name": "ココ武" }]
   },
@@ -24,32 +56,12 @@
     "tags": [{ "name": "イヌ武" }]
   },
   {
-    "characters": [{ "name": "場地圭介" }, { "name": "花垣武道" }],
-    "tags": [{ "name": "バジ武" }]
-  },
-  {
     "characters": [{ "name": "花垣武道" }, { "name": "黒川イザナ" }],
     "tags": [{ "name": "イザ武" }]
   },
   {
-    "characters": [{ "name": "佐野真一郎" }, { "name": "花垣武道" }],
-    "tags": [{ "name": "真武" }]
-  },
-  {
-    "characters": [{ "name": "半間修二" }, { "name": "花垣武道" }],
-    "tags": [{ "name": "半武" }]
-  },
-  {
-    "characters": [{ "name": "羽宮一虎" }, { "name": "花垣武道" }],
-    "tags": [{ "name": "とら武" }]
-  },
-  {
     "characters": [{ "name": "花垣武道" }, { "name": "鶴蝶" }],
     "tags": [{ "name": "カク武" }]
-  },
-  {
-    "characters": [{ "name": "稀咲鉄太" }, { "name": "花垣武道" }],
-    "tags": [{ "name": "キサタケ" }, { "name": "タケキサ" }]
   },
   {
     "characters": [{ "name": "灰谷竜胆" }, { "name": "花垣武道" }],
@@ -60,20 +72,16 @@
     "tags": [{ "name": "蘭武" }]
   },
   {
-    "characters": [{ "name": "橘直人" }, { "name": "花垣武道" }],
-    "tags": [{ "name": "ナオ武" }, { "name": "タケナオ" }]
-  },
-  {
-    "characters": [{ "name": "柴八戒" }, { "name": "花垣武道" }],
-    "tags": [{ "name": "はち武" }]
-  },
-  {
     "characters": [{ "name": "今牛若狭" }, { "name": "花垣武道" }],
     "tags": [{ "name": "ワカ武" }]
   },
   {
-    "characters": [{ "name": "明司武臣" }, { "name": "花垣武道" }],
-    "tags": [{ "name": "臣武" }]
+    "characters": [{ "name": "佐野真一郎" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "真武" }]
+  },
+  {
+    "characters": [{ "name": "橘直人" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "ナオ武" }, { "name": "タケナオ" }]
   },
   {
     "characters": [{ "name": "佐野万次郎" }, { "name": "龍宮寺堅" }],
@@ -110,6 +118,10 @@
   {
     "characters": [{ "name": "場地圭介" }, { "name": "羽宮一虎" }],
     "tags": [{ "name": "とらばじ" }, { "name": "ばじとら" }]
+  },
+  {
+    "characters": [{ "name": "佐野真一郎" }, { "name": "場地圭介" }],
+    "tags": [{ "name": "真ばじ" }, { "name": "真バジ" }]
   },
   {
     "characters": [{ "name": "松野千冬" }, { "name": "羽宮一虎" }],

@@ -57,21 +57,11 @@
   };
 
   let couplingTags = {};
-
-  [
-    'h2#h2_1',
-    'h2#h2_2',
-    'h2#h2_3',
-    'h2#h2_4',
-    'h2#h2_5',
-    'h2#h2_6',
-    'h2#h2_7',
-  ].forEach((selector) => {
-    Array.from(
-      document.querySelectorAll(`${selector}~table`)[0].querySelectorAll('tr')
-    )
-      .map((tr) => Array.from(tr.querySelectorAll('td'))[0])
-      .forEach((td) => {
+  let targetTables = Array.from(document.querySelectorAll('table'));
+  targetTables
+    .map((table) => Array.from(table.querySelectorAll('td')))
+    .forEach((tds) => {
+      tds.forEach((td) => {
         td.querySelectorAll('a').forEach((a) => {
           const characters = charactersFromCoupling(a.text);
           if (characters.length < 2) {
@@ -86,7 +76,7 @@
           }
         });
       });
-  });
+    });
   const result = Object.keys(couplingTags).map((k) => {
     return {
       characters: k.split('_').map((e) => {

@@ -148,6 +148,10 @@
     "tags": [{ "name": "しお文" }]
   },
   {
+    "characters": [{ "name": "一ノ瀬志希" }, { "name": "池袋晶葉" }],
+    "tags": [{ "name": "シキアキハ" }]
+  },
+  {
     "characters": [{ "name": "一ノ瀬志希" }, { "name": "二宮飛鳥" }],
     "tags": [{ "name": "しきあす" }, { "name": "Dimension-3" }]
   },
@@ -558,10 +562,6 @@
     "characters": [{ "name": "川島瑞樹" }, { "name": "片桐早苗" }]
   },
   {
-    "tags": [{ "name": "シキアキハ" }],
-    "characters": [{ "name": "一ノ瀬志希" }, { "name": "池袋晶葉" }]
-  },
-  {
     "tags": [{ "name": "しずとき" }],
     "characters": [{ "name": "及川雫" }, { "name": "財前時子" }]
   },
@@ -588,6 +588,10 @@
   {
     "tags": [{ "name": "デレパ組" }],
     "characters": [{ "name": "本田未央" }, { "name": "多田李衣菜" }]
+  },
+  {
+    "tags": [{ "name": "デレマス佐賀組" }],
+    "characters": [{ "name": "脇山珠美" }, { "name": "古賀小春" }]
   },
   {
     "tags": [{ "name": "ととらんこ" }],
@@ -954,6 +958,10 @@
     "characters": [{ "name": "三好紗南" }, { "name": "南条光" }]
   },
   {
+    "tags": [{ "name": "しおみお" }],
+    "characters": [{ "name": "塩見周子" }, { "name": "本田未央" }]
+  },
+  {
     "tags": [{ "name": "しおゆみ" }],
     "characters": [{ "name": "塩見周子" }, { "name": "相葉夕美" }]
   },
@@ -984,6 +992,10 @@
   {
     "tags": [{ "name": "しぶあん" }],
     "characters": [{ "name": "渋谷凛" }, { "name": "双葉杏" }]
+  },
+  {
+    "tags": [{ "name": "しゅーりな" }],
+    "characters": [{ "name": "塩見周子" }, { "name": "藤本里奈" }]
   },
   {
     "tags": [{ "name": "しゅがみゆ" }],

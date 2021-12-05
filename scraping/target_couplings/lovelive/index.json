@@ -156,6 +156,10 @@
     "tags": [{ "name": "のぞにこ" }]
   },
   {
+    "characters": [{ "name": "小泉花陽" }, { "name": "園田海" }],
+    "tags": [{ "name": "ぱなうみ" }]
+  },
+  {
     "characters": [{ "name": "矢澤にこ" }, { "name": "絢瀬絵里" }],
     "tags": [{ "name": "にこえり" }]
   },
@@ -212,10 +216,6 @@
     "tags": [{ "name": "ちかるび" }]
   },
   {
-    "characters": [{ "name": "桜内梨子" }, { "name": "渡辺曜" }],
-    "tags": [{ "name": "りこよう" }]
-  },
-  {
     "characters": [{ "name": "桜内梨子" }, { "name": "津島善子" }],
     "tags": [{ "name": "りこよし" }]
   },
@@ -234,10 +234,6 @@
   {
     "characters": [{ "name": "松浦果南" }, { "name": "黒澤ダイヤ" }],
     "tags": [{ "name": "かなダイ" }]
-  },
-  {
-    "characters": [{ "name": "松浦果南" }, { "name": "渡辺曜" }],
-    "tags": [{ "name": "かなよう" }]
   },
   {
     "characters": [{ "name": "松浦果南" }, { "name": "津島善子" }],
@@ -261,7 +257,7 @@
   },
   {
     "characters": [{ "name": "黒澤ダイヤ" }, { "name": "桜内梨子" }],
-    "tags": [{ "name": "だいりこ" }]
+    "tags": [{ "name": "ダイりこ" }, { "name": "だいりこ" }]
   },
   {
     "characters": [{ "name": "黒澤ダイヤ" }, { "name": "松浦果南" }],
@@ -323,10 +319,6 @@
     "tags": [{ "name": "よしりこ" }]
   },
   {
-    "characters": [{ "name": "津島善子" }, { "name": "渡辺曜" }],
-    "tags": [{ "name": "よしよう" }]
-  },
-  {
     "characters": [{ "name": "津島善子" }, { "name": "国木田花丸" }],
     "tags": [{ "name": "よしまる" }]
   },
@@ -343,12 +335,8 @@
     "tags": [{ "name": "まるだい" }]
   },
   {
-    "characters": [{ "name": "国木田花丸" }, { "name": "渡辺曜" }],
-    "tags": [{ "name": "まるよう" }]
-  },
-  {
     "characters": [{ "name": "国木田花丸" }, { "name": "黒澤ルビィ" }],
-    "tags": [{ "name": "はなまるびぃ" }, { "name": "ルビまる" }]
+    "tags": [{ "name": "はなまるびぃ" }]
   },
   {
     "characters": [{ "name": "小原鞠莉" }, { "name": "桜内梨子" }],
@@ -359,10 +347,6 @@
     "tags": [{ "name": "まりだい" }]
   },
   {
-    "characters": [{ "name": "小原鞠莉" }, { "name": "渡辺曜" }],
-    "tags": [{ "name": "まりよう" }]
-  },
-  {
     "characters": [{ "name": "小原鞠莉" }, { "name": "国木田花丸" }],
     "tags": [{ "name": "まりまる" }]
   },
@@ -371,12 +355,8 @@
     "tags": [{ "name": "るびりこ" }]
   },
   {
-    "characters": [{ "name": "黒澤ルビィ" }, { "name": "渡辺曜" }],
-    "tags": [{ "name": "るびよう" }, { "name": "ルビよう" }]
-  },
-  {
     "characters": [{ "name": "黒澤ルビィ" }, { "name": "国木田花丸" }],
-    "tags": [{ "name": "ルビまる" }, { "name": "はなまるびぃ" }]
+    "tags": [{ "name": "ルビまる" }]
   },
   {
     "characters": [{ "name": "黒澤ルビィ" }, { "name": "小原鞠莉" }],
