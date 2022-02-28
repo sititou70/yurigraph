@@ -360,6 +360,10 @@
     "tags": [{ "name": "みささよ" }]
   },
   {
+    "characters": [{ "name": "和奏レイ" }, { "name": "花園たえ" }],
+    "tags": [{ "name": "レイたえ" }, { "name": "たえレイ" }]
+  },
+  {
     "characters": [{ "name": "朝日六花" }, { "name": "倉田ましろ" }],
     "tags": [{ "name": "六まし" }, { "name": "ましロック" }]
   },
@@ -368,7 +372,7 @@
     "tags": [{ "name": "六明日" }, { "name": "あすろっか" }]
   },
   {
-    "characters": [{ "name": "牛込ゆり" }, { "name": "牛込りみ" }],
-    "tags": [{ "name": "牛込姉妹" }]
+    "characters": [{ "name": "羽沢つぐみ" }, { "name": "大和麻弥" }],
+    "tags": [{ "name": "つぐまや" }, { "name": "まやつぐ" }]
   }
 ]

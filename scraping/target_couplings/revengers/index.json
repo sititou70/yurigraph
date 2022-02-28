@@ -145,7 +145,7 @@
   },
   {
     "characters": [{ "name": "三ツ谷隆" }, { "name": "灰谷蘭" }],
-    "tags": [{ "name": "蘭みつ" }]
+    "tags": [{ "name": "蘭みつ" }, { "name": "みつ蘭" }]
   },
   {
     "characters": [{ "name": "三ツ谷隆" }, { "name": "佐野万次郎" }],
@@ -156,8 +156,16 @@
     "tags": [{ "name": "はちみつ" }, { "name": "みつはち" }]
   },
   {
+    "characters": [{ "name": "三ツ谷隆" }, { "name": "乾青宗" }],
+    "tags": [{ "name": "イヌみつ" }]
+  },
+  {
     "characters": [{ "name": "三ツ谷隆" }, { "name": "場地圭介" }],
     "tags": [{ "name": "ばじみつ" }]
+  },
+  {
+    "characters": [{ "name": "三ツ谷隆" }, { "name": "灰谷竜胆" }],
+    "tags": [{ "name": "竜みつ" }]
   },
   {
     "characters": [{ "name": "林田春樹" }, { "name": "林良平" }],
@@ -180,12 +188,12 @@
     "tags": [{ "name": "三ム" }, { "name": "ム三" }]
   },
   {
-    "characters": [{ "name": "三途春千夜" }, { "name": "灰谷竜胆" }],
-    "tags": [{ "name": "竜春" }, { "name": "春竜" }]
+    "characters": [{ "name": "三途春千夜" }, { "name": "灰谷蘭" }],
+    "tags": [{ "name": "蘭はる" }, { "name": "春蘭" }]
   },
   {
-    "characters": [{ "name": "三途春千夜" }, { "name": "灰谷蘭" }],
-    "tags": [{ "name": "蘭はる" }]
+    "characters": [{ "name": "三途春千夜" }, { "name": "灰谷竜胆" }],
+    "tags": [{ "name": "竜春" }, { "name": "春竜" }]
   },
   {
     "characters": [{ "name": "半間修二" }, { "name": "稀咲鉄太" }],
@@ -200,6 +208,14 @@
     "tags": [{ "name": "マイとら" }]
   },
   {
+    "characters": [{ "name": "灰谷竜胆" }, { "name": "羽宮一虎" }],
+    "tags": [{ "name": "竜とら" }]
+  },
+  {
+    "characters": [{ "name": "灰谷蘭" }, { "name": "羽宮一虎" }],
+    "tags": [{ "name": "蘭とら" }]
+  },
+  {
     "characters": [{ "name": "九井一" }, { "name": "乾青宗" }],
     "tags": [{ "name": "イヌココ" }, { "name": "ココイヌ" }]
   },
@@ -209,11 +225,15 @@
   },
   {
     "characters": [{ "name": "九井一" }, { "name": "灰谷蘭" }],
-    "tags": [{ "name": "蘭ココ" }]
+    "tags": [{ "name": "蘭ココ" }, { "name": "ココ蘭" }]
   },
   {
     "characters": [{ "name": "九井一" }, { "name": "灰谷竜胆" }],
     "tags": [{ "name": "竜ココ" }, { "name": "ココ竜" }]
+  },
+  {
+    "characters": [{ "name": "乾青宗" }, { "name": "佐野真一郎" }],
+    "tags": [{ "name": "真イヌ" }]
   },
   {
     "characters": [{ "name": "鶴蝶" }, { "name": "黒川イザナ" }],
@@ -230,6 +250,14 @@
   {
     "characters": [{ "name": "半間修二" }, { "name": "灰谷蘭" }],
     "tags": [{ "name": "半蘭" }]
+  },
+  {
+    "characters": [{ "name": "灰谷蘭" }, { "name": "黒川イザナ" }],
+    "tags": [{ "name": "イザ蘭" }]
+  },
+  {
+    "characters": [{ "name": "半間修二" }, { "name": "灰谷竜胆" }],
+    "tags": [{ "name": "半竜" }]
   },
   {
     "characters": [{ "name": "佐野真一郎" }, { "name": "明司武臣" }],

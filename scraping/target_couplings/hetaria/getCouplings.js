@@ -209,6 +209,26 @@
       country_name: 'カメルーン',
       name: 'カメちゃん',
     },
+    {
+      short_country_name: '蘇',
+      country_name: 'スコットランド',
+      name: 'スコ君',
+    },
+    {
+      short_country_name: '威',
+      country_name: 'ウェールズ',
+      name: 'ウェーくん',
+    },
+    {
+      short_country_name: '北愛',
+      country_name: '北アイルランド',
+      name: 'のんくん',
+    },
+    {
+      short_country_name: '愛',
+      country_name: 'アイルランド',
+      name: 'アイルさん',
+    },
     { short_country_name: '', country_name: 'エクアドル', name: 'エクさん' },
     { short_country_name: '', country_name: 'セボルガ公国', name: 'セボくん' },
     { short_country_name: '', country_name: 'ワイ公国', name: 'ワイちゃん' },

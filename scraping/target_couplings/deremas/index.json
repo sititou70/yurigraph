@@ -247,6 +247,10 @@
     "tags": [{ "name": "ちぇりこっと♪" }]
   },
   {
+    "characters": [{ "name": "黒埼ちとせ" }, { "name": "北条加蓮" }],
+    "tags": [{ "name": "ちとかれ" }]
+  },
+  {
     "characters": [{ "name": "安斎都" }, { "name": "古澤頼子" }],
     "tags": [{ "name": "ディテクティブヴァーサス" }]
   },
@@ -372,6 +376,10 @@
   {
     "characters": [{ "name": "姫川友紀" }, { "name": "結城晴" }],
     "tags": [{ "name": "ボール・フレンズ" }]
+  },
+  {
+    "characters": [{ "name": "八神マキノ" }, { "name": "橘ありす" }],
+    "tags": [{ "name": "マキあり" }]
   },
   {
     "characters": [{ "name": "辻野あかり" }, { "name": "前川みく" }],
@@ -650,6 +658,10 @@
     "characters": [{ "name": "渋谷凛" }, { "name": "本田未央" }]
   },
   {
+    "tags": [{ "name": "りんみな" }],
+    "characters": [{ "name": "渋谷凛" }, { "name": "新田美波" }]
+  },
+  {
     "tags": [{ "name": "るみみゆ" }],
     "characters": [{ "name": "和久井留美" }, { "name": "三船美優" }]
   },
@@ -816,6 +828,10 @@
   {
     "tags": [{ "name": "かえまゆ" }],
     "characters": [{ "name": "高垣楓" }, { "name": "佐久間まゆ" }]
+  },
+  {
+    "tags": [{ "name": "かえみお" }],
+    "characters": [{ "name": "高垣楓" }, { "name": "本田未央" }]
   },
   {
     "tags": [{ "name": "かえみな" }],
@@ -1082,10 +1098,6 @@
     "characters": [{ "name": "松尾千鶴" }, { "name": "岡崎泰葉" }]
   },
   {
-    "tags": [{ "name": "ちとかれ" }],
-    "characters": [{ "name": "黒埼ちとせ" }, { "name": "北条加蓮" }]
-  },
-  {
     "tags": [{ "name": "ちとクラ" }],
     "characters": [{ "name": "黒埼ちとせ" }, { "name": "クラリス" }]
   },
@@ -1208,10 +1220,6 @@
   {
     "tags": [{ "name": "まいかおる" }],
     "characters": [{ "name": "福山舞" }, { "name": "龍崎薫" }]
-  },
-  {
-    "tags": [{ "name": "マキあり" }],
-    "characters": [{ "name": "八神マキノ" }, { "name": "橘ありす" }]
   },
   {
     "tags": [{ "name": "マキいず" }],
@@ -1374,6 +1382,10 @@
     "characters": [{ "name": "堀裕子" }, { "name": "高森藍子" }]
   },
   {
+    "tags": [{ "name": "ゆずみお" }],
+    "characters": [{ "name": "喜多見柚" }, { "name": "本田未央" }]
+  },
+  {
     "tags": [{ "name": "柚ナタ" }],
     "characters": [{ "name": "喜多見柚" }, { "name": "ナターリア" }]
   },
@@ -1436,10 +1448,6 @@
   {
     "tags": [{ "name": "りんみか" }],
     "characters": [{ "name": "渋谷凛" }, { "name": "城ヶ崎美嘉" }]
-  },
-  {
-    "tags": [{ "name": "りんみな" }],
-    "characters": [{ "name": "渋谷凛" }, { "name": "新田美波" }]
   },
   {
     "tags": [{ "name": "りんゆみ" }],

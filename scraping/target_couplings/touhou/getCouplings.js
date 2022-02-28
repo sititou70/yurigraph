@@ -101,13 +101,12 @@
     ...getCouplingFromTable(
       document.querySelector('#article-body > table:nth-child(14)')
     ).map(addcharactor('アリス・マーガトロイド')),
-    //作品別
   ]
     .filter(excludeSameCharactorsCoupling)
     .map(
       //派生タグ
       addSynonymCouplingTag(
-        document.querySelector('#article-body > table:nth-child(108)')
+        document.querySelector('#article-body > table:nth-child(111)')
       )
     );
 
