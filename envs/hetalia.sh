@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eu
 
-export TARGET_COUPLINGS_JSON="scraping/target_couplings/hetaria/index.json"
+export TARGET_COUPLINGS_JSON="scraping/target_couplings/hetalia/index.json"
 export REACT_APP_NAME="HetaGraph"
 export REACT_APP_DESCRIPTION="Axis Powers ヘタリアのカップリングを可視化"
 export REACT_APP_TITLE_TAG="$REACT_APP_NAME | $REACT_APP_DESCRIPTION"

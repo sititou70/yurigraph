@@ -32,7 +32,7 @@ npm i
 
 ```javascript
 cd yurigraph
-npm start [revengers | touhou | bangdream | lovelive | vocalo | kancolle | deremas | imas | hetaria]
+npm start [revengers | touhou | bangdream | lovelive | vocalo | kancolle | deremas | imas | hetalia]
 ```
 
 ### 対応作品を追加する
