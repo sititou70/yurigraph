@@ -40,6 +40,7 @@
     "_build": "GENERATE_SOURCEMAP=false react-scripts build",
     "_deploy": "npm run _build && gh-pages -d build -r $DEPLOY_REPOSITORY -b $DEPLOY_BRANCH",
     "scraping": "EXEC='npm run _scraping' ./env.sh",
+    "scrapingall": "cd scripts && ./scrapingall.sh",
     "start": "EXEC='run-p {_scraping,_start}' ./env.sh",
     "deploy": "EXEC='run-s {_scraping,_deploy}' ./env.sh",
     "deployall": "cd scripts && ./deployall.sh"
