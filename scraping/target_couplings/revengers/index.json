@@ -60,20 +60,24 @@
     "tags": [{ "name": "イザ武" }]
   },
   {
-    "characters": [{ "name": "花垣武道" }, { "name": "鶴蝶" }],
-    "tags": [{ "name": "カク武" }]
+    "characters": [{ "name": "灰谷蘭" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "蘭武" }]
   },
   {
     "characters": [{ "name": "灰谷竜胆" }, { "name": "花垣武道" }],
     "tags": [{ "name": "竜武" }]
   },
   {
-    "characters": [{ "name": "灰谷蘭" }, { "name": "花垣武道" }],
-    "tags": [{ "name": "蘭武" }]
+    "characters": [{ "name": "花垣武道" }, { "name": "鶴蝶" }],
+    "tags": [{ "name": "カク武" }]
   },
   {
     "characters": [{ "name": "今牛若狭" }, { "name": "花垣武道" }],
     "tags": [{ "name": "ワカ武" }]
+  },
+  {
+    "characters": [{ "name": "明司武臣" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "臣武" }]
   },
   {
     "characters": [{ "name": "佐野真一郎" }, { "name": "花垣武道" }],
@@ -110,6 +114,10 @@
   {
     "characters": [{ "name": "乾青宗" }, { "name": "龍宮寺堅" }],
     "tags": [{ "name": "イヌドラ" }, { "name": "ドライヌ" }]
+  },
+  {
+    "characters": [{ "name": "半間修二" }, { "name": "龍宮寺堅" }],
+    "tags": [{ "name": "半ドラ" }, { "name": "ドラ半" }]
   },
   {
     "characters": [{ "name": "場地圭介" }, { "name": "松野千冬" }],
@@ -152,10 +160,6 @@
     "tags": [{ "name": "マイみつ" }]
   },
   {
-    "characters": [{ "name": "三ツ谷隆" }, { "name": "柴八戒" }],
-    "tags": [{ "name": "はちみつ" }, { "name": "みつはち" }]
-  },
-  {
     "characters": [{ "name": "三ツ谷隆" }, { "name": "乾青宗" }],
     "tags": [{ "name": "イヌみつ" }]
   },
@@ -166,6 +170,10 @@
   {
     "characters": [{ "name": "三ツ谷隆" }, { "name": "灰谷竜胆" }],
     "tags": [{ "name": "竜みつ" }]
+  },
+  {
+    "characters": [{ "name": "三ツ谷隆" }, { "name": "柴八戒" }],
+    "tags": [{ "name": "みつはち" }]
   },
   {
     "characters": [{ "name": "林田春樹" }, { "name": "林良平" }],
@@ -196,12 +204,12 @@
     "tags": [{ "name": "竜春" }, { "name": "春竜" }]
   },
   {
-    "characters": [{ "name": "半間修二" }, { "name": "稀咲鉄太" }],
-    "tags": [{ "name": "半稀" }, { "name": "稀半" }]
+    "characters": [{ "name": "三途春千夜" }, { "name": "九井一" }],
+    "tags": [{ "name": "ココ春" }, { "name": "春ココ" }]
   },
   {
-    "characters": [{ "name": "半間修二" }, { "name": "龍宮寺堅" }],
-    "tags": [{ "name": "ドラ半" }]
+    "characters": [{ "name": "半間修二" }, { "name": "稀咲鉄太" }],
+    "tags": [{ "name": "半稀" }, { "name": "稀半" }]
   },
   {
     "characters": [{ "name": "佐野万次郎" }, { "name": "羽宮一虎" }],
@@ -220,10 +228,6 @@
     "tags": [{ "name": "イヌココ" }, { "name": "ココイヌ" }]
   },
   {
-    "characters": [{ "name": "三途春千夜" }, { "name": "九井一" }],
-    "tags": [{ "name": "春ココ" }]
-  },
-  {
     "characters": [{ "name": "九井一" }, { "name": "灰谷蘭" }],
     "tags": [{ "name": "蘭ココ" }, { "name": "ココ蘭" }]
   },
@@ -234,6 +238,10 @@
   {
     "characters": [{ "name": "乾青宗" }, { "name": "佐野真一郎" }],
     "tags": [{ "name": "真イヌ" }]
+  },
+  {
+    "characters": [{ "name": "乾青宗" }, { "name": "今牛若狭" }],
+    "tags": [{ "name": "ワカイヌ" }, { "name": "イヌワカ" }]
   },
   {
     "characters": [{ "name": "鶴蝶" }, { "name": "黒川イザナ" }],
@@ -258,6 +266,10 @@
   {
     "characters": [{ "name": "半間修二" }, { "name": "灰谷竜胆" }],
     "tags": [{ "name": "半竜" }]
+  },
+  {
+    "characters": [{ "name": "灰谷蘭" }, { "name": "鶴蝶" }],
+    "tags": [{ "name": "蘭カク" }]
   },
   {
     "characters": [{ "name": "佐野真一郎" }, { "name": "明司武臣" }],

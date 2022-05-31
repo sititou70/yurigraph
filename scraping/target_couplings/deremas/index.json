@@ -450,6 +450,10 @@
     "tags": [{ "name": "ERICATHY" }]
   },
   {
+    "characters": [{ "name": "小松伊吹" }, { "name": "水木聖來" }],
+    "tags": [{ "name": "IS☆WAVY" }]
+  },
+  {
     "characters": [{ "name": "クラリス" }, { "name": "白菊ほたる" }],
     "tags": [{ "name": "littlebell" }]
   },
@@ -504,6 +508,10 @@
   {
     "characters": [{ "name": "水本ゆかり" }, { "name": "小早川紗枝" }],
     "tags": [{ "name": "ゆかさえ" }, { "name": "Rêve Pur" }]
+  },
+  {
+    "characters": [{ "name": "双葉杏" }, { "name": "遊佐こずえ" }],
+    "tags": [{ "name": "あんこず" }, { "name": "ららりる" }]
   },
   {
     "tags": [{ "name": "アキレイナ" }],
@@ -768,10 +776,6 @@
   {
     "tags": [{ "name": "杏かな" }],
     "characters": [{ "name": "双葉杏" }, { "name": "三村かな子" }]
-  },
-  {
-    "tags": [{ "name": "あんこず" }],
-    "characters": [{ "name": "双葉杏" }, { "name": "遊佐こずえ" }]
   },
   {
     "tags": [{ "name": "あんしょこ" }, { "name": "スリーピングキノコ" }],

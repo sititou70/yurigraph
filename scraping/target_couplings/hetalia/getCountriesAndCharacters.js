@@ -2,13 +2,13 @@
 // usage: paste this script to javascript console
 
 (() => {
-  const getDictTitleFromURL = url =>
-      decodeURI(url).replace(/https?:\/\/dic\.pixiv\.net\/a\//, '');
+  const getDictTitleFromURL = (url) =>
+    decodeURI(url).replace(/https?:\/\/dic\.pixiv\.net\/a\//, '');
 
   // get countories and characters mapping from following table
   // |日|日本|本田菊|
   // ...
-  const getCharactersFromRow = row => {
+  const getCharactersFromRow = (row) => {
     const cells = Array.from(row.querySelectorAll(':scope > *'));
     return {
       short_country_name: cells[0].innerText,
@@ -16,17 +16,17 @@
       name: getDictTitleFromURL(cells[2].querySelector('a').href),
     };
   };
-  const getCharactersFromTable = table => {
+  const getCharactersFromTable = (table) => {
     const rows = Array.from(table.querySelectorAll('tr'));
     return rows.map(getCharactersFromRow);
   };
 
-  const characters =
-      [
-        document.querySelector('#article-body > table:nth-child(20)'),
-        document.querySelector('#article-body > table:nth-child(23)')
-      ].map(x => getCharactersFromTable(x))
-          .reduce((s, x) => [...s, ...x]);
+  const characters = [
+    document.querySelector('#article-body > table:nth-child(20)'),
+    document.querySelector('#article-body > table:nth-child(23)'),
+  ]
+    .map((x) => getCharactersFromTable(x))
+    .reduce((s, x) => [...s, ...x]);
 
   console.log(JSON.stringify(characters));
 })();
