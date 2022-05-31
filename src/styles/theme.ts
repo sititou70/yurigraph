@@ -22,7 +22,7 @@ export const colors = {
   base: base_color ? base_color : '#f8f8f8',
   main: main_color ? main_color : '#00a8cc',
   accent: accent_color ? accent_color : '#fe346e',
-  border: '#ccc',
+  border: '#ddd',
   text: '#123',
 };
 export const px = {

@@ -11,7 +11,7 @@ export const FilterNumSlider: FC<{
   max: number;
   onChange: (num: number) => void;
 }> = ({ default_value, step, min, max, onChange }) => {
-  const getLabelText = useCallback((x) => `${x}作品以上`, []);
+  const getLabelText = useCallback((x: number) => `${x}作品以上`, []);
   return (
     <SliderRoot>
       <Slider

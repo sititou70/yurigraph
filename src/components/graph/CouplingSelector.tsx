@@ -152,6 +152,7 @@ export const CouplingSelector: FC<{
 const Root = styled.div`
   min-width: 200px;
   max-width: 30vw;
+  padding: ${theme.px.grid()};
 
   p {
     margin: 0;

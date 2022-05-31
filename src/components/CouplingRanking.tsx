@@ -66,6 +66,7 @@ export const CouplingRanking: FC<{}> = () => {
         <Typography id="カップリングランキング" variant="h2">
           カップリングランキング
         </Typography>
+        更新: {process.env['REACT_APP_BUILD_DATE']}
         <ol>
           {coupling_tags.map((x, i) => (
             <CouplingListItem coupling={x} rank={i + 1} key={i} />

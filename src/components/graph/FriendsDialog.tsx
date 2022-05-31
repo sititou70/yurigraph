@@ -30,14 +30,12 @@ export const FriendsDialog: FC<{
       fullWidth={true}
     >
       <DialogTitle id="friends-dialog-title">
-        <span>
-          <PixivDictLink
-            title={character.dict_entry ? character.dict_entry : character.name}
-            text={character.name}
-          />
-          のカップリング一覧
-        </span>
-        <IconButton aria-label="close" onClick={onClose}>
+        <PixivDictLink
+          title={character.dict_entry ? character.dict_entry : character.name}
+          text={character.name}
+        />
+        のカップリング一覧
+        <IconButton className="close-icon" aria-label="close" onClick={onClose}>
           <CloseIcon />
         </IconButton>
       </DialogTitle>
@@ -47,13 +45,21 @@ export const FriendsDialog: FC<{
 };
 const StyledFriendsInfo = styled(FriendsInfo)`
   margin-left: ${theme.px.grid(2.5)};
+  padding-top: ${theme.px.grid()};
 `;
 
 const DialogRoot = styled(Dialog)`
-  #friends-dialog-title > .MuiTypography-root {
+  #friends-dialog-title {
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    background: #fff;
+    border-bottom: 1px solid ${theme.colors.border};
+
+    .close-icon {
+      margin-left: auto;
+    }
   }
 `;
 

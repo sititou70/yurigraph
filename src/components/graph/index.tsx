@@ -224,14 +224,18 @@ export const GraphRoot: FC<{}> = () => {
 
 const Root = styled.div`
   .drawer .MuiPaper-root {
-    padding: ${theme.px.grid()};
     background: ${theme.colors.base};
     box-shadow: 0 0 ${theme.px.grid()} #0002;
     overscroll-behavior: contain;
 
     .drawer-header {
+      position: sticky;
+      top: 0;
       display: block;
-      padding-bottom: ${theme.px.grid()};
+      padding: ${theme.px.grid(0.5)};
+      background-color: ${theme.colors.base};
+      border-bottom: 1px solid ${theme.colors.border};
+      z-index: 1;
     }
   }
 `;
