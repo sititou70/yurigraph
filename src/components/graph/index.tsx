@@ -235,7 +235,7 @@ const Root = styled.div`
       padding: ${theme.px.grid(0.5)};
       background-color: ${theme.colors.base};
       border-bottom: 1px solid ${theme.colors.border};
-      z-index: 1;
+      z-index: 2;
     }
   }
 `;
