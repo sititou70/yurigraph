@@ -42,11 +42,11 @@ export const CouplingSelector: FC<{
         <ul className="legends">
           <li>
             <Checkbox className="legend" checked={false} />
-            ：選択できます．「1対1に解決」で採用されなかったカップリングです．
+            ：優先できます．「1対1に解決」で採用されなかったカップリングです．
           </li>
           <li>
             <Checkbox className="legend" checked={true} />
-            ：選択しています
+            ：優先しています
           </li>
           <li>
             <Checkbox
@@ -59,7 +59,7 @@ export const CouplingSelector: FC<{
           </li>
           <li>
             <Checkbox className="legend" checked={false} disabled={true} />
-            ：「1対1にこだわる」によって選択できません．同じキャラクターを含む他のカップリングが選択済みです．
+            ：「1対1にこだわる」によって優先できません．同じキャラクターを含む他のカップリングが優先済みです．
           </li>
         </ul>
       </details>
@@ -76,7 +76,7 @@ export const CouplingSelector: FC<{
           <span>
             1対1にこだわる
             <Tooltip
-              title="同じキャラクターを含むカップリングを1つしか選択できなくします"
+              title="同じキャラクターを含むカップリングを1つしか優先できなくします"
               className="tip"
             >
               <HelpOutlineIcon />
