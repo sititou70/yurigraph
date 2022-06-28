@@ -1,24 +1,28 @@
-#!/bin/bash
+#!/bin/sh
 set -eu
+cd $(dirname $0)
 
-# args
-usage_exit () {
+cd ..
+
+# utils
+usage_exit() {
   set +u
   NPM_SCRIPT_NAME="[script name]"
   [ "$npm_lifecycle_event" ] && NPM_SCRIPT_NAME=$npm_lifecycle_event
   set -u
 
-  AVAILABLE_TARGET_CONTENTS=$( \
-    find envs -type f \
-      | xargs -n 1 -Ixxx basename xxx .sh \
-      | xargs echo \
-      | sed -e "s/ / | /g" \
+  AVAILABLE_TARGET_CONTENTS=$(
+    find envs -type f |
+      xargs -n 1 -Ixxx basename xxx .sh |
+      xargs echo |
+      sed -e "s/ / | /g"
   )
   echo usage: npm run $NPM_SCRIPT_NAME [TARGET_CONTENT]
   echo available TARGET_CONTENT: $AVAILABLE_TARGET_CONTENTS
   exit 0
 }
 
+# process args
 set +u
 export TARGET_CONTENT="$1"
 [ "$TARGET_CONTENT" = "" ] && echo TARGET_CONTENT is required! && usage_exit

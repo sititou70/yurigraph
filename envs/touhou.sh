@@ -2,9 +2,8 @@
 set -eu
 
 export TARGET_COUPLINGS_JSON="scraping/target_couplings/touhou/index.json"
-export REACT_APP_NAME="TouhouMap"
-export REACT_APP_DESCRIPTION="東方Projectのカップリングを可視化"
-export REACT_APP_TITLE_TAG="$REACT_APP_NAME | $REACT_APP_DESCRIPTION"
+export REACT_APP_APP_NAME="TouhouMap"
+export REACT_APP_CONTENT_NAME="東方Project"
 export REACT_APP_DEFAULT_FILTER_VALUE=350
 # 天色 https://www.colordic.org/colorsample/2312
 export REACT_APP_MAIN_COLOR="#2ca9e1"

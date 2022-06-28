@@ -8,7 +8,7 @@ import theme from '../styles/theme';
 export const Menu = () => (
   <Root>
     <Typography display="inline" variant="h1">
-      {process.env.REACT_APP_NAME}
+      {process.env.REACT_APP_APP_NAME}
     </Typography>
     <a href="#カップリングランキング">
       <img src={RankingIcon} alt="カップリングランキング" />
