@@ -30,11 +30,13 @@ export const FriendsDialog: FC<{
       fullWidth={true}
     >
       <DialogTitle id="friends-dialog-title">
-        <PixivDictLink
-          title={character.dict_entry ? character.dict_entry : character.name}
-          text={character.name}
-        />
-        のカップリング一覧
+        <div>
+          <PixivDictLink
+            title={character.dict_entry ? character.dict_entry : character.name}
+            text={character.name}
+          />
+          のカップリング一覧
+        </div>
         <IconButton className="close-icon" aria-label="close" onClick={onClose}>
           <CloseIcon />
         </IconButton>
