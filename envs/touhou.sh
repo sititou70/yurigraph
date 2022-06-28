@@ -9,5 +9,5 @@ export REACT_APP_DEFAULT_FILTER_VALUE=350
 export REACT_APP_MAIN_COLOR="#2ca9e1"
 # 紅 https://www.colordic.org/colorsample/2014
 export REACT_APP_ACCENT_COLOR="#d7003a"
-export DEPLOY_REPOSITORY="git@github.com:sititou70/TouhouMap.git"
+export DEPLOY_REPOSITORY="git@github.com:sititou70/touhoumap.git"
 export DEPLOY_BRANCH="gh-pages"

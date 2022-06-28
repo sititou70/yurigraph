@@ -22,6 +22,18 @@ usage_exit() {
   exit 0
 }
 
+get_repos_jsonl() {
+  for env_file in $(find envs -type f); do
+    (
+      . $env_file
+      echo "{ \
+        \"content_name\": \"$REACT_APP_CONTENT_NAME\", \
+        \"repo\": \"$DEPLOY_REPOSITORY\" \
+      }" | tr -s " "
+    )
+  done
+}
+
 # process args
 set +u
 export TARGET_CONTENT="$1"
@@ -35,7 +47,8 @@ if [ ! -e $ENV_FILE ]; then
   usage_exit
 fi
 
-export REACT_APP_BUILD_DATE=$(date -I)
+export REACT_APP_BUILD_DATE="$(date -I)"
+export REACT_APP_REPOS_JSONL="$(get_repos_jsonl)"
 . $ENV_FILE
 
 $EXEC
