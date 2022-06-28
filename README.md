@@ -1,18 +1,20 @@
 # yurigraph
 
-![demo ss](https://user-images.githubusercontent.com/18525488/80941278-0e19f780-8e1d-11ea-915b-838ed7db5ff9.png)
-
 いろいろな作品のカップリングを可視化します
 
-- [ImasGraph | アイドルマスターのカップリングを可視化](https://sititou70.github.io/imasgraph/)
-- [DereGraph | アイドルマスターシンデレラガールズのカップリングを可視化](https://sititou70.github.io/deregraph/)
-- [TouhouMap | 東方 Project のカップリングを可視化](https://sititou70.github.io/touhoumap/)
-- [KancolleGraph | 艦隊これくしょんのカップリングを可視化](https://sititou70.github.io/kancollegraph/)
-- [LoveliveMap | ラブライブ！シリーズのカップリングを可視化](https://sititou70.github.io/lovelivemap/)
-- [VocaloMap | VOCALOID・VOICEROID のカップリングを可視化](https://sititou70.github.io/vocalomap/)
-- [HetaGraph | Axis Powers ヘタリアのカップリングを可視化](https://sititou70.github.io/hetagraph/)
-- [BangDreamGraph | BanG Dream!のカップリングを可視化](https://sititou70.github.io/bangdreamgraph/)
-- [RevengersGraph | 東京卍リベンジャーズのカップリングを可視化](https://sititou70.github.io/revengersmgraph/)
+![demo ss](https://user-images.githubusercontent.com/18525488/80941278-0e19f780-8e1d-11ea-915b-838ed7db5ff9.png)
+
+## 対応作品
+
+- [アイドルマスター](https://sititou70.github.io/imasgraph/)
+- [アイドルマスターシンデレラガールズ](https://sititou70.github.io/deregraph/)
+- [東方 Project](https://sititou70.github.io/touhoumap/)
+- [艦隊これくしょん](https://sititou70.github.io/kancollegraph/)
+- [ラブライブ！シリーズ](https://sititou70.github.io/lovelivemap/)
+- [VOCALOID・VOICEROID](https://sititou70.github.io/vocalomap/)
+- [Axis Powers ヘタリア](https://sititou70.github.io/hetagraph/)
+- [BanG Dream!](https://sititou70.github.io/bangdreamgraph/)
+- [東京卍リベンジャーズ](https://sititou70.github.io/revengersmgraph/)
 
 ## 開発
 
