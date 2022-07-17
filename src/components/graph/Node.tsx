@@ -70,6 +70,7 @@ export const Node: FC<{
 const StyledRoot = styled.g<{ active: boolean }>`
   cursor: pointer;
   opacity: ${(props) => (props.active ? 1 : 0.3)};
+  cursor: grab;
   &:active {
     cursor: grabbing;
   }
