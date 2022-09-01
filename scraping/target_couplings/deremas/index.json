@@ -88,6 +88,10 @@
     "tags": [{ "name": "かえみず" }]
   },
   {
+    "characters": [{ "name": "白坂小梅" }, { "name": "依田芳乃" }],
+    "tags": [{ "name": "かくりよがたり" }]
+  },
+  {
     "characters": [{ "name": "白菊ほたる" }, { "name": "鷹富士茄子" }],
     "tags": [{ "name": "かこほた" }, { "name": "ミス・フォーチュン" }]
   },
@@ -118,6 +122,10 @@
   {
     "characters": [{ "name": "小関麗奈" }, { "name": "財前時子" }],
     "tags": [{ "name": "クイーンズコンフリクト" }]
+  },
+  {
+    "characters": [{ "name": "望月聖" }, { "name": "クラリス" }],
+    "tags": [{ "name": "グロリアス・コード" }]
   },
   {
     "characters": [{ "name": "古賀小春" }, { "name": "結城晴" }],
@@ -249,6 +257,10 @@
   {
     "characters": [{ "name": "黒埼ちとせ" }, { "name": "北条加蓮" }],
     "tags": [{ "name": "ちとかれ" }]
+  },
+  {
+    "characters": [{ "name": "桐生つかさ" }, { "name": "栗原ネネ" }],
+    "tags": [{ "name": "つかネネ" }]
   },
   {
     "characters": [{ "name": "安斎都" }, { "name": "古澤頼子" }],
@@ -512,6 +524,14 @@
   {
     "characters": [{ "name": "双葉杏" }, { "name": "遊佐こずえ" }],
     "tags": [{ "name": "あんこず" }, { "name": "ららりる" }]
+  },
+  {
+    "characters": [{ "name": "乙倉悠貴" }, { "name": "久川颯" }],
+    "tags": [
+      { "name": "おとはー" },
+      { "name": "乙颯" },
+      { "name": "Sola-iris" }
+    ]
   },
   {
     "tags": [{ "name": "アキレイナ" }],
@@ -822,10 +842,6 @@
     "characters": [{ "name": "大原みちる" }, { "name": "ライラ" }]
   },
   {
-    "tags": [{ "name": "おとはー" }, { "name": "乙颯" }],
-    "characters": [{ "name": "乙倉悠貴" }, { "name": "久川颯" }]
-  },
-  {
     "tags": [{ "name": "かえちえ" }, { "name": "キルシュ" }],
     "characters": [{ "name": "高垣楓" }, { "name": "緒方智絵里" }]
   },
@@ -1110,10 +1126,6 @@
     "characters": [{ "name": "黒埼ちとせ" }, { "name": "的場梨沙" }]
   },
   {
-    "tags": [{ "name": "つかネネ" }],
-    "characters": [{ "name": "桐生つかさ" }, { "name": "栗原ネネ" }]
-  },
-  {
     "tags": [{ "name": "辻砂" }, { "name": "あきあか" }],
     "characters": [{ "name": "砂塚あきら" }, { "name": "辻野あかり" }]
   },
@@ -1168,6 +1180,10 @@
   {
     "tags": [{ "name": "はるあり" }],
     "characters": [{ "name": "結城晴" }, { "name": "橘ありす" }]
+  },
+  {
+    "tags": [{ "name": "はるかおる" }],
+    "characters": [{ "name": "結城晴" }, { "name": "龍崎薫" }]
   },
   {
     "tags": [{ "name": "はるとも" }],
@@ -1336,6 +1352,10 @@
   {
     "tags": [{ "name": "むつみやこ" }],
     "characters": [{ "name": "氏家むつみ" }, { "name": "安斎都" }]
+  },
+  {
+    "tags": [{ "name": "ももかおる" }],
+    "characters": [{ "name": "櫻井桃華" }, { "name": "龍崎薫" }]
   },
   {
     "tags": [{ "name": "ももみり" }],

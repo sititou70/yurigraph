@@ -160,6 +160,10 @@
     "tags": [{ "name": "ぱなうみ" }]
   },
   {
+    "characters": [{ "name": "小泉花陽" }, { "name": "矢澤にこ" }],
+    "tags": [{ "name": "ぱなにこ" }]
+  },
+  {
     "characters": [{ "name": "矢澤にこ" }, { "name": "絢瀬絵里" }],
     "tags": [{ "name": "にこえり" }]
   },
@@ -222,6 +226,10 @@
   {
     "characters": [{ "name": "桜内梨子" }, { "name": "国木田花丸" }],
     "tags": [{ "name": "りこまる" }]
+  },
+  {
+    "characters": [{ "name": "桜内梨子" }, { "name": "小原鞠莉" }],
+    "tags": [{ "name": "りこまり" }]
   },
   {
     "characters": [{ "name": "桜内梨子" }, { "name": "黒澤ルビィ" }],

@@ -108,6 +108,10 @@
     "tags": [{ "name": "真マイ" }]
   },
   {
+    "characters": [{ "name": "佐野万次郎" }, { "name": "鶴蝶" }],
+    "tags": [{ "name": "カクマイ" }]
+  },
+  {
     "characters": [{ "name": "三ツ谷隆" }, { "name": "龍宮寺堅" }],
     "tags": [{ "name": "みつドラ" }, { "name": "ドラみつ" }]
   },

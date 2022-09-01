@@ -254,6 +254,12 @@
       country_name: 'ピカルディ',
       name: 'ピカルディ君',
     },
+    { short_country_name: '', country_name: 'セルビア', name: 'セルくん' },
+    {
+      short_country_name: '',
+      country_name: 'アエリカ帝国',
+      name: 'アエリカさん',
+    },
     {
       short_country_name: '古埃',
       country_name: '古代エジプト',

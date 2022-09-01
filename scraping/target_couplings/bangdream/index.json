@@ -232,6 +232,10 @@
     "tags": [{ "name": "とうるい" }]
   },
   {
+    "characters": [{ "name": "広町七深" }, { "name": "二葉つくし" }],
+    "tags": [{ "name": "ななつく" }]
+  },
+  {
     "characters": [{ "name": "氷川日菜" }, { "name": "氷川紗夜" }],
     "tags": [{ "name": "さよひな" }, { "name": "氷川姉妹" }]
   },
