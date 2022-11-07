@@ -1,0 +1,113 @@
+import { css } from '@emotion/react';
+import { useWindowSize } from '@react-hook/window-size';
+import * as d3 from 'd3';
+import mixColor from 'mix-color';
+import { FC, useEffect, useMemo, useRef } from 'react';
+import { useRecoilValue } from 'recoil';
+import theme from '../theme';
+import { LINK_ELEMENT_CLASSNAME, NODE_ELEMENT_CLASSNAME } from './consts';
+import { getForce } from './forceSimuration';
+import { Link } from './Link';
+import Node from './Node';
+import { graph_d3graph, graph_sigmoid } from './recoil';
+import { D3Graph } from './types';
+import { getLinkDetail, getNodeDetail } from './utils';
+
+const deepCopy = require('deep-copy');
+
+export const Graph: FC = () => {
+  // setup force simulation
+  const _d3graph = useRecoilValue(graph_d3graph);
+  const d3graph = useMemo(() => deepCopy(_d3graph) as D3Graph, [_d3graph]);
+
+  const sigmoid = useRecoilValue(graph_sigmoid);
+  const [width, height] = useWindowSize();
+  const force = useMemo(
+    () =>
+      getForce(d3graph, {
+        window_size: { width, height },
+        sigmoid,
+      }),
+    [d3graph, sigmoid, width, height]
+  );
+
+  const svg = useRef<SVGSVGElement>(null);
+  useEffect(() => {
+    if (svg.current === null) return;
+    force.registerGraph(svg.current);
+  });
+
+  // setup move and zoom handler
+  const graph_position = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
+  const root_group = useRef<SVGGElement | null>(null);
+  useEffect(() => {
+    if (svg.current === null) return;
+    d3.select(svg.current as Element).call(
+      d3
+        .drag()
+        .subject(() => {
+          if (root_group.current === null) return;
+          return { x: graph_position.current.x, y: graph_position.current.y };
+        })
+        .on('drag', (event: any) => {
+          if (root_group.current === null) return;
+          root_group.current.style.transform = `translate(${event.x}px, ${event.y}px)`;
+          graph_position.current = { x: event.x, y: event.y };
+        })
+    );
+  });
+
+  const link_components = d3graph.links.map((link) => {
+    const detail = getLinkDetail(link.link_id);
+    if (detail === undefined) return null;
+
+    return <Link link={link} detail={detail} key={link.index} />;
+  });
+  const node_components = d3graph.nodes.map((node) => {
+    const detail = getNodeDetail(node.node_id);
+    if (detail === undefined) return null;
+
+    return (
+      <Node
+        node={node}
+        detail={detail}
+        force_simulation={force.force_simulation}
+        key={node.index}
+      />
+    );
+  });
+
+  return (
+    <svg
+      css={css`
+        display: block;
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(
+          0.1turn,
+          ${mixColor('#fff', theme.colors.main, 0.1)} 30%,
+          ${mixColor('#fff', theme.colors.accent, 0.1)}
+        );
+        cursor: grab;
+        &:active {
+          cursor: grabbing;
+        }
+
+        .${LINK_ELEMENT_CLASSNAME},
+          .${NODE_ELEMENT_CLASSNAME},
+          .${NODE_ELEMENT_CLASSNAME}
+          > * {
+          transition: fill ease 0.5s, opacity ease 0.5s;
+        }
+      `}
+      ref={svg}
+    >
+      <g ref={root_group}>
+        {link_components}
+        {node_components}
+      </g>
+    </svg>
+  );
+};
+
+export default Graph;

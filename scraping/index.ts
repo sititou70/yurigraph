@@ -12,18 +12,28 @@ const DEST_COUPLINGS_JSON = '../src/couplings.json';
 
 // type
 export type Character = {
-  name: string;
-  dict_entry?: string;
+  name: string; // キャラクター名（例：博麗霊夢）
+  dict_entry?: string; // Pixiv百科事典のエントリー名．キャラクター名とエントリー名が異なる場合に指定する．指定されない場合はキャラクター名がエントリー名とみなされる
 };
+
+//// スクレイピング対象のカップリング
 export type TargetCoupling = {
-  characters: Character[];
-  tags: { name: string }[];
+  characters: [Character, Character];
+  tags: {
+    name: string; // タグ名（例：ゆかれいむ）
+  }[];
 };
+//// スクレイピング結果
 export type Coupling = {
-  characters: Character[];
-  tags: { name: string; num: number }[];
+  characters: [Character, Character];
+  tags: {
+    name: string;
+    num: number; // 作品数
+  }[];
 };
 export type Couplings = Coupling[];
+
+// utils
 const compTargetCouplings = (x: TargetCoupling, y: TargetCoupling): boolean => {
   if (x.characters.length !== 2) return false;
   if (y.characters.length !== 2) return false;
