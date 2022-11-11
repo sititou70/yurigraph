@@ -2,8 +2,8 @@ import makeSigmoid from 'awesome-sigmoid';
 import * as d3 from 'd3';
 import { Simulation } from 'd3';
 import {
-  LINK_BASE_LENGTH,
   LINK_ELEMENT_CLASSNAME,
+  LINK_LENGTH,
   NODE_ELEMENT_CLASSNAME,
 } from './consts';
 import { D3Graph, D3Link, D3Node } from './types';
@@ -21,28 +21,26 @@ export const getForce = (
 } => {
   const force_simulation = d3
     .forceSimulation(graph.nodes)
-    .force('charge', d3.forceManyBody().strength(-300).distanceMax(300))
     .force(
       'link',
       d3
         .forceLink(graph.links)
-        .distance((d) => {
-          const detail = getLinkDetail(d.link_id);
-          if (detail === undefined) return LINK_BASE_LENGTH;
-          return LINK_BASE_LENGTH * (2 - options.sigmoid(detail.tag.num));
+        .distance(LINK_LENGTH)
+        .strength((link) => {
+          const detail = getLinkDetail(link.link_id);
+          if (detail === undefined) return 0.5;
+          return options.sigmoid(detail.tag.num);
         })
-        .strength(1)
-        .iterations(10)
     )
+    .force('collide', d3.forceCollide(LINK_LENGTH / 2).strength(0.5))
+    .force('charge', d3.forceManyBody().strength(-LINK_LENGTH * 0.5))
     .force(
       'center',
       d3
         .forceCenter()
         .x(options.window_size.width / 2)
         .y(options.window_size.height / 2)
-    )
-    .force('collide', d3.forceCollide(10));
-
+    );
   const registerGraph = (svg: SVGSVGElement) => {
     const graph = d3.select(svg);
     if (graph === null) return;
