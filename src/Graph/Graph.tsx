@@ -4,8 +4,12 @@ import * as d3 from 'd3';
 import mixColor from 'mix-color';
 import { FC, useEffect, useMemo, useRef } from 'react';
 import { useRecoilValue } from 'recoil';
+import { resolver_enable } from '../Resolver/recoil';
 import theme from '../theme';
-import { getSimuration } from './forceSimuration';
+import {
+  getSimuration,
+  getSimurationForResolvedGraph,
+} from './forceSimuration';
 import { Link, linkTickHandler } from './Link';
 import { Node, nodeTickHandler } from './Node';
 import { graph_d3graph, graph_sigmoid } from './recoil';
@@ -20,13 +24,14 @@ export const Graph: FC = () => {
 
   const sigmoid = useRecoilValue(graph_sigmoid);
   const [width, height] = useWindowSize();
+  const resolve_mode = useRecoilValue(resolver_enable);
   const simuration = useMemo(
     () =>
-      getSimuration(d3graph, {
+      (!resolve_mode ? getSimuration : getSimurationForResolvedGraph)(d3graph, {
         window_size: { width, height },
         sigmoid,
       }),
-    [d3graph, sigmoid, width, height]
+    [d3graph, sigmoid, width, height, resolve_mode]
   );
 
   const svg_ref = useRef<SVGSVGElement | null>(null);
