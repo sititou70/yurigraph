@@ -37,7 +37,7 @@ export const App = () => {
   useEffect(() => {
     ReactGA.initialize('UA-158683797-1');
     ReactGA.pageview(window.location.pathname + window.location.search);
-  });
+  }, []);
 
   return (
     <>

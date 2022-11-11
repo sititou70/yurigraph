@@ -5,10 +5,9 @@ import mixColor from 'mix-color';
 import { FC, useEffect, useMemo, useRef } from 'react';
 import { useRecoilValue } from 'recoil';
 import theme from '../theme';
-import { LINK_ELEMENT_CLASSNAME, NODE_ELEMENT_CLASSNAME } from './consts';
-import { getForce } from './forceSimuration';
-import { Link } from './Link';
-import Node from './Node';
+import { getSimuration } from './forceSimuration';
+import { Link, linkTickHandler } from './Link';
+import { Node, nodeTickHandler } from './Node';
 import { graph_d3graph, graph_sigmoid } from './recoil';
 import { D3Graph } from './types';
 import { getLinkDetail, getNodeDetail } from './utils';
@@ -16,33 +15,38 @@ import { getLinkDetail, getNodeDetail } from './utils';
 const deepCopy = require('deep-copy');
 
 export const Graph: FC = () => {
-  // setup force simulation
   const _d3graph = useRecoilValue(graph_d3graph);
   const d3graph = useMemo(() => deepCopy(_d3graph) as D3Graph, [_d3graph]);
 
   const sigmoid = useRecoilValue(graph_sigmoid);
   const [width, height] = useWindowSize();
-  const force = useMemo(
+  const simuration = useMemo(
     () =>
-      getForce(d3graph, {
+      getSimuration(d3graph, {
         window_size: { width, height },
         sigmoid,
       }),
     [d3graph, sigmoid, width, height]
   );
 
-  const svg = useRef<SVGSVGElement>(null);
+  const svg_ref = useRef<SVGSVGElement | null>(null);
   useEffect(() => {
-    if (svg.current === null) return;
-    force.registerGraph(svg.current);
-  });
+    if (svg_ref.current === null) return;
 
-  // setup move and zoom handler
+    const root = d3.select(svg_ref.current);
+    simuration.on('tick', () => {
+      root.call((selection) => {
+        nodeTickHandler(selection);
+        linkTickHandler(selection);
+      });
+    });
+  }, [simuration]);
+
   const graph_position = useRef<{ x: number; y: number }>({ x: 0, y: 0 });
   const root_group = useRef<SVGGElement | null>(null);
-  useEffect(() => {
-    if (svg.current === null) return;
-    d3.select(svg.current as Element).call(
+  const setupMoveHandler = (svg: Element | null) => {
+    if (svg === null) return;
+    d3.select(svg as Element).call(
       d3
         .drag()
         .subject(() => {
@@ -55,8 +59,9 @@ export const Graph: FC = () => {
           graph_position.current = { x: event.x, y: event.y };
         })
     );
-  });
+  };
 
+  // render
   const link_components = d3graph.links.map((link) => {
     const detail = getLinkDetail(link.link_id);
     if (detail === undefined) return null;
@@ -71,7 +76,7 @@ export const Graph: FC = () => {
       <Node
         node={node}
         detail={detail}
-        force_simulation={force.force_simulation}
+        simuration={simuration}
         key={node.index}
       />
     );
@@ -92,15 +97,11 @@ export const Graph: FC = () => {
         &:active {
           cursor: grabbing;
         }
-
-        .${LINK_ELEMENT_CLASSNAME},
-          .${NODE_ELEMENT_CLASSNAME},
-          .${NODE_ELEMENT_CLASSNAME}
-          > * {
-          transition: fill ease 0.5s, opacity ease 0.5s;
-        }
       `}
-      ref={svg}
+      ref={(svg) => {
+        svg_ref.current = svg;
+        setupMoveHandler(svg);
+      }}
     >
       <g ref={root_group}>
         {link_components}

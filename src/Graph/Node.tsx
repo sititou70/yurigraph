@@ -1,23 +1,24 @@
 import { css } from '@emotion/react';
 import * as d3 from 'd3';
 import { Simulation } from 'd3';
-import { FC, useEffect, useRef } from 'react';
+import { FC } from 'react';
 import { useRecoilValue, useSetRecoilState } from 'recoil';
 import {
   character_dialog_name,
   character_dialog_open,
 } from '../CharacterDialog/recoil';
 import theme from '../theme';
-import { NODE_ELEMENT_CLASSNAME } from './consts';
 import { graph_activated_nodes, graph_focused_node } from './recoil';
 import { D3Link, D3Node } from './types';
 import { NodeDetail } from './utils';
 
+const ROOT_CLASS_NAME = 'node';
+
 export const Node: FC<{
   node: D3Node;
   detail: NodeDetail;
-  force_simulation: Simulation<D3Node, D3Link>;
-}> = ({ node, detail, force_simulation }) => {
+  simuration: Simulation<D3Node, D3Link>;
+}> = ({ node, detail, simuration }) => {
   const setFocusedNode = useSetRecoilState(graph_focused_node);
   const activated_nodes = useRecoilValue(graph_activated_nodes);
   const active = activated_nodes === null || activated_nodes?.has(node.node_id);
@@ -25,16 +26,20 @@ export const Node: FC<{
   const setCharacterDialogOpen = useSetRecoilState(character_dialog_open);
   const setCharacterDialogName = useSetRecoilState(character_dialog_name);
 
-  const root_element = useRef<SVGCircleElement | null>(null);
+  const registerNode = (element: Element | null) => {
+    if (element === null) return;
+    const root = d3.select(element);
+    root.datum(node);
+  };
 
-  // drag handler
-  useEffect(() => {
-    if (root_element.current === null) return;
-    d3.select(root_element.current as Element).call(
+  const setupDragHandler = (element: Element | null) => {
+    if (element === null) return;
+
+    d3.select(element).call(
       d3
         .drag()
         .on('start', (_, d: any) => {
-          force_simulation.alphaTarget(0.1).restart();
+          simuration.alphaTarget(0.1).restart();
           d.fx = d.x;
           d.fy = d.y;
         })
@@ -43,27 +48,17 @@ export const Node: FC<{
           d.fy = event.y;
         })
         .on('end', (_, d: any) => {
-          force_simulation.alphaTarget(0).restart();
+          simuration.alphaTarget(0).restart();
           d.fx = null;
           d.fy = null;
         })
     );
-  });
-
-  useEffect(() => {
-    if (root_element.current === null) return;
-    const root = d3.select(root_element.current);
-    root.datum(node);
-    return () => {
-      root.datum();
-    };
-  });
+  };
 
   return (
     <g
-      className={NODE_ELEMENT_CLASSNAME}
+      className={ROOT_CLASS_NAME}
       css={css`
-        opacity: ${active ? 1 : 0.3};
         cursor: grab;
         &:active {
           cursor: grabbing;
@@ -84,7 +79,10 @@ export const Node: FC<{
         setCharacterDialogOpen(true);
         setCharacterDialogName(detail.name);
       }}
-      ref={root_element}
+      ref={(g) => {
+        registerNode(g);
+        setupDragHandler(g);
+      }}
     >
       <circle
         r={14}
@@ -93,6 +91,7 @@ export const Node: FC<{
           stroke: #0001;
           stroke-width: 7px;
           opacity: ${active ? 1 : 0};
+          transition: opacity ease 0.3s, fill ease 0.3s;
         `}
       />
       <text
@@ -105,6 +104,8 @@ export const Node: FC<{
           font-size: ${theme.px.font_size()};
           font-family: sans;
           stroke-linejoin: round;
+          opacity: ${active ? 1 : 0.3};
+          transition: opacity ease 0.3s;
         `}
       >
         {detail.name.replace(/\(.*\)/, '')}
@@ -113,4 +114,19 @@ export const Node: FC<{
   );
 };
 
-export default Node;
+export const nodeTickHandler = (
+  selection: d3.Selection<SVGSVGElement, unknown, null, undefined>
+) => {
+  selection
+    .selectAll(`.${ROOT_CLASS_NAME}`)
+    .call((selection) =>
+      (
+        selection as unknown as d3.Selection<
+          SVGCircleElement,
+          D3Node,
+          SVGSVGElement,
+          unknown
+        >
+      ).attr('transform', (node) => `translate(${node.x}, ${node.y})`)
+    );
+};

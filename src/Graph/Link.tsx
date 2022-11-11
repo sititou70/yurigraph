@@ -1,13 +1,14 @@
 import { css } from '@emotion/react';
 import * as d3 from 'd3';
 import mixColor from 'mix-color';
-import { FC, useEffect, useId, useRef } from 'react';
+import { FC, useId } from 'react';
 import { useRecoilValue } from 'recoil';
 import theme from '../theme';
-import { LINK_ELEMENT_CLASSNAME } from './consts';
 import { graph_focused_node, graph_sigmoid } from './recoil';
-import { D3Link } from './types';
+import { D3Link, D3Node } from './types';
 import { LinkDetail } from './utils';
+
+const ROOT_CLASS_NAME = 'link';
 
 export const Link: FC<{
   link: D3Link;
@@ -29,28 +30,25 @@ export const Link: FC<{
 
   const id = useId();
 
-  const root_element = useRef(null);
-  useEffect(() => {
-    if (root_element.current === null) return;
-    const root = d3.select(root_element.current);
+  const registerLink = (element: Element | null) => {
+    if (element === null) return;
+    const root = d3.select(element);
     root.datum(link);
-    return () => {
-      root.datum();
-    };
-  });
+  };
 
   return (
     <>
       <path
         id={id}
-        className={LINK_ELEMENT_CLASSNAME}
+        className={ROOT_CLASS_NAME}
         css={css`
           stroke: ${mixColor(theme.colors.main, theme.colors.accent, weight)};
           stroke-width: ${weight * 7 + 3}px;
           opacity: ${mode === 'inactive' ? 0.3 : 1};
           stroke-linecap: round;
+          transition: opacity ease 0.3s;
         `}
-        ref={root_element}
+        ref={registerLink}
       />
       {mode === 'activated' ? (
         <text
@@ -68,4 +66,25 @@ export const Link: FC<{
       ) : null}
     </>
   );
+};
+
+export const linkTickHandler = (
+  selection: d3.Selection<SVGSVGElement, unknown, null, undefined>
+) => {
+  selection
+    .selectAll(`.${ROOT_CLASS_NAME}`)
+    .call((selection) =>
+      (
+        selection as unknown as d3.Selection<
+          SVGPathElement,
+          D3Link & { source: D3Node; target: D3Node },
+          SVGSVGElement,
+          unknown
+        >
+      ).attr(
+        'd',
+        (link) =>
+          `M ${link.source.x},${link.source.y} L ${link.target.x},${link.target.y}`
+      )
+    );
 };
