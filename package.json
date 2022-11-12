@@ -2,7 +2,7 @@
   "name": "yurigraph",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/sititou70/yurigraph",
+  "homepage": ".",
   "dependencies": {
     "@craco/craco": "7.0.0-alpha.9",
     "@emotion/babel-plugin": "11.10.5",
