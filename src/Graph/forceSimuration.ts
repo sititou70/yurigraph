@@ -20,11 +20,11 @@ export const getSimuration = (
       d3
         .forceLink(graph.links)
         .distance(LINK_LENGTH)
-        .strength((link) => {
-          const detail = getLinkDetail(link.link_id);
-          if (detail === undefined) return 0.5;
-          return 0.5 + options.sigmoid(detail.tag.num) * 0.5;
-        })
+        .strength(
+          (link) =>
+            0.1 +
+            options.sigmoid(getLinkDetail(link.link_id)?.tag.num ?? 0) * 0.9
+        )
     )
     .force('collide', d3.forceCollide(LINK_LENGTH / 2).strength(0.5))
     .force('charge', d3.forceManyBody().strength(-LINK_LENGTH * 0.25))
