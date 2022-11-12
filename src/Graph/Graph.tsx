@@ -98,9 +98,8 @@ export const Graph: FC = () => {
           ${mixColor('#fff', theme.colors.main, 0.1)} 30%,
           ${mixColor('#fff', theme.colors.accent, 0.1)}
         );
-        cursor: grab;
         &:active {
-          cursor: grabbing;
+          cursor: move;
         }
       `}
       ref={(svg) => {

@@ -59,9 +59,9 @@ export const Node: FC<{
     <g
       className={ROOT_CLASS_NAME}
       css={css`
-        cursor: grab;
+        cursor: pointer;
         &:active {
-          cursor: grabbing;
+          cursor: move;
         }
         &:hover {
           circle {
