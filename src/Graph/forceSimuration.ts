@@ -27,7 +27,7 @@ export const getSimuration = (
         })
     )
     .force('collide', d3.forceCollide(LINK_LENGTH / 2).strength(0.5))
-    .force('charge', d3.forceManyBody().strength(-LINK_LENGTH * 0.5))
+    .force('charge', d3.forceManyBody().strength(-LINK_LENGTH * 0.25))
     .force(
       'center',
       d3
