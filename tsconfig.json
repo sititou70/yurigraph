@@ -14,8 +14,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
     "jsx": "react-jsx",
-    "noFallthroughCasesInSwitch": true
+    "jsxImportSource": "@emotion/react"
   },
   "include": ["src"]
 }
