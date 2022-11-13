@@ -92,6 +92,7 @@ export const App = () => {
       {/* ranking */}
       <div
         css={css`
+          position: relative;
           box-shadow: 0 0 ${theme.px.grid()} #0002;
         `}
       >
