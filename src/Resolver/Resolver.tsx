@@ -72,7 +72,7 @@ export const Resolver: FC = () => {
             <ChevronRightIcon />
           </IconButton>
         </div>
-        <Prioritizer />
+        {prioritizer_open && <Prioritizer />}
       </Drawer>
     </div>
   );
