@@ -2,12 +2,12 @@ import { css } from '@emotion/react';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import { Checkbox, FormControlLabel, IconButton, Tooltip } from '@mui/material';
-import { FC } from 'react';
+import { FC, memo, useCallback, useMemo } from 'react';
 import { useRecoilState, useRecoilValue } from 'recoil';
 import { filter_slider_value } from '../FilterSlider/recoil';
 import { graph_graph } from '../Graph/recoil';
 import { Link } from '../Graph/types';
-import { all_graph, getLinkDetail } from '../Graph/utils';
+import { all_graph, getLinkDetail, LinkDetail } from '../Graph/utils';
 import theme from '../theme';
 import {
   resolver_prioritizer_links,
@@ -18,19 +18,23 @@ export const Prioritizer: FC = () => {
   const [_prioritized_links, _setPrioritizedLinks] = useRecoilState(
     resolver_prioritizer_links
   );
-  const addPrioritizedLinks = (link: Link) => {
-    _setPrioritizedLinks([..._prioritized_links, link]);
-  };
-  const deletePrioritizedLinks = (link: Link) => {
-    _setPrioritizedLinks(
-      _prioritized_links.filter(
-        (prioritized_link) => prioritized_link.id !== link.id
-      )
-    );
-  };
-  const resetPrioritizedLinks = () => {
+  const addPrioritizedLinks = useCallback(
+    (link: Link) => {
+      _setPrioritizedLinks((prev_links) => [...prev_links, link]);
+    },
+    [_setPrioritizedLinks]
+  );
+  const deletePrioritizedLinks = useCallback(
+    (link: Link) => {
+      _setPrioritizedLinks((prev_links) =>
+        prev_links.filter((prioritized_link) => prioritized_link.id !== link.id)
+      );
+    },
+    [_setPrioritizedLinks]
+  );
+  const resetPrioritizedLinks = useCallback(() => {
     _setPrioritizedLinks([]);
-  };
+  }, [_setPrioritizedLinks]);
   const prioritized_link_ids = new Set(
     _prioritized_links.map((link) => link.id)
   );
@@ -40,24 +44,41 @@ export const Prioritizer: FC = () => {
   );
 
   const filter_value = useRecoilValue(filter_slider_value);
-  const link_details = all_graph.links
-    .filter((link) => link.num >= filter_value)
-    .concat()
-    .sort((x, y) => y.num - x.num)
-    .map((link) => {
-      const detail = getLinkDetail(link.id);
-      return detail ? { link, detail } : undefined;
-    })
-    .filter(
-      (link_detail): link_detail is Exclude<typeof link_detail, undefined> =>
-        link_detail !== undefined
-    );
+  const link_details = useMemo(
+    () =>
+      all_graph.links
+        .filter((link) => link.num >= filter_value)
+        .concat()
+        .sort((x, y) => y.num - x.num)
+        .map((link) => {
+          const detail = getLinkDetail(link.id);
+          return detail ? { link, detail } : undefined;
+        })
+        .filter(
+          (
+            link_detail
+          ): link_detail is Exclude<typeof link_detail, undefined> =>
+            link_detail !== undefined
+        ),
+    [filter_value]
+  );
 
   const graph = useRecoilValue(graph_graph);
   const auto_selected_link_ids = new Set(graph.links.map((link) => link.id));
 
   const [one_on_one_mode, setOneOnOneMode] = useRecoilState(
     resolver_prioritizer_one_on_one_mode
+  );
+
+  const onChangeListItem = useCallback(
+    (e: React.ChangeEvent<HTMLInputElement>, link: Link) => {
+      if (e.target.checked) {
+        addPrioritizedLinks(link);
+      } else {
+        deletePrioritizedLinks(link);
+      }
+    },
+    [addPrioritizedLinks, deletePrioritizedLinks]
   );
 
   return (
@@ -144,47 +165,60 @@ export const Prioritizer: FC = () => {
         `}
       >
         {link_details.map(({ link, detail }) => (
-          <li key={link.id}>
-            <FormControlLabel
-              control={
-                <Checkbox
-                  name={`${detail.tag.name}を優先して解決`}
-                  checked={prioritized_link_ids.has(link.id)}
-                  indeterminate={
-                    !prioritized_link_ids.has(link.id) &&
-                    auto_selected_link_ids.has(link.id)
-                  }
-                  disabled={
-                    !prioritized_link_ids.has(link.id) &&
-                    ((one_on_one_mode &&
-                      (prioritized_nodes.has(link.nodes[0]) ||
-                        prioritized_nodes.has(link.nodes[1]))) ||
-                      auto_selected_link_ids.has(link.id))
-                  }
-                  onChange={(e) => {
-                    if (e.target.checked) {
-                      addPrioritizedLinks(link);
-                    } else {
-                      deletePrioritizedLinks(link);
-                    }
-                  }}
-                />
-              }
-              label={
-                <span>
-                  {detail.tag.name}
-                  <Tooltip
-                    title={`${detail.coupling.characters[0].name} × ${detail.coupling.characters[1].name} (${detail.tag.num}作品)`}
-                    className="tip"
-                  >
-                    <HelpOutlineIcon />
-                  </Tooltip>
-                </span>
-              }
-            />
-          </li>
+          <ListItem
+            link={link}
+            detail={detail}
+            checked={prioritized_link_ids.has(link.id)}
+            indeterminate={
+              !prioritized_link_ids.has(link.id) &&
+              auto_selected_link_ids.has(link.id)
+            }
+            disabled={
+              !prioritized_link_ids.has(link.id) &&
+              ((one_on_one_mode &&
+                (prioritized_nodes.has(link.nodes[0]) ||
+                  prioritized_nodes.has(link.nodes[1]))) ||
+                auto_selected_link_ids.has(link.id))
+            }
+            onChange={onChangeListItem}
+            key={link.id}
+          />
         ))}
       </ol>
     </div>
   );
 };
+
+const ListItem: FC<{
+  link: Link;
+  detail: LinkDetail;
+  checked: boolean;
+  indeterminate: boolean;
+  disabled: boolean;
+  onChange: (event: React.ChangeEvent<HTMLInputElement>, link: Link) => void;
+}> = memo(({ link, detail, onChange, ...checkbox_props }) => {
+  return (
+    <li>
+      <FormControlLabel
+        control={
+          <Checkbox
+            name={`${detail.tag.name}を優先して解決`}
+            onChange={(e) => onChange(e, link)}
+            {...checkbox_props}
+          />
+        }
+        label={
+          <span>
+            {detail.tag.name}
+            <Tooltip
+              title={`${detail.coupling.characters[0].name} × ${detail.coupling.characters[1].name} (${detail.tag.num}作品)`}
+              className="tip"
+            >
+              <HelpOutlineIcon />
+            </Tooltip>
+          </span>
+        }
+      />
+    </li>
+  );
+});
