@@ -1,6 +1,7 @@
 import fs from 'fs';
 import fetch from 'node-fetch';
 import path from 'path';
+import sanitize from 'sanitize-filename';
 
 // settings
 const CACHE_DIR = 'TEMP_CACHE';
@@ -127,7 +128,7 @@ const sleep = async (millis: number): Promise<void> =>
   new Promise((resolve) => setTimeout(() => resolve(), millis));
 
 const getNumsFromTag = async (tag: string): Promise<number> => {
-  const cache_file_path = path.join(CACHE_DIR, `/nums_${tag}`);
+  const cache_file_path = path.join(CACHE_DIR, `/nums_${sanitize(tag)}`);
   try {
     // return num if cache is exist
     return parseInt(fs.readFileSync(cache_file_path).toString());
