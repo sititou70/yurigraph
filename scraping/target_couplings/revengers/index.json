@@ -104,12 +104,20 @@
     "tags": [{ "name": "バジマイ" }, { "name": "マイバジ" }]
   },
   {
-    "characters": [{ "name": "佐野万次郎" }, { "name": "佐野真一郎" }],
-    "tags": [{ "name": "真マイ" }]
-  },
-  {
     "characters": [{ "name": "佐野万次郎" }, { "name": "鶴蝶" }],
     "tags": [{ "name": "カクマイ" }]
+  },
+  {
+    "characters": [{ "name": "佐野万次郎" }, { "name": "灰谷蘭" }],
+    "tags": [{ "name": "蘭マイ" }]
+  },
+  {
+    "characters": [{ "name": "佐野万次郎" }, { "name": "灰谷竜胆" }],
+    "tags": [{ "name": "竜マイ" }]
+  },
+  {
+    "characters": [{ "name": "九井一" }, { "name": "佐野万次郎" }],
+    "tags": [{ "name": "ココマイ" }]
   },
   {
     "characters": [{ "name": "三ツ谷隆" }, { "name": "龍宮寺堅" }],
@@ -268,12 +276,12 @@
     "tags": [{ "name": "イザ蘭" }]
   },
   {
-    "characters": [{ "name": "半間修二" }, { "name": "灰谷竜胆" }],
-    "tags": [{ "name": "半竜" }]
+    "characters": [{ "name": "灰谷蘭" }, { "name": "鶴蝶" }],
+    "tags": [{ "name": "カク蘭" }, { "name": "蘭カク" }]
   },
   {
-    "characters": [{ "name": "灰谷蘭" }, { "name": "鶴蝶" }],
-    "tags": [{ "name": "蘭カク" }]
+    "characters": [{ "name": "半間修二" }, { "name": "灰谷竜胆" }],
+    "tags": [{ "name": "半竜" }]
   },
   {
     "characters": [{ "name": "佐野真一郎" }, { "name": "明司武臣" }],

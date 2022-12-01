@@ -8,6 +8,14 @@
     "tags": [{ "name": "ルーチル" }]
   },
   {
+    "characters": [{ "name": "ルーミア" }, { "name": "小悪魔" }],
+    "tags": [{ "name": "ルーこあ" }]
+  },
+  {
+    "characters": [{ "name": "ルーミア" }, { "name": "十六夜咲夜" }],
+    "tags": [{ "name": "ルーさく" }]
+  },
+  {
     "characters": [
       { "name": "ルーミア" },
       { "name": "レミリア・スカーレット" }
@@ -26,11 +34,34 @@
     ]
   },
   {
+    "characters": [{ "name": "ルーミア" }, { "name": "橙" }],
+    "tags": [{ "name": "ルー橙" }]
+  },
+  {
+    "characters": [{ "name": "ルーミア" }, { "name": "西行寺幽々子" }],
+    "tags": [{ "name": "ルーゆゆ" }]
+  },
+  {
     "characters": [
       { "name": "ルーミア" },
       { "name": "ミスティア・ローレライ" }
     ],
     "tags": [{ "name": "るーみすちー" }, { "name": "るーみす" }]
+  },
+  {
+    "characters": [{ "name": "ルーミア" }, { "name": "藤原妹紅" }],
+    "tags": [{ "name": "るーもこ" }]
+  },
+  {
+    "characters": [
+      { "name": "ルーミア" },
+      { "name": "メディスン・メランコリー" }
+    ],
+    "tags": [{ "name": "ルーメディ" }]
+  },
+  {
+    "characters": [{ "name": "ルーミア" }, { "name": "秋静葉" }],
+    "tags": [{ "name": "ルーしず" }]
   },
   {
     "characters": [{ "name": "ルーミア" }, { "name": "鍵山雛" }],
@@ -41,8 +72,36 @@
     "tags": [{ "name": "ルーもみ" }]
   },
   {
+    "characters": [{ "name": "ルーミア" }, { "name": "東風谷早苗" }],
+    "tags": [{ "name": "ルーさな" }]
+  },
+  {
+    "characters": [{ "name": "ルーミア" }, { "name": "洩矢諏訪子" }],
+    "tags": [{ "name": "るーすわ" }]
+  },
+  {
+    "characters": [{ "name": "ルーミア" }, { "name": "比那名居天子" }],
+    "tags": [{ "name": "るーてん" }]
+  },
+  {
+    "characters": [{ "name": "ルーミア" }, { "name": "水橋パルスィ" }],
+    "tags": [{ "name": "ルーパル" }]
+  },
+  {
+    "characters": [{ "name": "ルーミア" }, { "name": "古明地さとり" }],
+    "tags": [{ "name": "るーさと" }]
+  },
+  {
+    "characters": [{ "name": "ルーミア" }, { "name": "多々良小傘" }],
+    "tags": [{ "name": "るーこが" }]
+  },
+  {
     "characters": [{ "name": "ルーミア" }, { "name": "宮古芳香" }],
     "tags": [{ "name": "ルー宮" }]
+  },
+  {
+    "characters": [{ "name": "ルーミア" }, { "name": "豊聡耳神子" }],
+    "tags": [{ "name": "るーみこ" }]
   },
   {
     "characters": [{ "name": "ルーミア" }, { "name": "赤蛮奇" }],
@@ -53,11 +112,19 @@
     "tags": [{ "name": "大チル" }, { "name": "大チルが俺のアイシクルフォール" }]
   },
   {
+    "characters": [{ "name": "大妖精" }, { "name": "レミリア・スカーレット" }],
+    "tags": [{ "name": "大レミ" }]
+  },
+  {
     "characters": [
       { "name": "大妖精" },
       { "name": "フランドール・スカーレット" }
     ],
     "tags": [{ "name": "大フラ" }]
+  },
+  {
+    "characters": [{ "name": "大妖精" }, { "name": "レティ・ホワイトロック" }],
+    "tags": [{ "name": "大レティ" }]
   },
   {
     "characters": [{ "name": "大妖精" }, { "name": "リリーホワイト" }],
@@ -70,6 +137,14 @@
   {
     "characters": [{ "name": "大妖精" }, { "name": "ミスティア・ローレライ" }],
     "tags": [{ "name": "大ミス" }]
+  },
+  {
+    "characters": [{ "name": "大妖精" }, { "name": "東風谷早苗" }],
+    "tags": [{ "name": "だいさな" }]
+  },
+  {
+    "characters": [{ "name": "大妖精" }, { "name": "キスメ" }],
+    "tags": [{ "name": "大キス" }]
   },
   {
     "characters": [{ "name": "チルノ" }, { "name": "パチュリー・ノーレッジ" }],
@@ -91,6 +166,10 @@
     "tags": [{ "name": "チル橙" }]
   },
   {
+    "characters": [{ "name": "チルノ" }, { "name": "八雲藍" }],
+    "tags": [{ "name": "チル藍" }]
+  },
+  {
     "characters": [{ "name": "チルノ" }, { "name": "洩矢諏訪子" }],
     "tags": [{ "name": "ちるすわ" }]
   },
@@ -99,8 +178,16 @@
     "tags": [{ "name": "チルすず" }]
   },
   {
+    "characters": [{ "name": "チルノ" }, { "name": "寅丸星" }],
+    "tags": [{ "name": "チル星" }]
+  },
+  {
     "characters": [{ "name": "チルノ" }, { "name": "わかさぎ姫" }],
     "tags": [{ "name": "わかチル" }]
+  },
+  {
+    "characters": [{ "name": "チルノ" }, { "name": "少名針妙丸" }],
+    "tags": [{ "name": "チルしん" }]
   },
   {
     "characters": [{ "name": "チルノ" }, { "name": "クラウンピース" }],
@@ -143,6 +230,14 @@
     "tags": [{ "name": "めいちぇん" }]
   },
   {
+    "characters": [{ "name": "紅美鈴" }, { "name": "魂魄妖夢" }],
+    "tags": [{ "name": "めーみょん" }]
+  },
+  {
+    "characters": [{ "name": "紅美鈴" }, { "name": "リグル・ナイトバグ" }],
+    "tags": [{ "name": "めーリグ" }]
+  },
+  {
     "characters": [{ "name": "紅美鈴" }, { "name": "鈴仙・優曇華院・イナバ" }],
     "tags": [{ "name": "美鈴仙" }]
   },
@@ -151,12 +246,44 @@
     "tags": [{ "name": "えーりんめーりん" }, { "name": "美永" }]
   },
   {
+    "characters": [{ "name": "紅美鈴" }, { "name": "藤原妹紅" }],
+    "tags": [{ "name": "めーもこ" }]
+  },
+  {
+    "characters": [{ "name": "紅美鈴" }, { "name": "射命丸文" }],
+    "tags": [{ "name": "めーあや" }]
+  },
+  {
+    "characters": [{ "name": "紅美鈴" }, { "name": "鍵山雛" }],
+    "tags": [{ "name": "めーひな" }]
+  },
+  {
+    "characters": [{ "name": "紅美鈴" }, { "name": "犬走椛" }],
+    "tags": [{ "name": "めーもみ" }]
+  },
+  {
+    "characters": [{ "name": "紅美鈴" }, { "name": "東風谷早苗" }],
+    "tags": [{ "name": "めーさな" }]
+  },
+  {
+    "characters": [{ "name": "紅美鈴" }, { "name": "永江衣玖" }],
+    "tags": [{ "name": "めーいく" }]
+  },
+  {
     "characters": [{ "name": "紅美鈴" }, { "name": "比那名居天子" }],
     "tags": [{ "name": "めーてん" }]
   },
   {
+    "characters": [{ "name": "紅美鈴" }, { "name": "水橋パルスィ" }],
+    "tags": [{ "name": "めーパル" }]
+  },
+  {
     "characters": [{ "name": "紅美鈴" }, { "name": "星熊勇儀" }],
     "tags": [{ "name": "3ボス体育会系" }]
+  },
+  {
+    "characters": [{ "name": "紅美鈴" }, { "name": "火焔猫燐" }],
+    "tags": [{ "name": "紅美燐" }]
   },
   {
     "characters": [{ "name": "紅美鈴" }, { "name": "古明地こいし" }],
@@ -175,8 +302,20 @@
     "tags": [{ "name": "3ボス中華系" }]
   },
   {
+    "characters": [{ "name": "紅美鈴" }, { "name": "鬼人正邪" }],
+    "tags": [{ "name": "めーじゃ" }]
+  },
+  {
     "characters": [{ "name": "紅美鈴" }, { "name": "茨木華扇" }],
     "tags": [{ "name": "めーかせ" }]
+  },
+  {
+    "characters": [{ "name": "紅美鈴" }, { "name": "鈴瑚" }],
+    "tags": [{ "name": "美鈴瑚" }]
+  },
+  {
+    "characters": [{ "name": "紅美鈴" }, { "name": "ドレミー・スイート" }],
+    "tags": [{ "name": "めードレ" }]
   },
   {
     "characters": [{ "name": "紅美鈴" }, { "name": "吉弔八千慧" }],
@@ -185,6 +324,26 @@
   {
     "characters": [{ "name": "小悪魔" }, { "name": "大妖精" }],
     "tags": [{ "name": "こあだい" }, { "name": "だいこあ" }]
+  },
+  {
+    "characters": [{ "name": "小悪魔" }, { "name": "チルノ" }],
+    "tags": [{ "name": "こあチル" }]
+  },
+  {
+    "characters": [{ "name": "小悪魔" }, { "name": "ルナサ・プリズムリバー" }],
+    "tags": [{ "name": "こあルナ" }]
+  },
+  {
+    "characters": [{ "name": "小悪魔" }, { "name": "古明地こいし" }],
+    "tags": [{ "name": "こあこい" }]
+  },
+  {
+    "characters": [{ "name": "小悪魔" }, { "name": "ナズーリン" }],
+    "tags": [{ "name": "こあナズ" }]
+  },
+  {
+    "characters": [{ "name": "小悪魔" }, { "name": "ドレミー・スイート" }],
+    "tags": [{ "name": "こあドレ" }]
   },
   {
     "characters": [
@@ -250,6 +409,13 @@
   {
     "characters": [
       { "name": "パチュリー・ノーレッジ" },
+      { "name": "東風谷早苗" }
+    ],
+    "tags": [{ "name": "パチェさな" }]
+  },
+  {
+    "characters": [
+      { "name": "パチュリー・ノーレッジ" },
       { "name": "永江衣玖" }
     ],
     "tags": [{ "name": "イクパチュ" }]
@@ -269,6 +435,13 @@
     "tags": [{ "name": "パチェこい" }, { "name": "こいパチェ" }]
   },
   {
+    "characters": [
+      { "name": "パチュリー・ノーレッジ" },
+      { "name": "ナズーリン" }
+    ],
+    "tags": [{ "name": "パチュナズ" }]
+  },
+  {
     "characters": [{ "name": "十六夜咲夜" }, { "name": "チルノ" }],
     "tags": [{ "name": "咲チル" }]
   },
@@ -282,17 +455,6 @@
       { "name": "パチュリー・ノーレッジ" }
     ],
     "tags": [{ "name": "咲パチェ" }]
-  },
-  {
-    "characters": [
-      { "name": "十六夜咲夜" },
-      { "name": "レミリア・スカーレット" }
-    ],
-    "tags": [
-      { "name": "咲レミ" },
-      { "name": "レミ咲" },
-      { "name": "レミ咲が今日のティータイム" }
-    ]
   },
   {
     "characters": [
@@ -322,13 +484,6 @@
     "tags": [{ "name": "咲もこ" }]
   },
   {
-    "characters": [
-      { "name": "十六夜咲夜" },
-      { "name": "メディスン・メランコリー" }
-    ],
-    "tags": [{ "name": "咲メディ" }]
-  },
-  {
     "characters": [{ "name": "十六夜咲夜" }, { "name": "小野塚小町" }],
     "tags": [{ "name": "こまさく" }]
   },
@@ -349,6 +504,34 @@
     "tags": [{ "name": "いくさく" }]
   },
   {
+    "characters": [{ "name": "十六夜咲夜" }, { "name": "水橋パルスィ" }],
+    "tags": [{ "name": "さくパル" }]
+  },
+  {
+    "characters": [{ "name": "十六夜咲夜" }, { "name": "赤蛮奇" }],
+    "tags": [{ "name": "さくばんき" }]
+  },
+  {
+    "characters": [{ "name": "十六夜咲夜" }, { "name": "今泉影狼" }],
+    "tags": [{ "name": "咲影" }]
+  },
+  {
+    "characters": [{ "name": "十六夜咲夜" }, { "name": "少名針妙丸" }],
+    "tags": [{ "name": "咲針" }]
+  },
+  {
+    "characters": [{ "name": "十六夜咲夜" }, { "name": "秦こころ" }],
+    "tags": [{ "name": "さくここ" }]
+  },
+  {
+    "characters": [{ "name": "十六夜咲夜" }, { "name": "茨木華扇" }],
+    "tags": [{ "name": "さくかせ" }]
+  },
+  {
+    "characters": [{ "name": "十六夜咲夜" }, { "name": "天弓千亦" }],
+    "tags": [{ "name": "さくちま" }]
+  },
+  {
     "characters": [{ "name": "レミリア・スカーレット" }, { "name": "小悪魔" }],
     "tags": [{ "name": "れみこあ" }, { "name": "レミこあ" }]
   },
@@ -362,9 +545,31 @@
   {
     "characters": [
       { "name": "レミリア・スカーレット" },
+      { "name": "十六夜咲夜" }
+    ],
+    "tags": [
+      { "name": "レミ咲" },
+      { "name": "咲レミ" },
+      { "name": "レミ咲が今日のティータイム" }
+    ]
+  },
+  {
+    "characters": [
+      { "name": "レミリア・スカーレット" },
       { "name": "フランドール・スカーレット" }
     ],
     "tags": [{ "name": "レミフラ" }, { "name": "スカーレット姉妹" }]
+  },
+  {
+    "characters": [{ "name": "レミリア・スカーレット" }, { "name": "橙" }],
+    "tags": [{ "name": "レミ橙" }]
+  },
+  {
+    "characters": [
+      { "name": "レミリア・スカーレット" },
+      { "name": "メルラン・プリズムリバー" }
+    ],
+    "tags": [{ "name": "レミメル" }]
   },
   {
     "characters": [
@@ -374,8 +579,77 @@
     "tags": [{ "name": "レミみょん" }]
   },
   {
+    "characters": [{ "name": "レミリア・スカーレット" }, { "name": "八雲藍" }],
+    "tags": [{ "name": "レミ藍" }]
+  },
+  {
     "characters": [{ "name": "レミリア・スカーレット" }, { "name": "八雲紫" }],
-    "tags": [{ "name": "レミゆか" }]
+    "tags": [{ "name": "ゆかレミ" }]
+  },
+  {
+    "characters": [
+      { "name": "レミリア・スカーレット" },
+      { "name": "藤原妹紅" }
+    ],
+    "tags": [{ "name": "レミもこ" }]
+  },
+  {
+    "characters": [{ "name": "レミリア・スカーレット" }, { "name": "鍵山雛" }],
+    "tags": [{ "name": "レミ雛" }]
+  },
+  {
+    "characters": [
+      { "name": "レミリア・スカーレット" },
+      { "name": "河城にとり" }
+    ],
+    "tags": [{ "name": "レミにと" }]
+  },
+  {
+    "characters": [{ "name": "レミリア・スカーレット" }, { "name": "犬走椛" }],
+    "tags": [{ "name": "レミもみ" }]
+  },
+  {
+    "characters": [
+      { "name": "レミリア・スカーレット" },
+      { "name": "洩矢諏訪子" }
+    ],
+    "tags": [{ "name": "レミすわ" }]
+  },
+  {
+    "characters": [{ "name": "レミリア・スカーレット" }, { "name": "キスメ" }],
+    "tags": [{ "name": "レミキス" }]
+  },
+  {
+    "characters": [
+      { "name": "レミリア・スカーレット" },
+      { "name": "霊烏路空" }
+    ],
+    "tags": [{ "name": "レミ空" }]
+  },
+  {
+    "characters": [
+      { "name": "レミリア・スカーレット" },
+      { "name": "ナズーリン" }
+    ],
+    "tags": [{ "name": "レミナズ" }]
+  },
+  {
+    "characters": [{ "name": "レミリア・スカーレット" }, { "name": "寅丸星" }],
+    "tags": [{ "name": "レミ星" }]
+  },
+  {
+    "characters": [
+      { "name": "レミリア・スカーレット" },
+      { "name": "幽谷響子" }
+    ],
+    "tags": [{ "name": "レミ響" }]
+  },
+  {
+    "characters": [
+      { "name": "レミリア・スカーレット" },
+      { "name": "鬼人正邪" }
+    ],
+    "tags": [{ "name": "レミ正" }]
   },
   {
     "characters": [
@@ -387,9 +661,23 @@
   {
     "characters": [
       { "name": "レミリア・スカーレット" },
+      { "name": "ヘカーティア・ラピスラズリ" }
+    ],
+    "tags": [{ "name": "レミヘカ" }]
+  },
+  {
+    "characters": [
+      { "name": "レミリア・スカーレット" },
       { "name": "綿月依姫" }
     ],
     "tags": [{ "name": "レミ依" }]
+  },
+  {
+    "characters": [
+      { "name": "レミリア・スカーレット" },
+      { "name": "依神紫苑" }
+    ],
+    "tags": [{ "name": "レミしおん" }]
   },
   {
     "characters": [
@@ -397,6 +685,38 @@
       { "name": "小悪魔" }
     ],
     "tags": [{ "name": "ふらこあ" }, { "name": "こあフラ" }]
+  },
+  {
+    "characters": [{ "name": "フランドール・スカーレット" }, { "name": "橙" }],
+    "tags": [{ "name": "フラちぇん" }]
+  },
+  {
+    "characters": [
+      { "name": "フランドール・スカーレット" },
+      { "name": "ルナサ・プリズムリバー" }
+    ],
+    "tags": [{ "name": "フラルナ" }]
+  },
+  {
+    "characters": [
+      { "name": "フランドール・スカーレット" },
+      { "name": "八雲紫" }
+    ],
+    "tags": [{ "name": "フラゆか" }]
+  },
+  {
+    "characters": [
+      { "name": "フランドール・スカーレット" },
+      { "name": "ミスティア・ローレライ" }
+    ],
+    "tags": [{ "name": "フラミス" }]
+  },
+  {
+    "characters": [
+      { "name": "フランドール・スカーレット" },
+      { "name": "因幡てゐ" }
+    ],
+    "tags": [{ "name": "ふらんてゐ" }]
   },
   {
     "characters": [
@@ -408,9 +728,23 @@
   {
     "characters": [
       { "name": "フランドール・スカーレット" },
+      { "name": "蓬莱山輝夜" }
+    ],
+    "tags": [{ "name": "フラ輝" }]
+  },
+  {
+    "characters": [
+      { "name": "フランドール・スカーレット" },
       { "name": "メディスン・メランコリー" }
     ],
     "tags": [{ "name": "フラメディ" }]
+  },
+  {
+    "characters": [
+      { "name": "フランドール・スカーレット" },
+      { "name": "比那名居天子" }
+    ],
+    "tags": [{ "name": "フラてん" }]
   },
   {
     "characters": [
@@ -429,9 +763,23 @@
   {
     "characters": [
       { "name": "フランドール・スカーレット" },
+      { "name": "二ッ岩マミゾウ" }
+    ],
+    "tags": [{ "name": "フラマミ" }]
+  },
+  {
+    "characters": [
+      { "name": "フランドール・スカーレット" },
       { "name": "鬼人正邪" }
     ],
     "tags": [{ "name": "フラ正" }]
+  },
+  {
+    "characters": [
+      { "name": "フランドール・スカーレット" },
+      { "name": "秦こころ" }
+    ],
+    "tags": [{ "name": "フラここ" }]
   },
   {
     "characters": [
@@ -441,8 +789,36 @@
     "tags": [{ "name": "フラクラ" }]
   },
   {
+    "characters": [
+      { "name": "フランドール・スカーレット" },
+      { "name": "純狐" }
+    ],
+    "tags": [{ "name": "フラ純" }]
+  },
+  {
     "characters": [{ "name": "レティ・ホワイトロック" }, { "name": "チルノ" }],
     "tags": [{ "name": "レティチル" }, { "name": "レティチルは雪の結晶" }]
+  },
+  {
+    "characters": [
+      { "name": "レティ・ホワイトロック" },
+      { "name": "十六夜咲夜" }
+    ],
+    "tags": [{ "name": "レティ咲" }]
+  },
+  {
+    "characters": [
+      { "name": "レティ・ホワイトロック" },
+      { "name": "レミリア・スカーレット" }
+    ],
+    "tags": [{ "name": "レティレミ" }]
+  },
+  {
+    "characters": [
+      { "name": "レティ・ホワイトロック" },
+      { "name": "フランドール・スカーレット" }
+    ],
+    "tags": [{ "name": "レティフラ" }]
   },
   {
     "characters": [
@@ -452,8 +828,61 @@
     "tags": [{ "name": "レティリリ" }]
   },
   {
+    "characters": [
+      { "name": "レティ・ホワイトロック" },
+      { "name": "魂魄妖夢" }
+    ],
+    "tags": [{ "name": "レティみょん" }]
+  },
+  {
+    "characters": [
+      { "name": "レティ・ホワイトロック" },
+      { "name": "上白沢慧音" }
+    ],
+    "tags": [{ "name": "レティけーね" }]
+  },
+  {
+    "characters": [
+      { "name": "レティ・ホワイトロック" },
+      { "name": "四季映姫・ヤマザナドゥ" }
+    ],
+    "tags": [{ "name": "レティえーき" }]
+  },
+  {
+    "characters": [
+      { "name": "レティ・ホワイトロック" },
+      { "name": "藤原妹紅" }
+    ],
+    "tags": [{ "name": "レティもこ" }]
+  },
+  {
+    "characters": [{ "name": "レティ・ホワイトロック" }, { "name": "秋穣子" }],
+    "tags": [{ "name": "レティみの" }]
+  },
+  {
     "characters": [{ "name": "レティ・ホワイトロック" }, { "name": "鍵山雛" }],
     "tags": [{ "name": "レティ雛" }]
+  },
+  {
+    "characters": [
+      { "name": "レティ・ホワイトロック" },
+      { "name": "水橋パルスィ" }
+    ],
+    "tags": [{ "name": "レティパル" }]
+  },
+  {
+    "characters": [
+      { "name": "レティ・ホワイトロック" },
+      { "name": "古明地こいし" }
+    ],
+    "tags": [{ "name": "レティこい" }]
+  },
+  {
+    "characters": [
+      { "name": "レティ・ホワイトロック" },
+      { "name": "わかさぎ姫" }
+    ],
+    "tags": [{ "name": "レティわか" }]
   },
   {
     "characters": [{ "name": "橙" }, { "name": "魂魄妖夢" }],
@@ -472,16 +901,73 @@
     "tags": [{ "name": "ナズ橙" }, { "name": "橙ナズ" }]
   },
   {
+    "characters": [{ "name": "橙" }, { "name": "わかさぎ姫" }],
+    "tags": [{ "name": "ちぇんわか" }]
+  },
+  {
+    "characters": [{ "name": "橙" }, { "name": "鬼人正邪" }],
+    "tags": [{ "name": "橙正" }]
+  },
+  {
     "characters": [{ "name": "上海人形" }, { "name": "小悪魔" }],
     "tags": [{ "name": "上こあ" }]
+  },
+  {
+    "characters": [{ "name": "リリーホワイト" }, { "name": "チルノ" }],
+    "tags": [{ "name": "リリチル" }]
+  },
+  {
+    "characters": [{ "name": "リリーホワイト" }, { "name": "十六夜咲夜" }],
+    "tags": [{ "name": "リリ咲" }]
+  },
+  {
+    "characters": [
+      { "name": "リリーホワイト" },
+      { "name": "フランドール・スカーレット" }
+    ],
+    "tags": [{ "name": "リリフラ" }]
   },
   {
     "characters": [{ "name": "リリーホワイト" }, { "name": "リリーブラック" }],
     "tags": [{ "name": "リリリリ" }]
   },
   {
+    "characters": [{ "name": "リリーホワイト" }, { "name": "比那名居天子" }],
+    "tags": [{ "name": "リリてん" }]
+  },
+  {
+    "characters": [{ "name": "リリーホワイト" }, { "name": "多々良小傘" }],
+    "tags": [{ "name": "リリこが" }]
+  },
+  {
+    "characters": [{ "name": "リリーホワイト" }, { "name": "クラウンピース" }],
+    "tags": [{ "name": "リリクラ" }]
+  },
+  {
+    "characters": [
+      { "name": "リリーホワイト" },
+      { "name": "エタニティラルバ" }
+    ],
+    "tags": [{ "name": "リリラル" }]
+  },
+  {
+    "characters": [{ "name": "リリーホワイト" }, { "name": "朱鷺子" }],
+    "tags": [{ "name": "リリトキ" }]
+  },
+  {
+    "characters": [
+      { "name": "リリーホワイト" },
+      { "name": "スターサファイア" }
+    ],
+    "tags": [{ "name": "リリスタ" }]
+  },
+  {
     "characters": [{ "name": "ルナサ・プリズムリバー" }, { "name": "大妖精" }],
     "tags": [{ "name": "ルナ大" }]
+  },
+  {
+    "characters": [{ "name": "ルナサ・プリズムリバー" }, { "name": "橙" }],
+    "tags": [{ "name": "ルナ橙" }]
   },
   {
     "characters": [
@@ -489,6 +975,13 @@
       { "name": "魂魄妖夢" }
     ],
     "tags": [{ "name": "ルナみょん" }]
+  },
+  {
+    "characters": [
+      { "name": "ルナサ・プリズムリバー" },
+      { "name": "西行寺幽々子" }
+    ],
+    "tags": [{ "name": "ルナゆゆ" }]
   },
   {
     "characters": [{ "name": "ルナサ・プリズムリバー" }, { "name": "秋静葉" }],
@@ -500,6 +993,13 @@
       { "name": "九十九弁々" }
     ],
     "tags": [{ "name": "ルナ弁" }]
+  },
+  {
+    "characters": [
+      { "name": "ルナサ・プリズムリバー" },
+      { "name": "ルナチャイルド" }
+    ],
+    "tags": [{ "name": "ルナルナ" }]
   },
   {
     "characters": [
@@ -528,6 +1028,13 @@
   },
   {
     "characters": [
+      { "name": "メルラン・プリズムリバー" },
+      { "name": "九十九弁々" }
+    ],
+    "tags": [{ "name": "メル弁" }]
+  },
+  {
+    "characters": [
       { "name": "リリカ・プリズムリバー" },
       { "name": "ルナサ・プリズムリバー" }
     ],
@@ -541,11 +1048,15 @@
     "tags": [{ "name": "リリ八" }]
   },
   {
+    "characters": [
+      { "name": "リリカ・プリズムリバー" },
+      { "name": "スターサファイア" }
+    ],
+    "tags": [{ "name": "リリスター" }]
+  },
+  {
     "characters": [{ "name": "魂魄妖夢" }, { "name": "ルーミア" }],
-    "tags": [
-      { "name": "みょんミア" },
-      { "name": "みょんミアは俺のなけなしの春" }
-    ]
+    "tags": [{ "name": "みょんミア" }]
   },
   {
     "characters": [{ "name": "魂魄妖夢" }, { "name": "チルノ" }],
@@ -566,6 +1077,10 @@
     "tags": [{ "name": "フラみょん" }]
   },
   {
+    "characters": [{ "name": "魂魄妖夢" }, { "name": "リリーホワイト" }],
+    "tags": [{ "name": "リリみょん" }]
+  },
+  {
     "characters": [{ "name": "魂魄妖夢" }, { "name": "犬走椛" }],
     "tags": [{ "name": "みょんもみ" }]
   },
@@ -582,8 +1097,35 @@
     "tags": [{ "name": "こがみょん" }]
   },
   {
+    "characters": [{ "name": "魂魄妖夢" }, { "name": "村紗水蜜" }],
+    "tags": [{ "name": "みょんムラ" }]
+  },
+  {
+    "characters": [{ "name": "魂魄妖夢" }, { "name": "蘇我屠自古" }],
+    "tags": [{ "name": "みょんとじ" }]
+  },
+  {
+    "characters": [{ "name": "魂魄妖夢" }, { "name": "二ッ岩マミゾウ" }],
+    "tags": [{ "name": "みょんマミ" }]
+  },
+  {
+    "characters": [{ "name": "魂魄妖夢" }, { "name": "稗田阿求" }],
+    "tags": [{ "name": "みょんあきゅ" }]
+  },
+  {
+    "characters": [{ "name": "魂魄妖夢" }, { "name": "茨木華扇" }],
+    "tags": [{ "name": "みょんかせ" }]
+  },
+  {
     "characters": [{ "name": "西行寺幽々子" }, { "name": "チルノ" }],
     "tags": [{ "name": "ゆゆチル" }]
+  },
+  {
+    "characters": [
+      { "name": "西行寺幽々子" },
+      { "name": "レミリア・スカーレット" }
+    ],
+    "tags": [{ "name": "ゆゆレミ" }]
   },
   {
     "characters": [
@@ -615,10 +1157,6 @@
     "tags": [{ "name": "ゆゆらん" }]
   },
   {
-    "characters": [{ "name": "西行寺幽々子" }, { "name": "蓬莱山輝夜" }],
-    "tags": [{ "name": "ゆゆかぐ" }]
-  },
-  {
     "characters": [
       { "name": "西行寺幽々子" },
       { "name": "ミスティア・ローレライ" }
@@ -626,11 +1164,45 @@
     "tags": [{ "name": "ゆゆみす" }, { "name": "ゆゆミス" }]
   },
   {
+    "characters": [{ "name": "西行寺幽々子" }, { "name": "上白沢慧音" }],
+    "tags": [{ "name": "ゆゆけね" }]
+  },
+  {
+    "characters": [{ "name": "西行寺幽々子" }, { "name": "蓬莱山輝夜" }],
+    "tags": [{ "name": "ゆゆかぐ" }]
+  },
+  {
+    "characters": [{ "name": "西行寺幽々子" }, { "name": "藤原妹紅" }],
+    "tags": [{ "name": "ゆゆもこ" }]
+  },
+  {
+    "characters": [{ "name": "西行寺幽々子" }, { "name": "射命丸文" }],
+    "tags": [{ "name": "ゆゆあや" }]
+  },
+  {
+    "characters": [
+      { "name": "西行寺幽々子" },
+      { "name": "メディスン・メランコリー" }
+    ],
+    "tags": [{ "name": "ゆゆメディ" }]
+  },
+  {
+    "characters": [
+      { "name": "西行寺幽々子" },
+      { "name": "四季映姫・ヤマザナドゥ" }
+    ],
+    "tags": [{ "name": "ゆゆえーき" }]
+  },
+  {
     "characters": [{ "name": "西行寺幽々子" }, { "name": "鍵山雛" }],
     "tags": [
       { "name": "ゆゆひな" },
       { "name": "ゆゆひなは俺のモーストデンジャラスコンビ" }
     ]
+  },
+  {
+    "characters": [{ "name": "西行寺幽々子" }, { "name": "東風谷早苗" }],
+    "tags": [{ "name": "ゆゆさな" }]
   },
   {
     "characters": [{ "name": "西行寺幽々子" }, { "name": "八坂神奈子" }],
@@ -645,6 +1217,14 @@
     "tags": [{ "name": "ゆゆヤマ" }]
   },
   {
+    "characters": [{ "name": "西行寺幽々子" }, { "name": "水橋パルスィ" }],
+    "tags": [{ "name": "ゆゆパル" }]
+  },
+  {
+    "characters": [{ "name": "西行寺幽々子" }, { "name": "古明地さとり" }],
+    "tags": [{ "name": "ゆゆさと" }]
+  },
+  {
     "characters": [{ "name": "西行寺幽々子" }, { "name": "古明地こいし" }],
     "tags": [{ "name": "ゆゆこい" }]
   },
@@ -657,12 +1237,31 @@
     ]
   },
   {
+    "characters": [{ "name": "西行寺幽々子" }, { "name": "霍青娥" }],
+    "tags": [{ "name": "ゆゆせい" }]
+  },
+  {
+    "characters": [{ "name": "西行寺幽々子" }, { "name": "わかさぎ姫" }],
+    "tags": [{ "name": "ゆゆわか" }]
+  },
+  {
+    "characters": [{ "name": "西行寺幽々子" }, { "name": "少名針妙丸" }],
+    "tags": [{ "name": "ゆゆ針" }]
+  },
+  {
     "characters": [{ "name": "西行寺幽々子" }, { "name": "秦こころ" }],
     "tags": [{ "name": "ゆゆここ" }]
   },
   {
     "characters": [{ "name": "西行寺幽々子" }, { "name": "魂魄妖忌" }],
     "tags": [{ "name": "ゆゆよーき" }]
+  },
+  {
+    "characters": [
+      { "name": "西行寺幽々子" },
+      { "name": "マエリベリー・ハーン" }
+    ],
+    "tags": [{ "name": "ゆゆメリー" }]
   },
   {
     "characters": [{ "name": "八雲藍" }, { "name": "橙" }],
@@ -675,6 +1274,22 @@
   {
     "characters": [{ "name": "八雲藍" }, { "name": "犬走椛" }],
     "tags": [{ "name": "らんもみ" }]
+  },
+  {
+    "characters": [{ "name": "八雲藍" }, { "name": "東風谷早苗" }],
+    "tags": [{ "name": "らんさな" }]
+  },
+  {
+    "characters": [{ "name": "八雲藍" }, { "name": "八坂神奈子" }],
+    "tags": [{ "name": "らんかな" }]
+  },
+  {
+    "characters": [{ "name": "八雲藍" }, { "name": "火焔猫燐" }],
+    "tags": [{ "name": "らん燐" }]
+  },
+  {
+    "characters": [{ "name": "八雲藍" }, { "name": "古明地こいし" }],
+    "tags": [{ "name": "藍こい" }]
   },
   {
     "characters": [{ "name": "八雲藍" }, { "name": "寅丸星" }],
@@ -695,6 +1310,10 @@
   {
     "characters": [{ "name": "八雲紫" }, { "name": "紅美鈴" }],
     "tags": [{ "name": "ゆかめー" }, { "name": "めーゆか" }]
+  },
+  {
+    "characters": [{ "name": "八雲紫" }, { "name": "パチュリー・ノーレッジ" }],
+    "tags": [{ "name": "ゆかパチェ" }]
   },
   {
     "characters": [{ "name": "八雲紫" }, { "name": "十六夜咲夜" }],
@@ -729,12 +1348,16 @@
     "tags": [{ "name": "ゆかゆか" }]
   },
   {
-    "characters": [{ "name": "八雲紫" }, { "name": "伊吹萃香" }],
-    "tags": [{ "name": "ゆかすいか" }]
+    "characters": [{ "name": "八雲紫" }, { "name": "リグル・ナイトバグ" }],
+    "tags": [{ "name": "ゆかリグ" }]
   },
   {
     "characters": [{ "name": "八雲紫" }, { "name": "上白沢慧音" }],
     "tags": [{ "name": "ゆかけーね" }]
+  },
+  {
+    "characters": [{ "name": "八雲紫" }, { "name": "因幡てゐ" }],
+    "tags": [{ "name": "ゆかてゐ" }]
   },
   {
     "characters": [{ "name": "八雲紫" }, { "name": "八意永琳" }],
@@ -743,6 +1366,10 @@
       { "name": "えーゆか" },
       { "name": "ゆかえーは難易度エロティック" }
     ]
+  },
+  {
+    "characters": [{ "name": "八雲紫" }, { "name": "蓬莱山輝夜" }],
+    "tags": [{ "name": "ゆかかぐ" }]
   },
   {
     "characters": [{ "name": "八雲紫" }, { "name": "藤原妹紅" }],
@@ -757,12 +1384,27 @@
     "tags": [{ "name": "ゆかあや" }]
   },
   {
+    "characters": [
+      { "name": "八雲紫" },
+      { "name": "メディスン・メランコリー" }
+    ],
+    "tags": [{ "name": "ゆかメディ" }]
+  },
+  {
     "characters": [{ "name": "八雲紫" }, { "name": "風見幽香" }],
     "tags": [{ "name": "ゆかゆうか" }]
   },
   {
     "characters": [{ "name": "八雲紫" }, { "name": "四季映姫・ヤマザナドゥ" }],
     "tags": [{ "name": "ゆかえーき" }]
+  },
+  {
+    "characters": [{ "name": "八雲紫" }, { "name": "犬走椛" }],
+    "tags": [{ "name": "ゆかもみじ" }]
+  },
+  {
+    "characters": [{ "name": "八雲紫" }, { "name": "東風谷早苗" }],
+    "tags": [{ "name": "ゆかさな" }]
   },
   {
     "characters": [{ "name": "八雲紫" }, { "name": "八坂神奈子" }],
@@ -773,16 +1415,36 @@
     "tags": [{ "name": "ゆかすわ" }]
   },
   {
+    "characters": [{ "name": "八雲紫" }, { "name": "永江衣玖" }],
+    "tags": [{ "name": "ゆかいく" }]
+  },
+  {
     "characters": [{ "name": "八雲紫" }, { "name": "比那名居天子" }],
     "tags": [{ "name": "ゆかてん" }]
+  },
+  {
+    "characters": [{ "name": "八雲紫" }, { "name": "水橋パルスィ" }],
+    "tags": [{ "name": "ゆかパル" }]
+  },
+  {
+    "characters": [{ "name": "八雲紫" }, { "name": "星熊勇儀" }],
+    "tags": [{ "name": "ゆかゆうぎ" }]
   },
   {
     "characters": [{ "name": "八雲紫" }, { "name": "古明地さとり" }],
     "tags": [{ "name": "ゆかさと" }]
   },
   {
+    "characters": [{ "name": "八雲紫" }, { "name": "古明地こいし" }],
+    "tags": [{ "name": "ゆかこい" }]
+  },
+  {
     "characters": [{ "name": "八雲紫" }, { "name": "多々良小傘" }],
     "tags": [{ "name": "こがゆか" }]
+  },
+  {
+    "characters": [{ "name": "八雲紫" }, { "name": "聖白蓮" }],
+    "tags": [{ "name": "ゆかひじ" }]
   },
   {
     "characters": [{ "name": "八雲紫" }, { "name": "幽谷響子" }],
@@ -802,7 +1464,15 @@
   },
   {
     "characters": [{ "name": "八雲紫" }, { "name": "宇佐見蓮子" }],
-    "tags": [{ "name": "ゆかれんこ" }, { "name": "蓮紫" }]
+    "tags": [{ "name": "ゆかれんこ" }]
+  },
+  {
+    "characters": [{ "name": "八雲紫" }, { "name": "稀神サグメ" }],
+    "tags": [{ "name": "ゆかサグ" }]
+  },
+  {
+    "characters": [{ "name": "八雲紫" }, { "name": "依神女苑" }],
+    "tags": [{ "name": "ゆかじょおん" }]
   },
   {
     "characters": [{ "name": "八雲紫" }, { "name": "マエリベリー・ハーン" }],
@@ -813,8 +1483,54 @@
     "tags": [{ "name": "ゆかルナ" }]
   },
   {
+    "characters": [{ "name": "伊吹萃香" }, { "name": "チルノ" }],
+    "tags": [{ "name": "すいチル" }]
+  },
+  {
+    "characters": [{ "name": "伊吹萃香" }, { "name": "紅美鈴" }],
+    "tags": [{ "name": "すいめい" }]
+  },
+  {
+    "characters": [
+      { "name": "伊吹萃香" },
+      { "name": "レミリア・スカーレット" }
+    ],
+    "tags": [{ "name": "萃レミ" }]
+  },
+  {
+    "characters": [
+      { "name": "伊吹萃香" },
+      { "name": "フランドール・スカーレット" }
+    ],
+    "tags": [{ "name": "萃フラ" }]
+  },
+  {
+    "characters": [{ "name": "伊吹萃香" }, { "name": "八雲紫" }],
+    "tags": [{ "name": "すいゆか" }, { "name": "ゆかすいか" }]
+  },
+  {
+    "characters": [{ "name": "伊吹萃香" }, { "name": "射命丸文" }],
+    "tags": [{ "name": "萃文" }]
+  },
+  {
+    "characters": [{ "name": "伊吹萃香" }, { "name": "風見幽香" }],
+    "tags": [{ "name": "萃幽" }]
+  },
+  {
+    "characters": [{ "name": "伊吹萃香" }, { "name": "藤原妹紅" }],
+    "tags": [{ "name": "すいもこ" }]
+  },
+  {
+    "characters": [{ "name": "伊吹萃香" }, { "name": "河城にとり" }],
+    "tags": [{ "name": "すいにと" }]
+  },
+  {
     "characters": [{ "name": "伊吹萃香" }, { "name": "比那名居天子" }],
     "tags": [{ "name": "すいてん" }]
+  },
+  {
+    "characters": [{ "name": "伊吹萃香" }, { "name": "水橋パルスィ" }],
+    "tags": [{ "name": "萃パル" }]
   },
   {
     "characters": [{ "name": "伊吹萃香" }, { "name": "星熊勇儀" }],
@@ -822,7 +1538,7 @@
   },
   {
     "characters": [{ "name": "伊吹萃香" }, { "name": "少名針妙丸" }],
-    "tags": [{ "name": "すいしん" }, { "name": "萃針" }]
+    "tags": [{ "name": "すいしん" }]
   },
   {
     "characters": [{ "name": "リグル・ナイトバグ" }, { "name": "ルーミア" }],
@@ -835,9 +1551,39 @@
   {
     "characters": [
       { "name": "リグル・ナイトバグ" },
+      { "name": "レミリア・スカーレット" }
+    ],
+    "tags": [{ "name": "リグレミ" }]
+  },
+  {
+    "characters": [{ "name": "リグル・ナイトバグ" }, { "name": "橙" }],
+    "tags": [{ "name": "リグちぇん" }]
+  },
+  {
+    "characters": [
+      { "name": "リグル・ナイトバグ" },
       { "name": "ルナサ・プリズムリバー" }
     ],
     "tags": [{ "name": "リグルナ" }]
+  },
+  {
+    "characters": [{ "name": "リグル・ナイトバグ" }, { "name": "魂魄妖夢" }],
+    "tags": [{ "name": "リグみょん" }]
+  },
+  {
+    "characters": [{ "name": "リグル・ナイトバグ" }, { "name": "キスメ" }],
+    "tags": [{ "name": "キスリグ" }]
+  },
+  {
+    "characters": [
+      { "name": "リグル・ナイトバグ" },
+      { "name": "二ッ岩マミゾウ" }
+    ],
+    "tags": [{ "name": "リグマミ" }]
+  },
+  {
+    "characters": [{ "name": "リグル・ナイトバグ" }, { "name": "本居小鈴" }],
+    "tags": [{ "name": "リグ鈴" }]
   },
   {
     "characters": [{ "name": "ミスティア・ローレライ" }, { "name": "チルノ" }],
@@ -851,12 +1597,41 @@
     "tags": [{ "name": "ミスリグ" }]
   },
   {
+    "characters": [
+      { "name": "ミスティア・ローレライ" },
+      { "name": "因幡てゐ" }
+    ],
+    "tags": [{ "name": "ミスてゐア" }]
+  },
+  {
     "characters": [{ "name": "上白沢慧音" }, { "name": "チルノ" }],
     "tags": [{ "name": "けねチル" }, { "name": "チルけね" }]
   },
   {
+    "characters": [
+      { "name": "上白沢慧音" },
+      { "name": "フランドール・スカーレット" }
+    ],
+    "tags": [{ "name": "けねフラ" }]
+  },
+  {
+    "characters": [{ "name": "上白沢慧音" }, { "name": "リグル・ナイトバグ" }],
+    "tags": [{ "name": "けねリグ" }]
+  },
+  {
+    "characters": [
+      { "name": "上白沢慧音" },
+      { "name": "ミスティア・ローレライ" }
+    ],
+    "tags": [{ "name": "けねみす" }]
+  },
+  {
     "characters": [{ "name": "上白沢慧音" }, { "name": "上白沢慧音" }],
     "tags": [{ "name": "けねけね" }]
+  },
+  {
+    "characters": [{ "name": "上白沢慧音" }, { "name": "因幡てゐ" }],
+    "tags": [{ "name": "けねてゐ" }]
   },
   {
     "characters": [{ "name": "上白沢慧音" }, { "name": "藤原妹紅" }],
@@ -868,11 +1643,19 @@
     ]
   },
   {
+    "characters": [{ "name": "上白沢慧音" }, { "name": "射命丸文" }],
+    "tags": [{ "name": "けねあや" }]
+  },
+  {
     "characters": [
       { "name": "上白沢慧音" },
       { "name": "四季映姫・ヤマザナドゥ" }
     ],
     "tags": [{ "name": "白沢えーき" }]
+  },
+  {
+    "characters": [{ "name": "上白沢慧音" }, { "name": "比那名居天子" }],
+    "tags": [{ "name": "けねてん" }]
   },
   {
     "characters": [{ "name": "上白沢慧音" }, { "name": "稗田阿求" }],
@@ -887,8 +1670,20 @@
     ]
   },
   {
+    "characters": [{ "name": "上白沢慧音" }, { "name": "宇佐見菫子" }],
+    "tags": [{ "name": "けねすみ" }]
+  },
+  {
     "characters": [{ "name": "因幡てゐ" }, { "name": "チルノ" }],
     "tags": [{ "name": "てゐチル" }]
+  },
+  {
+    "characters": [{ "name": "因幡てゐ" }, { "name": "紅美鈴" }],
+    "tags": [{ "name": "てゐめい" }]
+  },
+  {
+    "characters": [{ "name": "因幡てゐ" }, { "name": "魂魄妖夢" }],
+    "tags": [{ "name": "てゐみょん" }]
   },
   {
     "characters": [{ "name": "因幡てゐ" }, { "name": "リグル・ナイトバグ" }],
@@ -909,8 +1704,16 @@
     "tags": [{ "name": "てゐメディ" }]
   },
   {
+    "characters": [{ "name": "因幡てゐ" }, { "name": "古明地こいし" }],
+    "tags": [{ "name": "てゐこい" }]
+  },
+  {
     "characters": [{ "name": "因幡てゐ" }, { "name": "鬼人正邪" }],
     "tags": [{ "name": "てゐじゃ" }]
+  },
+  {
+    "characters": [{ "name": "因幡てゐ" }, { "name": "清蘭" }],
+    "tags": [{ "name": "てゐらん" }]
   },
   {
     "characters": [{ "name": "鈴仙・優曇華院・イナバ" }, { "name": "チルノ" }],
@@ -924,11 +1727,33 @@
     "tags": [{ "name": "うどさく" }]
   },
   {
+    "characters": [{ "name": "鈴仙・優曇華院・イナバ" }, { "name": "橙" }],
+    "tags": [{ "name": "うどちぇん" }]
+  },
+  {
+    "characters": [
+      { "name": "鈴仙・優曇華院・イナバ" },
+      { "name": "リリーホワイト" }
+    ],
+    "tags": [{ "name": "うどリリ" }]
+  },
+  {
     "characters": [
       { "name": "鈴仙・優曇華院・イナバ" },
       { "name": "魂魄妖夢" }
     ],
     "tags": [{ "name": "うどみょん" }, { "name": "うどみょんは俺の銃刀法違反" }]
+  },
+  {
+    "characters": [{ "name": "鈴仙・優曇華院・イナバ" }, { "name": "八雲藍" }],
+    "tags": [{ "name": "うどらん" }]
+  },
+  {
+    "characters": [
+      { "name": "鈴仙・優曇華院・イナバ" },
+      { "name": "ミスティア・ローレライ" }
+    ],
+    "tags": [{ "name": "うどみす" }]
   },
   {
     "characters": [
@@ -938,8 +1763,48 @@
     "tags": [{ "name": "鈴レイ" }]
   },
   {
+    "characters": [
+      { "name": "鈴仙・優曇華院・イナバ" },
+      { "name": "上白沢慧音" }
+    ],
+    "tags": [{ "name": "うどけね" }]
+  },
+  {
+    "characters": [{ "name": "鈴仙・優曇華院・イナバ" }, { "name": "犬走椛" }],
+    "tags": [{ "name": "うどもみ" }]
+  },
+  {
+    "characters": [
+      { "name": "鈴仙・優曇華院・イナバ" },
+      { "name": "火焔猫燐" }
+    ],
+    "tags": [{ "name": "うどりん" }]
+  },
+  {
+    "characters": [
+      { "name": "鈴仙・優曇華院・イナバ" },
+      { "name": "古明地こいし" }
+    ],
+    "tags": [{ "name": "うどこい" }]
+  },
+  {
     "characters": [{ "name": "鈴仙・優曇華院・イナバ" }, { "name": "寅丸星" }],
     "tags": [{ "name": "うどとら" }]
+  },
+  {
+    "characters": [{ "name": "鈴仙・優曇華院・イナバ" }, { "name": "清蘭" }],
+    "tags": [{ "name": "うど清" }]
+  },
+  {
+    "characters": [{ "name": "鈴仙・優曇華院・イナバ" }, { "name": "鈴瑚" }],
+    "tags": [{ "name": "うどりんご" }]
+  },
+  {
+    "characters": [
+      { "name": "鈴仙・優曇華院・イナバ" },
+      { "name": "クラウンピース" }
+    ],
+    "tags": [{ "name": "うどクラ" }]
   },
   {
     "characters": [{ "name": "鈴仙・優曇華院・イナバ" }, { "name": "純狐" }],
@@ -956,6 +1821,10 @@
   {
     "characters": [{ "name": "八意永琳" }, { "name": "西行寺幽々子" }],
     "tags": [{ "name": "永幽々" }, { "name": "ゆゆえー" }]
+  },
+  {
+    "characters": [{ "name": "八意永琳" }, { "name": "リグル・ナイトバグ" }],
+    "tags": [{ "name": "えーリグ" }]
   },
   {
     "characters": [{ "name": "八意永琳" }, { "name": "上白沢慧音" }],
@@ -996,8 +1865,24 @@
     "tags": [{ "name": "永メディ" }]
   },
   {
+    "characters": [{ "name": "八意永琳" }, { "name": "東風谷早苗" }],
+    "tags": [{ "name": "えーさな" }]
+  },
+  {
+    "characters": [{ "name": "八意永琳" }, { "name": "二ッ岩マミゾウ" }],
+    "tags": [{ "name": "えーマミ" }]
+  },
+  {
+    "characters": [{ "name": "八意永琳" }, { "name": "秦こころ" }],
+    "tags": [{ "name": "えーここ" }]
+  },
+  {
     "characters": [{ "name": "八意永琳" }, { "name": "純狐" }],
     "tags": [{ "name": "永純" }]
+  },
+  {
+    "characters": [{ "name": "蓬莱山輝夜" }, { "name": "チルノ" }],
+    "tags": [{ "name": "かぐチル" }]
   },
   {
     "characters": [{ "name": "蓬莱山輝夜" }, { "name": "上白沢慧音" }],
@@ -1025,8 +1910,32 @@
     ]
   },
   {
+    "characters": [{ "name": "蓬莱山輝夜" }, { "name": "東風谷早苗" }],
+    "tags": [{ "name": "かぐさな" }]
+  },
+  {
+    "characters": [{ "name": "蓬莱山輝夜" }, { "name": "比那名居天子" }],
+    "tags": [{ "name": "かぐてん" }]
+  },
+  {
+    "characters": [{ "name": "蓬莱山輝夜" }, { "name": "封獣ぬえ" }],
+    "tags": [{ "name": "かぐぬえ" }]
+  },
+  {
+    "characters": [{ "name": "蓬莱山輝夜" }, { "name": "姫海棠はたて" }],
+    "tags": [{ "name": "かぐはた" }]
+  },
+  {
+    "characters": [{ "name": "蓬莱山輝夜" }, { "name": "今泉影狼" }],
+    "tags": [{ "name": "輝影" }]
+  },
+  {
     "characters": [{ "name": "蓬莱山輝夜" }, { "name": "少名針妙丸" }],
     "tags": [{ "name": "輝針" }]
+  },
+  {
+    "characters": [{ "name": "蓬莱山輝夜" }, { "name": "スターサファイア" }],
+    "tags": [{ "name": "かぐスター" }]
   },
   {
     "characters": [{ "name": "藤原妹紅" }, { "name": "チルノ" }],
@@ -1058,10 +1967,6 @@
     "tags": [{ "name": "もこみょん" }]
   },
   {
-    "characters": [{ "name": "藤原妹紅" }, { "name": "西行寺幽々子" }],
-    "tags": [{ "name": "もこゆゆ" }, { "name": "ゆゆもこ" }]
-  },
-  {
     "characters": [{ "name": "藤原妹紅" }, { "name": "リグル・ナイトバグ" }],
     "tags": [{ "name": "もこりぐ" }]
   },
@@ -1088,8 +1993,39 @@
     "tags": [{ "name": "もこえー" }]
   },
   {
+    "characters": [{ "name": "藤原妹紅" }, { "name": "射命丸文" }],
+    "tags": [{ "name": "もこあや" }]
+  },
+  {
+    "characters": [
+      { "name": "藤原妹紅" },
+      { "name": "四季映姫・ヤマザナドゥ" }
+    ],
+    "tags": [{ "name": "もこえーき" }]
+  },
+  {
+    "characters": [{ "name": "藤原妹紅" }, { "name": "東風谷早苗" }],
+    "tags": [{ "name": "もこさな" }]
+  },
+  {
+    "characters": [{ "name": "藤原妹紅" }, { "name": "洩矢諏訪子" }],
+    "tags": [{ "name": "もこすわ" }]
+  },
+  {
+    "characters": [{ "name": "藤原妹紅" }, { "name": "永江衣玖" }],
+    "tags": [{ "name": "もこいく" }]
+  },
+  {
+    "characters": [{ "name": "藤原妹紅" }, { "name": "比那名居天子" }],
+    "tags": [{ "name": "もこてん" }]
+  },
+  {
     "characters": [{ "name": "藤原妹紅" }, { "name": "水橋パルスィ" }],
     "tags": [{ "name": "もこぱる" }]
+  },
+  {
+    "characters": [{ "name": "藤原妹紅" }, { "name": "古明地さとり" }],
+    "tags": [{ "name": "もこさと" }]
   },
   {
     "characters": [{ "name": "藤原妹紅" }, { "name": "古明地こいし" }],
@@ -1112,6 +2048,14 @@
     "tags": [{ "name": "もこマミ" }]
   },
   {
+    "characters": [{ "name": "藤原妹紅" }, { "name": "今泉影狼" }],
+    "tags": [{ "name": "もこかげ" }]
+  },
+  {
+    "characters": [{ "name": "藤原妹紅" }, { "name": "少名針妙丸" }],
+    "tags": [{ "name": "もこしん" }]
+  },
+  {
     "characters": [{ "name": "藤原妹紅" }, { "name": "宇佐見菫子" }],
     "tags": [
       { "name": "もこすみ" },
@@ -1123,6 +2067,14 @@
   {
     "characters": [{ "name": "藤原妹紅" }, { "name": "茨木華扇" }],
     "tags": [{ "name": "もこ華" }]
+  },
+  {
+    "characters": [{ "name": "藤原妹紅" }, { "name": "依神紫苑" }],
+    "tags": [{ "name": "もこしおん" }]
+  },
+  {
+    "characters": [{ "name": "藤原妹紅" }, { "name": "驪駒早鬼" }],
+    "tags": [{ "name": "もこさき" }]
   },
   {
     "characters": [{ "name": "射命丸文" }, { "name": "チルノ" }],
@@ -1138,6 +2090,13 @@
   {
     "characters": [{ "name": "射命丸文" }, { "name": "十六夜咲夜" }],
     "tags": [{ "name": "あやさく" }]
+  },
+  {
+    "characters": [
+      { "name": "射命丸文" },
+      { "name": "レミリア・スカーレット" }
+    ],
+    "tags": [{ "name": "レミ文" }]
   },
   {
     "characters": [
@@ -1162,6 +2121,10 @@
     "tags": [{ "name": "あやらん" }]
   },
   {
+    "characters": [{ "name": "射命丸文" }, { "name": "リグル・ナイトバグ" }],
+    "tags": [{ "name": "文リグ" }]
+  },
+  {
     "characters": [
       { "name": "射命丸文" },
       { "name": "ミスティア・ローレライ" }
@@ -1169,8 +2132,29 @@
     "tags": [{ "name": "あやみす" }]
   },
   {
+    "characters": [
+      { "name": "射命丸文" },
+      { "name": "鈴仙・優曇華院・イナバ" }
+    ],
+    "tags": [{ "name": "あやうど" }]
+  },
+  {
+    "characters": [
+      { "name": "射命丸文" },
+      { "name": "メディスン・メランコリー" }
+    ],
+    "tags": [{ "name": "文メディ" }]
+  },
+  {
     "characters": [{ "name": "射命丸文" }, { "name": "小野塚小町" }],
     "tags": [{ "name": "あやこま" }]
+  },
+  {
+    "characters": [
+      { "name": "射命丸文" },
+      { "name": "四季映姫・ヤマザナドゥ" }
+    ],
+    "tags": [{ "name": "あやえーき" }]
   },
   {
     "characters": [{ "name": "射命丸文" }, { "name": "河城にとり" }],
@@ -1178,15 +2162,43 @@
   },
   {
     "characters": [{ "name": "射命丸文" }, { "name": "犬走椛" }],
-    "tags": [{ "name": "あやもみ" }]
+    "tags": [{ "name": "あやもみ" }, { "name": "もみあや" }]
   },
   {
     "characters": [{ "name": "射命丸文" }, { "name": "東風谷早苗" }],
     "tags": [{ "name": "あやさな" }]
   },
   {
+    "characters": [{ "name": "射命丸文" }, { "name": "洩矢諏訪子" }],
+    "tags": [{ "name": "あやすわ" }]
+  },
+  {
     "characters": [{ "name": "射命丸文" }, { "name": "比那名居天子" }],
     "tags": [{ "name": "あやてん" }]
+  },
+  {
+    "characters": [{ "name": "射命丸文" }, { "name": "水橋パルスィ" }],
+    "tags": [{ "name": "文パル" }]
+  },
+  {
+    "characters": [{ "name": "射命丸文" }, { "name": "古明地さとり" }],
+    "tags": [{ "name": "あやさと" }]
+  },
+  {
+    "characters": [{ "name": "射命丸文" }, { "name": "古明地こいし" }],
+    "tags": [{ "name": "文こい" }]
+  },
+  {
+    "characters": [{ "name": "射命丸文" }, { "name": "霊烏路空" }],
+    "tags": [{ "name": "カラス組" }]
+  },
+  {
+    "characters": [{ "name": "射命丸文" }, { "name": "ナズーリン" }],
+    "tags": [{ "name": "文ナズ" }]
+  },
+  {
+    "characters": [{ "name": "射命丸文" }, { "name": "多々良小傘" }],
+    "tags": [{ "name": "あやこが" }]
   },
   {
     "characters": [{ "name": "射命丸文" }, { "name": "封獣ぬえ" }],
@@ -1197,8 +2209,42 @@
     "tags": [{ "name": "あやはた" }]
   },
   {
+    "characters": [{ "name": "射命丸文" }, { "name": "驪駒早鬼" }],
+    "tags": [{ "name": "あやさき" }]
+  },
+  {
+    "characters": [{ "name": "射命丸文" }, { "name": "本居小鈴" }],
+    "tags": [{ "name": "文鈴" }]
+  },
+  {
+    "characters": [{ "name": "射命丸文" }, { "name": "稗田阿求" }],
+    "tags": [{ "name": "あきゅあや" }]
+  },
+  {
     "characters": [{ "name": "射命丸文" }, { "name": "茨木華扇" }],
     "tags": [{ "name": "あやかせ" }]
+  },
+  {
+    "characters": [{ "name": "射命丸文" }, { "name": "宇佐見菫子" }],
+    "tags": [{ "name": "あやすみ" }]
+  },
+  {
+    "characters": [{ "name": "射命丸文" }, { "name": "奥野田美宵" }],
+    "tags": [{ "name": "あやみよ" }]
+  },
+  {
+    "characters": [
+      { "name": "メディスン・メランコリー" },
+      { "name": "チルノ" }
+    ],
+    "tags": [{ "name": "メディチル" }]
+  },
+  {
+    "characters": [
+      { "name": "メディスン・メランコリー" },
+      { "name": "魂魄妖夢" }
+    ],
+    "tags": [{ "name": "メディみょん" }]
   },
   {
     "characters": [
@@ -1216,8 +2262,27 @@
     "tags": [{ "name": "こまっチャイナ" }]
   },
   {
+    "characters": [{ "name": "小野塚小町" }, { "name": "魂魄妖夢" }],
+    "tags": [{ "name": "こまみょん" }]
+  },
+  {
     "characters": [{ "name": "小野塚小町" }, { "name": "西行寺幽々子" }],
     "tags": [{ "name": "こまゆゆ" }, { "name": "ゆゆこま" }]
+  },
+  {
+    "characters": [{ "name": "小野塚小町" }, { "name": "伊吹萃香" }],
+    "tags": [{ "name": "こますい" }]
+  },
+  {
+    "characters": [
+      { "name": "小野塚小町" },
+      { "name": "メディスン・メランコリー" }
+    ],
+    "tags": [{ "name": "こまメディ" }]
+  },
+  {
+    "characters": [{ "name": "小野塚小町" }, { "name": "風見幽香" }],
+    "tags": [{ "name": "こまゆう" }]
   },
   {
     "characters": [
@@ -1231,6 +2296,10 @@
     ]
   },
   {
+    "characters": [{ "name": "小野塚小町" }, { "name": "東風谷早苗" }],
+    "tags": [{ "name": "こまさな" }]
+  },
+  {
     "characters": [{ "name": "小野塚小町" }, { "name": "永江衣玖" }],
     "tags": [{ "name": "いくこま" }]
   },
@@ -1239,12 +2308,16 @@
     "tags": [{ "name": "てんこま" }]
   },
   {
-    "characters": [{ "name": "小野塚小町" }, { "name": "火焔猫燐" }],
-    "tags": [{ "name": "こまりん" }, { "name": "りんこま" }]
+    "characters": [{ "name": "小野塚小町" }, { "name": "水橋パルスィ" }],
+    "tags": [{ "name": "こまパル" }]
   },
   {
     "characters": [{ "name": "小野塚小町" }, { "name": "古明地こいし" }],
     "tags": [{ "name": "こいこま" }]
+  },
+  {
+    "characters": [{ "name": "小野塚小町" }, { "name": "多々良小傘" }],
+    "tags": [{ "name": "こまこが" }]
   },
   {
     "characters": [{ "name": "小野塚小町" }, { "name": "封獣ぬえ" }],
@@ -1259,12 +2332,31 @@
     "tags": [{ "name": "こますず" }]
   },
   {
+    "characters": [{ "name": "小野塚小町" }, { "name": "庭渡久侘歌" }],
+    "tags": [{ "name": "こまくたか" }]
+  },
+  {
     "characters": [{ "name": "風見幽香" }, { "name": "チルノ" }],
     "tags": [{ "name": "幽チル" }]
   },
   {
+    "characters": [{ "name": "風見幽香" }, { "name": "大妖精" }],
+    "tags": [{ "name": "幽大" }]
+  },
+  {
     "characters": [{ "name": "風見幽香" }, { "name": "紅美鈴" }],
     "tags": [{ "name": "ゆーめい" }]
+  },
+  {
+    "characters": [{ "name": "風見幽香" }, { "name": "十六夜咲夜" }],
+    "tags": [{ "name": "幽咲" }]
+  },
+  {
+    "characters": [
+      { "name": "風見幽香" },
+      { "name": "レミリア・スカーレット" }
+    ],
+    "tags": [{ "name": "幽レミ" }]
   },
   {
     "characters": [
@@ -1287,6 +2379,10 @@
   {
     "characters": [{ "name": "風見幽香" }, { "name": "魂魄妖夢" }],
     "tags": [{ "name": "ゆうみょん" }]
+  },
+  {
+    "characters": [{ "name": "風見幽香" }, { "name": "西行寺幽々子" }],
+    "tags": [{ "name": "ゆうゆゆ" }]
   },
   {
     "characters": [{ "name": "風見幽香" }, { "name": "八雲藍" }],
@@ -1335,6 +2431,10 @@
     "tags": [{ "name": "幽パル" }]
   },
   {
+    "characters": [{ "name": "風見幽香" }, { "name": "星熊勇儀" }],
+    "tags": [{ "name": "幽勇" }]
+  },
+  {
     "characters": [{ "name": "風見幽香" }, { "name": "多々良小傘" }],
     "tags": [{ "name": "幽こが" }]
   },
@@ -1343,24 +2443,77 @@
     "tags": [{ "name": "幽あきゅ" }, { "name": "幽あきゅは悠久の花" }]
   },
   {
+    "characters": [{ "name": "四季映姫・ヤマザナドゥ" }, { "name": "チルノ" }],
+    "tags": [{ "name": "映チル" }]
+  },
+  {
+    "characters": [
+      { "name": "四季映姫・ヤマザナドゥ" },
+      { "name": "比那名居天子" }
+    ],
+    "tags": [{ "name": "えいてん" }]
+  },
+  {
     "characters": [{ "name": "四季映姫・ヤマザナドゥ" }, { "name": "聖白蓮" }],
     "tags": [{ "name": "えいびゃく" }]
   },
   {
+    "characters": [
+      { "name": "四季映姫・ヤマザナドゥ" },
+      { "name": "茨木華扇" }
+    ],
+    "tags": [{ "name": "えーかせ" }]
+  },
+  {
+    "characters": [{ "name": "秋静葉" }, { "name": "チルノ" }],
+    "tags": [{ "name": "静チル" }]
+  },
+  {
+    "characters": [
+      { "name": "秋静葉" },
+      { "name": "フランドール・スカーレット" }
+    ],
+    "tags": [{ "name": "静フラ" }]
+  },
+  {
+    "characters": [{ "name": "秋静葉" }, { "name": "西行寺幽々子" }],
+    "tags": [{ "name": "しずゆゆ" }]
+  },
+  {
     "characters": [{ "name": "秋静葉" }, { "name": "八坂神奈子" }],
-    "tags": [{ "name": "かなしず" }]
+    "tags": [{ "name": "神奈静" }]
   },
   {
     "characters": [{ "name": "秋静葉" }, { "name": "秋穣子" }],
-    "tags": [
-      { "name": "しずみの" },
-      { "name": "みのしず" },
-      { "name": "秋姉妹" }
-    ]
+    "tags": [{ "name": "しずみの" }, { "name": "秋姉妹" }]
+  },
+  {
+    "characters": [{ "name": "秋静葉" }, { "name": "水橋パルスィ" }],
+    "tags": [{ "name": "静パル" }]
+  },
+  {
+    "characters": [{ "name": "秋静葉" }, { "name": "古明地さとり" }],
+    "tags": [{ "name": "しずさと" }]
   },
   {
     "characters": [{ "name": "秋穣子" }, { "name": "鍵山雛" }],
     "tags": [{ "name": "みのひな" }]
+  },
+  {
+    "characters": [{ "name": "秋穣子" }, { "name": "黒谷ヤマメ" }],
+    "tags": [{ "name": "みのヤマ" }]
+  },
+  {
+    "characters": [{ "name": "秋穣子" }, { "name": "多々良小傘" }],
+    "tags": [{ "name": "みのこが" }]
+  },
+  {
+    "characters": [{ "name": "秋穣子" }, { "name": "封獣ぬえ" }],
+    "tags": [{ "name": "みのぬえ" }]
+  },
+  {
+    "characters": [{ "name": "秋穣子" }, { "name": "九十九八橋" }],
+    "tags": [{ "name": "穣八" }]
   },
   {
     "characters": [{ "name": "鍵山雛" }, { "name": "チルノ" }],
@@ -1369,9 +2522,32 @@
   {
     "characters": [
       { "name": "鍵山雛" },
+      { "name": "フランドール・スカーレット" }
+    ],
+    "tags": [{ "name": "雛フラ" }]
+  },
+  {
+    "characters": [{ "name": "鍵山雛" }, { "name": "魂魄妖夢" }],
+    "tags": [{ "name": "ひなみょん" }]
+  },
+  {
+    "characters": [{ "name": "鍵山雛" }, { "name": "伊吹萃香" }],
+    "tags": [{ "name": "ひなすい" }]
+  },
+  {
+    "characters": [
+      { "name": "鍵山雛" },
       { "name": "メディスン・メランコリー" }
     ],
     "tags": [{ "name": "雛メディ" }]
+  },
+  {
+    "characters": [{ "name": "鍵山雛" }, { "name": "風見幽香" }],
+    "tags": [{ "name": "雛幽香" }]
+  },
+  {
+    "characters": [{ "name": "鍵山雛" }, { "name": "秋静葉" }],
+    "tags": [{ "name": "静雛" }]
   },
   {
     "characters": [{ "name": "鍵山雛" }, { "name": "犬走椛" }],
@@ -1390,12 +2566,27 @@
     "tags": [{ "name": "雛パル" }, { "name": "雛パルは不幸中の幸い" }]
   },
   {
+    "characters": [{ "name": "鍵山雛" }, { "name": "火焔猫燐" }],
+    "tags": [{ "name": "ひなりん" }]
+  },
+  {
+    "characters": [{ "name": "鍵山雛" }, { "name": "多々良小傘" }],
+    "tags": [{ "name": "ひなこが" }]
+  },
+  {
     "characters": [{ "name": "河城にとり" }, { "name": "チルノ" }],
     "tags": [{ "name": "にとチル" }]
   },
   {
     "characters": [{ "name": "河城にとり" }, { "name": "紅美鈴" }],
     "tags": [{ "name": "にとめー" }]
+  },
+  {
+    "characters": [
+      { "name": "河城にとり" },
+      { "name": "パチュリー・ノーレッジ" }
+    ],
+    "tags": [{ "name": "にとパチェ" }]
   },
   {
     "characters": [{ "name": "河城にとり" }, { "name": "十六夜咲夜" }],
@@ -1405,12 +2596,27 @@
     ]
   },
   {
+    "characters": [
+      { "name": "河城にとり" },
+      { "name": "フランドール・スカーレット" }
+    ],
+    "tags": [{ "name": "にとフラ" }, { "name": "フラにと" }]
+  },
+  {
     "characters": [{ "name": "河城にとり" }, { "name": "橙" }],
     "tags": [{ "name": "にとちぇん" }]
   },
   {
     "characters": [{ "name": "河城にとり" }, { "name": "魂魄妖夢" }],
     "tags": [{ "name": "にとみょん" }]
+  },
+  {
+    "characters": [{ "name": "河城にとり" }, { "name": "八雲藍" }],
+    "tags": [{ "name": "にと藍" }]
+  },
+  {
+    "characters": [{ "name": "河城にとり" }, { "name": "リグル・ナイトバグ" }],
+    "tags": [{ "name": "にとリグ" }]
   },
   {
     "characters": [{ "name": "河城にとり" }, { "name": "上白沢慧音" }],
@@ -1423,6 +2629,29 @@
   {
     "characters": [{ "name": "河城にとり" }, { "name": "蓬莱山輝夜" }],
     "tags": [{ "name": "にとかぐ" }]
+  },
+  {
+    "characters": [{ "name": "河城にとり" }, { "name": "藤原妹紅" }],
+    "tags": [{ "name": "にともこ" }]
+  },
+  {
+    "characters": [
+      { "name": "河城にとり" },
+      { "name": "メディスン・メランコリー" }
+    ],
+    "tags": [{ "name": "にとメディ" }]
+  },
+  {
+    "characters": [{ "name": "河城にとり" }, { "name": "小野塚小町" }],
+    "tags": [{ "name": "にとこま" }]
+  },
+  {
+    "characters": [{ "name": "河城にとり" }, { "name": "秋静葉" }],
+    "tags": [{ "name": "にとしず" }]
+  },
+  {
+    "characters": [{ "name": "河城にとり" }, { "name": "秋穣子" }],
+    "tags": [{ "name": "にとみの" }]
   },
   {
     "characters": [{ "name": "河城にとり" }, { "name": "鍵山雛" }],
@@ -1445,12 +2674,32 @@
     "tags": [{ "name": "にとすわ" }]
   },
   {
+    "characters": [{ "name": "河城にとり" }, { "name": "比那名居天子" }],
+    "tags": [{ "name": "にとてん" }]
+  },
+  {
+    "characters": [{ "name": "河城にとり" }, { "name": "キスメ" }],
+    "tags": [{ "name": "にとキス" }]
+  },
+  {
     "characters": [{ "name": "河城にとり" }, { "name": "黒谷ヤマメ" }],
     "tags": [{ "name": "にとヤマ" }]
   },
   {
+    "characters": [{ "name": "河城にとり" }, { "name": "水橋パルスィ" }],
+    "tags": [{ "name": "にとパル" }]
+  },
+  {
+    "characters": [{ "name": "河城にとり" }, { "name": "古明地こいし" }],
+    "tags": [{ "name": "にとこい" }]
+  },
+  {
+    "characters": [{ "name": "河城にとり" }, { "name": "多々良小傘" }],
+    "tags": [{ "name": "にとこが" }]
+  },
+  {
     "characters": [{ "name": "河城にとり" }, { "name": "村紗水蜜" }],
-    "tags": [{ "name": "にとムラ" }, { "name": "にとむら" }]
+    "tags": [{ "name": "にとむら" }]
   },
   {
     "characters": [{ "name": "河城にとり" }, { "name": "姫海棠はたて" }],
@@ -1469,8 +2718,16 @@
     "tags": [{ "name": "にとわか" }]
   },
   {
+    "characters": [{ "name": "河城にとり" }, { "name": "赤蛮奇" }],
+    "tags": [{ "name": "にとばんき" }]
+  },
+  {
     "characters": [{ "name": "河城にとり" }, { "name": "山城たかね" }],
     "tags": [{ "name": "にとたか" }]
+  },
+  {
+    "characters": [{ "name": "犬走椛" }, { "name": "チルノ" }],
+    "tags": [{ "name": "もみチル" }]
   },
   {
     "characters": [
@@ -1496,12 +2753,24 @@
     "tags": [{ "name": "もみすわ" }, { "name": "すわもみ" }]
   },
   {
+    "characters": [{ "name": "犬走椛" }, { "name": "古明地さとり" }],
+    "tags": [{ "name": "もみさと" }]
+  },
+  {
+    "characters": [{ "name": "犬走椛" }, { "name": "火焔猫燐" }],
+    "tags": [{ "name": "もみりん" }]
+  },
+  {
     "characters": [{ "name": "犬走椛" }, { "name": "比那名居天子" }],
     "tags": [{ "name": "もみてん" }]
   },
   {
     "characters": [{ "name": "犬走椛" }, { "name": "今泉影狼" }],
     "tags": [{ "name": "もみかげ" }, { "name": "白狼影狼" }]
+  },
+  {
+    "characters": [{ "name": "犬走椛" }, { "name": "庭渡久侘歌" }],
+    "tags": [{ "name": "もみくた" }]
   },
   {
     "characters": [{ "name": "東風谷早苗" }, { "name": "チルノ" }],
@@ -1522,8 +2791,19 @@
     "tags": [{ "name": "サナフラ" }]
   },
   {
+    "characters": [{ "name": "東風谷早苗" }, { "name": "橙" }],
+    "tags": [{ "name": "さなちぇん" }]
+  },
+  {
     "characters": [{ "name": "東風谷早苗" }, { "name": "魂魄妖夢" }],
     "tags": [{ "name": "さなみょん" }]
+  },
+  {
+    "characters": [
+      { "name": "東風谷早苗" },
+      { "name": "ミスティア・ローレライ" }
+    ],
+    "tags": [{ "name": "さなミス" }]
   },
   {
     "characters": [
@@ -1531,6 +2811,13 @@
       { "name": "鈴仙・優曇華院・イナバ" }
     ],
     "tags": [{ "name": "さなうどん" }]
+  },
+  {
+    "characters": [
+      { "name": "東風谷早苗" },
+      { "name": "四季映姫・ヤマザナドゥ" }
+    ],
+    "tags": [{ "name": "さなえーき" }]
   },
   {
     "characters": [{ "name": "東風谷早苗" }, { "name": "比那名居天子" }],
@@ -1541,12 +2828,32 @@
     "tags": [{ "name": "サナキス" }]
   },
   {
+    "characters": [{ "name": "東風谷早苗" }, { "name": "水橋パルスィ" }],
+    "tags": [{ "name": "さなパル" }]
+  },
+  {
+    "characters": [{ "name": "東風谷早苗" }, { "name": "霊烏路空" }],
+    "tags": [{ "name": "さなくう" }]
+  },
+  {
     "characters": [{ "name": "東風谷早苗" }, { "name": "古明地こいし" }],
     "tags": [{ "name": "さなこい" }]
   },
   {
+    "characters": [{ "name": "東風谷早苗" }, { "name": "ナズーリン" }],
+    "tags": [{ "name": "さなナズ" }]
+  },
+  {
     "characters": [{ "name": "東風谷早苗" }, { "name": "封獣ぬえ" }],
     "tags": [{ "name": "さなぬえ" }]
+  },
+  {
+    "characters": [{ "name": "東風谷早苗" }, { "name": "霍青娥" }],
+    "tags": [{ "name": "さなせい" }]
+  },
+  {
+    "characters": [{ "name": "東風谷早苗" }, { "name": "物部布都" }],
+    "tags": [{ "name": "さなふと" }]
   },
   {
     "characters": [{ "name": "東風谷早苗" }, { "name": "姫海棠はたて" }],
@@ -1561,12 +2868,35 @@
     "tags": [{ "name": "ひじさな" }]
   },
   {
+    "characters": [{ "name": "東風谷早苗" }, { "name": "ドレミー・スイート" }],
+    "tags": [{ "name": "さなドレ" }]
+  },
+  {
+    "characters": [{ "name": "東風谷早苗" }, { "name": "稗田阿求" }],
+    "tags": [{ "name": "さなあきゅ" }]
+  },
+  {
+    "characters": [{ "name": "東風谷早苗" }, { "name": "サニーミルク" }],
+    "tags": [{ "name": "さなサニ" }]
+  },
+  {
     "characters": [{ "name": "東風谷早苗" }, { "name": "茨木華扇" }],
     "tags": [{ "name": "さなかせ" }]
   },
   {
     "characters": [{ "name": "東風谷早苗" }, { "name": "宇佐見蓮子" }],
     "tags": [{ "name": "サナ蓮" }]
+  },
+  {
+    "characters": [
+      { "name": "東風谷早苗" },
+      { "name": "マエリベリー・ハーン" }
+    ],
+    "tags": [{ "name": "さなメリ" }]
+  },
+  {
+    "characters": [{ "name": "八坂神奈子" }, { "name": "十六夜咲夜" }],
+    "tags": [{ "name": "かなさく" }]
   },
   {
     "characters": [
@@ -1587,6 +2917,10 @@
     "tags": [{ "name": "かなえー" }]
   },
   {
+    "characters": [{ "name": "八坂神奈子" }, { "name": "河城にとり" }],
+    "tags": [{ "name": "かなにと" }]
+  },
+  {
     "characters": [{ "name": "八坂神奈子" }, { "name": "東風谷早苗" }],
     "tags": [{ "name": "かなさな" }]
   },
@@ -1599,6 +2933,10 @@
     "tags": [{ "name": "神奈空" }, { "name": "神奈空が俺の信仰告白" }]
   },
   {
+    "characters": [{ "name": "八坂神奈子" }, { "name": "秦こころ" }],
+    "tags": [{ "name": "かなここ" }]
+  },
+  {
     "characters": [
       { "name": "洩矢諏訪子" },
       { "name": "フランドール・スカーレット" }
@@ -1606,12 +2944,32 @@
     "tags": [{ "name": "すわフラ" }]
   },
   {
+    "characters": [{ "name": "洩矢諏訪子" }, { "name": "魂魄妖夢" }],
+    "tags": [{ "name": "すわみょん" }]
+  },
+  {
+    "characters": [{ "name": "洩矢諏訪子" }, { "name": "鍵山雛" }],
+    "tags": [{ "name": "すわひな" }]
+  },
+  {
     "characters": [{ "name": "洩矢諏訪子" }, { "name": "東風谷早苗" }],
     "tags": [{ "name": "すわさな" }]
   },
   {
+    "characters": [{ "name": "洩矢諏訪子" }, { "name": "比那名居天子" }],
+    "tags": [{ "name": "すわてん" }]
+  },
+  {
+    "characters": [{ "name": "洩矢諏訪子" }, { "name": "水橋パルスィ" }],
+    "tags": [{ "name": "すわパル" }]
+  },
+  {
     "characters": [{ "name": "洩矢諏訪子" }, { "name": "古明地こいし" }],
     "tags": [{ "name": "すわこい" }]
+  },
+  {
+    "characters": [{ "name": "洩矢諏訪子" }, { "name": "封獣ぬえ" }],
+    "tags": [{ "name": "すわぬえ" }]
   },
   {
     "characters": [{ "name": "洩矢諏訪子" }, { "name": "純狐" }],
@@ -1649,12 +3007,39 @@
     "tags": [{ "name": "いくしおん" }]
   },
   {
+    "characters": [{ "name": "永江衣玖" }, { "name": "綿月依姫" }],
+    "tags": [{ "name": "いくより" }]
+  },
+  {
     "characters": [{ "name": "比那名居天子" }, { "name": "チルノ" }],
     "tags": [{ "name": "天チル" }]
   },
   {
+    "characters": [{ "name": "比那名居天子" }, { "name": "小悪魔" }],
+    "tags": [{ "name": "天こあ" }]
+  },
+  {
+    "characters": [{ "name": "比那名居天子" }, { "name": "十六夜咲夜" }],
+    "tags": [{ "name": "てんさく" }]
+  },
+  {
+    "characters": [
+      { "name": "比那名居天子" },
+      { "name": "レミリア・スカーレット" }
+    ],
+    "tags": [{ "name": "天レミ" }]
+  },
+  {
     "characters": [{ "name": "比那名居天子" }, { "name": "魂魄妖夢" }],
     "tags": [{ "name": "てんみょん" }]
+  },
+  {
+    "characters": [{ "name": "比那名居天子" }, { "name": "西行寺幽々子" }],
+    "tags": [{ "name": "てんゆゆ" }]
+  },
+  {
+    "characters": [{ "name": "比那名居天子" }, { "name": "鍵山雛" }],
+    "tags": [{ "name": "てんひな" }]
   },
   {
     "characters": [{ "name": "比那名居天子" }, { "name": "水橋パルスィ" }],
@@ -1665,6 +3050,10 @@
     "tags": [{ "name": "てんくう" }]
   },
   {
+    "characters": [{ "name": "比那名居天子" }, { "name": "古明地さとり" }],
+    "tags": [{ "name": "てんさと" }]
+  },
+  {
     "characters": [{ "name": "比那名居天子" }, { "name": "古明地こいし" }],
     "tags": [{ "name": "てんこい" }]
   },
@@ -1673,12 +3062,58 @@
     "tags": [{ "name": "てんこが" }]
   },
   {
+    "characters": [{ "name": "比那名居天子" }, { "name": "蘇我屠自古" }],
+    "tags": [{ "name": "てんとじ" }]
+  },
+  {
     "characters": [{ "name": "比那名居天子" }, { "name": "秦こころ" }],
     "tags": [{ "name": "てんここ" }]
   },
   {
+    "characters": [{ "name": "比那名居天子" }, { "name": "鬼人正邪" }],
+    "tags": [{ "name": "てんせい" }]
+  },
+  {
+    "characters": [{ "name": "比那名居天子" }, { "name": "茨木華扇" }],
+    "tags": [{ "name": "てんかせ" }]
+  },
+  {
+    "characters": [{ "name": "比那名居天子" }, { "name": "稀神サグメ" }],
+    "tags": [{ "name": "てんサグ" }]
+  },
+  {
     "characters": [{ "name": "比那名居天子" }, { "name": "依神紫苑" }],
     "tags": [{ "name": "てんしおん" }]
+  },
+  {
+    "characters": [{ "name": "キスメ" }, { "name": "チルノ" }],
+    "tags": [{ "name": "キスチル" }]
+  },
+  {
+    "characters": [{ "name": "キスメ" }, { "name": "比那名居天子" }],
+    "tags": [{ "name": "キス天" }]
+  },
+  {
+    "characters": [{ "name": "キスメ" }, { "name": "少名針妙丸" }],
+    "tags": [{ "name": "キス針" }]
+  },
+  {
+    "characters": [{ "name": "黒谷ヤマメ" }, { "name": "チルノ" }],
+    "tags": [{ "name": "ヤマチル" }]
+  },
+  {
+    "characters": [
+      { "name": "黒谷ヤマメ" },
+      { "name": "レミリア・スカーレット" }
+    ],
+    "tags": [{ "name": "ヤマレミ" }]
+  },
+  {
+    "characters": [
+      { "name": "黒谷ヤマメ" },
+      { "name": "フランドール・スカーレット" }
+    ],
+    "tags": [{ "name": "ヤマフラ" }]
   },
   {
     "characters": [{ "name": "黒谷ヤマメ" }, { "name": "リグル・ナイトバグ" }],
@@ -1700,16 +3135,77 @@
     "tags": [{ "name": "ヤマパル" }, { "name": "パルヤマ" }]
   },
   {
+    "characters": [{ "name": "黒谷ヤマメ" }, { "name": "星熊勇儀" }],
+    "tags": [{ "name": "ヤマ勇" }]
+  },
+  {
+    "characters": [{ "name": "黒谷ヤマメ" }, { "name": "古明地こいし" }],
+    "tags": [{ "name": "ヤマこい" }]
+  },
+  {
     "characters": [{ "name": "黒谷ヤマメ" }, { "name": "封獣ぬえ" }],
     "tags": [{ "name": "ヤマぬえ" }, { "name": "ヤマぬえが俺の正体不明の病" }]
+  },
+  {
+    "characters": [{ "name": "黒谷ヤマメ" }, { "name": "エタニティラルバ" }],
+    "tags": [{ "name": "ヤマラル" }]
+  },
+  {
+    "characters": [{ "name": "黒谷ヤマメ" }, { "name": "姫虫百々世" }],
+    "tags": [{ "name": "ヤマもも" }]
   },
   {
     "characters": [{ "name": "水橋パルスィ" }, { "name": "チルノ" }],
     "tags": [{ "name": "パルチル推奨" }]
   },
   {
+    "characters": [{ "name": "水橋パルスィ" }, { "name": "橙" }],
+    "tags": [{ "name": "パルちぇん" }]
+  },
+  {
+    "characters": [
+      { "name": "水橋パルスィ" },
+      { "name": "リグル・ナイトバグ" }
+    ],
+    "tags": [{ "name": "パルリグ" }]
+  },
+  {
+    "characters": [
+      { "name": "水橋パルスィ" },
+      { "name": "四季映姫・ヤマザナドゥ" }
+    ],
+    "tags": [{ "name": "パルえーき" }]
+  },
+  {
     "characters": [{ "name": "水橋パルスィ" }, { "name": "キスメ" }],
     "tags": [{ "name": "パルキス" }]
+  },
+  {
+    "characters": [{ "name": "水橋パルスィ" }, { "name": "多々良小傘" }],
+    "tags": [{ "name": "パルこが" }]
+  },
+  {
+    "characters": [{ "name": "水橋パルスィ" }, { "name": "霍青娥" }],
+    "tags": [{ "name": "パル青" }]
+  },
+  {
+    "characters": [{ "name": "星熊勇儀" }, { "name": "チルノ" }],
+    "tags": [{ "name": "勇チル" }]
+  },
+  {
+    "characters": [
+      { "name": "星熊勇儀" },
+      { "name": "フランドール・スカーレット" }
+    ],
+    "tags": [{ "name": "勇フラ" }]
+  },
+  {
+    "characters": [{ "name": "星熊勇儀" }, { "name": "魂魄妖夢" }],
+    "tags": [{ "name": "勇みょん" }]
+  },
+  {
+    "characters": [{ "name": "星熊勇儀" }, { "name": "射命丸文" }],
+    "tags": [{ "name": "勇文" }]
   },
   {
     "characters": [{ "name": "星熊勇儀" }, { "name": "小野塚小町" }],
@@ -1732,6 +3228,10 @@
     "tags": [{ "name": "勇さと" }]
   },
   {
+    "characters": [{ "name": "星熊勇儀" }, { "name": "鬼人正邪" }],
+    "tags": [{ "name": "勇正" }]
+  },
+  {
     "characters": [{ "name": "星熊勇儀" }, { "name": "少名針妙丸" }],
     "tags": [{ "name": "ゆうしん" }]
   },
@@ -1745,6 +3245,10 @@
       { "name": "パチュリー・ノーレッジ" }
     ],
     "tags": [{ "name": "パチェさと" }]
+  },
+  {
+    "characters": [{ "name": "古明地さとり" }, { "name": "十六夜咲夜" }],
+    "tags": [{ "name": "さとさく" }]
   },
   {
     "characters": [
@@ -1765,8 +3269,23 @@
     "tags": [{ "name": "さとフラ" }]
   },
   {
+    "characters": [{ "name": "古明地さとり" }, { "name": "リリーホワイト" }],
+    "tags": [{ "name": "さとリリ" }]
+  },
+  {
+    "characters": [
+      { "name": "古明地さとり" },
+      { "name": "ルナサ・プリズムリバー" }
+    ],
+    "tags": [{ "name": "さとルナ" }]
+  },
+  {
     "characters": [{ "name": "古明地さとり" }, { "name": "魂魄妖夢" }],
     "tags": [{ "name": "さとみょん" }]
+  },
+  {
+    "characters": [{ "name": "古明地さとり" }, { "name": "伊吹萃香" }],
+    "tags": [{ "name": "さと萃" }]
   },
   {
     "characters": [{ "name": "古明地さとり" }, { "name": "風見幽香" }],
@@ -1780,8 +3299,16 @@
     "tags": [{ "name": "さとえーき" }]
   },
   {
+    "characters": [{ "name": "古明地さとり" }, { "name": "鍵山雛" }],
+    "tags": [{ "name": "さとひな" }]
+  },
+  {
     "characters": [{ "name": "古明地さとり" }, { "name": "東風谷早苗" }],
     "tags": [{ "name": "さとさな" }]
+  },
+  {
+    "characters": [{ "name": "古明地さとり" }, { "name": "八坂神奈子" }],
+    "tags": [{ "name": "さとかな" }]
   },
   {
     "characters": [{ "name": "古明地さとり" }, { "name": "洩矢諏訪子" }],
@@ -1804,16 +3331,48 @@
     ]
   },
   {
-    "characters": [{ "name": "古明地さとり" }, { "name": "姫海棠はたて" }],
-    "tags": [{ "name": "さとはた" }]
+    "characters": [{ "name": "古明地さとり" }, { "name": "幽谷響子" }],
+    "tags": [{ "name": "さときょう" }]
+  },
+  {
+    "characters": [{ "name": "古明地さとり" }, { "name": "物部布都" }],
+    "tags": [{ "name": "さとふと" }]
+  },
+  {
+    "characters": [{ "name": "古明地さとり" }, { "name": "豊聡耳神子" }],
+    "tags": [{ "name": "さとみこ" }]
   },
   {
     "characters": [{ "name": "古明地さとり" }, { "name": "秦こころ" }],
     "tags": [{ "name": "さとここ" }, { "name": "ここさと" }]
   },
   {
+    "characters": [{ "name": "古明地さとり" }, { "name": "宇佐見菫子" }],
+    "tags": [{ "name": "さとすみ" }]
+  },
+  {
     "characters": [{ "name": "古明地さとり" }, { "name": "稀神サグメ" }],
     "tags": [{ "name": "さとサグ" }]
+  },
+  {
+    "characters": [{ "name": "古明地さとり" }, { "name": "高麗野あうん" }],
+    "tags": [{ "name": "さとあう" }]
+  },
+  {
+    "characters": [{ "name": "古明地さとり" }, { "name": "依神紫苑" }],
+    "tags": [{ "name": "さとしおん" }]
+  },
+  {
+    "characters": [{ "name": "火焔猫燐" }, { "name": "チルノ" }],
+    "tags": [{ "name": "燐チル" }]
+  },
+  {
+    "characters": [{ "name": "火焔猫燐" }, { "name": "十六夜咲夜" }],
+    "tags": [{ "name": "燐咲" }]
+  },
+  {
+    "characters": [{ "name": "火焔猫燐" }, { "name": "小野塚小町" }],
+    "tags": [{ "name": "りんこま" }]
   },
   {
     "characters": [{ "name": "火焔猫燐" }, { "name": "水橋パルスィ" }],
@@ -1832,8 +3391,27 @@
     "tags": [{ "name": "燐こい" }]
   },
   {
+    "characters": [{ "name": "火焔猫燐" }, { "name": "多々良小傘" }],
+    "tags": [{ "name": "りんこが" }]
+  },
+  {
+    "characters": [{ "name": "火焔猫燐" }, { "name": "わかさぎ姫" }],
+    "tags": [{ "name": "りんわか" }]
+  },
+  {
     "characters": [{ "name": "霊烏路空" }, { "name": "チルノ" }],
     "tags": [{ "name": "空チル" }, { "name": "お⑨" }]
+  },
+  {
+    "characters": [
+      { "name": "霊烏路空" },
+      { "name": "フランドール・スカーレット" }
+    ],
+    "tags": [{ "name": "うにゅフラ" }]
+  },
+  {
+    "characters": [{ "name": "霊烏路空" }, { "name": "魂魄妖夢" }],
+    "tags": [{ "name": "うにゅみょん" }]
   },
   {
     "characters": [
@@ -1851,6 +3429,10 @@
     "tags": [{ "name": "お空衣玖" }]
   },
   {
+    "characters": [{ "name": "霊烏路空" }, { "name": "キスメ" }],
+    "tags": [{ "name": "空キス" }]
+  },
+  {
     "characters": [{ "name": "霊烏路空" }, { "name": "水橋パルスィ" }],
     "tags": [{ "name": "空パル" }]
   },
@@ -1863,12 +3445,20 @@
     "tags": [{ "name": "空こい" }]
   },
   {
+    "characters": [{ "name": "霊烏路空" }, { "name": "庭渡久侘歌" }],
+    "tags": [{ "name": "空くた" }]
+  },
+  {
+    "characters": [{ "name": "霊烏路空" }, { "name": "驪駒早鬼" }],
+    "tags": [{ "name": "うにゅさき" }]
+  },
+  {
     "characters": [{ "name": "古明地こいし" }, { "name": "カナ・アナベラル" }],
     "tags": [{ "name": "こいカナ" }]
   },
   {
     "characters": [{ "name": "古明地こいし" }, { "name": "ルーミア" }],
-    "tags": [{ "name": "るーこい" }, { "name": "こいるみゃ" }]
+    "tags": [{ "name": "るーこい" }]
   },
   {
     "characters": [{ "name": "古明地こいし" }, { "name": "チルノ" }],
@@ -1888,6 +3478,7 @@
     ],
     "tags": [
       { "name": "こいフラ" },
+      { "name": "フラこい" },
       { "name": "こいフラが俺のイドブレイク" },
       { "name": "一心フランにこいしてる" }
     ]
@@ -1903,6 +3494,13 @@
   {
     "characters": [
       { "name": "古明地こいし" },
+      { "name": "リグル・ナイトバグ" }
+    ],
+    "tags": [{ "name": "こいリグ" }]
+  },
+  {
+    "characters": [
+      { "name": "古明地こいし" },
       { "name": "メディスン・メランコリー" }
     ],
     "tags": [{ "name": "こいメディ" }]
@@ -1910,6 +3508,10 @@
   {
     "characters": [{ "name": "古明地こいし" }, { "name": "風見幽香" }],
     "tags": [{ "name": "こいゆう" }]
+  },
+  {
+    "characters": [{ "name": "古明地こいし" }, { "name": "犬走椛" }],
+    "tags": [{ "name": "こいもみ" }]
   },
   {
     "characters": [{ "name": "古明地こいし" }, { "name": "洩矢諏訪子" }],
@@ -1920,20 +3522,108 @@
     "tags": [{ "name": "こいパル" }]
   },
   {
+    "characters": [{ "name": "古明地こいし" }, { "name": "ナズーリン" }],
+    "tags": [{ "name": "こいナズ" }]
+  },
+  {
     "characters": [{ "name": "古明地こいし" }, { "name": "多々良小傘" }],
     "tags": [{ "name": "こいこが" }]
+  },
+  {
+    "characters": [{ "name": "古明地こいし" }, { "name": "村紗水蜜" }],
+    "tags": [{ "name": "こいムラ" }]
+  },
+  {
+    "characters": [{ "name": "古明地こいし" }, { "name": "聖白蓮" }],
+    "tags": [{ "name": "こいひじ" }]
+  },
+  {
+    "characters": [{ "name": "古明地こいし" }, { "name": "物部布都" }],
+    "tags": [{ "name": "こいふと" }]
   },
   {
     "characters": [{ "name": "古明地こいし" }, { "name": "鬼人正邪" }],
     "tags": [{ "name": "こい正" }]
   },
   {
+    "characters": [
+      { "name": "古明地こいし" },
+      { "name": "ドレミー・スイート" }
+    ],
+    "tags": [{ "name": "こいドレ" }]
+  },
+  {
+    "characters": [{ "name": "古明地こいし" }, { "name": "稀神サグメ" }],
+    "tags": [{ "name": "こいサグ" }]
+  },
+  {
+    "characters": [{ "name": "古明地こいし" }, { "name": "クラウンピース" }],
+    "tags": [{ "name": "こいクラ" }]
+  },
+  {
+    "characters": [{ "name": "古明地こいし" }, { "name": "戎瓔花" }],
+    "tags": [{ "name": "こいえーか" }]
+  },
+  {
     "characters": [{ "name": "ナズーリン" }, { "name": "チルノ" }],
     "tags": [{ "name": "ナズチル" }]
   },
   {
+    "characters": [{ "name": "ナズーリン" }, { "name": "十六夜咲夜" }],
+    "tags": [{ "name": "ナズ咲" }]
+  },
+  {
+    "characters": [
+      { "name": "ナズーリン" },
+      { "name": "フランドール・スカーレット" }
+    ],
+    "tags": [{ "name": "ナズフラ" }]
+  },
+  {
+    "characters": [
+      { "name": "ナズーリン" },
+      { "name": "レティ・ホワイトロック" }
+    ],
+    "tags": [{ "name": "ナズレティ" }]
+  },
+  {
+    "characters": [{ "name": "ナズーリン" }, { "name": "八雲藍" }],
+    "tags": [{ "name": "ナズ藍" }]
+  },
+  {
     "characters": [{ "name": "ナズーリン" }, { "name": "リグル・ナイトバグ" }],
     "tags": [{ "name": "ナズリグ" }]
+  },
+  {
+    "characters": [{ "name": "ナズーリン" }, { "name": "因幡てゐ" }],
+    "tags": [{ "name": "ナズてゐ" }]
+  },
+  {
+    "characters": [
+      { "name": "ナズーリン" },
+      { "name": "鈴仙・優曇華院・イナバ" }
+    ],
+    "tags": [{ "name": "ナズうど" }]
+  },
+  {
+    "characters": [{ "name": "ナズーリン" }, { "name": "秋静葉" }],
+    "tags": [{ "name": "ナズしず" }]
+  },
+  {
+    "characters": [{ "name": "ナズーリン" }, { "name": "犬走椛" }],
+    "tags": [{ "name": "ナズもみ" }]
+  },
+  {
+    "characters": [{ "name": "ナズーリン" }, { "name": "八坂神奈子" }],
+    "tags": [{ "name": "ナズかな" }]
+  },
+  {
+    "characters": [{ "name": "ナズーリン" }, { "name": "比那名居天子" }],
+    "tags": [{ "name": "ナズ天" }]
+  },
+  {
+    "characters": [{ "name": "ナズーリン" }, { "name": "水橋パルスィ" }],
+    "tags": [{ "name": "ナズパル" }]
   },
   {
     "characters": [{ "name": "ナズーリン" }, { "name": "火焔猫燐" }],
@@ -1956,6 +3646,10 @@
     "tags": [{ "name": "ナズ響" }]
   },
   {
+    "characters": [{ "name": "ナズーリン" }, { "name": "宮古芳香" }],
+    "tags": [{ "name": "ナズよし" }]
+  },
+  {
     "characters": [{ "name": "多々良小傘" }, { "name": "チルノ" }],
     "tags": [{ "name": "こがちる" }]
   },
@@ -1971,8 +3665,23 @@
     "tags": [{ "name": "こがちぇん" }]
   },
   {
+    "characters": [
+      { "name": "多々良小傘" },
+      { "name": "ルナサ・プリズムリバー" }
+    ],
+    "tags": [{ "name": "こがルナ" }]
+  },
+  {
+    "characters": [{ "name": "多々良小傘" }, { "name": "犬走椛" }],
+    "tags": [{ "name": "こがもみ" }]
+  },
+  {
     "characters": [{ "name": "多々良小傘" }, { "name": "東風谷早苗" }],
     "tags": [{ "name": "こがさな" }, { "name": "こがさなは俺の相合傘" }]
+  },
+  {
+    "characters": [{ "name": "多々良小傘" }, { "name": "洩矢諏訪子" }],
+    "tags": [{ "name": "こがすわ" }]
   },
   {
     "characters": [
@@ -1982,12 +3691,31 @@
     "tags": [{ "name": "こがメディ" }]
   },
   {
+    "characters": [
+      { "name": "多々良小傘" },
+      { "name": "四季映姫・ヤマザナドゥ" }
+    ],
+    "tags": [{ "name": "こがえーき" }]
+  },
+  {
     "characters": [{ "name": "多々良小傘" }, { "name": "キスメ" }],
     "tags": [{ "name": "こがキス" }]
   },
   {
+    "characters": [{ "name": "多々良小傘" }, { "name": "古明地さとり" }],
+    "tags": [{ "name": "こがさと" }]
+  },
+  {
     "characters": [{ "name": "多々良小傘" }, { "name": "ナズーリン" }],
     "tags": [{ "name": "こがナズ" }]
+  },
+  {
+    "characters": [{ "name": "多々良小傘" }, { "name": "雲居一輪" }],
+    "tags": [{ "name": "こがいち" }]
+  },
+  {
+    "characters": [{ "name": "多々良小傘" }, { "name": "聖白蓮" }],
+    "tags": [{ "name": "こがひじ" }]
   },
   {
     "characters": [{ "name": "多々良小傘" }, { "name": "封獣ぬえ" }],
@@ -1998,7 +3726,11 @@
   },
   {
     "characters": [{ "name": "多々良小傘" }, { "name": "宮古芳香" }],
-    "tags": [{ "name": "こがよし" }, { "name": "よしこが" }]
+    "tags": [{ "name": "こがよし" }]
+  },
+  {
+    "characters": [{ "name": "多々良小傘" }, { "name": "蘇我屠自古" }],
+    "tags": [{ "name": "こがとじ" }]
   },
   {
     "characters": [{ "name": "多々良小傘" }, { "name": "秦こころ" }],
@@ -2007,6 +3739,14 @@
   {
     "characters": [{ "name": "多々良小傘" }, { "name": "赤蛮奇" }],
     "tags": [{ "name": "こがばん" }]
+  },
+  {
+    "characters": [{ "name": "多々良小傘" }, { "name": "少名針妙丸" }],
+    "tags": [{ "name": "こがしん" }]
+  },
+  {
+    "characters": [{ "name": "多々良小傘" }, { "name": "堀川雷鼓" }],
+    "tags": [{ "name": "らいこが" }]
   },
   {
     "characters": [{ "name": "雲居一輪" }, { "name": "紅美鈴" }],
@@ -2020,8 +3760,27 @@
     "tags": [{ "name": "いちふと" }]
   },
   {
+    "characters": [{ "name": "雲居一輪" }, { "name": "宇佐見菫子" }],
+    "tags": [{ "name": "いちすみ" }]
+  },
+  {
     "characters": [{ "name": "村紗水蜜" }, { "name": "北白河ちゆり" }],
     "tags": [{ "name": "ちゆムラ" }]
+  },
+  {
+    "characters": [{ "name": "村紗水蜜" }, { "name": "チルノ" }],
+    "tags": [{ "name": "むらチル" }]
+  },
+  {
+    "characters": [{ "name": "村紗水蜜" }, { "name": "十六夜咲夜" }],
+    "tags": [{ "name": "ムラサクヤ" }]
+  },
+  {
+    "characters": [
+      { "name": "村紗水蜜" },
+      { "name": "レミリア・スカーレット" }
+    ],
+    "tags": [{ "name": "ムラレミ" }]
   },
   {
     "characters": [
@@ -2059,6 +3818,14 @@
     "tags": [{ "name": "しょうちぇん" }]
   },
   {
+    "characters": [{ "name": "寅丸星" }, { "name": "伊吹萃香" }],
+    "tags": [{ "name": "せいすい" }]
+  },
+  {
+    "characters": [{ "name": "寅丸星" }, { "name": "射命丸文" }],
+    "tags": [{ "name": "星文" }]
+  },
+  {
     "characters": [{ "name": "寅丸星" }, { "name": "雲居一輪" }],
     "tags": [{ "name": "とらいち" }]
   },
@@ -2071,12 +3838,20 @@
     "tags": [{ "name": "星白" }]
   },
   {
+    "characters": [{ "name": "寅丸星" }, { "name": "物部布都" }],
+    "tags": [{ "name": "とらふと" }]
+  },
+  {
     "characters": [{ "name": "寅丸星" }, { "name": "鬼人正邪" }],
     "tags": [{ "name": "正星" }]
   },
   {
     "characters": [{ "name": "聖白蓮" }, { "name": "チルノ" }],
     "tags": [{ "name": "ひじチル" }]
+  },
+  {
+    "characters": [{ "name": "聖白蓮" }, { "name": "レミリア・スカーレット" }],
+    "tags": [{ "name": "ひじレミ" }]
   },
   {
     "characters": [
@@ -2086,8 +3861,40 @@
     "tags": [{ "name": "白フラ" }]
   },
   {
+    "characters": [{ "name": "聖白蓮" }, { "name": "魂魄妖夢" }],
+    "tags": [{ "name": "ひじみょん" }]
+  },
+  {
+    "characters": [{ "name": "聖白蓮" }, { "name": "西行寺幽々子" }],
+    "tags": [{ "name": "ひじゆゆ" }]
+  },
+  {
+    "characters": [{ "name": "聖白蓮" }, { "name": "藤原妹紅" }],
+    "tags": [{ "name": "ひじもこ" }]
+  },
+  {
+    "characters": [{ "name": "聖白蓮" }, { "name": "射命丸文" }],
+    "tags": [{ "name": "ひじあや" }]
+  },
+  {
     "characters": [{ "name": "聖白蓮" }, { "name": "八坂神奈子" }],
     "tags": [{ "name": "ひじかな" }, { "name": "かなひじ" }]
+  },
+  {
+    "characters": [{ "name": "聖白蓮" }, { "name": "比那名居天子" }],
+    "tags": [{ "name": "ひじてん" }]
+  },
+  {
+    "characters": [{ "name": "聖白蓮" }, { "name": "水橋パルスィ" }],
+    "tags": [{ "name": "聖パル" }]
+  },
+  {
+    "characters": [{ "name": "聖白蓮" }, { "name": "古明地さとり" }],
+    "tags": [{ "name": "ひじさと" }, { "name": "さとひじ" }]
+  },
+  {
+    "characters": [{ "name": "聖白蓮" }, { "name": "ナズーリン" }],
+    "tags": [{ "name": "ひじナズ" }]
   },
   {
     "characters": [{ "name": "聖白蓮" }, { "name": "雲居一輪" }],
@@ -2116,9 +3923,20 @@
   {
     "characters": [
       { "name": "封獣ぬえ" },
+      { "name": "レミリア・スカーレット" }
+    ],
+    "tags": [{ "name": "レミぬえ" }, { "name": "ぬえレミ" }]
+  },
+  {
+    "characters": [
+      { "name": "封獣ぬえ" },
       { "name": "フランドール・スカーレット" }
     ],
     "tags": [{ "name": "ぬえフラ" }, { "name": "フラぬえ" }]
+  },
+  {
+    "characters": [{ "name": "封獣ぬえ" }, { "name": "伊吹萃香" }],
+    "tags": [{ "name": "ぬえ萃" }]
   },
   {
     "characters": [{ "name": "封獣ぬえ" }, { "name": "水橋パルスィ" }],
@@ -2141,12 +3959,48 @@
     "tags": [{ "name": "ぬえ聖" }, { "name": "ひじぬえ" }]
   },
   {
+    "characters": [{ "name": "封獣ぬえ" }, { "name": "幽谷響子" }],
+    "tags": [{ "name": "ぬえ響" }]
+  },
+  {
     "characters": [{ "name": "封獣ぬえ" }, { "name": "鬼人正邪" }],
     "tags": [{ "name": "せいぬえ" }]
   },
   {
+    "characters": [{ "name": "封獣ぬえ" }, { "name": "依神女苑" }],
+    "tags": [{ "name": "ぬえじょおん" }]
+  },
+  {
+    "characters": [{ "name": "姫海棠はたて" }, { "name": "チルノ" }],
+    "tags": [{ "name": "はたチル" }]
+  },
+  {
+    "characters": [{ "name": "姫海棠はたて" }, { "name": "魂魄妖夢" }],
+    "tags": [{ "name": "はたみょん" }]
+  },
+  {
     "characters": [{ "name": "姫海棠はたて" }, { "name": "犬走椛" }],
     "tags": [{ "name": "はたもみ" }]
+  },
+  {
+    "characters": [{ "name": "姫海棠はたて" }, { "name": "比那名居天子" }],
+    "tags": [{ "name": "はたてん" }]
+  },
+  {
+    "characters": [{ "name": "姫海棠はたて" }, { "name": "古明地こいし" }],
+    "tags": [{ "name": "はたここ" }]
+  },
+  {
+    "characters": [{ "name": "姫海棠はたて" }, { "name": "洩矢諏訪子" }],
+    "tags": [{ "name": "はたすわ" }]
+  },
+  {
+    "characters": [{ "name": "姫海棠はたて" }, { "name": "本居小鈴" }],
+    "tags": [{ "name": "はたすず" }]
+  },
+  {
+    "characters": [{ "name": "幽谷響子" }, { "name": "チルノ" }],
+    "tags": [{ "name": "ぎゃてチル" }]
   },
   {
     "characters": [
@@ -2164,12 +4018,24 @@
     "tags": [{ "name": "きょーこが" }]
   },
   {
+    "characters": [{ "name": "幽谷響子" }, { "name": "雲居一輪" }],
+    "tags": [{ "name": "きょういち" }]
+  },
+  {
     "characters": [{ "name": "幽谷響子" }, { "name": "寅丸星" }],
     "tags": [{ "name": "響星" }]
   },
   {
     "characters": [{ "name": "幽谷響子" }, { "name": "稀神サグメ" }],
     "tags": [{ "name": "響サグ" }]
+  },
+  {
+    "characters": [{ "name": "宮古芳香" }, { "name": "魂魄妖夢" }],
+    "tags": [{ "name": "よしみょん" }]
+  },
+  {
+    "characters": [{ "name": "宮古芳香" }, { "name": "風見幽香" }],
+    "tags": [{ "name": "よしゆう" }]
   },
   {
     "characters": [{ "name": "宮古芳香" }, { "name": "火焔猫燐" }],
@@ -2188,8 +4054,20 @@
     "tags": [{ "name": "よしかせん" }]
   },
   {
+    "characters": [{ "name": "霍青娥" }, { "name": "チルノ" }],
+    "tags": [{ "name": "青チル" }]
+  },
+  {
+    "characters": [{ "name": "霍青娥" }, { "name": "八雲紫" }],
+    "tags": [{ "name": "せいゆか" }]
+  },
+  {
+    "characters": [{ "name": "霍青娥" }, { "name": "多々良小傘" }],
+    "tags": [{ "name": "せいこが" }]
+  },
+  {
     "characters": [{ "name": "霍青娥" }, { "name": "宮古芳香" }],
-    "tags": [{ "name": "せいよし" }]
+    "tags": [{ "name": "せいよし" }, { "name": "霍宮" }]
   },
   {
     "characters": [{ "name": "霍青娥" }, { "name": "蘇我屠自古" }],
@@ -2212,6 +4090,22 @@
     "tags": [{ "name": "せいえーき" }]
   },
   {
+    "characters": [{ "name": "蘇我屠自古" }, { "name": "チルノ" }],
+    "tags": [{ "name": "とじチル" }]
+  },
+  {
+    "characters": [{ "name": "蘇我屠自古" }, { "name": "水橋パルスィ" }],
+    "tags": [{ "name": "とじパル" }]
+  },
+  {
+    "characters": [{ "name": "蘇我屠自古" }, { "name": "古明地こいし" }],
+    "tags": [{ "name": "とじこいし" }]
+  },
+  {
+    "characters": [{ "name": "蘇我屠自古" }, { "name": "ナズーリン" }],
+    "tags": [{ "name": "とじナズ" }]
+  },
+  {
     "characters": [{ "name": "物部布都" }, { "name": "チルノ" }],
     "tags": [{ "name": "ふとチル" }]
   },
@@ -2224,8 +4118,28 @@
     "tags": [{ "name": "ものもみ" }]
   },
   {
+    "characters": [{ "name": "物部布都" }, { "name": "宮古芳香" }],
+    "tags": [{ "name": "ふとよし" }]
+  },
+  {
     "characters": [{ "name": "物部布都" }, { "name": "蘇我屠自古" }],
     "tags": [{ "name": "ふとじこ" }]
+  },
+  {
+    "characters": [{ "name": "物部布都" }, { "name": "二ッ岩マミゾウ" }],
+    "tags": [{ "name": "ふとマミ" }]
+  },
+  {
+    "characters": [{ "name": "物部布都" }, { "name": "茨木華扇" }],
+    "tags": [{ "name": "ふとかせ" }]
+  },
+  {
+    "characters": [{ "name": "物部布都" }, { "name": "秦こころ" }],
+    "tags": [{ "name": "ふとここ" }]
+  },
+  {
+    "characters": [{ "name": "豊聡耳神子" }, { "name": "チルノ" }],
+    "tags": [{ "name": "みこチル" }]
   },
   {
     "characters": [
@@ -2274,16 +4188,44 @@
     "tags": [{ "name": "みこぱる" }]
   },
   {
+    "characters": [{ "name": "豊聡耳神子" }, { "name": "ナズーリン" }],
+    "tags": [{ "name": "みこナズ" }]
+  },
+  {
     "characters": [{ "name": "豊聡耳神子" }, { "name": "驪駒早鬼" }],
     "tags": [{ "name": "みこさき" }, { "name": "さきみこ" }]
+  },
+  {
+    "characters": [{ "name": "二ッ岩マミゾウ" }, { "name": "チルノ" }],
+    "tags": [{ "name": "マミチル" }]
   },
   {
     "characters": [{ "name": "二ッ岩マミゾウ" }, { "name": "橙" }],
     "tags": [{ "name": "マミ橙" }]
   },
   {
+    "characters": [{ "name": "二ッ岩マミゾウ" }, { "name": "因幡てゐ" }],
+    "tags": [{ "name": "マミてゐ" }]
+  },
+  {
     "characters": [{ "name": "二ッ岩マミゾウ" }, { "name": "八雲藍" }],
     "tags": [{ "name": "マミ藍" }]
+  },
+  {
+    "characters": [{ "name": "二ッ岩マミゾウ" }, { "name": "射命丸文" }],
+    "tags": [{ "name": "マミ文" }]
+  },
+  {
+    "characters": [{ "name": "二ッ岩マミゾウ" }, { "name": "犬走椛" }],
+    "tags": [{ "name": "マミもみ" }]
+  },
+  {
+    "characters": [{ "name": "二ッ岩マミゾウ" }, { "name": "多々良小傘" }],
+    "tags": [{ "name": "マミこが" }]
+  },
+  {
+    "characters": [{ "name": "二ッ岩マミゾウ" }, { "name": "聖白蓮" }],
+    "tags": [{ "name": "マミひじ" }]
   },
   {
     "characters": [{ "name": "二ッ岩マミゾウ" }, { "name": "封獣ぬえ" }],
@@ -2318,8 +4260,23 @@
     "tags": [{ "name": "チルここ" }]
   },
   {
+    "characters": [
+      { "name": "秦こころ" },
+      { "name": "パチュリー・ノーレッジ" }
+    ],
+    "tags": [{ "name": "ここパチェ" }]
+  },
+  {
     "characters": [{ "name": "秦こころ" }, { "name": "魂魄妖夢" }],
     "tags": [{ "name": "ここみょん" }]
+  },
+  {
+    "characters": [{ "name": "秦こころ" }, { "name": "伊吹萃香" }],
+    "tags": [{ "name": "ここすいか" }]
+  },
+  {
+    "characters": [{ "name": "秦こころ" }, { "name": "蓬莱山輝夜" }],
+    "tags": [{ "name": "ここかぐ" }]
   },
   {
     "characters": [
@@ -2329,8 +4286,20 @@
     "tags": [{ "name": "ここメディ" }]
   },
   {
+    "characters": [{ "name": "秦こころ" }, { "name": "風見幽香" }],
+    "tags": [{ "name": "ここゆうか" }]
+  },
+  {
+    "characters": [{ "name": "秦こころ" }, { "name": "洩矢諏訪子" }],
+    "tags": [{ "name": "ここすわ" }]
+  },
+  {
     "characters": [{ "name": "秦こころ" }, { "name": "古明地こいし" }],
     "tags": [{ "name": "こいここ" }, { "name": "こいここは希望の恋心" }]
+  },
+  {
+    "characters": [{ "name": "秦こころ" }, { "name": "ナズーリン" }],
+    "tags": [{ "name": "ここナズ" }]
   },
   {
     "characters": [{ "name": "秦こころ" }, { "name": "雲居一輪" }],
@@ -2341,12 +4310,43 @@
     "tags": [{ "name": "ひじここ" }]
   },
   {
+    "characters": [{ "name": "秦こころ" }, { "name": "蘇我屠自古" }],
+    "tags": [{ "name": "こことじ" }]
+  },
+  {
     "characters": [{ "name": "秦こころ" }, { "name": "豊聡耳神子" }],
     "tags": [{ "name": "みこころ" }]
   },
   {
     "characters": [{ "name": "秦こころ" }, { "name": "二ッ岩マミゾウ" }],
     "tags": [{ "name": "マミここ" }]
+  },
+  {
+    "characters": [{ "name": "秦こころ" }, { "name": "九十九弁々" }],
+    "tags": [{ "name": "ここ弁" }]
+  },
+  {
+    "characters": [{ "name": "秦こころ" }, { "name": "九十九八橋" }],
+    "tags": [{ "name": "ここやつ" }]
+  },
+  {
+    "characters": [{ "name": "秦こころ" }, { "name": "驪駒早鬼" }],
+    "tags": [{ "name": "ここさき" }]
+  },
+  {
+    "characters": [{ "name": "赤蛮奇" }, { "name": "チルノ" }],
+    "tags": [{ "name": "蛮チル" }]
+  },
+  {
+    "characters": [
+      { "name": "赤蛮奇" },
+      { "name": "フランドール・スカーレット" }
+    ],
+    "tags": [{ "name": "蛮フラ" }]
+  },
+  {
+    "characters": [{ "name": "赤蛮奇" }, { "name": "宮古芳香" }],
+    "tags": [{ "name": "ばんよし" }]
   },
   {
     "characters": [{ "name": "赤蛮奇" }, { "name": "わかさぎ姫" }],
@@ -2365,16 +4365,62 @@
     "tags": [{ "name": "針蛮奇" }]
   },
   {
-    "characters": [{ "name": "今泉影狼" }, { "name": "わかさぎ姫" }],
-    "tags": [{ "name": "かげわか" }]
+    "characters": [{ "name": "赤蛮奇" }, { "name": "鈴瑚" }],
+    "tags": [{ "name": "赤りんご" }]
+  },
+  {
+    "characters": [
+      { "name": "今泉影狼" },
+      { "name": "レミリア・スカーレット" }
+    ],
+    "tags": [{ "name": "かげレミ" }]
   },
   {
     "characters": [{ "name": "今泉影狼" }, { "name": "因幡てゐ" }],
     "tags": [{ "name": "かげてゐ" }]
   },
   {
+    "characters": [
+      { "name": "今泉影狼" },
+      { "name": "鈴仙・優曇華院・イナバ" }
+    ],
+    "tags": [{ "name": "かげうどん" }]
+  },
+  {
+    "characters": [{ "name": "今泉影狼" }, { "name": "火焔猫燐" }],
+    "tags": [{ "name": "影燐" }]
+  },
+  {
+    "characters": [{ "name": "今泉影狼" }, { "name": "わかさぎ姫" }],
+    "tags": [{ "name": "かげわか" }]
+  },
+  {
     "characters": [{ "name": "九十九弁々" }, { "name": "九十九八橋" }],
     "tags": [{ "name": "やつべん" }, { "name": "九十九姉妹" }]
+  },
+  {
+    "characters": [{ "name": "九十九弁々" }, { "name": "チルノ" }],
+    "tags": [{ "name": "弁チル" }]
+  },
+  {
+    "characters": [{ "name": "九十九八橋" }, { "name": "チルノ" }],
+    "tags": [{ "name": "八チル" }]
+  },
+  {
+    "characters": [{ "name": "鬼人正邪" }, { "name": "チルノ" }],
+    "tags": [{ "name": "正チル" }]
+  },
+  {
+    "characters": [{ "name": "鬼人正邪" }, { "name": "射命丸文" }],
+    "tags": [{ "name": "せいあや" }]
+  },
+  {
+    "characters": [{ "name": "鬼人正邪" }, { "name": "東風谷早苗" }],
+    "tags": [{ "name": "せーさな" }]
+  },
+  {
+    "characters": [{ "name": "鬼人正邪" }, { "name": "わかさぎ姫" }],
+    "tags": [{ "name": "せいわか" }]
   },
   {
     "characters": [{ "name": "鬼人正邪" }, { "name": "少名針妙丸" }],
@@ -2389,12 +4435,28 @@
     "tags": [{ "name": "せいサグ" }]
   },
   {
+    "characters": [{ "name": "少名針妙丸" }, { "name": "魂魄妖夢" }],
+    "tags": [{ "name": "針みょん丸" }]
+  },
+  {
+    "characters": [{ "name": "少名針妙丸" }, { "name": "射命丸文" }],
+    "tags": [{ "name": "針文(しんぶん)ペア" }]
+  },
+  {
     "characters": [{ "name": "少名針妙丸" }, { "name": "比那名居天子" }],
     "tags": [{ "name": "しんてん" }]
   },
   {
+    "characters": [{ "name": "少名針妙丸" }, { "name": "ナズーリン" }],
+    "tags": [{ "name": "針ナズ" }]
+  },
+  {
     "characters": [{ "name": "少名針妙丸" }, { "name": "秦こころ" }],
     "tags": [{ "name": "針ここ" }]
+  },
+  {
+    "characters": [{ "name": "少名針妙丸" }, { "name": "わかさぎ姫" }],
+    "tags": [{ "name": "わか針" }]
   },
   {
     "characters": [{ "name": "少名針妙丸" }, { "name": "堀川雷鼓" }],
@@ -2409,8 +4471,37 @@
     "tags": [{ "name": "しんしおん" }]
   },
   {
+    "characters": [{ "name": "堀川雷鼓" }, { "name": "チルノ" }],
+    "tags": [{ "name": "雷チル" }]
+  },
+  {
+    "characters": [
+      { "name": "堀川雷鼓" },
+      { "name": "ルナサ・プリズムリバー" }
+    ],
+    "tags": [{ "name": "雷ルナ" }]
+  },
+  {
+    "characters": [
+      { "name": "堀川雷鼓" },
+      { "name": "メルラン・プリズムリバー" }
+    ],
+    "tags": [{ "name": "雷メル" }]
+  },
+  {
+    "characters": [
+      { "name": "堀川雷鼓" },
+      { "name": "リリカ・プリズムリバー" }
+    ],
+    "tags": [{ "name": "雷リリ" }]
+  },
+  {
     "characters": [{ "name": "堀川雷鼓" }, { "name": "風見幽香" }],
     "tags": [{ "name": "らいゆう" }]
+  },
+  {
+    "characters": [{ "name": "堀川雷鼓" }, { "name": "秦こころ" }],
+    "tags": [{ "name": "らいここ" }]
   },
   {
     "characters": [{ "name": "堀川雷鼓" }, { "name": "九十九弁々" }],
@@ -2421,8 +4512,20 @@
     "tags": [{ "name": "雷八" }]
   },
   {
+    "characters": [{ "name": "宇佐見菫子" }, { "name": "チルノ" }],
+    "tags": [{ "name": "すみチル" }]
+  },
+  {
+    "characters": [{ "name": "宇佐見菫子" }, { "name": "犬走椛" }],
+    "tags": [{ "name": "すみもみ" }]
+  },
+  {
     "characters": [{ "name": "宇佐見菫子" }, { "name": "古明地こいし" }],
     "tags": [{ "name": "こいすみ" }]
+  },
+  {
+    "characters": [{ "name": "宇佐見菫子" }, { "name": "姫海棠はたて" }],
+    "tags": [{ "name": "すみはた" }]
   },
   {
     "characters": [
@@ -2436,12 +4539,32 @@
     "tags": [{ "name": "すみすず" }]
   },
   {
+    "characters": [{ "name": "宇佐見菫子" }, { "name": "依神女苑" }],
+    "tags": [{ "name": "すみじょおん" }]
+  },
+  {
+    "characters": [{ "name": "清蘭" }, { "name": "チルノ" }],
+    "tags": [{ "name": "清チル" }]
+  },
+  {
     "characters": [{ "name": "清蘭" }, { "name": "鈴瑚" }],
     "tags": [{ "name": "あおりんご" }]
   },
   {
+    "characters": [{ "name": "鈴瑚" }, { "name": "ドレミー・スイート" }],
+    "tags": [{ "name": "鈴ドレ" }]
+  },
+  {
+    "characters": [{ "name": "ドレミー・スイート" }, { "name": "チルノ" }],
+    "tags": [{ "name": "ドレチル" }]
+  },
+  {
     "characters": [{ "name": "ドレミー・スイート" }, { "name": "宇佐見菫子" }],
     "tags": [{ "name": "ドレすみ" }]
+  },
+  {
+    "characters": [{ "name": "稀神サグメ" }, { "name": "チルノ" }],
+    "tags": [{ "name": "サグチル" }]
   },
   {
     "characters": [{ "name": "稀神サグメ" }, { "name": "清蘭" }],
@@ -2450,6 +4573,10 @@
   {
     "characters": [{ "name": "稀神サグメ" }, { "name": "ドレミー・スイート" }],
     "tags": [{ "name": "サグドレ" }, { "name": "ドレサグ" }]
+  },
+  {
+    "characters": [{ "name": "稀神サグメ" }, { "name": "純狐" }],
+    "tags": [{ "name": "サグ純" }]
   },
   {
     "characters": [{ "name": "稀神サグメ" }, { "name": "因幡てゐ" }],
@@ -2467,12 +4594,46 @@
     "tags": [{ "name": "メルクラ" }]
   },
   {
+    "characters": [{ "name": "クラウンピース" }, { "name": "八雲藍" }],
+    "tags": [{ "name": "クラ藍" }]
+  },
+  {
+    "characters": [{ "name": "クラウンピース" }, { "name": "物部布都" }],
+    "tags": [{ "name": "クラふと" }]
+  },
+  {
+    "characters": [
+      { "name": "クラウンピース" },
+      { "name": "ドレミー・スイート" }
+    ],
+    "tags": [{ "name": "クラドレ" }]
+  },
+  {
     "characters": [{ "name": "クラウンピース" }, { "name": "稀神サグメ" }],
     "tags": [{ "name": "クラサグ" }]
   },
   {
+    "characters": [
+      { "name": "クラウンピース" },
+      { "name": "エタニティラルバ" }
+    ],
+    "tags": [{ "name": "クラエタ" }]
+  },
+  {
+    "characters": [{ "name": "純狐" }, { "name": "チルノ" }],
+    "tags": [{ "name": "純チル" }]
+  },
+  {
+    "characters": [{ "name": "純狐" }, { "name": "蓬莱山輝夜" }],
+    "tags": [{ "name": "純輝" }]
+  },
+  {
     "characters": [{ "name": "純狐" }, { "name": "霍青娥" }],
     "tags": [{ "name": "青純" }]
+  },
+  {
+    "characters": [{ "name": "純狐" }, { "name": "クラウンピース" }],
+    "tags": [{ "name": "純クラ" }]
   },
   {
     "characters": [
@@ -2488,9 +4649,30 @@
   {
     "characters": [
       { "name": "ヘカーティア・ラピスラズリ" },
+      { "name": "チルノ" }
+    ],
+    "tags": [{ "name": "ヘカチル" }]
+  },
+  {
+    "characters": [
+      { "name": "ヘカーティア・ラピスラズリ" },
       { "name": "四季映姫・ヤマザナドゥ" }
     ],
     "tags": [{ "name": "ヘカえーき" }, { "name": "ヘカザナ" }]
+  },
+  {
+    "characters": [
+      { "name": "ヘカーティア・ラピスラズリ" },
+      { "name": "東風谷早苗" }
+    ],
+    "tags": [{ "name": "ヘカサナ" }]
+  },
+  {
+    "characters": [
+      { "name": "ヘカーティア・ラピスラズリ" },
+      { "name": "ナズーリン" }
+    ],
+    "tags": [{ "name": "ヘカナズ" }]
   },
   {
     "characters": [
@@ -2502,9 +4684,37 @@
   {
     "characters": [
       { "name": "ヘカーティア・ラピスラズリ" },
+      { "name": "赤蛮奇" }
+    ],
+    "tags": [{ "name": "ヘカ蛮" }]
+  },
+  {
+    "characters": [
+      { "name": "ヘカーティア・ラピスラズリ" },
+      { "name": "ドレミー・スイート" }
+    ],
+    "tags": [{ "name": "ヘカドレ" }]
+  },
+  {
+    "characters": [
+      { "name": "ヘカーティア・ラピスラズリ" },
+      { "name": "稀神サグメ" }
+    ],
+    "tags": [{ "name": "ヘカサグ" }]
+  },
+  {
+    "characters": [
+      { "name": "ヘカーティア・ラピスラズリ" },
       { "name": "クラウンピース" }
     ],
     "tags": [{ "name": "ヘカクラ" }]
+  },
+  {
+    "characters": [
+      { "name": "ヘカーティア・ラピスラズリ" },
+      { "name": "ヘカーティア・ラピスラズリ" }
+    ],
+    "tags": [{ "name": "ヘカヘカ" }]
   },
   {
     "characters": [{ "name": "エタニティラルバ" }, { "name": "チルノ" }],
@@ -2526,32 +4736,114 @@
     "tags": [{ "name": "エタせい" }]
   },
   {
+    "characters": [{ "name": "エタニティラルバ" }, { "name": "坂田ネムノ" }],
+    "tags": [{ "name": "ネムラル" }]
+  },
+  {
+    "characters": [{ "name": "坂田ネムノ" }, { "name": "チルノ" }],
+    "tags": [{ "name": "ネムチル" }]
+  },
+  {
     "characters": [{ "name": "坂田ネムノ" }, { "name": "射命丸文" }],
     "tags": [{ "name": "文ネム" }]
+  },
+  {
+    "characters": [{ "name": "坂田ネムノ" }, { "name": "堀川雷鼓" }],
+    "tags": [{ "name": "ネム雷" }]
+  },
+  {
+    "characters": [{ "name": "坂田ネムノ" }, { "name": "牛崎潤美" }],
+    "tags": [{ "name": "ネムうる" }]
+  },
+  {
+    "characters": [{ "name": "坂田ネムノ" }, { "name": "駒草山如" }],
+    "tags": [{ "name": "ねむこま" }]
+  },
+  {
+    "characters": [{ "name": "高麗野あうん" }, { "name": "チルノ" }],
+    "tags": [{ "name": "あうチル" }]
+  },
+  {
+    "characters": [{ "name": "高麗野あうん" }, { "name": "伊吹萃香" }],
+    "tags": [{ "name": "あうすい" }]
+  },
+  {
+    "characters": [
+      { "name": "高麗野あうん" },
+      { "name": "鈴仙・優曇華院・イナバ" }
+    ],
+    "tags": [{ "name": "あうどん" }]
   },
   {
     "characters": [{ "name": "高麗野あうん" }, { "name": "秋静葉" }],
     "tags": [{ "name": "あうしず" }]
   },
   {
+    "characters": [{ "name": "高麗野あうん" }, { "name": "幽谷響子" }],
+    "tags": [{ "name": "あうぎゃて" }]
+  },
+  {
+    "characters": [{ "name": "高麗野あうん" }, { "name": "エタニティラルバ" }],
+    "tags": [{ "name": "あうラル" }]
+  },
+  {
     "characters": [{ "name": "高麗野あうん" }, { "name": "矢田寺成美" }],
     "tags": [{ "name": "あうなる" }]
+  },
+  {
+    "characters": [{ "name": "高麗野あうん" }, { "name": "豪徳寺ミケ" }],
+    "tags": [{ "name": "あうミケ" }]
+  },
+  {
+    "characters": [{ "name": "矢田寺成美" }, { "name": "チルノ" }],
+    "tags": [{ "name": "なるチル" }]
   },
   {
     "characters": [{ "name": "矢田寺成美" }, { "name": "宇佐見菫子" }],
     "tags": [{ "name": "なるすみ" }]
   },
   {
+    "characters": [{ "name": "矢田寺成美" }, { "name": "丁礼田舞" }],
+    "tags": [{ "name": "なるまい" }]
+  },
+  {
+    "characters": [{ "name": "丁礼田舞" }, { "name": "チルノ" }],
+    "tags": [{ "name": "舞チル" }]
+  },
+  {
     "characters": [{ "name": "丁礼田舞" }, { "name": "爾子田里乃" }],
     "tags": [{ "name": "まいさと" }, { "name": "さとまい" }]
   },
   {
-    "characters": [{ "name": "摩多羅隠岐奈" }, { "name": "八雲紫" }],
-    "tags": [{ "name": "おきゆか" }, { "name": "ゆかおき" }]
+    "characters": [{ "name": "丁礼田舞" }, { "name": "摩多羅隠岐奈" }],
+    "tags": [{ "name": "まいおき" }]
+  },
+  {
+    "characters": [{ "name": "爾子田里乃" }, { "name": "チルノ" }],
+    "tags": [{ "name": "里チル" }]
+  },
+  {
+    "characters": [{ "name": "爾子田里乃" }, { "name": "摩多羅隠岐奈" }],
+    "tags": [{ "name": "さとおき" }]
   },
   {
     "characters": [{ "name": "摩多羅隠岐奈" }, { "name": "チルノ" }],
     "tags": [{ "name": "おきチル" }]
+  },
+  {
+    "characters": [
+      { "name": "摩多羅隠岐奈" },
+      { "name": "フランドール・スカーレット" }
+    ],
+    "tags": [{ "name": "おきフラ" }]
+  },
+  {
+    "characters": [{ "name": "摩多羅隠岐奈" }, { "name": "西行寺幽々子" }],
+    "tags": [{ "name": "おきゆゆ" }]
+  },
+  {
+    "characters": [{ "name": "摩多羅隠岐奈" }, { "name": "八雲紫" }],
+    "tags": [{ "name": "おきゆか" }, { "name": "ゆかおき" }]
   },
   {
     "characters": [{ "name": "摩多羅隠岐奈" }, { "name": "射命丸文" }],
@@ -2563,18 +4855,23 @@
   },
   {
     "characters": [{ "name": "摩多羅隠岐奈" }, { "name": "エタニティラルバ" }],
-    "tags": [{ "name": "おきラル" }, { "name": "きなエタ" }]
+    "tags": [{ "name": "おきラル" }]
+  },
+  {
+    "characters": [{ "name": "摩多羅隠岐奈" }, { "name": "坂田ネムノ" }],
+    "tags": [{ "name": "おきネム" }]
+  },
+  {
+    "characters": [{ "name": "摩多羅隠岐奈" }, { "name": "高麗野あうん" }],
+    "tags": [{ "name": "あうおき" }]
+  },
+  {
+    "characters": [{ "name": "摩多羅隠岐奈" }, { "name": "埴安神袿姫" }],
+    "tags": [{ "name": "おきけーき" }]
   },
   {
     "characters": [{ "name": "摩多羅隠岐奈" }, { "name": "易者" }],
     "tags": [{ "name": "オキシャ" }]
-  },
-  {
-    "characters": [
-      { "name": "摩多羅隠岐奈" },
-      { "name": "フランドール・スカーレット" }
-    ],
-    "tags": [{ "name": "おきフラ" }]
   },
   {
     "characters": [{ "name": "依神女苑" }, { "name": "依神紫苑" }],
@@ -2585,6 +4882,10 @@
     ]
   },
   {
+    "characters": [{ "name": "依神紫苑" }, { "name": "チルノ" }],
+    "tags": [{ "name": "しおチル" }]
+  },
+  {
     "characters": [{ "name": "依神紫苑" }, { "name": "鍵山雛" }],
     "tags": [{ "name": "ひなしおん" }]
   },
@@ -2593,8 +4894,24 @@
     "tags": [{ "name": "えいけーき" }]
   },
   {
+    "characters": [{ "name": "牛崎潤美" }, { "name": "チルノ" }],
+    "tags": [{ "name": "潤チル" }]
+  },
+  {
+    "characters": [{ "name": "牛崎潤美" }, { "name": "小野塚小町" }],
+    "tags": [{ "name": "うるこま" }]
+  },
+  {
+    "characters": [{ "name": "牛崎潤美" }, { "name": "戎瓔花" }],
+    "tags": [{ "name": "うるえーか" }]
+  },
+  {
     "characters": [{ "name": "牛崎潤美" }, { "name": "庭渡久侘歌" }],
     "tags": [{ "name": "うるくた" }]
+  },
+  {
+    "characters": [{ "name": "庭渡久侘歌" }, { "name": "チルノ" }],
+    "tags": [{ "name": "くたチル" }]
   },
   {
     "characters": [
@@ -2615,8 +4932,16 @@
     "tags": [{ "name": "くたぎゃて" }]
   },
   {
+    "characters": [{ "name": "吉弔八千慧" }, { "name": "チルノ" }],
+    "tags": [{ "name": "やちチル" }]
+  },
+  {
     "characters": [{ "name": "吉弔八千慧" }, { "name": "驪駒早鬼" }],
     "tags": [{ "name": "やちさき" }, { "name": "さきやち" }]
+  },
+  {
+    "characters": [{ "name": "吉弔八千慧" }, { "name": "杖刀偶磨弓" }],
+    "tags": [{ "name": "やちまゆ" }]
   },
   {
     "characters": [{ "name": "吉弔八千慧" }, { "name": "埴安神袿姫" }],
@@ -2627,28 +4952,120 @@
     "tags": [{ "name": "やちさんに" }]
   },
   {
+    "characters": [{ "name": "杖刀偶磨弓" }, { "name": "チルノ" }],
+    "tags": [{ "name": "まゆチル" }]
+  },
+  {
     "characters": [{ "name": "杖刀偶磨弓" }, { "name": "埴安神袿姫" }],
     "tags": [{ "name": "まゆけーき" }]
+  },
+  {
+    "characters": [{ "name": "杖刀偶磨弓" }, { "name": "驪駒早鬼" }],
+    "tags": [{ "name": "まゆさき" }]
+  },
+  {
+    "characters": [{ "name": "驪駒早鬼" }, { "name": "チルノ" }],
+    "tags": [{ "name": "さきチル" }]
   },
   {
     "characters": [{ "name": "驪駒早鬼" }, { "name": "庭渡久侘歌" }],
     "tags": [{ "name": "さきくた" }]
   },
   {
-    "characters": [{ "name": "玉造魅須丸" }, { "name": "埴安神袿姫" }],
-    "tags": [{ "name": "みすけーき" }]
+    "characters": [{ "name": "驪駒早鬼" }, { "name": "埴安神袿姫" }],
+    "tags": [{ "name": "さきけーき" }]
+  },
+  {
+    "characters": [{ "name": "驪駒早鬼" }, { "name": "姫虫百々世" }],
+    "tags": [{ "name": "さきもも" }]
+  },
+  {
+    "characters": [{ "name": "豪徳寺ミケ" }, { "name": "チルノ" }],
+    "tags": [{ "name": "ミケチル" }]
+  },
+  {
+    "characters": [{ "name": "豪徳寺ミケ" }, { "name": "十六夜咲夜" }],
+    "tags": [{ "name": "ミケ咲" }]
+  },
+  {
+    "characters": [{ "name": "豪徳寺ミケ" }, { "name": "橙" }],
+    "tags": [{ "name": "ミケ橙" }]
+  },
+  {
+    "characters": [{ "name": "豪徳寺ミケ" }, { "name": "ナズーリン" }],
+    "tags": [{ "name": "ミケナズ" }]
+  },
+  {
+    "characters": [{ "name": "豪徳寺ミケ" }, { "name": "山城たかね" }],
+    "tags": [{ "name": "ミケたか" }]
+  },
+  {
+    "characters": [{ "name": "山城たかね" }, { "name": "チルノ" }],
+    "tags": [{ "name": "たかチル" }]
+  },
+  {
+    "characters": [{ "name": "山城たかね" }, { "name": "東風谷早苗" }],
+    "tags": [{ "name": "たかさな" }]
+  },
+  {
+    "characters": [{ "name": "駒草山如" }, { "name": "チルノ" }],
+    "tags": [{ "name": "山チル" }]
+  },
+  {
+    "characters": [{ "name": "駒草山如" }, { "name": "山城たかね" }],
+    "tags": [{ "name": "さんたか" }]
   },
   {
     "characters": [{ "name": "駒草山如" }, { "name": "玉造魅須丸" }],
     "tags": [{ "name": "さんみす" }]
   },
   {
+    "characters": [{ "name": "玉造魅須丸" }, { "name": "チルノ" }],
+    "tags": [{ "name": "玉チル" }]
+  },
+  {
+    "characters": [{ "name": "玉造魅須丸" }, { "name": "埴安神袿姫" }],
+    "tags": [{ "name": "みすけーき" }]
+  },
+  {
+    "characters": [{ "name": "菅牧典" }, { "name": "チルノ" }],
+    "tags": [{ "name": "つかチル" }]
+  },
+  {
+    "characters": [{ "name": "菅牧典" }, { "name": "八雲藍" }],
+    "tags": [{ "name": "つからん" }]
+  },
+  {
+    "characters": [{ "name": "菅牧典" }, { "name": "玉造魅須丸" }],
+    "tags": [{ "name": "つかみす" }]
+  },
+  {
+    "characters": [{ "name": "飯綱丸龍" }, { "name": "チルノ" }],
+    "tags": [{ "name": "めぐチル" }]
+  },
+  {
     "characters": [{ "name": "飯綱丸龍" }, { "name": "射命丸文" }],
     "tags": [{ "name": "めぐあや" }]
   },
   {
+    "characters": [{ "name": "飯綱丸龍" }, { "name": "姫海棠はたて" }],
+    "tags": [{ "name": "めぐはた" }]
+  },
+  {
     "characters": [{ "name": "飯綱丸龍" }, { "name": "菅牧典" }],
     "tags": [{ "name": "めぐつか" }]
+  },
+  {
+    "characters": [{ "name": "天弓千亦" }, { "name": "チルノ" }],
+    "tags": [{ "name": "ちまチル" }]
+  },
+  {
+    "characters": [{ "name": "天弓千亦" }, { "name": "埴安神袿姫" }],
+    "tags": [{ "name": "ちまけーき" }]
+  },
+  {
+    "characters": [{ "name": "天弓千亦" }, { "name": "豪徳寺ミケ" }],
+    "tags": [{ "name": "ちまミケ" }]
   },
   {
     "characters": [{ "name": "天弓千亦" }, { "name": "菅牧典" }],
@@ -2659,12 +5076,35 @@
     "tags": [{ "name": "ちまめぐ" }]
   },
   {
+    "characters": [{ "name": "姫虫百々世" }, { "name": "チルノ" }],
+    "tags": [{ "name": "ももチル" }]
+  },
+  {
+    "characters": [{ "name": "姫虫百々世" }, { "name": "リグル・ナイトバグ" }],
+    "tags": [{ "name": "ももリグ" }]
+  },
+  {
+    "characters": [{ "name": "姫虫百々世" }, { "name": "吉弔八千慧" }],
+    "tags": [{ "name": "ももやち" }]
+  },
+  {
     "characters": [{ "name": "姫虫百々世" }, { "name": "菅牧典" }],
-    "tags": [{ "name": "ももつか" }, { "name": "つかもも" }]
+    "tags": [{ "name": "ももつか" }]
   },
   {
     "characters": [{ "name": "姫虫百々世" }, { "name": "飯綱丸龍" }],
     "tags": [{ "name": "ももめぐ" }]
+  },
+  {
+    "characters": [{ "name": "姫虫百々世" }, { "name": "天弓千亦" }],
+    "tags": [{ "name": "ももちま" }]
+  },
+  {
+    "characters": [
+      { "name": "饕餮尤魔" },
+      { "name": "レミリア・スカーレット" }
+    ],
+    "tags": [{ "name": "尤レミ" }]
   },
   {
     "characters": [
@@ -2672,6 +5112,25 @@
       { "name": "フランドール・スカーレット" }
     ],
     "tags": [{ "name": "尤フラ" }]
+  },
+  {
+    "characters": [{ "name": "饕餮尤魔" }, { "name": "吉弔八千慧" }],
+    "tags": [{ "name": "尤やち" }]
+  },
+  {
+    "characters": [
+      { "name": "本居小鈴" },
+      { "name": "鈴仙・優曇華院・イナバ" }
+    ],
+    "tags": [{ "name": "小鈴仙" }]
+  },
+  {
+    "characters": [{ "name": "本居小鈴" }, { "name": "鈴瑚" }],
+    "tags": [{ "name": "小鈴瑚" }]
+  },
+  {
+    "characters": [{ "name": "稗田阿求" }, { "name": "チルノ" }],
+    "tags": [{ "name": "あきゅチル" }]
   },
   {
     "characters": [{ "name": "稗田阿求" }, { "name": "藤原妹紅" }],
@@ -2687,6 +5146,14 @@
       { "name": "四季映姫・ヤマザナドゥ" }
     ],
     "tags": [{ "name": "あきゅえーき" }]
+  },
+  {
+    "characters": [{ "name": "稗田阿求" }, { "name": "茨木華扇" }],
+    "tags": [{ "name": "あきゅかせ" }]
+  },
+  {
+    "characters": [{ "name": "稗田阿求" }, { "name": "宇佐見菫子" }],
+    "tags": [{ "name": "あきゅすみ" }]
   },
   {
     "characters": [{ "name": "宇佐見蓮子" }, { "name": "宇佐見菫子" }],
@@ -2709,16 +5176,51 @@
     "tags": [{ "name": "トキミス" }]
   },
   {
+    "characters": [{ "name": "朱鷺子" }, { "name": "上白沢慧音" }],
+    "tags": [{ "name": "ときけーね" }]
+  },
+  {
+    "characters": [{ "name": "朱鷺子" }, { "name": "二ッ岩マミゾウ" }],
+    "tags": [{ "name": "ときつまみ" }]
+  },
+  {
+    "characters": [{ "name": "朱鷺子" }, { "name": "本居小鈴" }],
+    "tags": [{ "name": "朱鷺鈴" }]
+  },
+  {
+    "characters": [{ "name": "綿月豊姫" }, { "name": "蓬莱山輝夜" }],
+    "tags": [{ "name": "豊輝" }]
+  },
+  {
     "characters": [{ "name": "綿月豊姫" }, { "name": "比那名居天子" }],
     "tags": [{ "name": "とよてん" }]
   },
   {
+    "characters": [{ "name": "綿月豊姫" }, { "name": "稀神サグメ" }],
+    "tags": [{ "name": "豊サグ" }]
+  },
+  {
     "characters": [{ "name": "綿月豊姫" }, { "name": "綿月依姫" }],
-    "tags": [{ "name": "綿月姉妹" }, { "name": "とよより" }]
+    "tags": [{ "name": "綿月姉妹" }]
+  },
+  {
+    "characters": [
+      { "name": "綿月依姫" },
+      { "name": "鈴仙・優曇華院・イナバ" }
+    ],
+    "tags": [{ "name": "よりんげ" }]
+  },
+  {
+    "characters": [{ "name": "綿月依姫" }, { "name": "蓬莱山輝夜" }],
+    "tags": [{ "name": "依輝" }]
   },
   {
     "characters": [{ "name": "綿月依姫" }, { "name": "藤原妹紅" }],
     "tags": [{ "name": "よりもこ" }]
+  },
+  {
+    "characters": [{ "name": "綿月依姫" }, { "name": "魂魄妖夢" }],
+    "tags": [{ "name": "よりみょん" }]
   },
   {
     "characters": [{ "name": "綿月依姫" }, { "name": "比那名居天子" }],
@@ -2747,6 +5249,10 @@
   {
     "characters": [{ "name": "茨木華扇" }, { "name": "古明地さとり" }],
     "tags": [{ "name": "さとかせん" }]
+  },
+  {
+    "characters": [{ "name": "茨木華扇" }, { "name": "本居小鈴" }],
+    "tags": [{ "name": "すずかせ" }]
   },
   {
     "characters": [{ "name": "茨木華扇" }, { "name": "姫海棠はたて" }],
@@ -2791,6 +5297,14 @@
       { "name": "フランドール・スカーレット" }
     ],
     "tags": [{ "name": "サニフラ" }]
+  },
+  {
+    "characters": [{ "name": "サニーミルク" }, { "name": "リリーホワイト" }],
+    "tags": [{ "name": "サニリリ" }]
+  },
+  {
+    "characters": [{ "name": "サニーミルク" }, { "name": "霊烏路空" }],
+    "tags": [{ "name": "サニ空" }]
   },
   {
     "characters": [{ "name": "サニーミルク" }, { "name": "クラウンピース" }],
@@ -2840,19 +5354,19 @@
     "tags": [{ "name": "みまとじ" }]
   },
   {
-    "characters": [{ "name": "コンガラ" }, { "name": "キクリ" }],
+    "characters": [{ "name": "Konngara" }, { "name": "キクリ" }],
     "tags": [{ "name": "コンクリ" }]
   },
   {
-    "characters": [{ "name": "コンガラ" }, { "name": "サリエル" }],
+    "characters": [{ "name": "Konngara" }, { "name": "sariel" }],
     "tags": [{ "name": "コンサリ" }]
   },
   {
-    "characters": [{ "name": "里香" }, { "name": "ルーミア" }],
+    "characters": [{ "name": "里香(東方Project)" }, { "name": "ルーミア" }],
     "tags": [{ "name": "ルー里香" }]
   },
   {
-    "characters": [{ "name": "明羅" }, { "name": "里香" }],
+    "characters": [{ "name": "明羅" }, { "name": "里香(東方Project)" }],
     "tags": [{ "name": "めいりか" }]
   },
   {
@@ -2895,39 +5409,45 @@
     "tags": [{ "name": "オレチル" }]
   },
   {
-    "characters": [{ "name": "くるみ" }, { "name": "エリー" }],
+    "characters": [
+      { "name": "くるみ(東方Project)" },
+      { "name": "エリー(東方Project)" }
+    ],
     "tags": [{ "name": "くるエリー" }]
   },
   {
-    "characters": [{ "name": "くるみ" }, { "name": "夢月" }],
+    "characters": [{ "name": "くるみ(東方Project)" }, { "name": "夢月" }],
     "tags": [{ "name": "むげくるみ" }]
   },
   {
-    "characters": [{ "name": "くるみ" }, { "name": "ルーミア" }],
+    "characters": [{ "name": "くるみ(東方Project)" }, { "name": "ルーミア" }],
     "tags": [{ "name": "くるーみあ" }]
   },
   {
-    "characters": [{ "name": "くるみ" }, { "name": "レミリア・スカーレット" }],
+    "characters": [
+      { "name": "くるみ(東方Project)" },
+      { "name": "レミリア・スカーレット" }
+    ],
     "tags": [{ "name": "レミくる" }]
   },
   {
     "characters": [
-      { "name": "くるみ" },
+      { "name": "くるみ(東方Project)" },
       { "name": "フランドール・スカーレット" }
     ],
     "tags": [{ "name": "フラくる" }]
   },
   {
-    "characters": [{ "name": "くるみ" }, { "name": "橙" }],
+    "characters": [{ "name": "くるみ(東方Project)" }, { "name": "橙" }],
     "tags": [{ "name": "くるちぇん" }]
   },
   {
-    "characters": [{ "name": "夢月" }, { "name": "エリー" }],
+    "characters": [{ "name": "夢月" }, { "name": "エリー(東方Project)" }],
     "tags": [{ "name": "むげエリ" }]
   },
   {
     "characters": [{ "name": "夢月" }, { "name": "幻月" }],
-    "tags": [{ "name": "夢幻姉妹" }, { "name": "むげんげ" }]
+    "tags": [{ "name": "夢幻姉妹" }]
   },
   {
     "characters": [{ "name": "夢月" }, { "name": "夢子" }],
@@ -2949,19 +5469,21 @@
     "tags": [{ "name": "レミ幻" }]
   },
   {
-    "characters": [{ "name": "怪綺談1面中ボス" }, { "name": "サラ" }],
-    "tags": [{ "name": "輪妖精×サラ" }]
-  },
-  {
-    "characters": [{ "name": "ルイズ" }, { "name": "サラ" }],
+    "characters": [
+      { "name": "ルイズ(東方Project)" },
+      { "name": "サラ(東方Project)" }
+    ],
     "tags": [{ "name": "ルイサラ" }]
   },
   {
-    "characters": [{ "name": "ルイズ" }, { "name": "ユキ" }],
+    "characters": [
+      { "name": "ルイズ(東方Project)" },
+      { "name": "ユキ(東方Project)" }
+    ],
     "tags": [{ "name": "ルイユキ" }]
   },
   {
-    "characters": [{ "name": "ルイズ" }, { "name": "夢子" }],
+    "characters": [{ "name": "ルイズ(東方Project)" }, { "name": "夢子" }],
     "tags": [{ "name": "ルイ夢" }]
   },
   {
@@ -2969,7 +5491,10 @@
     "tags": [{ "name": "ロリアリ" }]
   },
   {
-    "characters": [{ "name": "ユキ" }, { "name": "マイ" }],
+    "characters": [
+      { "name": "ユキ(東方Project)" },
+      { "name": "マイ(東方Project)" }
+    ],
     "tags": [{ "name": "ユキマイ" }]
   },
   {
@@ -2999,6 +5524,10 @@
   {
     "characters": [{ "name": "ルーミア" }, { "name": "博麗霊夢" }],
     "tags": [{ "name": "霊ミア" }]
+  },
+  {
+    "characters": [{ "name": "大妖精" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "れい大" }]
   },
   {
     "characters": [{ "name": "チルノ" }, { "name": "博麗霊夢" }],
@@ -3045,6 +5574,14 @@
     "tags": [{ "name": "くろまくみこ" }]
   },
   {
+    "characters": [{ "name": "リリーホワイト" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "霊リリ" }]
+  },
+  {
+    "characters": [{ "name": "橙" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "ちぇんれいむ" }]
+  },
+  {
     "characters": [
       { "name": "アリス・マーガトロイド" },
       { "name": "博麗霊夢" }
@@ -3057,6 +5594,13 @@
       { "name": "博麗霊夢" }
     ],
     "tags": [{ "name": "ルナ霊" }]
+  },
+  {
+    "characters": [
+      { "name": "リリカ・プリズムリバー" },
+      { "name": "博麗霊夢" }
+    ],
+    "tags": [{ "name": "リリ霊" }]
   },
   {
     "characters": [{ "name": "魂魄妖夢" }, { "name": "博麗霊夢" }],
@@ -3074,7 +5618,7 @@
     "characters": [{ "name": "八雲紫" }, { "name": "博麗霊夢" }],
     "tags": [
       { "name": "ゆかれいむ" },
-      { "name": "れいゆか" },
+      { "name": "ゆかれい" },
       { "name": "ゆかれいむが俺のロード" }
     ]
   },
@@ -3094,6 +5638,14 @@
     "tags": [{ "name": "れいみす" }]
   },
   {
+    "characters": [{ "name": "上白沢慧音" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "けねれい" }]
+  },
+  {
+    "characters": [{ "name": "因幡てゐ" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "てゐれい" }]
+  },
+  {
     "characters": [
       { "name": "鈴仙・優曇華院・イナバ" },
       { "name": "博麗霊夢" }
@@ -3102,7 +5654,7 @@
   },
   {
     "characters": [{ "name": "八意永琳" }, { "name": "博麗霊夢" }],
-    "tags": [{ "name": "えーれい" }]
+    "tags": [{ "name": "えーれいむ" }]
   },
   {
     "characters": [{ "name": "蓬莱山輝夜" }, { "name": "博麗霊夢" }],
@@ -3129,7 +5681,11 @@
   },
   {
     "characters": [{ "name": "射命丸文" }, { "name": "博麗霊夢" }],
-    "tags": [{ "name": "あやれいむ" }]
+    "tags": [
+      { "name": "あやれいむ" },
+      { "name": "れいあや" },
+      { "name": "霊文" }
+    ]
   },
   {
     "characters": [
@@ -3137,6 +5693,10 @@
       { "name": "博麗霊夢" }
     ],
     "tags": [{ "name": "霊メディ" }]
+  },
+  {
+    "characters": [{ "name": "秋静葉" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "霊静" }]
   },
   {
     "characters": [{ "name": "秋穣子" }, { "name": "博麗霊夢" }],
@@ -3151,8 +5711,16 @@
     "tags": [{ "name": "にとレイ" }]
   },
   {
+    "characters": [{ "name": "犬走椛" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "れいもみ" }]
+  },
+  {
     "characters": [{ "name": "東風谷早苗" }, { "name": "博麗霊夢" }],
     "tags": [{ "name": "レイサナ" }, { "name": "レイサナの道を歩む" }]
+  },
+  {
+    "characters": [{ "name": "八坂神奈子" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "神奈霊" }]
   },
   {
     "characters": [{ "name": "洩矢諏訪子" }, { "name": "博麗霊夢" }],
@@ -3167,8 +5735,20 @@
     "tags": [{ "name": "れいてん" }]
   },
   {
+    "characters": [{ "name": "キスメ" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "霊キス" }]
+  },
+  {
+    "characters": [{ "name": "黒谷ヤマメ" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "ヤマ霊" }]
+  },
+  {
     "characters": [{ "name": "水橋パルスィ" }, { "name": "博麗霊夢" }],
     "tags": [{ "name": "霊パル" }]
+  },
+  {
+    "characters": [{ "name": "星熊勇儀" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "ゆうぎれいむ" }]
   },
   {
     "characters": [{ "name": "古明地さとり" }, { "name": "博麗霊夢" }],
@@ -3195,12 +5775,28 @@
     "tags": [{ "name": "こがれい" }]
   },
   {
+    "characters": [{ "name": "村紗水蜜" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "ムラレイ" }]
+  },
+  {
+    "characters": [{ "name": "寅丸星" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "れいとら" }]
+  },
+  {
     "characters": [{ "name": "聖白蓮" }, { "name": "博麗霊夢" }],
     "tags": [{ "name": "ひじれい" }]
   },
   {
+    "characters": [{ "name": "封獣ぬえ" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "れいぬえ" }]
+  },
+  {
     "characters": [{ "name": "姫海棠はたて" }, { "name": "博麗霊夢" }],
     "tags": [{ "name": "はたれいむ" }]
+  },
+  {
+    "characters": [{ "name": "幽谷響子" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "霊響" }]
   },
   {
     "characters": [{ "name": "宮古芳香" }, { "name": "博麗霊夢" }],
@@ -3211,16 +5807,36 @@
     "tags": [{ "name": "青霊" }]
   },
   {
+    "characters": [{ "name": "蘇我屠自古" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "れいとじ" }]
+  },
+  {
+    "characters": [{ "name": "物部布都" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "れいふと" }]
+  },
+  {
     "characters": [{ "name": "豊聡耳神子" }, { "name": "博麗霊夢" }],
     "tags": [{ "name": "みこれいむ" }]
+  },
+  {
+    "characters": [{ "name": "二ッ岩マミゾウ" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "マミ霊" }]
   },
   {
     "characters": [{ "name": "秦こころ" }, { "name": "博麗霊夢" }],
     "tags": [{ "name": "霊ここ" }]
   },
   {
+    "characters": [{ "name": "わかさぎ姫" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "わか霊" }]
+  },
+  {
     "characters": [{ "name": "赤蛮奇" }, { "name": "博麗霊夢" }],
     "tags": [{ "name": "ばんれいむ" }]
+  },
+  {
+    "characters": [{ "name": "今泉影狼" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "かげれいむ" }]
   },
   {
     "characters": [{ "name": "鬼人正邪" }, { "name": "博麗霊夢" }],
@@ -3235,8 +5851,19 @@
     "tags": [{ "name": "菫霊" }]
   },
   {
+    "characters": [{ "name": "稀神サグメ" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "霊サグ" }]
+  },
+  {
     "characters": [{ "name": "クラウンピース" }, { "name": "博麗霊夢" }],
     "tags": [{ "name": "霊クラ" }]
+  },
+  {
+    "characters": [
+      { "name": "ヘカーティア・ラピスラズリ" },
+      { "name": "博麗霊夢" }
+    ],
+    "tags": [{ "name": "ヘカ霊" }]
   },
   {
     "characters": [{ "name": "依神紫苑" }, { "name": "博麗霊夢" }],
@@ -3247,12 +5874,32 @@
     "tags": [{ "name": "あう霊" }]
   },
   {
+    "characters": [{ "name": "吉弔八千慧" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "やちれいむ" }]
+  },
+  {
+    "characters": [{ "name": "杖刀偶磨弓" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "れいまゆ" }]
+  },
+  {
+    "characters": [{ "name": "埴安神袿姫" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "けーれいむ" }]
+  },
+  {
     "characters": [{ "name": "玉造魅須丸" }, { "name": "博麗霊夢" }],
     "tags": [{ "name": "みすれいむ" }]
   },
   {
+    "characters": [{ "name": "天弓千亦" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "れいちま" }]
+  },
+  {
     "characters": [{ "name": "綿月依姫" }, { "name": "博麗霊夢" }],
     "tags": [{ "name": "依霊" }]
+  },
+  {
+    "characters": [{ "name": "綿月豊姫" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "豊霊" }]
   },
   {
     "characters": [{ "name": "茨木華扇" }, { "name": "博麗霊夢" }],
@@ -3267,12 +5914,32 @@
     "tags": [{ "name": "すずれいむ" }]
   },
   {
+    "characters": [{ "name": "サニーミルク" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "霊サニ" }]
+  },
+  {
+    "characters": [{ "name": "ルナチャイルド" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "霊ルナ" }]
+  },
+  {
+    "characters": [{ "name": "スターサファイア" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "スタ霊" }]
+  },
+  {
     "characters": [{ "name": "朱鷺子" }, { "name": "博麗霊夢" }],
     "tags": [{ "name": "霊朱鷺" }]
   },
   {
     "characters": [{ "name": "宇佐見蓮子" }, { "name": "博麗霊夢" }],
     "tags": [{ "name": "蓮霊" }]
+  },
+  {
+    "characters": [{ "name": "マエリベリー・ハーン" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "霊メリ" }]
+  },
+  {
+    "characters": [{ "name": "奥野田美宵" }, { "name": "博麗霊夢" }],
+    "tags": [{ "name": "れいみよ" }]
   },
   {
     "characters": [{ "name": "霧雨魔理沙" }, { "name": "霧雨魔理沙" }],
@@ -3293,6 +5960,10 @@
   {
     "characters": [{ "name": "紅美鈴" }, { "name": "霧雨魔理沙" }],
     "tags": [{ "name": "メイマリ" }]
+  },
+  {
+    "characters": [{ "name": "小悪魔" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "こあまり" }]
   },
   {
     "characters": [
@@ -3325,6 +5996,10 @@
     "tags": [{ "name": "フラマリ" }, { "name": "マリフラ" }]
   },
   {
+    "characters": [{ "name": "橙" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "まりちぇん" }]
+  },
+  {
     "characters": [
       { "name": "アリス・マーガトロイド" },
       { "name": "霧雨魔理沙" }
@@ -3343,6 +6018,13 @@
     "tags": [{ "name": "ルナマリ" }]
   },
   {
+    "characters": [
+      { "name": "リリカ・プリズムリバー" },
+      { "name": "霧雨魔理沙" }
+    ],
+    "tags": [{ "name": "マリリリカ" }]
+  },
+  {
     "characters": [{ "name": "魂魄妖夢" }, { "name": "霧雨魔理沙" }],
     "tags": [{ "name": "マリみょん" }, { "name": "まりみょん" }]
   },
@@ -3357,6 +6039,14 @@
   {
     "characters": [{ "name": "八雲紫" }, { "name": "霧雨魔理沙" }],
     "tags": [{ "name": "ゆかまり" }]
+  },
+  {
+    "characters": [{ "name": "伊吹萃香" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "萃マリ" }]
+  },
+  {
+    "characters": [{ "name": "リグル・ナイトバグ" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "リグマリ" }]
   },
   {
     "characters": [
@@ -3393,8 +6083,19 @@
     "tags": [{ "name": "文マリ" }]
   },
   {
+    "characters": [
+      { "name": "メディスン・メランコリー" },
+      { "name": "霧雨魔理沙" }
+    ],
+    "tags": [{ "name": "メディマリ" }]
+  },
+  {
     "characters": [{ "name": "風見幽香" }, { "name": "霧雨魔理沙" }],
     "tags": [{ "name": "幽マリ" }]
+  },
+  {
+    "characters": [{ "name": "秋穣子" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "みのまり" }]
   },
   {
     "characters": [{ "name": "鍵山雛" }, { "name": "霧雨魔理沙" }],
@@ -3405,8 +6106,20 @@
     "tags": [{ "name": "にとまり" }]
   },
   {
+    "characters": [{ "name": "犬走椛" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "もみマリ" }]
+  },
+  {
     "characters": [{ "name": "東風谷早苗" }, { "name": "霧雨魔理沙" }],
     "tags": [{ "name": "サナマリ" }, { "name": "サナマリが僕の客星" }]
+  },
+  {
+    "characters": [{ "name": "八坂神奈子" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "マリかな" }]
+  },
+  {
+    "characters": [{ "name": "比那名居天子" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "まりてん" }]
   },
   {
     "characters": [{ "name": "永江衣玖" }, { "name": "霧雨魔理沙" }],
@@ -3425,6 +6138,10 @@
     "tags": [{ "name": "さとまり" }, { "name": "さとマリ" }]
   },
   {
+    "characters": [{ "name": "火焔猫燐" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "マリりん" }]
+  },
+  {
     "characters": [{ "name": "霊烏路空" }, { "name": "霧雨魔理沙" }],
     "tags": [{ "name": "うにゅマリ" }]
   },
@@ -3441,12 +6158,64 @@
     "tags": [{ "name": "まりこが" }]
   },
   {
+    "characters": [{ "name": "村紗水蜜" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "水マリ" }]
+  },
+  {
+    "characters": [{ "name": "寅丸星" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "星マリ" }]
+  },
+  {
     "characters": [{ "name": "聖白蓮" }, { "name": "霧雨魔理沙" }],
-    "tags": [{ "name": "白マリ" }, { "name": "ひじまり" }]
+    "tags": [{ "name": "白マリ" }]
+  },
+  {
+    "characters": [{ "name": "封獣ぬえ" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "ぬえマリ" }]
+  },
+  {
+    "characters": [{ "name": "姫海棠はたて" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "まりはた" }]
+  },
+  {
+    "characters": [{ "name": "幽谷響子" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "まりぎゃて" }]
   },
   {
     "characters": [{ "name": "霍青娥" }, { "name": "霧雨魔理沙" }],
     "tags": [{ "name": "せいまり" }]
+  },
+  {
+    "characters": [{ "name": "物部布都" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "ふとマリ" }]
+  },
+  {
+    "characters": [{ "name": "二ッ岩マミゾウ" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "マミ魔理" }]
+  },
+  {
+    "characters": [{ "name": "鬼人正邪" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "正マリ" }]
+  },
+  {
+    "characters": [{ "name": "堀川雷鼓" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "雷マリ" }]
+  },
+  {
+    "characters": [{ "name": "秦こころ" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "マリここ" }]
+  },
+  {
+    "characters": [{ "name": "宇佐見菫子" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "マリすみ" }]
+  },
+  {
+    "characters": [{ "name": "稀神サグメ" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "サグまり" }]
+  },
+  {
+    "characters": [{ "name": "クラウンピース" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "マリクラ" }]
   },
   {
     "characters": [
@@ -3460,6 +6229,10 @@
     "tags": [{ "name": "まりなる" }, { "name": "成マリ" }]
   },
   {
+    "characters": [{ "name": "摩多羅隠岐奈" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "おきまり" }]
+  },
+  {
     "characters": [{ "name": "稗田阿求" }, { "name": "霧雨魔理沙" }],
     "tags": [{ "name": "まりあきゅ" }]
   },
@@ -3470,6 +6243,14 @@
   {
     "characters": [{ "name": "本居小鈴" }, { "name": "霧雨魔理沙" }],
     "tags": [{ "name": "まりすず" }]
+  },
+  {
+    "characters": [{ "name": "サニーミルク" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "マリサニ" }]
+  },
+  {
+    "characters": [{ "name": "ルナチャイルド" }, { "name": "霧雨魔理沙" }],
+    "tags": [{ "name": "チャイルド魔理沙" }]
   },
   {
     "characters": [{ "name": "邪龍(東方Project)" }, { "name": "霧雨魔理沙" }],
@@ -3539,10 +6320,42 @@
   },
   {
     "characters": [
+      { "name": "リリーホワイト" },
+      { "name": "アリス・マーガトロイド" }
+    ],
+    "tags": [{ "name": "アリリリ" }]
+  },
+  {
+    "characters": [{ "name": "橙" }, { "name": "アリス・マーガトロイド" }],
+    "tags": [{ "name": "アリちぇん" }]
+  },
+  {
+    "characters": [
+      { "name": "ルナサ・プリズムリバー" },
+      { "name": "アリス・マーガトロイド" }
+    ],
+    "tags": [{ "name": "ルナアリ" }]
+  },
+  {
+    "characters": [
+      { "name": "メルラン・プリズムリバー" },
+      { "name": "アリス・マーガトロイド" }
+    ],
+    "tags": [{ "name": "メルアリ" }]
+  },
+  {
+    "characters": [
+      { "name": "リリカ・プリズムリバー" },
+      { "name": "アリス・マーガトロイド" }
+    ],
+    "tags": [{ "name": "リリアリ" }]
+  },
+  {
+    "characters": [
       { "name": "魂魄妖夢" },
       { "name": "アリス・マーガトロイド" }
     ],
-    "tags": [{ "name": "みょんアリ" }, { "name": "アリみょん" }]
+    "tags": [{ "name": "みょんアリ" }]
   },
   {
     "characters": [
@@ -3550,6 +6363,10 @@
       { "name": "アリス・マーガトロイド" }
     ],
     "tags": [{ "name": "ゆゆアリ" }]
+  },
+  {
+    "characters": [{ "name": "八雲藍" }, { "name": "アリス・マーガトロイド" }],
+    "tags": [{ "name": "藍アリ" }]
   },
   {
     "characters": [{ "name": "八雲紫" }, { "name": "アリス・マーガトロイド" }],
@@ -3564,10 +6381,24 @@
   },
   {
     "characters": [
+      { "name": "リグル・ナイトバグ" },
+      { "name": "アリス・マーガトロイド" }
+    ],
+    "tags": [{ "name": "リグアリ" }]
+  },
+  {
+    "characters": [
       { "name": "ミスティア・ローレライ" },
       { "name": "アリス・マーガトロイド" }
     ],
     "tags": [{ "name": "アリミス" }]
+  },
+  {
+    "characters": [
+      { "name": "上白沢慧音" },
+      { "name": "アリス・マーガトロイド" }
+    ],
+    "tags": [{ "name": "けねアリ" }]
   },
   {
     "characters": [
@@ -3582,6 +6413,13 @@
       { "name": "アリス・マーガトロイド" }
     ],
     "tags": [{ "name": "うどアリ" }]
+  },
+  {
+    "characters": [
+      { "name": "八意永琳" },
+      { "name": "アリス・マーガトロイド" }
+    ],
+    "tags": [{ "name": "永アリ" }]
   },
   {
     "characters": [
@@ -3630,6 +6468,10 @@
     "tags": [{ "name": "しずアリ" }]
   },
   {
+    "characters": [{ "name": "秋穣子" }, { "name": "アリス・マーガトロイド" }],
+    "tags": [{ "name": "みのアリ" }]
+  },
+  {
     "characters": [{ "name": "鍵山雛" }, { "name": "アリス・マーガトロイド" }],
     "tags": [{ "name": "雛アリ" }]
   },
@@ -3653,6 +6495,13 @@
   },
   {
     "characters": [
+      { "name": "八坂神奈子" },
+      { "name": "アリス・マーガトロイド" }
+    ],
+    "tags": [{ "name": "かなアリ" }]
+  },
+  {
+    "characters": [
       { "name": "永江衣玖" },
       { "name": "アリス・マーガトロイド" }
     ],
@@ -3664,6 +6513,17 @@
       { "name": "アリス・マーガトロイド" }
     ],
     "tags": [{ "name": "天アリ" }]
+  },
+  {
+    "characters": [{ "name": "キスメ" }, { "name": "アリス・マーガトロイド" }],
+    "tags": [{ "name": "キスアリ" }]
+  },
+  {
+    "characters": [
+      { "name": "黒谷ヤマメ" },
+      { "name": "アリス・マーガトロイド" }
+    ],
+    "tags": [{ "name": "ヤマアリ" }]
   },
   {
     "characters": [
@@ -3678,6 +6538,13 @@
       { "name": "アリス・マーガトロイド" }
     ],
     "tags": [{ "name": "さとアリ" }]
+  },
+  {
+    "characters": [
+      { "name": "火焔猫燐" },
+      { "name": "アリス・マーガトロイド" }
+    ],
+    "tags": [{ "name": "燐アリ" }]
   },
   {
     "characters": [
@@ -3715,8 +6582,16 @@
     "tags": [{ "name": "むらあり" }]
   },
   {
+    "characters": [{ "name": "寅丸星" }, { "name": "アリス・マーガトロイド" }],
+    "tags": [{ "name": "アリ寅" }]
+  },
+  {
     "characters": [{ "name": "聖白蓮" }, { "name": "アリス・マーガトロイド" }],
     "tags": [{ "name": "白アリ" }]
+  },
+  {
+    "characters": [{ "name": "赤蛮奇" }, { "name": "アリス・マーガトロイド" }],
+    "tags": [{ "name": "蛮アリ" }]
   },
   {
     "characters": [
@@ -3727,10 +6602,45 @@
   },
   {
     "characters": [
+      { "name": "秦こころ" },
+      { "name": "アリス・マーガトロイド" }
+    ],
+    "tags": [{ "name": "ここアリ" }]
+  },
+  {
+    "characters": [
       { "name": "稀神サグメ" },
       { "name": "アリス・マーガトロイド" }
     ],
     "tags": [{ "name": "サグアリ" }]
+  },
+  {
+    "characters": [
+      { "name": "矢田寺成美" },
+      { "name": "アリス・マーガトロイド" }
+    ],
+    "tags": [{ "name": "なるアリ" }]
+  },
+  {
+    "characters": [
+      { "name": "埴安神袿姫" },
+      { "name": "アリス・マーガトロイド" }
+    ],
+    "tags": [{ "name": "アリけーき" }]
+  },
+  {
+    "characters": [
+      { "name": "綿月依姫" },
+      { "name": "アリス・マーガトロイド" }
+    ],
+    "tags": [{ "name": "依アリ" }]
+  },
+  {
+    "characters": [
+      { "name": "稗田阿求" },
+      { "name": "アリス・マーガトロイド" }
+    ],
+    "tags": [{ "name": "あきゅアリ" }]
   },
   {
     "characters": [

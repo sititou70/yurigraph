@@ -124,6 +124,10 @@
     "tags": [{ "name": "クイーンズコンフリクト" }]
   },
   {
+    "characters": [{ "name": "黒川千秋" }, { "name": "佐城雪美" }],
+    "tags": [{ "name": "黒雪姉妹" }]
+  },
+  {
     "characters": [{ "name": "望月聖" }, { "name": "クラリス" }],
     "tags": [{ "name": "グロリアス・コード" }]
   },
@@ -295,6 +299,10 @@
     "tags": [{ "name": "ドリームアウェイ" }]
   },
   {
+    "characters": [{ "name": "二宮飛鳥" }, { "name": "南条光" }],
+    "tags": [{ "name": "トワイライト//イデア" }]
+  },
+  {
     "characters": [{ "name": "伊集院惠" }, { "name": "ケイト" }],
     "tags": [{ "name": "ナイトブルーレザー" }]
   },
@@ -418,14 +426,6 @@
     "tags": [{ "name": "ももあり" }, { "name": "ももべりー" }]
   },
   {
-    "characters": [{ "name": "南条光" }, { "name": "横山千佳" }],
-    "tags": [{ "name": "リトルヒーロー" }]
-  },
-  {
-    "characters": [{ "name": "松永涼" }, { "name": "白坂小梅" }],
-    "tags": [{ "name": "りょううめ" }, { "name": "エルドリッチ・ロアテラー" }]
-  },
-  {
     "characters": [{ "name": "大槻唯" }, { "name": "相川千夏" }],
     "tags": [{ "name": "ゆいちな" }, { "name": "サクラブロッサム" }]
   },
@@ -436,6 +436,18 @@
   {
     "characters": [{ "name": "中野有香" }, { "name": "水本ゆかり" }],
     "tags": [{ "name": "ゆかゆかり" }, { "name": "ストレートフルート" }]
+  },
+  {
+    "characters": [{ "name": "南条光" }, { "name": "横山千佳" }],
+    "tags": [{ "name": "リトルヒーロー" }]
+  },
+  {
+    "characters": [{ "name": "松永涼" }, { "name": "白坂小梅" }],
+    "tags": [{ "name": "りょううめ" }, { "name": "エルドリッチ・ロアテラー" }]
+  },
+  {
+    "characters": [{ "name": "渋谷凛" }, { "name": "橘ありす" }],
+    "tags": [{ "name": "凛あり" }]
   },
   {
     "characters": [{ "name": "小関麗奈" }, { "name": "南条光" }],
@@ -534,6 +546,10 @@
     ]
   },
   {
+    "tags": [{ "name": "あきあか" }, { "name": "辻砂" }],
+    "characters": [{ "name": "砂塚あきら" }, { "name": "辻野あかり" }]
+  },
+  {
     "tags": [{ "name": "アキレイナ" }],
     "characters": [{ "name": "池袋晶葉" }, { "name": "小関麗奈" }]
   },
@@ -576,10 +592,6 @@
   {
     "tags": [{ "name": "かなみほ" }],
     "characters": [{ "name": "三村かな子" }, { "name": "小日向美穂" }]
-  },
-  {
-    "tags": [{ "name": "黒雪姉妹" }],
-    "characters": [{ "name": "黒川千秋" }, { "name": "佐城雪美" }]
   },
   {
     "tags": [{ "name": "こしみずき" }],
@@ -1066,6 +1078,10 @@
     "characters": [{ "name": "大槻唯" }, { "name": "脇山珠美" }]
   },
   {
+    "tags": [{ "name": "ちえあり" }],
+    "characters": [{ "name": "佐々木千枝" }, { "name": "橘ありす" }]
+  },
+  {
     "tags": [{ "name": "ちえかお" }],
     "characters": [{ "name": "佐々木千枝" }, { "name": "龍崎薫" }]
   },
@@ -1230,6 +1246,10 @@
     "characters": [{ "name": "鷺沢文香" }, { "name": "神崎蘭子" }]
   },
   {
+    "tags": [{ "name": "ふみまゆ" }],
+    "characters": [{ "name": "鷺沢文香" }, { "name": "佐久間まゆ" }]
+  },
+  {
     "tags": [{ "name": "フレあり" }],
     "characters": [{ "name": "宮本フレデリカ" }, { "name": "橘ありす" }]
   },
@@ -1252,10 +1272,6 @@
   {
     "tags": [{ "name": "まゆちえ" }],
     "characters": [{ "name": "佐久間まゆ" }, { "name": "緒方智絵里" }]
-  },
-  {
-    "tags": [{ "name": "まゆ文" }],
-    "characters": [{ "name": "佐久間まゆ" }, { "name": "鷺沢文香" }]
   },
   {
     "tags": [{ "name": "まゆりーな" }],
@@ -1444,10 +1460,6 @@
   {
     "tags": [{ "name": "りょうなつ" }],
     "characters": [{ "name": "松永涼" }, { "name": "木村夏樹" }]
-  },
-  {
-    "tags": [{ "name": "凛あり" }],
-    "characters": [{ "name": "渋谷凛" }, { "name": "橘ありす" }]
   },
   {
     "tags": [{ "name": "凛かな" }],
