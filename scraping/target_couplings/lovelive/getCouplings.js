@@ -67,11 +67,11 @@
   // get target couplings
   const target_table_selectors = {
     'https://dic.pixiv.net/a/%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%21%E3%81%AE%E3%82%AB%E3%83%83%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%BF%E3%82%B0%E4%B8%80%E8%A6%A7':
-      '#article-body > table:nth-child(12)',
+      '#article-body > table:nth-child(13)',
     'https://dic.pixiv.net/a/%E3%83%A9%E3%83%96%E3%83%A9%E3%82%A4%E3%83%96%21%E3%82%B5%E3%83%B3%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%B3%21%21%E3%81%AE%E3%82%AB%E3%83%83%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%BF%E3%82%B0%E4%B8%80%E8%A6%A7':
-      '#article-body > table:nth-child(16)',
+      '#article-body > table:nth-child(18)',
     'https://dic.pixiv.net/a/Aqours%C3%97%CE%BC%27s%E3%81%AE%E3%82%AB%E3%83%83%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%BF%E3%82%B0%E4%B8%80%E8%A6%A7':
-      '#article-body > table:nth-child(7)',
+      '#article-body > table:nth-child(8)',
   };
   const target_table = document.querySelector(
     target_table_selectors[location.href]

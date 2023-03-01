@@ -221,7 +221,7 @@
   },
   {
     "characters": [{ "name": "倉田ましろ" }, { "name": "広町七深" }],
-    "tags": [{ "name": "ましなな" }, { "name": "ななまし" }]
+    "tags": [{ "name": "ななまし" }, { "name": "ましなな" }]
   },
   {
     "characters": [{ "name": "倉田ましろ" }, { "name": "八潮瑠唯" }],
@@ -258,6 +258,10 @@
   {
     "characters": [{ "name": "羽沢つぐみ" }, { "name": "氷川日菜" }],
     "tags": [{ "name": "ひなつぐ" }]
+  },
+  {
+    "characters": [{ "name": "羽沢つぐみ" }, { "name": "大和麻弥" }],
+    "tags": [{ "name": "つぐまや" }, { "name": "まやつぐ" }]
   },
   {
     "characters": [{ "name": "白鷺千聖" }, { "name": "松原花音" }],
@@ -360,6 +364,10 @@
     "tags": [{ "name": "まやかお" }, { "name": "かおまや" }]
   },
   {
+    "characters": [{ "name": "湊友希那" }, { "name": "珠手ちゆ" }],
+    "tags": [{ "name": "ゆきチュチュ" }]
+  },
+  {
     "characters": [{ "name": "氷川紗夜" }, { "name": "奥沢美咲" }],
     "tags": [{ "name": "みささよ" }]
   },
@@ -373,10 +381,6 @@
   },
   {
     "characters": [{ "name": "朝日六花" }, { "name": "戸山明日香" }],
-    "tags": [{ "name": "六明日" }, { "name": "あすろっか" }]
-  },
-  {
-    "characters": [{ "name": "羽沢つぐみ" }, { "name": "大和麻弥" }],
-    "tags": [{ "name": "つぐまや" }, { "name": "まやつぐ" }]
+    "tags": [{ "name": "あすろっか" }, { "name": "六明日" }]
   }
 ]

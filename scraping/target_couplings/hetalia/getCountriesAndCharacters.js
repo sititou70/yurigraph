@@ -22,8 +22,10 @@
   };
 
   const characters = [
-    document.querySelector('#article-body > table:nth-child(20)'),
-    document.querySelector('#article-body > table:nth-child(23)'),
+    // 人名あり
+    document.querySelector('#article-body > table:nth-child(21)'),
+    // 人名なし
+    document.querySelector('#article-body > table:nth-child(24)'),
   ]
     .map((x) => getCharactersFromTable(x))
     .reduce((s, x) => [...s, ...x]);

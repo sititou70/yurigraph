@@ -297,6 +297,11 @@
       country_name: 'テンプル騎士団',
       name: 'テンプルさん',
     },
+    {
+      short_country_name: '',
+      country_name: '聖ヨハネ騎士団',
+      name: 'ヨハネさん',
+    },
     { short_country_name: '', country_name: 'ジェノバ', name: 'ジェノさん' },
     { short_country_name: '', country_name: '日本各地', name: '尾張さん' },
   ];

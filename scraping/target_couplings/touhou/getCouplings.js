@@ -91,22 +91,22 @@
     //キャラ別
     ////博麗霊夢関連
     ...getCouplingFromTable(
-      document.querySelector('#article-body > table:nth-child(8)')
+      document.querySelector('#article-body > table:nth-child(9)')
     ).map(addcharactor('博麗霊夢')),
     ////霧雨魔理沙関連
     ...getCouplingFromTable(
-      document.querySelector('#article-body > table:nth-child(11)')
+      document.querySelector('#article-body > table:nth-child(12)')
     ).map(addcharactor('霧雨魔理沙')),
     ////アリス・マーガトロイド関連
     ...getCouplingFromTable(
-      document.querySelector('#article-body > table:nth-child(14)')
+      document.querySelector('#article-body > table:nth-child(15)')
     ).map(addcharactor('アリス・マーガトロイド')),
   ]
     .filter(excludeSameCharactorsCoupling)
     .map(
       //派生タグ
       addSynonymCouplingTag(
-        document.querySelector('#article-body > table:nth-child(111)')
+        document.querySelector('#article-body > table:nth-child(112)')
       )
     );
 

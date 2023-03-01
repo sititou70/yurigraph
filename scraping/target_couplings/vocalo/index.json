@@ -324,6 +324,10 @@
     "tags": [{ "name": "コウセイ" }]
   },
   {
+    "characters": [{ "name": "水奈瀬コウ" }, { "name": "紲星あかり" }],
+    "tags": [{ "name": "コウきず" }]
+  },
+  {
     "characters": [{ "name": "結月ゆかり" }, { "name": "弦巻マキ" }],
     "tags": [{ "name": "ゆかマキ" }]
   },
