@@ -183,12 +183,12 @@
     'https://dic.pixiv.net/a/VOICEROID%E3%82%AB%E3%83%83%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%BF%E3%82%B0%E4%B8%80%E8%A6%A7'
   ) {
     const target_list_selectors = [
-      '#article-body > ul:nth-child(10)',
-      '#article-body > ul:nth-child(12)',
-      '#article-body > ul:nth-child(17)',
-      '#article-body > ul:nth-child(19)',
-      '#article-body > ul:nth-child(21)',
-      '#article-body > ul:nth-child(24)',
+      '#article-body > ul:nth-child(9)',
+      '#article-body > ul:nth-child(11)',
+      '#article-body > ul:nth-child(16)',
+      '#article-body > ul:nth-child(18)',
+      '#article-body > ul:nth-child(20)',
+      '#article-body > ul:nth-child(23)',
     ];
     target_couplings = target_list_selectors
       .map((x) => getListCouplings(document.querySelector(x)))

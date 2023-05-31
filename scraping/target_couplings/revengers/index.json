@@ -188,6 +188,10 @@
     "tags": [{ "name": "みつはち" }]
   },
   {
+    "characters": [{ "name": "柴八戒" }, { "name": "柴大寿" }],
+    "tags": [{ "name": "たいはち" }, { "name": "はちたい" }]
+  },
+  {
     "characters": [{ "name": "林田春樹" }, { "name": "林良平" }],
     "tags": [{ "name": "ペーパー" }, { "name": "パーペー" }]
   },

@@ -16,7 +16,7 @@
     'h3#h3_4',
     'h3#h3_5',
     'h3#h3_6',
-    'h3#h3_7',
+    '#article-body > p:nth-child(30)',
   ].forEach((selector) => {
     Array.from(
       document.querySelectorAll(`${selector}~table`)[0].querySelectorAll('tr')

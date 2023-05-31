@@ -23,9 +23,9 @@
 
   const characters = [
     // 人名あり
-    document.querySelector('#article-body > table:nth-child(21)'),
+    document.querySelector('#article-body > table:nth-child(20)'),
     // 人名なし
-    document.querySelector('#article-body > table:nth-child(24)'),
+    document.querySelector('#article-body > table:nth-child(23)'),
   ]
     .map((x) => getCharactersFromTable(x))
     .reduce((s, x) => [...s, ...x]);

@@ -41,31 +41,31 @@ var getCouplingsSingleRow = (table) =>
 var couplings = [
   //公式ユニットとして登場したもの
   ...getCouplingsMultiRow(
-    document.querySelector('#article-body > table:nth-child(11)')
+    document.querySelector('#article-body > table:nth-child(10)')
   ),
   //アニメからユニット化したもの
   ...getCouplingsMultiRow(
-    document.querySelector('#article-body > table:nth-child(16)')
+    document.querySelector('#article-body > table:nth-child(15)')
   ),
   //スターライトステージで初登場のユニット
   ...getCouplingsMultiRow(
-    document.querySelector('#article-body > table:nth-child(20)')
+    document.querySelector('#article-body > table:nth-child(19)')
   ),
   //固有のユニット名が無いもの
   ...getCouplingsSingleRow(
-    document.querySelector('#article-body > table:nth-child(26)')
+    document.querySelector('#article-body > table:nth-child(25)')
   ),
   //公式媒体に登場するもの
   ...getCouplingsSingleRow(
-    document.querySelector('#article-body > table:nth-child(31)')
+    document.querySelector('#article-body > table:nth-child(30)')
   ),
   //非公式なもの
   ...getCouplingsSingleRow(
-    document.querySelector('#article-body > table:nth-child(38)')
+    document.querySelector('#article-body > table:nth-child(37)')
   ),
   //非アイドルを含むもの
   ...getCouplingsSingleRow(
-    document.querySelector('#article-body > table:nth-child(43)')
+    document.querySelector('#article-body > table:nth-child(42)')
   ),
 ];
 

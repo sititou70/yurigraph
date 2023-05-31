@@ -4,15 +4,15 @@
     "tags": [{ "name": "かすあり" }, { "name": "ありかす" }]
   },
   {
-    "characters": [{ "name": "山吹沙綾(バンドリ)" }, { "name": "市ヶ谷有咲" }],
+    "characters": [{ "name": "山吹沙綾" }, { "name": "市ヶ谷有咲" }],
     "tags": [{ "name": "ありさあや" }]
   },
   {
-    "characters": [{ "name": "戸山香澄" }, { "name": "山吹沙綾(バンドリ)" }],
+    "characters": [{ "name": "戸山香澄" }, { "name": "山吹沙綾" }],
     "tags": [{ "name": "さーかす" }, { "name": "さあかす" }]
   },
   {
-    "characters": [{ "name": "花園たえ" }, { "name": "山吹沙綾(バンドリ)" }],
+    "characters": [{ "name": "花園たえ" }, { "name": "山吹沙綾" }],
     "tags": [{ "name": "たえさあや" }]
   },
   {
@@ -32,7 +32,7 @@
     "tags": [{ "name": "たえあり" }, { "name": "ありたえ" }]
   },
   {
-    "characters": [{ "name": "牛込りみ" }, { "name": "山吹沙綾(バンドリ)" }],
+    "characters": [{ "name": "牛込りみ" }, { "name": "山吹沙綾" }],
     "tags": [{ "name": "りみさあや" }]
   },
   {
@@ -300,7 +300,7 @@
     "tags": [{ "name": "りみさき" }, { "name": "みさりみ" }]
   },
   {
-    "characters": [{ "name": "山吹沙綾(バンドリ)" }, { "name": "宇田川巴" }],
+    "characters": [{ "name": "山吹沙綾" }, { "name": "宇田川巴" }],
     "tags": [{ "name": "ともさあや" }]
   },
   {

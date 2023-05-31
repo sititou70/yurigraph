@@ -514,6 +514,18 @@
     "tags": [{ "name": "P・U" }]
   },
   {
+    "characters": [{ "name": "双葉杏" }, { "name": "遊佐こずえ" }],
+    "tags": [{ "name": "あんこず" }, { "name": "ららりる" }]
+  },
+  {
+    "characters": [{ "name": "乙倉悠貴" }, { "name": "久川颯" }],
+    "tags": [
+      { "name": "おとはー" },
+      { "name": "乙颯" },
+      { "name": "Sola-iris" }
+    ]
+  },
+  {
     "characters": [{ "name": "喜多日菜子" }, { "name": "喜多見柚" }],
     "tags": [{ "name": "キタキターズ" }]
   },
@@ -532,18 +544,6 @@
   {
     "characters": [{ "name": "水本ゆかり" }, { "name": "小早川紗枝" }],
     "tags": [{ "name": "ゆかさえ" }, { "name": "Rêve Pur" }]
-  },
-  {
-    "characters": [{ "name": "双葉杏" }, { "name": "遊佐こずえ" }],
-    "tags": [{ "name": "あんこず" }, { "name": "ららりる" }]
-  },
-  {
-    "characters": [{ "name": "乙倉悠貴" }, { "name": "久川颯" }],
-    "tags": [
-      { "name": "おとはー" },
-      { "name": "乙颯" },
-      { "name": "Sola-iris" }
-    ]
   },
   {
     "tags": [{ "name": "あきあか" }, { "name": "辻砂" }],
@@ -1034,6 +1034,10 @@
     "characters": [{ "name": "一ノ瀬志希" }, { "name": "新田美波" }]
   },
   {
+    "tags": [{ "name": "しのあか" }],
+    "characters": [{ "name": "工藤忍" }, { "name": "辻野あかり" }]
+  },
+  {
     "tags": [{ "name": "志乃楓" }],
     "characters": [{ "name": "柊志乃" }, { "name": "高垣楓" }]
   },
@@ -1498,6 +1502,10 @@
     "characters": [{ "name": "大石泉" }, { "name": "佐久間まゆ" }]
   },
   {
+    "tags": [{ "name": "うづあか" }],
+    "characters": [{ "name": "島村卯月" }, { "name": "辻野あかり" }]
+  },
+  {
     "tags": [{ "name": "サイキックこんちきちん" }],
     "characters": [{ "name": "堀裕子" }, { "name": "小早川紗枝" }]
   },
@@ -1512,10 +1520,6 @@
   {
     "tags": [{ "name": "しきりん" }],
     "characters": [{ "name": "一ノ瀬志希" }, { "name": "渋谷凛" }]
-  },
-  {
-    "tags": [{ "name": "しのあか" }],
-    "characters": [{ "name": "工藤忍" }, { "name": "辻野あかり" }]
   },
   {
     "tags": [{ "name": "しぶひか" }],
