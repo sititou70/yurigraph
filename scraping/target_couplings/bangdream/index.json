@@ -236,6 +236,18 @@
     "tags": [{ "name": "ななつく" }]
   },
   {
+    "characters": [{ "name": "高松燈" }, { "name": "千早愛音" }],
+    "tags": [{ "name": "ともあの" }, { "name": "あのとも" }]
+  },
+  {
+    "characters": [{ "name": "椎名立希" }, { "name": "千早愛音" }],
+    "tags": [{ "name": "たきあの" }]
+  },
+  {
+    "characters": [{ "name": "高松燈" }, { "name": "椎名立希" }],
+    "tags": [{ "name": "たきとも" }]
+  },
+  {
     "characters": [{ "name": "氷川日菜" }, { "name": "氷川紗夜" }],
     "tags": [{ "name": "さよひな" }, { "name": "氷川姉妹" }]
   },
@@ -382,5 +394,9 @@
   {
     "characters": [{ "name": "朝日六花" }, { "name": "戸山明日香" }],
     "tags": [{ "name": "あすろっか" }, { "name": "六明日" }]
+  },
+  {
+    "characters": [{ "name": "椎名立希" }, { "name": "八幡海鈴" }],
+    "tags": [{ "name": "うみたき" }]
   }
 ]

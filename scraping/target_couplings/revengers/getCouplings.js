@@ -77,6 +77,7 @@
         });
       });
     });
+
   const result = Object.keys(couplingTags).map((k) => {
     return {
       characters: k.split('_').map((e) => {
@@ -87,5 +88,6 @@
       }),
     };
   });
+
   console.log(JSON.stringify(result));
 })();

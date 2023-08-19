@@ -324,15 +324,19 @@
   },
   {
     "characters": [{ "name": "津島善子" }, { "name": "桜内梨子" }],
-    "tags": [{ "name": "よしりこ" }]
+    "tags": [
+      { "name": "よしりこ" },
+      { "name": "ヨハリリ" },
+      { "name": "ヨハりこ" }
+    ]
   },
   {
     "characters": [{ "name": "津島善子" }, { "name": "国木田花丸" }],
-    "tags": [{ "name": "よしまる" }]
+    "tags": [{ "name": "よしまる" }, { "name": "ヨハマル" }]
   },
   {
     "characters": [{ "name": "津島善子" }, { "name": "小原鞠莉" }],
-    "tags": [{ "name": "よしまり" }]
+    "tags": [{ "name": "よしまり" }, { "name": "ヨハマリ" }]
   },
   {
     "characters": [{ "name": "津島善子" }, { "name": "黒澤ルビィ" }],

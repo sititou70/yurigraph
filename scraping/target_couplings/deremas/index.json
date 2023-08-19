@@ -331,6 +331,10 @@
     "tags": [{ "name": "ののきのこ" }, { "name": "サイレントスクリーマー" }]
   },
   {
+    "characters": [{ "name": "日野茜" }, { "name": "原田美世" }],
+    "tags": [{ "name": "バーニングサーキット" }]
+  },
+  {
     "characters": [{ "name": "藤原肇" }, { "name": "鷺沢文香" }],
     "tags": [{ "name": "月下氷姫" }]
   },
@@ -532,6 +536,10 @@
   {
     "characters": [{ "name": "黒埼ちとせ" }, { "name": "白雪千夜" }],
     "tags": [{ "name": "ちと千夜" }, { "name": "VelvetRose" }]
+  },
+  {
+    "characters": [{ "name": "久川凪" }, { "name": "森久保乃々" }],
+    "tags": [{ "name": "なぎのの" }, { "name": "なの・くらうん" }]
   },
   {
     "characters": [{ "name": "久川凪" }, { "name": "久川颯" }],
@@ -1050,6 +1058,10 @@
     "characters": [{ "name": "塩見周子" }, { "name": "藤本里奈" }]
   },
   {
+    "tags": [{ "name": "しゅがさな" }],
+    "characters": [{ "name": "佐藤心" }, { "name": "片桐早苗" }]
+  },
+  {
     "tags": [{ "name": "しゅがみゆ" }],
     "characters": [{ "name": "佐藤心" }, { "name": "三船美優" }]
   },
@@ -1496,6 +1508,10 @@
   {
     "tags": [{ "name": "あむなー" }],
     "characters": [{ "name": "夢見りあむ" }, { "name": "久川凪" }]
+  },
+  {
+    "tags": [{ "name": "あむはー" }],
+    "characters": [{ "name": "夢見りあむ" }, { "name": "久川颯" }]
   },
   {
     "tags": [{ "name": "いずまゆ" }],

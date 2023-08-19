@@ -9,18 +9,17 @@
   let result = [];
 
   [
-    'h3#h3_0',
-    'h3#h3_1',
-    'h3#h3_2',
-    'h3#h3_3',
-    'h3#h3_4',
-    'h3#h3_5',
-    'h3#h3_6',
-    '#article-body > p:nth-child(30)',
+    '#article-body > table:nth-of-type(1)',
+    '#article-body > table:nth-of-type(2)',
+    '#article-body > table:nth-of-type(3)',
+    '#article-body > table:nth-of-type(4)',
+    '#article-body > table:nth-of-type(5)',
+    '#article-body > table:nth-of-type(6)',
+    '#article-body > table:nth-of-type(7)',
+    '#article-body > table:nth-of-type(8)',
+    '#article-body > table:nth-of-type(9)',
   ].forEach((selector) => {
-    Array.from(
-      document.querySelectorAll(`${selector}~table`)[0].querySelectorAll('tr')
-    )
+    Array.from(document.querySelectorAll(`${selector} tr`))
       .map((tr) => Array.from(tr.querySelectorAll('td')))
       .filter((tds) => tds.length !== 0)
       .forEach((tds) => {

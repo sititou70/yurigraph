@@ -170,9 +170,9 @@
     'https://dic.pixiv.net/a/VOCALOID%E3%82%B3%E3%83%B3%E3%83%93%E3%83%BB%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%82%BF%E3%82%B0%E4%B8%80%E8%A6%A7'
   ) {
     const target_table_selectors = [
-      '#article-body > table:nth-child(8)',
-      '#article-body > table:nth-child(17)',
-      '#article-body > table:nth-child(24)',
+      '#article-body > table:nth-of-type(1)',
+      '#article-body > table:nth-of-type(3)',
+      '#article-body > table:nth-of-type(5)',
     ];
     target_couplings = target_table_selectors
       .map((x) => getTableCouplings(document.querySelector(x)))
@@ -183,12 +183,13 @@
     'https://dic.pixiv.net/a/VOICEROID%E3%82%AB%E3%83%83%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%BF%E3%82%B0%E4%B8%80%E8%A6%A7'
   ) {
     const target_list_selectors = [
-      '#article-body > ul:nth-child(9)',
-      '#article-body > ul:nth-child(11)',
-      '#article-body > ul:nth-child(16)',
-      '#article-body > ul:nth-child(18)',
-      '#article-body > ul:nth-child(20)',
-      '#article-body > ul:nth-child(23)',
+      '#article-body > ul:nth-of-type(1)',
+      '#article-body > ul:nth-of-type(2)',
+      '#article-body > ul:nth-of-type(3)',
+      '#article-body > ul:nth-of-type(4)',
+      '#article-body > ul:nth-of-type(5)',
+      '#article-body > ul:nth-of-type(6)',
+      '#article-body > ul:nth-of-type(7)',
     ];
     target_couplings = target_list_selectors
       .map((x) => getListCouplings(document.querySelector(x)))
