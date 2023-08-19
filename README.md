@@ -15,6 +15,7 @@
 - [Axis Powers ヘタリア](https://sititou70.github.io/hetagraph/)
 - [BanG Dream!](https://sititou70.github.io/bangdreamgraph/)
 - [東京卍リベンジャーズ](https://sititou70.github.io/revengersmgraph/)
+- [ぼっち・ざ・ろっく！](https://sititou70.github.io/btrmap/)
 
 ## 開発
 
@@ -34,7 +35,7 @@ npm i
 
 ```javascript
 cd yurigraph
-npm start [revengers | touhou | bangdream | lovelive | vocalo | kancolle | deremas | imas | hetalia]
+npm start [revengers | touhou | bangdream | lovelive | vocalo | kancolle | deremas | imas | hetalia | btr]
 ```
 
 ### 対応作品を追加する

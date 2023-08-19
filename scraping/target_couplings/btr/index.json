@@ -1,0 +1,75 @@
+[
+  {
+    "tags": [{ "name": "ぼ喜多" }],
+    "characters": [{ "name": "後藤ひとり" }, { "name": "喜多郁代" }]
+  },
+  {
+    "tags": [{ "name": "ぼ虹" }],
+    "characters": [{ "name": "後藤ひとり" }, { "name": "伊地知虹夏" }]
+  },
+  {
+    "tags": [{ "name": "星ぼ" }],
+    "characters": [{ "name": "伊地知星歌" }, { "name": "後藤ひとり" }]
+  },
+  {
+    "tags": [{ "name": "ぼリョウ" }],
+    "characters": [
+      { "name": "後藤ひとり" },
+      { "name": "山田リョウ(ぼっち・ざ・ろっく!)" }
+    ]
+  },
+  {
+    "tags": [{ "name": "リョウ虹" }],
+    "characters": [
+      { "name": "山田リョウ(ぼっち・ざ・ろっく!)" },
+      { "name": "伊地知虹夏" }
+    ]
+  },
+  {
+    "tags": [{ "name": "虹喜多" }],
+    "characters": [{ "name": "伊地知虹夏" }, { "name": "喜多郁代" }]
+  },
+  {
+    "tags": [{ "name": "リョウ喜多" }],
+    "characters": [
+      { "name": "山田リョウ(ぼっち・ざ・ろっく!)" },
+      { "name": "喜多郁代" }
+    ]
+  },
+  {
+    "tags": [{ "name": "伊地知姉妹" }],
+    "characters": [{ "name": "伊地知星歌" }, { "name": "伊地知虹夏" }]
+  },
+  {
+    "tags": [{ "name": "PA星" }],
+    "characters": [{ "name": "PAさん" }, { "name": "伊地知星歌" }]
+  },
+  {
+    "tags": [{ "name": "きく星" }],
+    "characters": [{ "name": "廣井きくり" }, { "name": "伊地知星歌" }]
+  },
+  {
+    "tags": [{ "name": "廣ぼ" }],
+    "characters": [{ "name": "廣井きくり" }, { "name": "後藤ひとり" }]
+  },
+  {
+    "tags": [{ "name": "ひとPA" }],
+    "characters": [{ "name": "後藤ひとり" }, { "name": "PAさん" }]
+  },
+  {
+    "tags": [{ "name": "ぼヨヨ" }],
+    "characters": [{ "name": "後藤ひとり" }, { "name": "大槻ヨヨコ" }]
+  },
+  {
+    "tags": [{ "name": "後藤姉妹" }],
+    "characters": [{ "name": "後藤ひとり" }, { "name": "後藤ふたり" }]
+  },
+  {
+    "tags": [{ "name": "ふた喜多" }],
+    "characters": [{ "name": "後藤ふたり" }, { "name": "喜多郁代" }]
+  },
+  {
+    "tags": [{ "name": "佐々ぼ" }],
+    "characters": [{ "name": "佐々木次子" }, { "name": "後藤ひとり" }]
+  }
+]
