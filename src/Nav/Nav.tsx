@@ -3,14 +3,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import MenuIcon from '@mui/icons-material/Menu';
-import {
-  Divider,
-  Drawer,
-  IconButton,
-  List,
-  ListItem,
-  Typography,
-} from '@mui/material';
+import { Divider, Drawer, IconButton, Typography } from '@mui/material';
 import { useRecoilState } from 'recoil';
 import theme from '../theme';
 import { nav_open } from './recoil';
@@ -66,8 +59,32 @@ export const Nav = () => {
         <div
           css={css`
             padding: ${theme.px.grid()};
+
+            hr {
+              margin: ${theme.px.grid()} 0;
+            }
+
+            a {
+              display: flex;
+              align-items: center;
+
+              svg {
+                color: ${theme.colors.text};
+              }
+            }
           `}
         >
+          <a href="#カップリングランキング" onClick={() => setOpen(false)}>
+            <EmojiEventsIcon />
+            カップリングランキング
+          </a>
+
+          <Divider
+            css={css`
+              border-color: ${theme.colors.border};
+            `}
+          />
+
           <Typography component="h2" variant="h6">
             他の作品
           </Typography>
@@ -96,35 +113,14 @@ export const Nav = () => {
             `}
           />
 
-          <List
-            css={css`
-              li > a {
-                display: flex;
-                align-items: center;
-
-                svg {
-                  color: ${theme.colors.text};
-                }
-              }
-            `}
+          <a
+            href="https://github.com/sititou70/yurigraph"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <ListItem disablePadding>
-              <a href="#カップリングランキング" onClick={() => setOpen(false)}>
-                <EmojiEventsIcon />
-                カップリングランキング
-              </a>
-            </ListItem>
-            <ListItem disablePadding>
-              <a
-                href="https://github.com/sititou70/yurigraph"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <GitHubIcon />
-                ソースコード
-              </a>
-            </ListItem>
-          </List>
+            <GitHubIcon />
+            ソースコード
+          </a>
         </div>
       </Drawer>
     </>
