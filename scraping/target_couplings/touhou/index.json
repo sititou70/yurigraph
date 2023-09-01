@@ -5096,6 +5096,10 @@
     "tags": [{ "name": "やちさんに" }]
   },
   {
+    "characters": [{ "name": "吉弔八千慧" }, { "name": "孫美天" }],
+    "tags": [{ "name": "やちびてん" }]
+  },
+  {
     "characters": [{ "name": "杖刀偶磨弓" }, { "name": "チルノ" }],
     "tags": [{ "name": "まゆチル" }]
   },
@@ -5266,8 +5270,20 @@
     "tags": [{ "name": "尤フラ" }]
   },
   {
+    "characters": [{ "name": "饕餮尤魔" }, { "name": "八雲藍" }],
+    "tags": [{ "name": "尤藍" }]
+  },
+  {
     "characters": [{ "name": "饕餮尤魔" }, { "name": "吉弔八千慧" }],
     "tags": [{ "name": "尤やち" }]
+  },
+  {
+    "characters": [{ "name": "饕餮尤魔" }, { "name": "天火人ちやり" }],
+    "tags": [{ "name": "ゆうちや" }]
+  },
+  {
+    "characters": [{ "name": "日白残無" }, { "name": "豫母都日狭美" }],
+    "tags": [{ "name": "ざんひさ" }]
   },
   {
     "characters": [

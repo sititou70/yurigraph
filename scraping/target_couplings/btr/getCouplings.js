@@ -13,6 +13,9 @@
     return Array.from(table.querySelectorAll('tr'))
       .filter((tr) => tr.querySelector('a') !== null)
       .map((tr) => tr.querySelectorAll('td'))
+      .filter(
+        ([_, characters]) => characters.querySelectorAll('a').length === 2
+      )
       .map(([tag, characters]) => ({
         tags: [{ name: getDictTitleFromURL(tag.querySelector('a').href) }],
         characters: [

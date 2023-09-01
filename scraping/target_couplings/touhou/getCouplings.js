@@ -106,7 +106,7 @@
     .map(
       //派生タグ
       addSynonymCouplingTag(
-        document.querySelector('#article-body > table:nth-of-type(36)')
+        document.querySelector('#article-body > table:nth-of-type(37)')
       )
     );
 
