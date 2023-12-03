@@ -69,5 +69,5 @@
     '#article-body > table:nth-of-type(1)'
   );
   const target_couplings = getTargetCouplings(target_table);
-  console.log(JSON.stringify(target_couplings));
+  copy(JSON.stringify(target_couplings));
 })();

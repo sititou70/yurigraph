@@ -195,5 +195,5 @@
       .map((x) => getListCouplings(document.querySelector(x)))
       .reduce((s, x) => [...s, ...x]);
   }
-  console.log(JSON.stringify(target_couplings));
+  copy(JSON.stringify(target_couplings));
 })();

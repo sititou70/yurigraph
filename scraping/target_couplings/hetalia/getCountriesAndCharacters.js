@@ -30,5 +30,5 @@
     .map((x) => getCharactersFromTable(x))
     .reduce((s, x) => [...s, ...x]);
 
-  console.log(JSON.stringify(characters));
+  copy(JSON.stringify(characters));
 })();

@@ -89,5 +89,5 @@
     };
   });
 
-  console.log(JSON.stringify(result));
+  copy(JSON.stringify(result));
 })();

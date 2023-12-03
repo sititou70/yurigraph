@@ -18,6 +18,7 @@
     '#article-body > table:nth-of-type(7)',
     '#article-body > table:nth-of-type(8)',
     '#article-body > table:nth-of-type(9)',
+    '#article-body > table:nth-of-type(10)',
   ].forEach((selector) => {
     Array.from(document.querySelectorAll(`${selector} tr`))
       .map((tr) => Array.from(tr.querySelectorAll('td')))
@@ -39,5 +40,5 @@
       });
   });
 
-  console.log(JSON.stringify(result));
+  copy(JSON.stringify(result));
 })();

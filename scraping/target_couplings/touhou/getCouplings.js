@@ -106,9 +106,9 @@
     .map(
       //派生タグ
       addSynonymCouplingTag(
-        document.querySelector('#article-body > table:nth-of-type(37)')
+        document.querySelector('#article-body > table:nth-of-type(38)')
       )
     );
 
-  console.log(JSON.stringify(target_couplings));
+  copy(JSON.stringify(target_couplings));
 })();

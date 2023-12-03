@@ -160,6 +160,10 @@
     "tags": [{ "name": "ぱなうみ" }]
   },
   {
+    "characters": [{ "name": "小泉花陽" }, { "name": "星空凛" }],
+    "tags": [{ "name": "はなりん" }]
+  },
+  {
     "characters": [{ "name": "小泉花陽" }, { "name": "矢澤にこ" }],
     "tags": [{ "name": "ぱなにこ" }]
   },
@@ -197,7 +201,7 @@
   },
   {
     "characters": [{ "name": "高海千歌" }, { "name": "黒澤ダイヤ" }],
-    "tags": [{ "name": "ちかダイ" }]
+    "tags": [{ "name": "ちかダイ" }, { "name": "ちかだい" }]
   },
   {
     "characters": [{ "name": "高海千歌" }, { "name": "渡辺曜" }],

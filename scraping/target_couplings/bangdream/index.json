@@ -228,6 +228,10 @@
     "tags": [{ "name": "るいまし" }]
   },
   {
+    "characters": [{ "name": "倉田ましろ" }, { "name": "桐ヶ谷透子" }],
+    "tags": [{ "name": "透まし" }]
+  },
+  {
     "characters": [{ "name": "桐ヶ谷透子" }, { "name": "八潮瑠唯" }],
     "tags": [{ "name": "とうるい" }]
   },
@@ -244,8 +248,44 @@
     "tags": [{ "name": "たきあの" }]
   },
   {
+    "characters": [{ "name": "千早愛音" }, { "name": "長崎そよ" }],
+    "tags": [{ "name": "あのそよ" }]
+  },
+  {
     "characters": [{ "name": "高松燈" }, { "name": "椎名立希" }],
     "tags": [{ "name": "たきとも" }]
+  },
+  {
+    "characters": [{ "name": "椎名立希" }, { "name": "要楽奈" }],
+    "tags": [{ "name": "たきらな" }]
+  },
+  {
+    "characters": [{ "name": "椎名立希" }, { "name": "長崎そよ" }],
+    "tags": [{ "name": "たきそよ" }]
+  },
+  {
+    "characters": [{ "name": "高松燈" }, { "name": "長崎そよ" }],
+    "tags": [{ "name": "ともそよ" }]
+  },
+  {
+    "characters": [{ "name": "高松燈" }, { "name": "要楽奈" }],
+    "tags": [{ "name": "ともらな" }]
+  },
+  {
+    "characters": [{ "name": "要楽奈" }, { "name": "長崎そよ" }],
+    "tags": [{ "name": "らなそよ" }]
+  },
+  {
+    "characters": [{ "name": "若葉睦" }, { "name": "豊川祥子" }],
+    "tags": [{ "name": "むつさき" }]
+  },
+  {
+    "characters": [{ "name": "三角初華" }, { "name": "豊川祥子" }],
+    "tags": [{ "name": "ういさき" }]
+  },
+  {
+    "characters": [{ "name": "祐天寺にゃむ" }, { "name": "豊川祥子" }],
+    "tags": [{ "name": "にゃむさき" }]
   },
   {
     "characters": [{ "name": "氷川日菜" }, { "name": "氷川紗夜" }],
@@ -382,6 +422,10 @@
   {
     "characters": [{ "name": "氷川紗夜" }, { "name": "奥沢美咲" }],
     "tags": [{ "name": "みささよ" }]
+  },
+  {
+    "characters": [{ "name": "白金燐子" }, { "name": "八潮瑠唯" }],
+    "tags": [{ "name": "りんるい" }, { "name": "るいりん" }]
   },
   {
     "characters": [{ "name": "和奏レイ" }, { "name": "花園たえ" }],

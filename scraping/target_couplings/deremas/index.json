@@ -554,10 +554,6 @@
     "tags": [{ "name": "ゆかさえ" }, { "name": "Rêve Pur" }]
   },
   {
-    "tags": [{ "name": "あきあか" }, { "name": "辻砂" }],
-    "characters": [{ "name": "砂塚あきら" }, { "name": "辻野あかり" }]
-  },
-  {
     "tags": [{ "name": "アキレイナ" }],
     "characters": [{ "name": "池袋晶葉" }, { "name": "小関麗奈" }]
   },
@@ -640,6 +636,10 @@
   {
     "tags": [{ "name": "拓鈴" }],
     "characters": [{ "name": "向井拓海" }, { "name": "道明寺歌鈴" }]
+  },
+  {
+    "tags": [{ "name": "辻砂" }, { "name": "あきあか" }],
+    "characters": [{ "name": "砂塚あきら" }, { "name": "辻野あかり" }]
   },
   {
     "tags": [{ "name": "デレパ組" }],
@@ -1156,10 +1156,6 @@
   {
     "tags": [{ "name": "ちとりさ" }],
     "characters": [{ "name": "黒埼ちとせ" }, { "name": "的場梨沙" }]
-  },
-  {
-    "tags": [{ "name": "辻砂" }, { "name": "あきあか" }],
-    "characters": [{ "name": "砂塚あきら" }, { "name": "辻野あかり" }]
   },
   {
     "tags": [{ "name": "とときのこ" }],

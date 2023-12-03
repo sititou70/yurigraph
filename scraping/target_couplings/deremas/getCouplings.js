@@ -70,5 +70,5 @@
     ),
   ];
 
-  console.log(JSON.stringify(couplings));
+  copy(JSON.stringify(couplings));
 })();
