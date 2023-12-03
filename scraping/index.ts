@@ -1,9 +1,11 @@
 import fs from 'fs';
 import fetch from 'node-fetch';
 import path from 'path';
+import Progress from 'progress';
 import sanitize from 'sanitize-filename';
 
 // settings
+const FETCH_INTERVAL = 7000;
 const CACHE_DIR = 'TEMP_CACHE';
 const INPUT_COUPLINGS_JSON = path.join(
   '..',
@@ -64,12 +66,30 @@ const main = async () => {
     JSON.parse(fs.readFileSync(INPUT_COUPLINGS_JSON).toString())
   ).filter((x) => !isSelfCoupling(x));
 
+  const tags_len = couplings.flatMap((coupling) => coupling.tags).length;
+  const bar = new Progress('[:bar]\t:percent\t:rest_min min\t:tag_name\n', {
+    complete: '=',
+    incomplete: ' ',
+    width: 50,
+    total: tags_len,
+  });
+
   let dest_couplings: Couplings = [];
-  for (const [i, coupling] of couplings.entries()) {
+  for (const coupling of couplings) {
     let tags: Coupling['tags'] = [];
-    for (let tag of coupling.tags) {
-      console.log(`[${i} / ${couplings.length}] scraping tag:`, tag.name);
+    for (const tag of coupling.tags) {
       tags.push({ name: tag.name, num: await getNumsFromTag(tag.name) });
+
+      bar.tick(1, {
+        rest_min: (
+          Math.round(
+            (((tags_len - bar.curr) * FETCH_INTERVAL) / 1000 / 60) * 100
+          ) / 100
+        )
+          .toString()
+          .padEnd(5, ' '),
+        tag_name: tag.name,
+      });
     }
 
     dest_couplings = [
@@ -134,7 +154,7 @@ const getNumsFromTag = async (tag: string): Promise<number> => {
     return parseInt(fs.readFileSync(cache_file_path).toString());
   } catch (e) {}
 
-  await sleep(7000);
+  await sleep(FETCH_INTERVAL);
 
   const url: string = `https://www.pixiv.net/tags/${encodeURIComponent(tag)}/`;
   const row = await fetch(url);
