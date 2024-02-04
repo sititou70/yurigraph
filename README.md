@@ -2,7 +2,7 @@
 
 いろいろな作品のカップリングを可視化します
 
-![demo ss](https://user-images.githubusercontent.com/18525488/80941278-0e19f780-8e1d-11ea-915b-838ed7db5ff9.png)
+![グラフのデモ画像。アイドルマスターシンデレラガールズのもの](https://user-images.githubusercontent.com/18525488/80941278-0e19f780-8e1d-11ea-915b-838ed7db5ff9.png)
 
 ## 対応作品
 
@@ -16,6 +16,7 @@
 - [BanG Dream!](https://sititou70.github.io/bangdreamgraph/)
 - [東京卍リベンジャーズ](https://sititou70.github.io/revengersmgraph/)
 - [ぼっち・ざ・ろっく！](https://sititou70.github.io/btrmap/)
+- [ウマ娘 プリティーダービー](https://sititou70.github.io/umamusumegraph/)
 
 ## 開発
 
