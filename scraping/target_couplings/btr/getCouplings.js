@@ -31,7 +31,7 @@
 
   // get target couplings
   const target_couplings = getCouplingsFromTable(
-    document.querySelector('#article-body > table:nth-of-type(1)')
+    document.querySelector('#article-body table')
   );
   copy(JSON.stringify(target_couplings));
 })();

@@ -21,11 +21,12 @@
     return rows.map(getCharactersFromRow);
   };
 
+  const tables = document.querySelectorAll('#article-body table');
   const characters = [
     // 人名あり
-    document.querySelector('#article-body > table:nth-of-type(3)'),
+    tables[2],
     // 人名なし
-    document.querySelector('#article-body > table:nth-of-type(4)'),
+    tables[3],
   ]
     .map((x) => getCharactersFromTable(x))
     .reduce((s, x) => [...s, ...x]);

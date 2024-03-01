@@ -104,6 +104,10 @@
     "tags": [{ "name": "バジマイ" }, { "name": "マイバジ" }]
   },
   {
+    "characters": [{ "name": "三ツ谷隆" }, { "name": "佐野万次郎" }],
+    "tags": [{ "name": "みつマイ" }, { "name": "マイみつ" }]
+  },
+  {
     "characters": [{ "name": "佐野万次郎" }, { "name": "鶴蝶" }],
     "tags": [{ "name": "カクマイ" }]
   },
@@ -118,6 +122,10 @@
   {
     "characters": [{ "name": "九井一" }, { "name": "佐野万次郎" }],
     "tags": [{ "name": "ココマイ" }]
+  },
+  {
+    "characters": [{ "name": "佐野万次郎" }, { "name": "松野千冬" }],
+    "tags": [{ "name": "ふゆマイ" }, { "name": "マイふゆ" }]
   },
   {
     "characters": [{ "name": "三ツ谷隆" }, { "name": "龍宮寺堅" }],
@@ -152,10 +160,6 @@
     "tags": [{ "name": "みつふゆ" }]
   },
   {
-    "characters": [{ "name": "佐野万次郎" }, { "name": "松野千冬" }],
-    "tags": [{ "name": "マイふゆ" }]
-  },
-  {
     "characters": [{ "name": "松野千冬" }, { "name": "龍宮寺堅" }],
     "tags": [{ "name": "ドラふゆ" }]
   },
@@ -166,10 +170,6 @@
   {
     "characters": [{ "name": "三ツ谷隆" }, { "name": "灰谷蘭" }],
     "tags": [{ "name": "蘭みつ" }, { "name": "みつ蘭" }]
-  },
-  {
-    "characters": [{ "name": "三ツ谷隆" }, { "name": "佐野万次郎" }],
-    "tags": [{ "name": "マイみつ" }]
   },
   {
     "characters": [{ "name": "三ツ谷隆" }, { "name": "乾青宗" }],

@@ -65,9 +65,7 @@
   };
 
   // get target couplings
-  const target_table = document.querySelector(
-    '#article-body > table:nth-of-type(1)'
-  );
+  const target_table = document.querySelector('#article-body table');
   const target_couplings = getTargetCouplings(target_table);
   copy(JSON.stringify(target_couplings));
 })();

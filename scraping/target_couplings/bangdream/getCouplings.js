@@ -8,19 +8,20 @@
   let characterDictTitles = {};
   let result = [];
 
+  const tables = document.querySelectorAll('#article-body table');
   [
-    '#article-body > table:nth-of-type(1)',
-    '#article-body > table:nth-of-type(2)',
-    '#article-body > table:nth-of-type(3)',
-    '#article-body > table:nth-of-type(4)',
-    '#article-body > table:nth-of-type(5)',
-    '#article-body > table:nth-of-type(6)',
-    '#article-body > table:nth-of-type(7)',
-    '#article-body > table:nth-of-type(8)',
-    '#article-body > table:nth-of-type(9)',
-    '#article-body > table:nth-of-type(10)',
-  ].forEach((selector) => {
-    Array.from(document.querySelectorAll(`${selector} tr`))
+    tables[0],
+    tables[1],
+    tables[2],
+    tables[3],
+    tables[4],
+    tables[5],
+    tables[6],
+    tables[7],
+    tables[8],
+    tables[9],
+  ].forEach((table) => {
+    Array.from(table.querySelectorAll('tr'))
       .map((tr) => Array.from(tr.querySelectorAll('td')))
       .filter((tds) => tds.length !== 0)
       .forEach((tds) => {

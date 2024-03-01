@@ -74,40 +74,27 @@
       }));
 
   //target tables
-  const from_element_selector = '#h3_3';
-  const to_element_selector = '#h2_2';
-  const excluded_tables = Array.from(
-    document.querySelectorAll(`${to_element_selector}~table`)
-  );
-  const target_tables = Array.from(
-    document.querySelectorAll(`${from_element_selector}~table`)
-  ).filter((x) => excluded_tables.find((y) => y.isEqualNode(x)) === undefined);
-
+  const tables = Array.from(document.querySelectorAll('#article-body table'));
   const target_couplings = [
     //作品別
-    ...target_tables
+    ...tables
+      .slice(3, 37)
       .map((x) => getCouplingFromTable(x))
       .reduce((s, x) => [...s, ...x]),
     //キャラ別
     ////博麗霊夢関係
-    ...getCouplingFromTable(
-      document.querySelector('#article-body > table:nth-of-type(1)')
-    ).map(addcharactor('博麗霊夢')),
+    ...getCouplingFromTable(tables[0]).map(addcharactor('博麗霊夢')),
     ////霧雨魔理沙関係
-    ...getCouplingFromTable(
-      document.querySelector('#article-body > table:nth-of-type(2)')
-    ).map(addcharactor('霧雨魔理沙')),
+    ...getCouplingFromTable(tables[1]).map(addcharactor('霧雨魔理沙')),
     ////アリス・マーガトロイド関係
-    ...getCouplingFromTable(
-      document.querySelector('#article-body > table:nth-of-type(3)')
-    ).map(addcharactor('アリス・マーガトロイド')),
+    ...getCouplingFromTable(tables[2]).map(
+      addcharactor('アリス・マーガトロイド')
+    ),
   ]
     .filter(excludeSameCharactorsCoupling)
     .map(
       //派生タグ
-      addSynonymCouplingTag(
-        document.querySelector('#article-body > table:nth-of-type(38)')
-      )
+      addSynonymCouplingTag(tables[37])
     );
 
   copy(JSON.stringify(target_couplings));

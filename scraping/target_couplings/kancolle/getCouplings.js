@@ -33,11 +33,13 @@
 
   const target_couplings = [
     //カップリング一覧
-    ...querySelectorAllInRange('table', '#h2_1', '#h3_5')
+    ...querySelectorAllInRange('div#table-wrapper', '#h2_1', '#h3_5')
+      .map((div) => div.querySelector('table'))
       .map((x) => getTargetCouplings(x))
       .reduce((s, x) => [...s, ...x]),
     //コンビ一覧
-    ...querySelectorAllInRange('table', '#h2_2', '#h2_3')
+    ...querySelectorAllInRange('div#table-wrapper', '#h2_2', '#h2_3')
+      .map((div) => div.querySelector('table'))
       .map((x) => getTargetCouplings(x))
       .reduce((s, x) => [...s, ...x]),
   ];

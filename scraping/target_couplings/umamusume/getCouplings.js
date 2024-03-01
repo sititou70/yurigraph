@@ -33,9 +33,7 @@
       }));
   };
 
-  const tables = document.querySelectorAll(
-    '#article-body > #table-wrapper > table'
-  );
+  const tables = document.querySelectorAll('#article-body table');
   const target_couplings = [
     ...getCouplingsFromTable(tables[0]),
     ...getCouplingsFromTable(tables[1]),

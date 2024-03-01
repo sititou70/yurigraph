@@ -169,13 +169,9 @@
     location.href ===
     'https://dic.pixiv.net/a/VOCALOID%E3%82%B3%E3%83%B3%E3%83%93%E3%83%BB%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%82%BF%E3%82%B0%E4%B8%80%E8%A6%A7'
   ) {
-    const target_table_selectors = [
-      '#article-body > table:nth-of-type(1)',
-      '#article-body > table:nth-of-type(3)',
-      '#article-body > table:nth-of-type(5)',
-    ];
-    target_couplings = target_table_selectors
-      .map((x) => getTableCouplings(document.querySelector(x)))
+    const tables = document.querySelectorAll('#article-body table');
+    target_couplings = [tables[0], tables[2], tables[4]]
+      .map((x) => getTableCouplings(x))
       .reduce((s, x) => [...s, ...x]);
   }
   if (

@@ -39,35 +39,22 @@
         characters: x.slice(-2).map((x) => ({ name: x })),
       }));
 
+  const tables = document.querySelectorAll('#article-body table');
   const couplings = [
     //公式ユニットとして登場したもの
-    ...getCouplingsMultiRow(
-      document.querySelector('#article-body > table:nth-of-type(1)')
-    ),
+    ...getCouplingsMultiRow(tables[0]),
     //アニメからユニット化したもの
-    ...getCouplingsMultiRow(
-      document.querySelector('#article-body > table:nth-of-type(2)')
-    ),
+    ...getCouplingsMultiRow(tables[1]),
     //スターライトステージで初登場のユニット
-    ...getCouplingsMultiRow(
-      document.querySelector('#article-body > table:nth-of-type(3)')
-    ),
+    ...getCouplingsMultiRow(tables[2]),
     //固有のユニット名が無いもの
-    ...getCouplingsSingleRow(
-      document.querySelector('#article-body > table:nth-of-type(4)')
-    ),
+    ...getCouplingsSingleRow(tables[3]),
     //公式媒体に登場するもの
-    ...getCouplingsSingleRow(
-      document.querySelector('#article-body > table:nth-of-type(5)')
-    ),
+    ...getCouplingsSingleRow(tables[4]),
     //非公式なもの
-    ...getCouplingsSingleRow(
-      document.querySelector('#article-body > table:nth-of-type(6)')
-    ),
+    ...getCouplingsSingleRow(tables[5]),
     //非アイドルを含むもの
-    ...getCouplingsSingleRow(
-      document.querySelector('#article-body > table:nth-of-type(7)')
-    ),
+    ...getCouplingsSingleRow(tables[6]),
   ];
 
   copy(JSON.stringify(couplings));
