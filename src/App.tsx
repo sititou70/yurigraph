@@ -111,10 +111,10 @@ export const App = () => {
               padding-top: ${theme.px.grid()};
             `}
           >
-            カップリングランキング
+            {process.env.REACT_APP_CONTENT_NAME}のカップリングランキング
           </Typography>
           <Typography component="p">
-            更新: {process.env['REACT_APP_BUILD_DATE']}
+            更新: {process.env.REACT_APP_BUILD_DATE}
           </Typography>
           <CouplingRanking />
         </div>

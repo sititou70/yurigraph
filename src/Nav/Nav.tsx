@@ -33,9 +33,9 @@ export const Nav = () => {
         <IconButton aria-label="メニューを開く" onClick={() => setOpen(true)}>
           <MenuIcon />
         </IconButton>
-        <Typography component="h1" variant="body1">
-          {process.env.REACT_APP_APP_NAME}
-        </Typography>
+        <a href="#カップリングランキング" onClick={() => setOpen(false)}>
+          カップリングランキング
+        </a>
       </nav>
 
       <Drawer anchor="left" open={open} onClose={() => setOpen(false)}>
