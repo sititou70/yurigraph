@@ -92,7 +92,7 @@ export const Graph: FC = () => {
       css={css`
         display: block;
         width: 100%;
-        height: 100vh;
+        height: 100svh;
         background: linear-gradient(
           0.1turn,
           ${mixColor('#fff', theme.colors.main, 0.1)} 30%,

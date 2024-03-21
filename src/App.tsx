@@ -48,7 +48,7 @@ export const App = () => {
         css={css`
           position: relative;
           width: 100%;
-          height: 100vh;
+          height: 100svh;
         `}
       >
         <div
