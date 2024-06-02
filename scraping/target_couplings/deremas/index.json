@@ -84,6 +84,10 @@
     "tags": [{ "name": "おとはじ" }, { "name": "岡山親善大使" }]
   },
   {
+    "characters": [{ "name": "佐久間まゆ" }, { "name": "桐生つかさ" }],
+    "tags": [{ "name": "ガールズネットワーク" }]
+  },
+  {
     "characters": [{ "name": "高垣楓" }, { "name": "川島瑞樹" }],
     "tags": [{ "name": "かえみず" }]
   },
@@ -798,6 +802,10 @@
     "characters": [{ "name": "アナスタシア" }, { "name": "渋谷凛" }]
   },
   {
+    "tags": [{ "name": "あむはー" }],
+    "characters": [{ "name": "夢見りあむ" }, { "name": "久川颯" }]
+  },
+  {
     "tags": [{ "name": "ありあす" }],
     "characters": [{ "name": "橘ありす" }, { "name": "二宮飛鳥" }]
   },
@@ -828,6 +836,10 @@
   {
     "tags": [{ "name": "イヴりん" }],
     "characters": [{ "name": "イヴ・サンタクロース" }, { "name": "渋谷凛" }]
+  },
+  {
+    "tags": [{ "name": "うづあか" }],
+    "characters": [{ "name": "島村卯月" }, { "name": "辻野あかり" }]
   },
   {
     "tags": [{ "name": "うづあん" }],
@@ -1506,16 +1518,8 @@
     "characters": [{ "name": "夢見りあむ" }, { "name": "久川凪" }]
   },
   {
-    "tags": [{ "name": "あむはー" }],
-    "characters": [{ "name": "夢見りあむ" }, { "name": "久川颯" }]
-  },
-  {
     "tags": [{ "name": "いずまゆ" }],
     "characters": [{ "name": "大石泉" }, { "name": "佐久間まゆ" }]
-  },
-  {
-    "tags": [{ "name": "うづあか" }],
-    "characters": [{ "name": "島村卯月" }, { "name": "辻野あかり" }]
   },
   {
     "tags": [{ "name": "サイキックこんちきちん" }],

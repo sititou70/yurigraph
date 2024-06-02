@@ -53,6 +53,10 @@
     "characters": [{ "name": "廣井きくり" }, { "name": "後藤ひとり" }]
   },
   {
+    "tags": [{ "name": "廣志麻" }],
+    "characters": [{ "name": "廣井きくり" }, { "name": "岩下志麻" }]
+  },
+  {
     "tags": [{ "name": "ひとPA" }],
     "characters": [{ "name": "後藤ひとり" }, { "name": "PAさん" }]
   },

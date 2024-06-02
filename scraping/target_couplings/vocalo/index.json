@@ -328,6 +328,10 @@
     "tags": [{ "name": "コウきず" }]
   },
   {
+    "characters": [{ "name": "伊織弓鶴" }, { "name": "紲星あかり" }],
+    "tags": [{ "name": "いおきず" }]
+  },
+  {
     "characters": [{ "name": "結月ゆかり" }, { "name": "弦巻マキ" }],
     "tags": [{ "name": "ゆかマキ" }]
   },

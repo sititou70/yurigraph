@@ -2955,6 +2955,10 @@
     "tags": [{ "name": "サナ蓮" }]
   },
   {
+    "characters": [{ "name": "東風谷早苗" }, { "name": "孫美天" }],
+    "tags": [{ "name": "さなびてん" }]
+  },
+  {
     "characters": [
       { "name": "東風谷早苗" },
       { "name": "マエリベリー・ハーン" }
@@ -3324,6 +3328,10 @@
   {
     "characters": [{ "name": "星熊勇儀" }, { "name": "坂田ネムノ" }],
     "tags": [{ "name": "勇ネム" }]
+  },
+  {
+    "characters": [{ "name": "星熊勇儀" }, { "name": "宮出口瑞霊" }],
+    "tags": [{ "name": "勇瑞" }]
   },
   {
     "characters": [{ "name": "古明地さとり" }, { "name": "チルノ" }],
@@ -5513,6 +5521,10 @@
     "tags": [{ "name": "みよみす" }]
   },
   {
+    "characters": [{ "name": "星熊勇儀" }, { "name": "宮出口瑞霊" }],
+    "tags": [{ "name": "勇瑞" }]
+  },
+  {
     "characters": [{ "name": "博麗靈夢" }, { "name": "明羅" }],
     "tags": [{ "name": "レイメイ" }]
   },
@@ -5549,7 +5561,7 @@
     "tags": [{ "name": "めいりか" }]
   },
   {
-    "characters": [{ "name": "エレン" }, { "name": "チルノ" }],
+    "characters": [{ "name": "エレン(東方project)" }, { "name": "チルノ" }],
     "tags": [{ "name": "エレチル" }]
   },
   {
@@ -5584,7 +5596,7 @@
     "tags": [{ "name": "ゆめりか" }]
   },
   {
-    "characters": [{ "name": "オレンジ" }, { "name": "チルノ" }],
+    "characters": [{ "name": "オレンジ(東方project)" }, { "name": "チルノ" }],
     "tags": [{ "name": "オレチル" }]
   },
   {
@@ -5674,7 +5686,7 @@
       { "name": "ユキ(東方Project)" },
       { "name": "マイ(東方Project)" }
     ],
-    "tags": [{ "name": "ユキマイ" }]
+    "tags": [{ "name": "ユキマイ" }, { "name": "ユキ%26マイ" }]
   },
   {
     "characters": [{ "name": "夢子" }, { "name": "十六夜咲夜" }],

@@ -200,6 +200,10 @@
     "tags": [{ "name": "あずりつ" }]
   },
   {
+    "characters": [{ "name": "秋月律子" }, { "name": "水瀬伊織" }],
+    "tags": [{ "name": "いおりつこ" }]
+  },
+  {
     "characters": [{ "name": "秋月律子" }, { "name": "菊地真" }],
     "tags": [{ "name": "まこりつ(アイマス)" }]
   },
@@ -250,6 +254,10 @@
   {
     "characters": [{ "name": "水瀬伊織" }, { "name": "高槻やよい" }],
     "tags": [{ "name": "やよいおり" }]
+  },
+  {
+    "characters": [{ "name": "水瀬伊織" }, { "name": "秋月律子" }],
+    "tags": [{ "name": "いおりつこ" }]
   },
   {
     "characters": [{ "name": "水瀬伊織" }, { "name": "三浦あずさ" }],
