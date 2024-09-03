@@ -78,7 +78,7 @@
   const target_couplings = [
     //作品別
     ...tables
-      .slice(3, 38)
+      .slice(3, 37)
       .map((x) => getCouplingFromTable(x))
       .reduce((s, x) => [...s, ...x]),
     //キャラ別
@@ -94,7 +94,7 @@
     .filter(excludeSameCharactorsCoupling)
     .map(
       //派生タグ
-      addSynonymCouplingTag(tables[38])
+      addSynonymCouplingTag(tables[37])
     );
 
   copy(JSON.stringify(target_couplings));

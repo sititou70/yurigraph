@@ -204,7 +204,7 @@
     "tags": [{ "name": "レイマス" }, { "name": "マスレイ" }]
   },
   {
-    "characters": [{ "name": "鳰原れおな" }, { "name": "珠手ちゆ" }],
+    "characters": [{ "name": "鳰原令王那" }, { "name": "珠手ちゆ" }],
     "tags": [{ "name": "チュチュパレ" }, { "name": "ちゆれお" }]
   },
   {
@@ -272,8 +272,8 @@
     "tags": [{ "name": "ともらな" }]
   },
   {
-    "characters": [{ "name": "要楽奈" }, { "name": "長崎そよ" }],
-    "tags": [{ "name": "らなそよ" }]
+    "characters": [{ "name": "長崎そよ" }, { "name": "要楽奈" }],
+    "tags": [{ "name": "そよらな" }]
   },
   {
     "characters": [{ "name": "若葉睦" }, { "name": "豊川祥子" }],
@@ -438,6 +438,18 @@
   {
     "characters": [{ "name": "朝日六花" }, { "name": "戸山明日香" }],
     "tags": [{ "name": "あすろっか" }, { "name": "六明日" }]
+  },
+  {
+    "characters": [{ "name": "高松燈" }, { "name": "豊川祥子" }],
+    "tags": [{ "name": "ともさき" }]
+  },
+  {
+    "characters": [{ "name": "長崎そよ" }, { "name": "豊川祥子" }],
+    "tags": [{ "name": "そよさき" }]
+  },
+  {
+    "characters": [{ "name": "長崎そよ" }, { "name": "若葉睦" }],
+    "tags": [{ "name": "むつそよ" }]
   },
   {
     "characters": [{ "name": "椎名立希" }, { "name": "八幡海鈴" }],

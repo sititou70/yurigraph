@@ -558,6 +558,10 @@
     "tags": [{ "name": "ゆかさえ" }, { "name": "Rêve Pur" }]
   },
   {
+    "characters": [{ "name": "双葉杏" }, { "name": "夢見りあむ" }],
+    "tags": [{ "name": "リアンコリック" }]
+  },
+  {
     "tags": [{ "name": "アキレイナ" }],
     "characters": [{ "name": "池袋晶葉" }, { "name": "小関麗奈" }]
   },
@@ -1270,7 +1274,7 @@
     "characters": [{ "name": "鷺沢文香" }, { "name": "神崎蘭子" }]
   },
   {
-    "tags": [{ "name": "ふみまゆ" }],
+    "tags": [{ "name": "ふみまゆ" }, { "name": "まゆ文" }],
     "characters": [{ "name": "鷺沢文香" }, { "name": "佐久間まゆ" }]
   },
   {

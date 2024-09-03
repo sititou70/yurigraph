@@ -107,20 +107,20 @@ const main = async () => {
 const groupingTargetCouplings = (
   couplings: TargetCoupling[]
 ): TargetCoupling[] => {
-  let left_couplings = couplings;
+  let lest_couplings = couplings;
   let grouped_couplings: TargetCoupling[] = [];
 
   do {
     let group: TargetCoupling[] = [];
-    let pivot = left_couplings[0];
+    let pivot = lest_couplings[0];
 
-    let prev_left_couplings = left_couplings;
-    left_couplings = [];
-    prev_left_couplings.forEach((x) => {
+    let prev_lest_couplings = lest_couplings;
+    lest_couplings = [];
+    prev_lest_couplings.forEach((x) => {
       if (compTargetCouplings(pivot, x)) {
         group.push(x);
       } else {
-        left_couplings.push(x);
+        lest_couplings.push(x);
       }
     });
 
@@ -136,7 +136,7 @@ const groupingTargetCouplings = (
     };
 
     grouped_couplings.push(grouped_coupling);
-  } while (left_couplings.length !== 0);
+  } while (lest_couplings.length !== 0);
 
   return grouped_couplings;
 };

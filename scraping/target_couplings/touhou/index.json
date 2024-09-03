@@ -202,6 +202,10 @@
     "tags": [{ "name": "チルクラ" }, { "name": "クラチル" }]
   },
   {
+    "characters": [{ "name": "チルノ" }, { "name": "エタニティラルバ" }],
+    "tags": [{ "name": "チルエタ" }]
+  },
+  {
     "characters": [{ "name": "紅美鈴" }, { "name": "チルノ" }],
     "tags": [{ "name": "めーちる" }]
   },
@@ -2184,6 +2188,10 @@
     "tags": [{ "name": "あやえーき" }]
   },
   {
+    "characters": [{ "name": "射命丸文" }, { "name": "鍵山雛" }],
+    "tags": [{ "name": "文雛" }]
+  },
+  {
     "characters": [{ "name": "射命丸文" }, { "name": "河城にとり" }],
     "tags": [{ "name": "あやにと" }]
   },
@@ -2596,6 +2604,10 @@
   {
     "characters": [{ "name": "鍵山雛" }, { "name": "伊吹萃香" }],
     "tags": [{ "name": "ひなすい" }]
+  },
+  {
+    "characters": [{ "name": "鍵山雛" }, { "name": "射命丸文" }],
+    "tags": [{ "name": "雛文" }]
   },
   {
     "characters": [
@@ -4831,7 +4843,7 @@
   },
   {
     "characters": [{ "name": "エタニティラルバ" }, { "name": "チルノ" }],
-    "tags": [{ "name": "チルエタ" }, { "name": "エタチル" }]
+    "tags": [{ "name": "ラルチル" }]
   },
   {
     "characters": [
@@ -5519,10 +5531,6 @@
       { "name": "ミスティア・ローレライ" }
     ],
     "tags": [{ "name": "みよみす" }]
-  },
-  {
-    "characters": [{ "name": "星熊勇儀" }, { "name": "宮出口瑞霊" }],
-    "tags": [{ "name": "勇瑞" }]
   },
   {
     "characters": [{ "name": "博麗靈夢" }, { "name": "明羅" }],

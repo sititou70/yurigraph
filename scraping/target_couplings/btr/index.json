@@ -1,10 +1,10 @@
 [
   {
-    "tags": [{ "name": "ぼ喜多" }],
+    "tags": [{ "name": "ぼ喜多" }, { "name": "喜多ぼ" }],
     "characters": [{ "name": "後藤ひとり" }, { "name": "喜多郁代" }]
   },
   {
-    "tags": [{ "name": "ぼ虹" }],
+    "tags": [{ "name": "ぼ虹" }, { "name": "虹ぼ" }],
     "characters": [{ "name": "後藤ひとり" }, { "name": "伊地知虹夏" }]
   },
   {
@@ -12,14 +12,14 @@
     "characters": [{ "name": "伊地知星歌" }, { "name": "後藤ひとり" }]
   },
   {
-    "tags": [{ "name": "ぼリョウ" }],
+    "tags": [{ "name": "ぼリョウ" }, { "name": "リョウぼ" }],
     "characters": [
       { "name": "後藤ひとり" },
       { "name": "山田リョウ(ぼっち・ざ・ろっく!)" }
     ]
   },
   {
-    "tags": [{ "name": "リョウ虹" }],
+    "tags": [{ "name": "リョウ虹" }, { "name": "虹リョウ" }],
     "characters": [
       { "name": "山田リョウ(ぼっち・ざ・ろっく!)" },
       { "name": "伊地知虹夏" }
@@ -81,30 +81,7 @@
     "characters": [{ "name": "司馬都" }, { "name": "ぽいずん♡やみ" }]
   },
   {
-    "tags": [{ "name": "星やみ" }],
-    "characters": [{ "name": "伊地知星歌" }, { "name": "ぽいずん♡やみ" }]
-  },
-  {
     "tags": [{ "name": "ふーはー" }],
     "characters": [{ "name": "本城楓子" }, { "name": "長谷川あくび" }]
-  },
-  {
-    "tags": [{ "name": "えれねね" }],
-    "characters": [{ "name": "日向恵恋奈" }, { "name": "大山猫々" }]
-  },
-  {
-    "tags": [{ "name": "ぼあく" }],
-    "characters": [{ "name": "後藤ひとり" }, { "name": "長谷川あくび" }]
-  },
-  {
-    "tags": [{ "name": "ぼ猫々" }],
-    "characters": [{ "name": "後藤ひとり" }, { "name": "大山猫々" }]
-  },
-  {
-    "tags": [{ "name": "リョウ恵恋" }],
-    "characters": [
-      { "name": "山田リョウ(ぼっち・ざ・ろっく!)" },
-      { "name": "日向恵恋奈" }
-    ]
   }
 ]

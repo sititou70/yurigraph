@@ -7,7 +7,7 @@
     decodeURI(url).replace(/https?:\/\/dic\.pixiv\.net\/a\//, '');
 
   // get couplings from table that like following format
-  // |ぼ虹|後藤ひとり/伊地知虹夏|
+  // |ぼ虹/虹ぼ|後藤ひとり/伊地知虹夏|
   // ...
   const getCouplingsFromTable = (table) => {
     return Array.from(table.querySelectorAll('tr'))
@@ -17,7 +17,9 @@
         ([_, characters]) => characters.querySelectorAll('a').length === 2
       )
       .map(([tag, characters]) => ({
-        tags: [{ name: getDictTitleFromURL(tag.querySelector('a').href) }],
+        tags: Array.from(tag.querySelectorAll('a')).map((a) => ({
+          name: getDictTitleFromURL(a.href),
+        })),
         characters: [
           {
             name: getDictTitleFromURL(characters.querySelectorAll('a')[0].href),
