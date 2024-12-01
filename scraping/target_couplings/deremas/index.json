@@ -148,6 +148,10 @@
     "tags": [{ "name": "サイキックエナジー" }]
   },
   {
+    "characters": [{ "name": "梅木音葉" }, { "name": "鷺沢文香" }],
+    "tags": [{ "name": "サイレントウィンド" }]
+  },
+  {
     "characters": [{ "name": "小早川紗枝" }, { "name": "塩見周子" }],
     "tags": [{ "name": "さえしゅう" }, { "name": "羽衣小町" }]
   },
@@ -446,6 +450,10 @@
     "tags": [{ "name": "ゆかゆかり" }, { "name": "ストレートフルート" }]
   },
   {
+    "characters": [{ "name": "喜多見柚" }, { "name": "塩見周子" }],
+    "tags": [{ "name": "ゆずしゅう" }, { "name": "パストラル・フリー" }]
+  },
+  {
     "characters": [{ "name": "南条光" }, { "name": "横山千佳" }],
     "tags": [{ "name": "リトルヒーロー" }]
   },
@@ -538,8 +546,16 @@
     "tags": [{ "name": "キタキターズ" }]
   },
   {
+    "characters": [{ "name": "黒埼ちとせ" }, { "name": "一ノ瀬志希" }],
+    "tags": [{ "name": "ちとしき" }, { "name": "MedeN" }]
+  },
+  {
     "characters": [{ "name": "黒埼ちとせ" }, { "name": "白雪千夜" }],
     "tags": [{ "name": "ちと千夜" }, { "name": "VelvetRose" }]
+  },
+  {
+    "characters": [{ "name": "白雪千夜" }, { "name": "二宮飛鳥" }],
+    "tags": [{ "name": "ちよあす" }, { "name": "XENOЯOS" }]
   },
   {
     "characters": [{ "name": "久川凪" }, { "name": "森久保乃々" }],

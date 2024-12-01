@@ -5038,6 +5038,10 @@
     "tags": [{ "name": "オキシャ" }]
   },
   {
+    "characters": [{ "name": "依神女苑" }, { "name": "古明地こいし" }],
+    "tags": [{ "name": "こいじょおん" }]
+  },
+  {
     "characters": [{ "name": "依神女苑" }, { "name": "依神紫苑" }],
     "tags": [
       { "name": "依神姉妹" },
@@ -5539,6 +5543,10 @@
   {
     "characters": [{ "name": "博麗霊夢" }, { "name": "カナ・アナベラル" }],
     "tags": [{ "name": "霊カナ" }]
+  },
+  {
+    "characters": [{ "name": "SinGyoku" }, { "name": "玉造魅須丸" }],
+    "tags": [{ "name": "しんみす" }]
   },
   {
     "characters": [{ "name": "魅魔" }, { "name": "霧雨魔理沙" }],
