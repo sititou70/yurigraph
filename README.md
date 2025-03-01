@@ -54,7 +54,7 @@ npm start [revengers | touhou | bangdream | lovelive | vocalo | kancolle | derem
 
 本アプリは，[pixiv ガイドライン](https://www.pixiv.net/terms/?page=guideline)に準拠し，作品の収集等を行っていません．
 
-pixiv からタグ情報を取得する際には，リクエストごとに10秒以上のインターバルを設定しています．これにより，pixiv のサーバーへの極端な負荷を防止しています．
+pixiv からタグ情報を取得する際には，リクエストごとに15秒以上のインターバルを設定しています．これにより，pixiv のサーバーへの極端な負荷を防止しています．
 
 本アプリに問題がある場合は，本リポジトリの[issue](https://github.com/sititou70/yurigraph/issues)へご一報ください．
 

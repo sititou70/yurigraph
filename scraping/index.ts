@@ -5,7 +5,7 @@ import Progress from 'progress';
 import sanitize from 'sanitize-filename';
 
 // settings
-const FETCH_INTERVAL = 10000;
+const FETCH_INTERVAL = 15000;
 const CACHE_DIR = 'TEMP_CACHE';
 const INPUT_COUPLINGS_JSON = path.join(
   '..',
