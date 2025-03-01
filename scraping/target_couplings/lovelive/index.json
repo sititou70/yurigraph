@@ -248,6 +248,10 @@
     "tags": [{ "name": "かなダイ" }]
   },
   {
+    "characters": [{ "name": "松浦果南" }, { "name": "渡辺曜" }],
+    "tags": [{ "name": "ようかな" }]
+  },
+  {
     "characters": [{ "name": "松浦果南" }, { "name": "津島善子" }],
     "tags": [{ "name": "かなよし" }]
   },

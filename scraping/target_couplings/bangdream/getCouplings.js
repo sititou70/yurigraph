@@ -8,7 +8,7 @@
   let characterDictTitles = {};
   let result = [];
 
-  const tables = document.querySelectorAll('#article-body table');
+  const tables = document.querySelectorAll('article table');
   [
     tables[0],
     tables[1],

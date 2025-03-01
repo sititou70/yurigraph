@@ -277,15 +277,35 @@
   },
   {
     "characters": [{ "name": "若葉睦" }, { "name": "豊川祥子" }],
-    "tags": [{ "name": "むつさき" }]
+    "tags": [{ "name": "むつさき" }, { "name": "さきむつ" }]
   },
   {
     "characters": [{ "name": "三角初華" }, { "name": "豊川祥子" }],
-    "tags": [{ "name": "ういさき" }]
+    "tags": [{ "name": "ういさき" }, { "name": "さきうい" }]
+  },
+  {
+    "characters": [{ "name": "八幡海鈴" }, { "name": "豊川祥子" }],
+    "tags": [{ "name": "うみさき" }]
   },
   {
     "characters": [{ "name": "祐天寺にゃむ" }, { "name": "豊川祥子" }],
     "tags": [{ "name": "にゃむさき" }]
+  },
+  {
+    "characters": [{ "name": "三角初華" }, { "name": "若葉睦" }],
+    "tags": [{ "name": "ういむつ" }]
+  },
+  {
+    "characters": [{ "name": "八幡海鈴" }, { "name": "三角初華" }],
+    "tags": [{ "name": "うみうい" }]
+  },
+  {
+    "characters": [{ "name": "八幡海鈴" }, { "name": "若葉睦" }],
+    "tags": [{ "name": "うみむつ" }]
+  },
+  {
+    "characters": [{ "name": "八幡海鈴" }, { "name": "祐天寺にゃむ" }],
+    "tags": [{ "name": "うみにゃむ" }]
   },
   {
     "characters": [{ "name": "氷川日菜" }, { "name": "氷川紗夜" }],
@@ -334,6 +354,10 @@
   {
     "characters": [{ "name": "戸山香澄" }, { "name": "牛込ゆり" }],
     "tags": [{ "name": "かすゆり" }]
+  },
+  {
+    "characters": [{ "name": "牛込ゆり" }, { "name": "牛込りみ" }],
+    "tags": [{ "name": "牛込姉妹" }]
   },
   {
     "characters": [{ "name": "戸山香澄" }, { "name": "戸山明日香" }],
@@ -449,7 +473,7 @@
   },
   {
     "characters": [{ "name": "長崎そよ" }, { "name": "若葉睦" }],
-    "tags": [{ "name": "むつそよ" }]
+    "tags": [{ "name": "むつそよ" }, { "name": "そよ睦" }]
   },
   {
     "characters": [{ "name": "椎名立希" }, { "name": "八幡海鈴" }],

@@ -53,7 +53,7 @@
 
     const target_table = getNextMatchElement(
       title_tag,
-      'div#table-wrapper'
+      'div#article-table'
     ).querySelector('table');
     const couplings = Array.from(target_table.querySelectorAll('tr'))
       .map((x) => Array.from(x.querySelectorAll('th,td')))

@@ -169,7 +169,7 @@
     location.href ===
     'https://dic.pixiv.net/a/VOCALOID%E3%82%B3%E3%83%B3%E3%83%93%E3%83%BB%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%82%BF%E3%82%B0%E4%B8%80%E8%A6%A7'
   ) {
-    const tables = document.querySelectorAll('#article-body table');
+    const tables = document.querySelectorAll('article table');
     target_couplings = [tables[0], tables[2], tables[4]]
       .map((x) => getTableCouplings(x))
       .reduce((s, x) => [...s, ...x]);
@@ -178,17 +178,21 @@
     location.href ===
     'https://dic.pixiv.net/a/VOICEROID%E3%82%AB%E3%83%83%E3%83%97%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%BF%E3%82%B0%E4%B8%80%E8%A6%A7'
   ) {
-    const target_list_selectors = [
-      '#article-body > ul:nth-of-type(1)',
-      '#article-body > ul:nth-of-type(2)',
-      '#article-body > ul:nth-of-type(3)',
-      '#article-body > ul:nth-of-type(4)',
-      '#article-body > ul:nth-of-type(5)',
-      '#article-body > ul:nth-of-type(6)',
-      '#article-body > ul:nth-of-type(7)',
-    ];
-    target_couplings = target_list_selectors
-      .map((x) => getListCouplings(document.querySelector(x)))
+    const uls = Array.from(document.querySelectorAll('article ul'));
+    target_couplings = [
+      uls[2],
+      uls[3],
+      uls[4],
+      uls[5],
+      uls[6],
+      uls[7],
+      uls[8],
+      uls[9],
+      uls[10],
+      uls[11],
+      uls[12],
+    ]
+      .map((ul) => getListCouplings(ul))
       .reduce((s, x) => [...s, ...x]);
   }
   copy(JSON.stringify(target_couplings));

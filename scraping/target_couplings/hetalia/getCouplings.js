@@ -27,8 +27,11 @@
   // |南伊|ロヴィフェリ|西|トニョフェリ|
   // ...
   const getCouplingFromCharactersTable = (title_tag) => {
+    const current_character_link = title_tag.querySelector('a');
+    if (current_character_link === null) return [];
+
     const current_character_name = getDictTitleFromURL(
-      title_tag.querySelector('a').href
+      current_character_link.href
     );
     const current_character = characters.find(
       (x) => x.name === current_character_name
@@ -37,7 +40,7 @@
 
     const target_table = getNextMatchElement(
       title_tag,
-      'div#table-wrapper'
+      'div#article-table'
     ).querySelector('table');
     const couplings = Array.from(target_table.querySelectorAll('tr'))
       .map((x) => Array.from(x.querySelectorAll('th,td')))
@@ -80,17 +83,13 @@
   const title_tags = [
     ...(location.href ===
     'https://dic.pixiv.net/a/%E3%83%98%E3%82%BF%E3%83%AA%E3%82%A2%E3%81%AE%E3%82%B3%E3%83%B3%E3%83%93%E3%82%BF%E3%82%B0%E4%B8%80%E8%A6%A7'
-      ? Array.from(document.querySelectorAll('#article-body > h3'))
+      ? Array.from(document.querySelectorAll('article h3'))
       : []),
     ...(location.href ===
     'https://dic.pixiv.net/a/%E8%85%90%E5%90%91%E3%81%91%E3%83%98%E3%82%BF%E3%83%AA%E3%82%A2'
-      ? Array.from(document.querySelectorAll('#article-body > p')).filter((x) =>
+      ? Array.from(document.querySelectorAll('article p')).filter((x) =>
           x.querySelector('b > a')
         )
-      : []),
-    ...(location.href ===
-    'https://dic.pixiv.net/a/%E8%85%90%E5%90%91%E3%81%91%E3%83%98%E3%82%BF%E3%83%AA%E3%82%A2'
-      ? Array.from(document.querySelectorAll('#article-body > b'))
       : []),
   ];
   const target_couplings = title_tags

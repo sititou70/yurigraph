@@ -406,5 +406,19 @@
   {
     "characters": [{ "name": "結月ゆかり" }, { "name": "CUL" }],
     "tags": [{ "name": "ゆかる" }]
+  },
+  { "characters": [{}, {}], "tags": [{ "name": "ずんつむ" }] },
+  { "characters": [{}, {}], "tags": [{ "name": "もんめた" }] },
+  {
+    "characters": [{ "name": "東北ずん子" }, {}],
+    "tags": [{ "name": "ずんめた" }]
+  },
+  {
+    "characters": [{}, { "name": "東北きりたん" }],
+    "tags": [{ "name": "もんきり" }]
+  },
+  {
+    "characters": [{}, { "name": "すずきつづみ" }],
+    "tags": [{ "name": "ささつづ" }]
   }
 ]

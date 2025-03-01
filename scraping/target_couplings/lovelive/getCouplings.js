@@ -28,7 +28,7 @@
       花丸: '国木田花丸',
       鞠莉: '小原鞠莉',
       ルビィ: '黒澤ルビィ',
-    }[name]);
+    })[name];
 
   // get couplings from table that like following format
   // |      |穂乃果  |絵里    |...
@@ -65,7 +65,7 @@
   };
 
   // get target couplings
-  const target_table = document.querySelector('#article-body table');
+  const target_table = document.querySelector('article table');
   const target_couplings = getTargetCouplings(target_table);
   copy(JSON.stringify(target_couplings));
 })();

@@ -74,7 +74,7 @@
       }));
 
   //target tables
-  const tables = Array.from(document.querySelectorAll('#article-body table'));
+  const tables = Array.from(document.querySelectorAll('article table'));
   const target_couplings = [
     //作品別
     ...tables

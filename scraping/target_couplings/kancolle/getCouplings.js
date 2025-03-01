@@ -6,15 +6,6 @@
   const getDictTitleFromURL = (url) =>
     decodeURI(url).replace(/https?:\/\/dic\.pixiv\.net\/a\//, '');
 
-  const querySelectorAllInRange = (selector, from_selector, to_selector) => {
-    const excluded_elems = Array.from(
-      document.querySelectorAll(`${to_selector}~${selector}`)
-    );
-    return Array.from(
-      document.querySelectorAll(`${from_selector}~${selector}`)
-    ).filter((x) => excluded_elems.find((y) => y.isEqualNode(x)) === undefined);
-  };
-
   // get target couplings from following table format
   //|カップリング名|前者の名前|後者の名前|...|
   //|金榛|金剛|榛名|...|
@@ -32,14 +23,10 @@
       }));
 
   const target_couplings = [
-    //カップリング一覧
-    ...querySelectorAllInRange('div#table-wrapper', '#h2_1', '#h3_5')
-      .map((div) => div.querySelector('table'))
-      .map((x) => getTargetCouplings(x))
-      .reduce((s, x) => [...s, ...x]),
-    //コンビ一覧
-    ...querySelectorAllInRange('div#table-wrapper', '#h2_2', '#h2_3')
-      .map((div) => div.querySelector('table'))
+    ...Array.from(document.querySelectorAll('div#article-table > table'))
+      .filter(
+        (table) => table.querySelectorAll('tr:first-of-type > th').length === 4
+      )
       .map((x) => getTargetCouplings(x))
       .reduce((s, x) => [...s, ...x]),
   ];

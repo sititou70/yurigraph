@@ -39,7 +39,7 @@
         characters: x.slice(-2).map((x) => ({ name: x })),
       }));
 
-  const tables = document.querySelectorAll('#article-body table');
+  const tables = document.querySelectorAll('article table');
   const couplings = [
     //公式ユニットとして登場したもの
     ...getCouplingsMultiRow(tables[0]),

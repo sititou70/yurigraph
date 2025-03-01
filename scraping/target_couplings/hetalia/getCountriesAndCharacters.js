@@ -21,7 +21,7 @@
     return rows.map(getCharactersFromRow);
   };
 
-  const tables = document.querySelectorAll('#article-body table');
+  const tables = document.querySelectorAll('article table');
   const characters = [
     // 人名あり
     tables[2],
