@@ -111,6 +111,10 @@
     '鳴花ヒメ・ミコト',
     '洛天依',
     '紲星あかり',
+    'ずんだもん',
+    '春日部つむぎ',
+    '四国めたん',
+    'さとうささら',
   ];
 
   const getFullname = (name) => characters.find((x) => x.indexOf(name) !== -1);

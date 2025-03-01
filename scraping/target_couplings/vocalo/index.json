@@ -407,18 +407,24 @@
     "characters": [{ "name": "結月ゆかり" }, { "name": "CUL" }],
     "tags": [{ "name": "ゆかる" }]
   },
-  { "characters": [{}, {}], "tags": [{ "name": "ずんつむ" }] },
-  { "characters": [{}, {}], "tags": [{ "name": "もんめた" }] },
   {
-    "characters": [{ "name": "東北ずん子" }, {}],
+    "characters": [{ "name": "ずんだもん" }, { "name": "春日部つむぎ" }],
+    "tags": [{ "name": "ずんつむ" }]
+  },
+  {
+    "characters": [{ "name": "ずんだもん" }, { "name": "四国めたん" }],
+    "tags": [{ "name": "もんめた" }]
+  },
+  {
+    "characters": [{ "name": "東北ずん子" }, { "name": "四国めたん" }],
     "tags": [{ "name": "ずんめた" }]
   },
   {
-    "characters": [{}, { "name": "東北きりたん" }],
+    "characters": [{ "name": "ずんだもん" }, { "name": "東北きりたん" }],
     "tags": [{ "name": "もんきり" }]
   },
   {
-    "characters": [{}, { "name": "すずきつづみ" }],
+    "characters": [{ "name": "さとうささら" }, { "name": "すずきつづみ" }],
     "tags": [{ "name": "ささつづ" }]
   }
 ]
