@@ -16,6 +16,10 @@ const global_style = css`
     box-sizing: border-box;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     color: ${theme.colors.text};
     font-size: ${theme.px.font_size()};
