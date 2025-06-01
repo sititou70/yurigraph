@@ -547,10 +547,6 @@
     "tags": [{ "name": "さくかせ" }]
   },
   {
-    "characters": [{ "name": "十六夜咲夜" }, { "name": "天弓千亦" }],
-    "tags": [{ "name": "さくちま" }]
-  },
-  {
     "characters": [{ "name": "レミリア・スカーレット" }, { "name": "小悪魔" }],
     "tags": [{ "name": "れみこあ" }, { "name": "レミこあ" }]
   },
@@ -2520,6 +2516,13 @@
   {
     "characters": [
       { "name": "四季映姫・ヤマザナドゥ" },
+      { "name": "鈴仙・優曇華院・イナバ" }
+    ],
+    "tags": [{ "name": "山田うどん(東方Project)" }]
+  },
+  {
+    "characters": [
+      { "name": "四季映姫・ヤマザナドゥ" },
       { "name": "比那名居天子" }
     ],
     "tags": [{ "name": "えいてん" }]
@@ -3849,6 +3852,10 @@
   {
     "characters": [{ "name": "多々良小傘" }, { "name": "赤蛮奇" }],
     "tags": [{ "name": "こがばん" }]
+  },
+  {
+    "characters": [{ "name": "多々良小傘" }, { "name": "鬼人正邪" }],
+    "tags": [{ "name": "こがせい" }]
   },
   {
     "characters": [{ "name": "多々良小傘" }, { "name": "少名針妙丸" }],
@@ -6111,10 +6118,6 @@
   {
     "characters": [{ "name": "玉造魅須丸" }, { "name": "博麗霊夢" }],
     "tags": [{ "name": "みすれいむ" }]
-  },
-  {
-    "characters": [{ "name": "天弓千亦" }, { "name": "博麗霊夢" }],
-    "tags": [{ "name": "れいちま" }]
   },
   {
     "characters": [{ "name": "綿月依姫" }, { "name": "博麗霊夢" }],

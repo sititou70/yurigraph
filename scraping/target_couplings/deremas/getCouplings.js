@@ -37,7 +37,8 @@
       .map((x) => ({
         tags: x.slice(0, -2).map((x) => ({ name: x })),
         characters: x.slice(-2).map((x) => ({ name: x })),
-      }));
+      }))
+      .filter((x) => x.tags.length >= 1 && x.characters.length === 2);
 
   const tables = document.querySelectorAll('article table');
   const couplings = [

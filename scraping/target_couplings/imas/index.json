@@ -164,6 +164,10 @@
     "tags": [{ "name": "やよゆき" }]
   },
   {
+    "characters": [{ "name": "高槻やよい" }, { "name": "秋月律子" }],
+    "tags": [{ "name": "やよりつ" }]
+  },
+  {
     "characters": [{ "name": "高槻やよい" }, { "name": "水瀬伊織" }],
     "tags": [{ "name": "やよいおり" }]
   },
@@ -194,6 +198,10 @@
   {
     "characters": [{ "name": "秋月律子" }, { "name": "萩原雪歩" }],
     "tags": [{ "name": "ゆきりつ" }]
+  },
+  {
+    "characters": [{ "name": "秋月律子" }, { "name": "高槻やよい" }],
+    "tags": [{ "name": "やよりつ" }]
   },
   {
     "characters": [{ "name": "秋月律子" }, { "name": "三浦あずさ" }],

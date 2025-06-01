@@ -249,7 +249,7 @@
   },
   {
     "characters": [{ "name": "千早愛音" }, { "name": "長崎そよ" }],
-    "tags": [{ "name": "あのそよ" }]
+    "tags": [{ "name": "あのそよ" }, { "name": "ansy" }]
   },
   {
     "characters": [{ "name": "高松燈" }, { "name": "椎名立希" }],
@@ -290,6 +290,10 @@
   {
     "characters": [{ "name": "祐天寺にゃむ" }, { "name": "豊川祥子" }],
     "tags": [{ "name": "にゃむさき" }]
+  },
+  {
+    "characters": [{ "name": "祐天寺にゃむ" }, { "name": "若葉睦" }],
+    "tags": [{ "name": "にゃむむつ" }, { "name": "むつにゃむ" }]
   },
   {
     "characters": [{ "name": "三角初華" }, { "name": "若葉睦" }],
@@ -478,5 +482,9 @@
   {
     "characters": [{ "name": "椎名立希" }, { "name": "八幡海鈴" }],
     "tags": [{ "name": "うみたき" }]
+  },
+  {
+    "characters": [{ "name": "千早愛音" }, { "name": "豊川祥子" }],
+    "tags": [{ "name": "あのさき" }, { "name": "爱祥" }]
   }
 ]

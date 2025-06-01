@@ -24,8 +24,8 @@
   // |☆ウオスカ / ウオダス / スカウオ|ウオッカ|ダイワスカーレット|共にチームスピカのメンバー。史実では同世代（07世代）、5回対戦した好敵手|
   // ...
   const getDictTitleFromTd = (td) => {
-    const a = td.querySelector('a');
-    if (a !== null) return getDictTitleFromURL(a.href);
+    const aArray = td.querySelectorAll('a');
+    if (aArray.length === 1) return getDictTitleFromURL(aArray[0].href);
 
     const title = getDictTitleFromLinkText(td.innerText);
     if (td.innerText !== '' && title !== undefined) return title;
@@ -70,7 +70,7 @@
       ...getCouplingsFromTable(tables[5]),
       ...getCouplingsFromTable(tables[6]),
       // 3人以上の組み合わせは取得しない
-      ...getCouplingsFromTable(tables[11]),
+      ...getCouplingsFromTable(tables[14]),
     ];
     copy(JSON.stringify(target_couplings));
     return;
