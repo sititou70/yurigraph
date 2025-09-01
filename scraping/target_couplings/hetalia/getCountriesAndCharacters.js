@@ -1,4 +1,4 @@
-// https://dic.pixiv.net/a/%E3%83%98%E3%82%BF%E3%83%AA%E3%82%A2%E3%81%AE%E4%BA%BA%E5%90%8D%E3%83%BB%E6%84%9B%E7%A7%B0%E3%82%BF%E3%82%B0%E4%B8%80%E8%A6%A7
+// https://dic.pixiv.net/history/view/6451043
 // usage: paste this script to javascript console
 
 (() => {

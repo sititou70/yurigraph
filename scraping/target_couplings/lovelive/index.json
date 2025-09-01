@@ -399,6 +399,14 @@
     "tags": [{ "name": "りんちか" }]
   },
   {
+    "characters": [{ "name": "高海千歌" }, { "name": "西木野真姫" }],
+    "tags": [{ "name": "ちかまき" }]
+  },
+  {
+    "characters": [{ "name": "高海千歌" }, { "name": "東條希" }],
+    "tags": [{ "name": "ちかのぞ" }]
+  },
+  {
     "characters": [{ "name": "高海千歌" }, { "name": "小泉花陽" }],
     "tags": [{ "name": "ちかぱな" }]
   },

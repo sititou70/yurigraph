@@ -41,7 +41,7 @@
   },
   {
     "characters": [{ "name": "アナスタシア" }, { "name": "神崎蘭子" }],
-    "tags": [{ "name": "あにゃらん" }]
+    "tags": [{ "name": "あにゃらん" }, { "name": "白銀ラススヴィエート" }]
   },
   {
     "characters": [{ "name": "桐野アヤ" }, { "name": "遊佐こずえ" }],
@@ -564,6 +564,10 @@
   {
     "characters": [{ "name": "久川凪" }, { "name": "森久保乃々" }],
     "tags": [{ "name": "なぎのの" }, { "name": "なの・くらうん" }]
+  },
+  {
+    "characters": [{ "name": "関裕美" }, { "name": "辻野あかり" }],
+    "tags": [{ "name": "ハートリット" }]
   },
   {
     "characters": [{ "name": "久川凪" }, { "name": "久川颯" }],
