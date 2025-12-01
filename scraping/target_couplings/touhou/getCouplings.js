@@ -73,28 +73,30 @@
         })),
       }));
 
-  //target tables
+  // target tables
   const tables = Array.from(document.querySelectorAll('article table'));
   const target_couplings = [
-    //作品別
-    ...tables
-      .slice(3, 38)
-      .map((x) => getCouplingFromTable(x))
-      .reduce((s, x) => [...s, ...x]),
-    //キャラ別
-    ////博麗霊夢関係
+    // キャラ別
+    //// 博麗霊夢関係
     ...getCouplingFromTable(tables[0]).map(addcharactor('博麗霊夢')),
-    ////霧雨魔理沙関係
+    //// 霧雨魔理沙関係
     ...getCouplingFromTable(tables[1]).map(addcharactor('霧雨魔理沙')),
-    ////アリス・マーガトロイド関係
+    //// アリス・マーガトロイド関係
     ...getCouplingFromTable(tables[2]).map(
       addcharactor('アリス・マーガトロイド')
     ),
+    //// チルノ関係
+    ...getCouplingFromTable(tables[3]).map(addcharactor('チルノ')),
+    // 作品別
+    ...tables
+      .slice(4, 40)
+      .map((x) => getCouplingFromTable(x))
+      .reduce((s, x) => [...s, ...x]),
   ]
     .filter(excludeSameCharactorsCoupling)
     .map(
       //派生タグ
-      addSynonymCouplingTag(tables[38])
+      addSynonymCouplingTag(tables[40])
     );
 
   copy(JSON.stringify(target_couplings));

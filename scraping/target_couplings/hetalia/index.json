@@ -8603,12 +8603,9 @@
   {
     "characters": [
       { "name": "アイスランド（17億）", "dict_entry": "17億" },
-      {
-        "name": "スペイン（アントーニョ）",
-        "dict_entry": "アントーニョ・ヘルナンデス・カリエド"
-      }
+      { "name": "香港（大英帝国の呪い）", "dict_entry": "大英帝国の呪い" }
     ],
-    "tags": [{ "name": "情氷" }]
+    "tags": [{ "name": "香氷" }]
   },
   {
     "characters": [
@@ -8915,6 +8912,13 @@
       { "name": "中国（王耀）", "dict_entry": "王耀" }
     ],
     "tags": [{ "name": "耀香" }]
+  },
+  {
+    "characters": [
+      { "name": "香港（大英帝国の呪い）", "dict_entry": "大英帝国の呪い" },
+      { "name": "トルコ（サディク）", "dict_entry": "サディク・アドナン" }
+    ],
+    "tags": [{ "name": "氷香" }]
   },
   {
     "characters": [
