@@ -17,7 +17,7 @@
   },
   {
     "characters": [{ "name": "天海春香" }, { "name": "菊地真" }],
-    "tags": [{ "name": "はるまこ" }]
+    "tags": [{ "name": "はるまこ(アイマス)" }]
   },
   {
     "characters": [{ "name": "天海春香" }, { "name": "双海亜美" }],
@@ -280,12 +280,16 @@
     "tags": [{ "name": "みきいお" }]
   },
   {
+    "characters": [{ "name": "水瀬伊織" }, { "name": "我那覇響" }],
+    "tags": [{ "name": "ひびいお" }]
+  },
+  {
     "characters": [{ "name": "水瀬伊織" }, { "name": "四条貴音" }],
     "tags": [{ "name": "たかいお" }]
   },
   {
     "characters": [{ "name": "菊地真" }, { "name": "天海春香" }],
-    "tags": [{ "name": "はるまこ" }]
+    "tags": [{ "name": "はるまこ(アイマス)" }]
   },
   {
     "characters": [{ "name": "菊地真" }, { "name": "如月千早" }],
@@ -418,6 +422,10 @@
   {
     "characters": [{ "name": "我那覇響" }, { "name": "高槻やよい" }],
     "tags": [{ "name": "ひびやよ" }]
+  },
+  {
+    "characters": [{ "name": "我那覇響" }, { "name": "水瀬伊織" }],
+    "tags": [{ "name": "ひびいお" }]
   },
   {
     "characters": [{ "name": "我那覇響" }, { "name": "菊地真" }],

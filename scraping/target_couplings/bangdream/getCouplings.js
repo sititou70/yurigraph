@@ -23,18 +23,23 @@
   ].forEach((table) => {
     Array.from(table.querySelectorAll('tr'))
       .map((tr) => Array.from(tr.querySelectorAll('td')))
-      .filter((tds) => tds.length !== 0)
+      .filter((tds) => tds.length >= 2)
       .forEach((tds) => {
         tds[1].querySelectorAll('a').forEach((a) => {
-          if (!characterDictTitles[a.text]) {
-            characterDictTitles[a.text] = getDictTitleFromURL(a.href);
-          }
+          if (a.text.includes('???')) return; // ネタバレ回避表記のリンクを除外
+          characterDictTitles[a.text] = getDictTitleFromURL(a.href);
         });
+
+        if (tds[1].innerText.includes('???')) return; // 人物に関するネタバレ回避表記があるカップリングを除外
+
         result.push({
           characters: tds[1].innerText.split('、').map((name) => ({
-            name: characterDictTitles[name] ? characterDictTitles[name] : name,
+            name: characterDictTitles[name] ?? name,
           })),
-          tags: [tds[0].querySelector('a'), tds[2].querySelector('a')]
+          tags: [
+            tds[0].querySelector('a'),
+            ...(tds[2]?.querySelectorAll('a') ?? []),
+          ]
             .filter((a) => a !== null)
             .map((a) => ({ name: getDictTitleFromURL(a.href) })),
         });

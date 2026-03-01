@@ -427,6 +427,10 @@
     "tags": [{ "name": "うみりこ" }, { "name": "りこうみ" }]
   },
   {
+    "characters": [{ "name": "桜内梨子" }, { "name": "星空凛" }],
+    "tags": [{ "name": "りんりこ" }]
+  },
+  {
     "characters": [{ "name": "桜内梨子" }, { "name": "西木野真姫" }],
     "tags": [{ "name": "りこまき" }, { "name": "まきりこ" }]
   },
@@ -581,6 +585,10 @@
   {
     "characters": [{ "name": "国木田花丸" }, { "name": "星空凛" }],
     "tags": [{ "name": "りんまる" }]
+  },
+  {
+    "characters": [{ "name": "国木田花丸" }, { "name": "西木野真姫" }],
+    "tags": [{ "name": "まきまる" }]
   },
   {
     "characters": [{ "name": "国木田花丸" }, { "name": "東條希" }],

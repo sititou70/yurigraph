@@ -89,14 +89,14 @@
     ...getCouplingFromTable(tables[3]).map(addcharactor('チルノ')),
     // 作品別
     ...tables
-      .slice(4, 40)
+      .slice(4, 42)
       .map((x) => getCouplingFromTable(x))
       .reduce((s, x) => [...s, ...x]),
   ]
     .filter(excludeSameCharactorsCoupling)
     .map(
       //派生タグ
-      addSynonymCouplingTag(tables[40])
+      addSynonymCouplingTag(tables[43])
     );
 
   copy(JSON.stringify(target_couplings));
