@@ -4,12 +4,12 @@
     "tags": [{ "name": "マイ武" }, { "name": "タケマイ" }]
   },
   {
-    "characters": [{ "name": "松野千冬" }, { "name": "花垣武道" }],
-    "tags": [{ "name": "ふゆタケ" }, { "name": "タケふゆ" }]
-  },
-  {
     "characters": [{ "name": "花垣武道" }, { "name": "龍宮寺堅" }],
     "tags": [{ "name": "ドラ武" }, { "name": "武ドラ" }]
+  },
+  {
+    "characters": [{ "name": "松野千冬" }, { "name": "花垣武道" }],
+    "tags": [{ "name": "ふゆタケ" }, { "name": "タケふゆ" }]
   },
   {
     "characters": [{ "name": "三ツ谷隆" }, { "name": "花垣武道" }],

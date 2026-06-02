@@ -340,6 +340,10 @@
     "tags": [{ "name": "ゆかあか" }]
   },
   {
+    "characters": [{ "name": "結月ゆかり" }, { "name": "琴葉葵" }],
+    "tags": [{ "name": "ゆかあお" }]
+  },
+  {
     "characters": [{ "name": "結月ゆかり" }, { "name": "東北ずん子" }],
     "tags": [{ "name": "ゆかずん" }]
   },

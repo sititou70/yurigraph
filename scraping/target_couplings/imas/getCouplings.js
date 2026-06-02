@@ -76,8 +76,8 @@
     return couplings;
   };
 
-  const target_couplings = Array.from(document.querySelectorAll('h4'))
-    .filter((x) => x.innerText.startsWith('【'))
+  const target_couplings = Array.from(document.querySelectorAll('p'))
+    .filter((x) => x.innerText.startsWith('【') && x.innerText.endsWith('】'))
     .map((x) => getCouplingFromCharactorsTable(x))
     .reduce((s, x) => [...s, ...x]);
 

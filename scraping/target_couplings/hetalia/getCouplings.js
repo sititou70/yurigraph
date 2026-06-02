@@ -54,6 +54,8 @@
         );
         if (character === undefined) return undefined;
 
+        const tag_anchor = x[1].querySelector('a');
+        if (tag_anchor === null) return undefined;
         const tag_name = getDictTitleFromURL(x[1].querySelector('a').href);
 
         const getShortName = (name) => name.split('・').shift();
