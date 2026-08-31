@@ -23,7 +23,7 @@
       }));
 
   const target_couplings = [
-    ...Array.from(document.querySelectorAll('div#article-table > table'))
+    ...Array.from(document.querySelectorAll('article table'))
       .filter(
         (table) => table.querySelectorAll('tr:first-of-type > th').length === 4
       )

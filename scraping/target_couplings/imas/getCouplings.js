@@ -5,16 +5,26 @@
   const getDictTitleFromURL = (url) =>
     decodeURI(url).replace(/https?:\/\/dic\.pixiv\.net\/a\//, '');
 
-  const getNextMatchElement = (start_element, selector_string) => {
-    let current_element = start_element;
-    do {
-      current_element = current_element.nextSibling;
-    } while (
-      current_element !== null &&
-      !current_element.matches(selector_string)
+  const findNextElement = (startElement, selector) => {
+    const walker = document.createTreeWalker(
+      document.body,
+      NodeFilter.SHOW_ELEMENT,
+      {
+        acceptNode: (node) => {
+          if (node.matches(selector)) {
+            const position = startElement.compareDocumentPosition(node);
+            if (position & Node.DOCUMENT_POSITION_FOLLOWING) {
+              return NodeFilter.FILTER_ACCEPT;
+            }
+          }
+          return NodeFilter.FILTER_SKIP;
+        },
+      }
     );
 
-    return current_element;
+    walker.currentNode = startElement;
+
+    return walker.nextNode();
   };
 
   // get target coupling from charactor's table like following format
@@ -51,10 +61,7 @@
       title_tag.querySelector('a').href
     );
 
-    const target_table = getNextMatchElement(
-      title_tag,
-      'div#article-table'
-    ).querySelector('table');
+    const target_table = findNextElement(title_tag, 'table');
     const couplings = Array.from(target_table.querySelectorAll('tr'))
       .map((x) => Array.from(x.querySelectorAll('th,td')))
       .map((x) => [x.slice(0, 2), x.slice(2, 4)])

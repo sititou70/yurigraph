@@ -9,18 +9,6 @@
   const getDictTitleFromURL = (url) =>
     decodeURI(url).replace(/https?:\/\/dic\.pixiv\.net\/a\//, '');
 
-  const getNextMatchElement = (start_element, selector_string) => {
-    let current_element = start_element;
-    do {
-      current_element = current_element.nextSibling;
-    } while (
-      current_element !== null &&
-      (!current_element.matches || !current_element.matches(selector_string))
-    );
-
-    return current_element;
-  };
-
   // get target coupling from charactor's table like following format
   // <title tag(e.g. h3)><a>フェリシアーノ・ヴァルガス</a></title tag>
   // ...
@@ -38,10 +26,7 @@
     );
     if (current_character === undefined) return [];
 
-    const target_table = getNextMatchElement(
-      title_tag,
-      'div#article-table'
-    ).querySelector('table');
+    const target_table = title_tag.nextElementSibling.querySelector('table');
     const couplings = Array.from(target_table.querySelectorAll('tr'))
       .map((x) => Array.from(x.querySelectorAll('th,td')))
       .map((x) => [x.slice(0, 2), x.slice(2, 4)])

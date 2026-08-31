@@ -20,6 +20,9 @@
     tables[7],
     tables[8],
     tables[9],
+    tables[10],
+    tables[11],
+    tables[12],
   ].forEach((table) => {
     Array.from(table.querySelectorAll('tr'))
       .map((tr) => Array.from(tr.querySelectorAll('td')))

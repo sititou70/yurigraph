@@ -7473,7 +7473,7 @@
         "dict_entry": "ギルベルト・バイルシュミット"
       }
     ],
-    "tags": [{ "name": "俺様まゆ" }]
+    "tags": [{ "name": "ギルアサ" }]
   },
   {
     "characters": [
@@ -7699,6 +7699,16 @@
       { "name": "中国（王耀）", "dict_entry": "王耀" }
     ],
     "tags": [{ "name": "耀フラ" }]
+  },
+  {
+    "characters": [
+      {
+        "name": "フランス（フランシス）",
+        "dict_entry": "フランシス・ボヌフォワ"
+      },
+      { "name": "オランダ（蘭にいさん）", "dict_entry": "蘭にいさん" }
+    ],
+    "tags": [{ "name": "蘭フラ" }]
   },
   {
     "characters": [
@@ -8942,6 +8952,13 @@
   },
   {
     "characters": [
+      { "name": "香港（大英帝国の呪い）", "dict_entry": "大英帝国の呪い" },
+      { "name": "マカオ（澳門さん）", "dict_entry": "澳門さん" }
+    ],
+    "tags": [{ "name": "澳香" }]
+  },
+  {
+    "characters": [
       { "name": "インド（印さん）", "dict_entry": "印さん" },
       { "name": "イギリス（アーサー）", "dict_entry": "アーサー・カークランド" }
     ],
@@ -8981,6 +8998,13 @@
       { "name": "ポルトガル（ポルトさん）", "dict_entry": "ポルトさん" }
     ],
     "tags": [{ "name": "ぽるまか" }]
+  },
+  {
+    "characters": [
+      { "name": "マカオ（澳門さん）", "dict_entry": "澳門さん" },
+      { "name": "香港（大英帝国の呪い）", "dict_entry": "大英帝国の呪い" }
+    ],
+    "tags": [{ "name": "香澳" }]
   },
   {
     "characters": [

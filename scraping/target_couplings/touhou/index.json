@@ -1134,6 +1134,10 @@
     "tags": [{ "name": "だいさな" }]
   },
   {
+    "characters": [{ "name": "大妖精" }, { "name": "ナズーリン" }],
+    "tags": [{ "name": "大ナズ" }]
+  },
+  {
     "characters": [{ "name": "大妖精" }, { "name": "朱鷺子" }],
     "tags": [{ "name": "大朱鷺" }]
   },
@@ -1743,6 +1747,10 @@
     "tags": [{ "name": "みょんかせ" }]
   },
   {
+    "characters": [{ "name": "魂魄妖夢" }, { "name": "魂魄妖忌" }],
+    "tags": [{ "name": "魂魄祖孫" }]
+  },
+  {
     "characters": [
       { "name": "西行寺幽々子" },
       { "name": "レミリア・スカーレット" }
@@ -1835,13 +1843,6 @@
   {
     "characters": [{ "name": "西行寺幽々子" }, { "name": "庭渡久侘歌" }],
     "tags": [{ "name": "ゆゆくた" }]
-  },
-  {
-    "characters": [
-      { "name": "西行寺幽々子" },
-      { "name": "マエリベリー・ハーン" }
-    ],
-    "tags": [{ "name": "ゆゆメリー" }]
   },
   {
     "characters": [{ "name": "西行寺幽々子" }, { "name": "魂魄妖忌" }],
@@ -2015,6 +2016,13 @@
   {
     "characters": [
       { "name": "上白沢慧音" },
+      { "name": "フランドール・スカーレット" }
+    ],
+    "tags": [{ "name": "けねフラ" }]
+  },
+  {
+    "characters": [
+      { "name": "上白沢慧音" },
       { "name": "ミスティア・ローレライ" }
     ],
     "tags": [{ "name": "けねみす" }]
@@ -2045,6 +2053,10 @@
   {
     "characters": [{ "name": "上白沢慧音" }, { "name": "稗田阿求" }],
     "tags": [{ "name": "けねあきゅ" }]
+  },
+  {
+    "characters": [{ "name": "上白沢慧音" }, { "name": "茨木華扇" }],
+    "tags": [{ "name": "けねかせん" }]
   },
   {
     "characters": [
@@ -2097,6 +2109,13 @@
   {
     "characters": [{ "name": "鈴仙・優曇華院・イナバ" }, { "name": "八雲藍" }],
     "tags": [{ "name": "うどらん" }]
+  },
+  {
+    "characters": [
+      { "name": "鈴仙・優曇華院・イナバ" },
+      { "name": "上白沢慧音" }
+    ],
+    "tags": [{ "name": "うどけね" }]
   },
   {
     "characters": [
@@ -3622,6 +3641,10 @@
     "tags": [{ "name": "正映" }]
   },
   {
+    "characters": [{ "name": "鬼人正邪" }, { "name": "比那名居天子" }],
+    "tags": [{ "name": "正天" }]
+  },
+  {
     "characters": [{ "name": "鬼人正邪" }, { "name": "水橋パルスィ" }],
     "tags": [{ "name": "正パル" }]
   },
@@ -4749,6 +4772,18 @@
     "tags": [{ "name": "旧作レイマリ" }]
   },
   {
+    "characters": [{ "name": "博麗靈夢" }, { "name": "シンギョク" }],
+    "tags": [{ "name": "しんれいむ" }]
+  },
+  {
+    "characters": [{ "name": "博麗靈夢" }, { "name": "魅魔" }],
+    "tags": [{ "name": "みまれいむ" }]
+  },
+  {
+    "characters": [{ "name": "博麗靈夢" }, { "name": "玄爺" }],
+    "tags": [{ "name": "れいげんじい" }]
+  },
+  {
     "characters": [{ "name": "博麗靈夢" }, { "name": "明羅" }],
     "tags": [{ "name": "レイメイ" }]
   },
@@ -4761,12 +4796,28 @@
     "tags": [{ "name": "霊カナ" }]
   },
   {
+    "characters": [{ "name": "博麗靈夢" }, { "name": "カナ・アナベラル" }],
+    "tags": [{ "name": "靈カナ" }]
+  },
+  {
+    "characters": [{ "name": "博麗靈夢" }, { "name": "る～こと" }],
+    "tags": [{ "name": "る〜れい" }]
+  },
+  {
     "characters": [{ "name": "博麗靈夢" }, { "name": "ロリス" }],
     "tags": [{ "name": "レイロリ" }]
   },
   {
+    "characters": [{ "name": "旧作魔理沙" }, { "name": "魅魔" }],
+    "tags": [{ "name": "みまりさ" }]
+  },
+  {
     "characters": [{ "name": "霧雨魔理沙" }, { "name": "北白河ちゆり" }],
     "tags": [{ "name": "ちゆマリ" }]
+  },
+  {
+    "characters": [{ "name": "旧作魔理沙" }, { "name": "ミミちゃん" }],
+    "tags": [{ "name": "ミミマリ" }]
   },
   {
     "characters": [{ "name": "旧作魔理沙" }, { "name": "ロリス" }],
@@ -4963,6 +5014,10 @@
   {
     "characters": [{ "name": "小兎姫" }, { "name": "北白河ちゆり" }],
     "tags": [{ "name": "ことちゆ" }]
+  },
+  {
+    "characters": [{ "name": "小兎姫" }, { "name": "上白沢慧音" }],
+    "tags": [{ "name": "ことけね" }]
   },
   {
     "characters": [{ "name": "小兎姫" }, { "name": "蓬莱山輝夜" }],
